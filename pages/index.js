@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-       {/* <Banner/>
+       <Banner/>
        <Concept/>
        <HowItWorks/>
        <Events/>
@@ -27,7 +27,7 @@ export default function Home() {
        <MiSocial/>
        <EventOrganizer/>
        <FooterBanner/>
-       <Footer/> */}
+       <Footer/>
     </div>
   )
 }
