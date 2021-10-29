@@ -1,0 +1,269 @@
+@media (max-width: 1740px) {
+  .banner-container { max-width: 95%;}
+}
+@media (max-width: 1400px) {
+    .mxWdthead{ max-width: 90%;}
+.header-wraapper .login {  padding: 6px 30px; margin-right: 25px;}
+.banner-container .banner-content-wrap h2 { 
+  font-size: 55px;
+    margin: 80px 0 0 0;
+    line-height: 62px;
+} 
+.top-banner {  padding: 30px 20px; padding-bottom: 40px; }
+.banner-container .banner-content-wrap p{  font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 28px;}
+.search-box {  padding: 30px; margin: 20px 0; }
+.concept-wrapper,
+.How-itworks-wrapper,
+.event-wrapper,
+.venue-wrapper,
+.why-misocial,
+.organizer-wrapper{ padding:40px 0;}
+.concept-wrapper .concept-content { padding-left: 36px; }
+.concept-wrapper .concept-content h2,
+.title { font-size: 38px;
+    line-height: 45px; } 
+.concept-wrapper .concept-content p,
+.subtitle{ font-size: 16px; margin-bottom: 10px;}
+.footer-wrapper .link-head{ font-size: 24px; margin-bottom: 16px; } 
+.footer-wrapper .nav .nav-item { margin: 3px 0; }
+.page-title{ font-size: 40px; margin-bottom: 40px; }
+.universal-event-search{ max-width: 90%;}
+.singleItem .content-wrap .image-style{ height: 226px!important; width: 320px!important;}
+.my-profile-wrapper .stepfrm-inner .header{ padding: 0 40px; } 
+.stepfrm-inner .form-control{ height: 46px;}
+.How-itworks-wrapper .item-content h6{ font-size: 22px;    line-height: 65px;} 
+.How-itworks-wrapper .numberBox .number-part{ width: 70px; height: 70px;}
+.How-itworks-wrapper .process-part{ background-position: center 36px;}
+.pr-custom { padding-right: 36px; }
+.pl-custom { padding-left: 36px; }
+.How-itworks-wrapper .item-content{ width: 30%;}
+.FooterBanner{ padding: 125px 0;}
+.FooterBanner .content-box { padding: 24px;}
+.FooterBanner .content-box .ms-head { 
+    font-size: 24px; 
+    margin-bottom: 15px;
+}
+.FooterBanner .content-box .nav-item{ font-size: 18px; margin: 2px 0;}
+.singleItem .content-wrap .action-section .btn { height: 52px;}
+}
+
+@media (max-width: 1200px) {
+    .mxWdthead{ max-width: 100%;}
+}
+@media (max-width: 991px) {
+ .container{ max-width: 95%;}
+ .singleItem .content-wrap .action-section .btn-view-event{ min-width: 175px; height: 58px;}
+.singleItem .content-wrap .action-section .btn-short{height: 58px; } 
+.banner-container .banner-content-wrap h2 { font-size: 50px;}
+.search-box { padding: 20px;}
+.search-box .form-control { height: 56px;}
+.How-itworks-wrapper .how-works-inner {
+    padding: 0 30px;
+}
+.footerGap{ padding-right: 0;}
+}
+@media (max-width: 768px) {
+    .OrganizerDashboardApproved .approve-Instruction{ width: 100%!important;}
+    .terms-privacy .terms-head{ font-size: 35px;}
+    .terms-privacy .sub-head{ font-size: 23px;}
+    .page-title{ font-size: 35px;}
+    .footer-social{ flex-direction: column; align-items: center;}
+    .footer-social .social{ padding-top: 20px;}
+    .pl-custom {
+    padding-left: 0;
+}
+.concept-wrapper .concept-content {
+    padding-left: 0;
+}
+.pr-custom {
+    padding-right: 0px; margin-bottom: 20px;
+}
+.concept-wrapper, .How-itworks-wrapper, .event-wrapper, .venue-wrapper, .why-misocial, .organizer-wrapper {
+    padding: 30px 0;
+}
+.concept-wrapper .concept-content h2, .title {
+    font-size: 30px;
+    line-height: 40px;
+}
+.concept-wrapper .concept-content p, .subtitle {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.search-box .btn-join-now{ min-width: 150px;}
+.FooterBanner{ padding: 30px 0;}
+.FooterBanner .content-box { padding: 20px;}
+ .FooterBanner .content-box .nav-item{ font-size: 18px;}
+ .footer-wrapper{ padding: 30px 0 20px 0;}
+ .footer-wrapper .link-head {
+    font-size: 18px;}
+    .footer-wrapper .nav .nav-item a{ font-size: 13px;}
+    .check-radio-wrap{ flex-wrap: wrap;}
+    .check-radio-wrap .gender-part .cs-wrapper{ margin: 0 10px 0 0 ;}
+    .sign-nextstep-form .stepfrm-inner .form-label{ margin-right: 16px; margin-bottom: 10px;}
+    .save-cancel-action{ flex-wrap: wrap;}
+    .check-radio-wrap .gender-part{ flex-wrap: wrap;}
+    .How-itworks-wrapper .process-part{ background: none;}
+    .How-itworks-wrapper .item-content:first-child .number-part:before,
+    .How-itworks-wrapper .numberBox .number-part::before,
+    .How-itworks-wrapper .numberBox .number-part::after{ display: none;}
+}
+ 
+@media (max-width: 668px) {
+    .universal-event-search {
+    max-width: 100%;
+}
+.universal-event-search .btn-search {
+    width: 200px;
+    height: 48px;    
+    font-size: 16px;
+    margin-left: 10px;
+}
+.singleItem .content-wrap{ flex-wrap: wrap;}
+.singleItem .content-wrap .content{margin: 0; margin-top:16px ;}
+.singleItem .content-wrap .content .title-head{ font-size: 20px; }
+.singleItem .content-wrap .content .time-date { font-size: 16px; margin-bottom: 15px; }
+.buy-ticket-wr .ticket-column .inner-head{ font-size: 18px;}
+.event-content-wr .details-title{ font-size: 34px}
+.buy-ticket-wr .ticket-row{ flex-wrap: wrap;}
+.buy-ticket-wr .btn-large{ margin-top: 20px; } 
+.buy-ticket-wr .ticket-row .ticket-column { width: 100%; }
+.order-summery-wrapper .card-details { padding: 20px; }
+.event-location-map{ height: auto;}
+.content-box-address{ margin-bottom: 0px; margin-top: 20px;}
+.forget-form-wrapper { width: 90%;}
+.header-wraapper .logo-part{ 
+        margin-top: 5px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+}
+.top-banner { padding: 30px 8px;}
+.concept-wrapper, 
+.How-itworks-wrapper, 
+.event-wrapper, 
+.venue-wrapper, 
+.why-misocial, 
+.organizer-wrapper { padding: 30px 0; }
+.banner-container .banner-content-wrap p {
+    font-size: 15px;
+}
+.banner-container .banner-content-wrap h2 {
+     font-size: 40px;
+    margin: 35px 0 0 0;
+    line-height: 45px;
+
+}
+.header-wraapper .login {
+    padding: 6px 20px;
+    margin-right: 10px;
+}
+.search-box { padding: 10px; }
+.search-box .btn-join-now {
+    font-size: 16px;
+    min-width: 125px;
+    padding: 5px 10px;
+}
+.header-wraapper .other-part .profile{ margin-right: 15px;}
+.How-itworks-wrapper .process-part .process-content{ flex-direction: column;}
+.How-itworks-wrapper .item-content {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.step-one-form {
+    width: 90%;
+    margin: 30px auto;
+}
+.stepfrm-inner .header{ 
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+.signup-one-banner{ min-height: 260px;}
+.sign-nextstep-form {
+    width: 100%; 
+    padding: 16px;
+   margin: 25px auto;
+}
+}
+@media (max-width: 576px) {
+    .formNextmodal .successReset-modal {
+        padding: 0 0px!important;
+    }
+    .footer-wrapper{ text-align: center;}
+    .footer-wrapper .nav .nav-item{ width: 100%; margin: 6px 0;}
+    .footer-wrapper .nav .nav-item a {
+    font-size: 16px;
+}
+.footer-wrapper .link-head {
+    font-size: 18px;
+    margin: 20px 0 10px;
+}
+.my-profile-wrapper .stepfrm-inner .date-year {
+    width: 100%;
+}
+}
+@media (min-width: 576px){
+.modal-dialog { max-width: 640px;}
+}
+@media (max-width: 480px) {
+    .pagination .page-item:first-child .page-link svg, 
+    .pagination .page-item:last-child .page-link svg{ display: none;}
+    .pagination .page-item .page-link{ padding: 3px 10px;}
+    .my-profile-wrapper .stepfrm-inner .date-year{ width: 100%!important;}
+    .save-cancel-action .nav-pills{ flex-direction: column;}
+    .stepfrm-inner .remember .forget-pass{ font-size: 16px;}
+    .cs-wrapper .label-text{ font-size: 16px;}
+    .pagination .page-item .page-link{ font-size: 12px;}
+    .pagination-wr{ margin-top: 30px;}
+    .singleItem .content-wrap .content .time-date{ font-size: 15px;}
+    .singleItem .content-wrap .content .location{ font-size: 18px;}
+    .universal-event-search{ flex-direction: column;}
+    .universal-event-search .btn-search{ width: 100%; margin: 6px 0 0 0;}
+    .How-itworks-wrapper .how-works-inner{ padding: 0 0px;}
+    .How-itworks-wrapper .search-box{ padding: 15px 20px;}  
+    .footer-wrapper .search-box{ flex-direction: row;}  
+    .footer-wrapper .search-box .form-control{ margin: 0;}
+    .banner-container .banner-content-wrap h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.search-box .form-control { height: 50px; margin-bottom: 6px; }
+.search-box .btn-join-now { font-size: 16px;}
+.singleItem .content-wrap .action-section .btn-view-event,
+.singleItem .content-wrap .action-section .btn-short {
+    min-width: inherit;
+    height: 50px;
+    width: 50%;
+}
+.concept-wrapper, .How-itworks-wrapper, .event-wrapper, .venue-wrapper, .why-misocial, .organizer-wrapper {
+    padding: 16px 0;
+}
+.page-title{ margin-bottom: 20px;}
+.banner-container .banner-content-wrap p br{ display: none;}
+.search-box {margin-bottom: 0;
+    padding: 8px;
+    flex-direction: column;
+}
+.concept-wrapper .concept-content h2, .title {
+    font-size: 28px;
+    line-height: 35px; margin-top: 5px;
+}
+.How-itworks-wrapper .item-content h6 { font-size: 20px; line-height: 42px;}
+
+.How-itworks-wrapper .item-content p{font-size: 17px}
+.header-wraapper .menu-wrapper{ 
+     min-width: 100%;
+    max-width: 100%;
+}.check-radio-wrap .gender-part .cs-wrapper {
+    margin: 0 10px 5px 0;
+}
+
+}
+
+@media (max-width: 360px) {
+    .stepfrm-inner .remember{ flex-direction: column;}
+}
+
