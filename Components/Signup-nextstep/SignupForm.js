@@ -16,14 +16,14 @@ export default function SignupNextForm() {
         <>
             <div className="sign-nextstep-form">
                 <div className="stepfrm-inner">
-                    <h2 className="header">Sign Up - next step</h2>
+                    <h2 className="header">Sign Up - Next Step</h2>
                     <Form>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label>First Name</Form.Label>
                             <Form.Control type="text" />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            <Form.Label>City/town/suburb</Form.Label>
+                            <Form.Label>City/Town/Suburb</Form.Label>
                             <Form.Control type="text" />
                             <button className="btn btn-reset"><IoRefresh />Reset Location</button>
                         </Form.Group>
@@ -54,9 +54,10 @@ export default function SignupNextForm() {
                                 </label>
                             </div>
                         </div>
-                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                        <Form.Group className="mb-3 sfDate yearInput" controlId="exampleForm.ControlInput1">
                             <Form.Label>Year Born</Form.Label>
-                            <Form.Control type="date" />
+                            {/* <Form.Control type="year" dateFormat="YYYY"/> */}
+                            <Form.Control type="number" max="9999" placeholder="Y-Y-Y-Y"/>
                         </Form.Group>
                         <div className="check-radio-wrap">
                             <div className="form-label">Occupation</div>

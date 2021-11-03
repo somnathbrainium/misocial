@@ -15,10 +15,10 @@ export default function FormSection() {
     return (
         <div className="step-one-form">
             <div className="stepfrm-inner">
-                <h2 className="header">Join now</h2>
+                <h2 className="header">Join Now</h2>
                 <Form>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                        <Form.Label>Enter your email</Form.Label>
+                        <Form.Label>Enter Your Ymail</Form.Label>
                         <Form.Control type="email" />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
@@ -27,7 +27,7 @@ export default function FormSection() {
                     </Form.Group>
 
                     <div className="captcha">
-                        <div className="cap-text">
+                        <div className="cap-text imRobot">
                             <input id="name" type="checkbox" />
                             <label htmlFor="name">I’m not a robot</label>
                         </div>

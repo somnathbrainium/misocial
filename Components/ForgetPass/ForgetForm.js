@@ -14,7 +14,7 @@ export default function ForgetForm() {
 
         <>
             <div className="forget-form-wrapper">
-                <div className="stepfrm-inner">
+                <div className="stepfrm-inner fortogPassbg">
                     <h2 className="header">Forgot Password</h2>
                     <Form>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

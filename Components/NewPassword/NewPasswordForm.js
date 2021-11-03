@@ -47,7 +47,7 @@ export default function NewPasswordForm() {
                                 alt="successTick"
 
                             />
-                            <Modal.Title>Password updated</Modal.Title>
+                            <Modal.Title>Password Updated</Modal.Title>
                             
                             <p className="success-text">
                                 You have successfully changed your password.

@@ -28,7 +28,7 @@ export const Banner_B = () => {
             <Form className="d-flex search-box">
               <FormControl
                 type="search"
-                placeholder="Enter your email id"
+                placeholder="Enter Your Email Id"
                 className="mr-2"
                 aria-label="Search"
               />

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import NextStepBanner from "../Components/Signup-nextstep/Banner";
 import SignupNextForm from "../Components/Signup-nextstep/SignupForm";
+import Footer  from '../Layouts/Footer';
 
 export default function SignupNextstep() {
     return (
@@ -12,6 +13,7 @@ export default function SignupNextstep() {
             </Head>
             <NextStepBanner />
             <SignupNextForm />
+            <Footer/>
         </div>
     )
 }

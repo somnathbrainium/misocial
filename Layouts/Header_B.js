@@ -87,7 +87,7 @@ function Header_B() {
 
         </div>
         <br/>
-        {/* <div className="social-media">
+        <div className="social-media">
           <Link href="#" >
             <a className="social-icon">
               <FaFacebookF />
@@ -113,7 +113,7 @@ function Header_B() {
               <FaYoutube />
             </a>
           </Link>
-        </div> */}
+        </div>
       </div>
 
     </div >)

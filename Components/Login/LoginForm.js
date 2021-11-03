@@ -10,7 +10,7 @@ export default function LoginForm() {
                 <h2 className="header">Login</h2>
                 <Form>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                        <Form.Label>Enter your email address</Form.Label>
+                        <Form.Label>Enter Your Email Address</Form.Label>
                         <Form.Control type="email" />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
@@ -28,9 +28,9 @@ export default function LoginForm() {
                         </Link>
 
                     </div>
-                    <button className="btn btn-next"><Link href="/index_B">Login</Link></button>
+                    <Link href="dashboard/my-profile"><button className="btn btn-next">Login</button></Link>
                 </Form>
-                <p className="members-already">Already a Member?
+                <p className="members-already">Not a Member?
                     <Link href="/signup-step1">
                         <a> Join Now</a>
                     </Link>

@@ -69,7 +69,7 @@ function EventHeader() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="#">
+            <Link href="/dashboard/my-shortlist">
               <a className="nav-link">Shortlist</a>
             </Link>
           </li>
@@ -94,7 +94,7 @@ function EventHeader() {
 
         </div>
         <br/>
-        {/* <div className="social-media">
+        <div className="social-media">
           <Link href="#" >
             <a className="social-icon">
               <FaFacebookF />
@@ -120,7 +120,7 @@ function EventHeader() {
               <FaYoutube />
             </a>
           </Link>
-        </div> */}
+        </div>
       </div>
 
     </div >)

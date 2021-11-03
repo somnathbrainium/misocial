@@ -15,7 +15,7 @@ export default function EventOrganizer() {
                     </Col>
                     <Col md={7}>
                         <div className="pl-custom">
-                            <h2 className="title">Become an event organizer</h2>
+                            <h2 className="title">Become An Event Organizer</h2>
                             <p className="subtitle">Creating your own events is so easy. With us. </p>
                             <p className="subtitle">If you have a passion for event planning & can host events that will resonate with profesionals & entrepreneurs, we want you. Not to work for us, but rather to be the boss of your own events. </p>
                             <p className="subtitle">Next steps:<br />
@@ -26,7 +26,7 @@ export default function EventOrganizer() {
                             <Form className="d-flex search-box">
                                 <FormControl
                                     type="search"
-                                    placeholder="Enter your email id"
+                                    placeholder="Enter Your Email Id"
                                     className="mr-2"
                                     aria-label="Search"
                                 />
