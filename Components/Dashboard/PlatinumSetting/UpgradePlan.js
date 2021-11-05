@@ -21,7 +21,7 @@ export default function UpgradePlan() {
             <Link href="/dashboard/platinum-settings-next" passHref>
                 <button className="btn btn-next"> Upgrade to Platinum</button>
             </Link>
-            <p className="host-title mt-5">Enter your credit card details</p>
+            <p className="host-title mt-5">Enter Your Credit Card Details</p>
             <div className="form-hints-container mt-2">
 
                 <Form.Group className="mb-3" controlId="exampleForm1">
@@ -33,13 +33,13 @@ export default function UpgradePlan() {
 
                     <Form.Control type="text" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="exampleForm3">
+                {/* <Form.Group className="mb-3" controlId="exampleForm3">
                     <div className="direction-by">
                         <Form.Label>Tax ID / ABN</Form.Label>
                         <span className="hints"><AiOutlineInfoCircle /></span>
                     </div>
                     <Form.Control type="text" />
-                </Form.Group>
+                </Form.Group> */}
                 <Row>
                     <Col md={6}>
                         <Form.Group className="mb-3" controlId="exampleForm4">

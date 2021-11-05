@@ -15,7 +15,7 @@ export default function OrganizerSetting() {
                                     <Form.Control type="email" />
                                 </Form.Group>
 
-                                <div className="check-radio-wrap">
+                                <div className="check-radio-wrap crW">
                                     <div className="form-label">Membership Status</div>
                                     <div className="gender-part">
                                         <label className="cs-wrapper">
@@ -30,7 +30,7 @@ export default function OrganizerSetting() {
                                         </label>
                                     </div>
                                 </div>
-                                <div className="check-radio-wrap">
+                                <div className="check-radio-wrap crW">
 
                                     <div className="gender-part"><div className="form-label">Organizer Status</div>
                                         <label className="cs-wrapper">
@@ -75,7 +75,7 @@ export default function OrganizerSetting() {
                                     <Form.Control type="text" />
                                 </Form.Group>
                                 <Form.Group className="mb-3 " controlId="exampleForm.ControlInput5">
-                                    <Form.Label>Contact telephone number</Form.Label>
+                                    <Form.Label>Contact Telephone Number</Form.Label>
                                     <div className="select-box orgSel">
                                         <Form.Select className="form-control">
                                             <option defaultChecked>AUS +61</option>
@@ -172,7 +172,7 @@ export default function OrganizerSetting() {
                                         </span>
                                         <a></a>
                                     </label>
-                                    <p className="text">I have read and agree to the <a href="/organizer-terms">Organizer Terms &amp; Conditions</a> </p>
+                                    <p className="text">I have read and agree to the <a href="/organizer-terms"><strong>Organizer Terms &amp; Conditions</strong></a> </p>
                                 </div>
 
                                 <button className="btn btn-next">Save</button>

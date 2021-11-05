@@ -28,7 +28,7 @@ export default function SendEmailsForm() {
                         </label>
                     </div>
                 </div>
-                <Table responsive className="transaction-table ticket-table mb-4">
+                <Table responsive className="transaction-table ticket-table mb-4 nwmailForm">
                     <thead>
                         <tr>
                             <th>Ticket</th>
@@ -67,19 +67,19 @@ export default function SendEmailsForm() {
 
                     </tbody>
                 </Table>
-                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                <Form.Group className="mb-3 seForm" controlId="exampleForm.ControlInput1">
                     <Form.Label>Name</Form.Label>
                     <Form.Control type="text" />
                 </Form.Group>
 
 
-                <Form.Group className="mb-3" controlId="exampleForm.ControlInput3">
+                <Form.Group className="mb-3 seForm" controlId="exampleForm.ControlInput3">
                     <Form.Label>Reply to Email</Form.Label>
                     <Form.Control type="text" />
                 </Form.Group>
 
 
-                <Form.Group className="mb-3" controlId="exampleForm.ControlInput4">
+                <Form.Group className="mb-3 seForm" controlId="exampleForm.ControlInput4">
                     <Form.Label>Subject</Form.Label>
                     <Form.Control type="text" />
                 </Form.Group>

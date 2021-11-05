@@ -66,7 +66,7 @@ export default function OrganizerSettings() {
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="exampleForm4">
                         <div className="direction-by">
-                            <Form.Label>Contact telephone number</Form.Label>
+                            <Form.Label>Contact Telephone Number</Form.Label>
                             <span className="hints"><AiOutlineInfoCircle /></span>
                         </div>
                         <div className="select-box">

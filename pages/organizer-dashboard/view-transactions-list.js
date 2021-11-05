@@ -1,5 +1,5 @@
 import Head from "next/head"
-import DashboardLayout from "../../Components/Dashboard/DashboardLayout";
+import DashboardLayout_B from "../../Components/Dashboard/DashboardLayout_B";
 import ViewTransactionsList from "../../Components/OrganizerDashboard/ViewTransaction/ViewTransactionsList";
 export default function viewTransactionList() {
     return (
@@ -17,4 +17,4 @@ export default function viewTransactionList() {
     )
 }
 
-viewTransactionList.Layout = DashboardLayout
+viewTransactionList.Layout = DashboardLayout_B

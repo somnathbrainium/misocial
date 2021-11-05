@@ -242,6 +242,41 @@ font-family: var(--montserrat); font-weight: 500; font-size: 18px; padding: 10px
     color: #424242;
     font-weight: 500;
  }
+ .seBold label{ font-weight: 500;}
+ .evnDt input[type="date"]::-webkit-inner-spin-button,
+ .evnDt input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+    background: url('../public/images/cal.png') no-repeat 0 center;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+ }
+ .statusCss{
+   font-size: 20px;
+   color: #1F1E2C;
+   font-weight: 600;
+   margin: 0;
+ }
+ .evStart input[type="date"] { padding-left: 30px;}
+ .evStart input[type="date"]::-webkit-inner-spin-button,
+ .evStart input[type="date"]::-webkit-calendar-picker-indicator
+ {
+  -webkit-appearance: none;
+  background: url('../public/images/cal.png') no-repeat 0 center;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: inline;
+  position: absolute;
+  left: 0;
+ }
+ .increDecre label{color: #9f9f9f;}
  .concept-wrapper .concept-image{ height: auto;}
  .How-itworks-wrapper{ background: #E0DEDC; padding: 75px 0 50px;}
  .How-itworks-wrapper .search-box{ background:#D6D3D1; padding: 32px 40px;}
@@ -793,3 +828,20 @@ font-family: var(--abril); color: var(--black);}
     margin: 0; 
 }
 .yearInput input[type=number]{ width: 200px; text-align: center; letter-spacing: 2px;}
+.mTop{ margin-top: 14px;}
+.evBold label{ font-weight: 600; color: #1f1e2c;}
+.evBold span{ font-weight: 400!important; color: #1f1e2c;}
+.vBanner{
+  margin: auto;
+  width: 300px;
+  text-align: center;
+  font-family: var(--montserrat);
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #1F1E2C;
+}
+.vBanner span{ font-weight: 400; display: block;}
+.crwNew{ justify-content: flex-start;}
+
+.tCentr{ text-align: center;}

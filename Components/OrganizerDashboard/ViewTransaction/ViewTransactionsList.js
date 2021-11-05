@@ -7,7 +7,7 @@ export default function ViewTransactionsList() {
         <>
             <div className="data-status-header">
                 <div className="top-portion">
-                    <h2 className="header ">View transactions</h2>
+                    <h2 className="header ">View Transactions</h2>
                     <p className="trs-status">Status:<span>Unpublished</span></p>
                 </div>
                 <div className="bottom-portion">
@@ -35,7 +35,7 @@ export default function ViewTransactionsList() {
                             <button className="search btn">Find</button>
                         </Form>
                     </div>
-                    <p className="table-title">All transactions</p>
+                    <p className="table-title">All Transactions</p>
                     <Table responsive className="transaction-table">
                         <thead>
                             <tr>
@@ -76,8 +76,8 @@ export default function ViewTransactionsList() {
                                 </td>
                                 <td className="text-center">21-Jun-2021
                                     03:00PM</td>
-                                <td>1234</td>
-                                <td>$50</td>
+                                <td className="tCentr">1234</td>
+                                <td className="tCentr">$50</td>
                                 <td>
                                     <p className="b-title text-center">$50</p>
                                     25-Jun-2021
@@ -105,8 +105,8 @@ export default function ViewTransactionsList() {
                                 </td>
                                 <td className="text-center">21-Jun-2021
                                     03:00PM</td>
-                                <td>1234</td>
-                                <td>$50</td>
+                                <td className="tCentr">1234</td>
+                                <td className="tCentr">$50</td>
                                 <td>
                                     <p className="b-title text-center">$50</p>
                                     25-Jun-2021
@@ -134,8 +134,8 @@ export default function ViewTransactionsList() {
                                 </td>
                                 <td className="text-center">21-Jun-2021
                                     03:00PM</td>
-                                <td>1234</td>
-                                <td>$50</td>
+                                <td className="tCentr">1234</td>
+                                <td className="tCentr">$50</td>
                                 <td>
                                     <p className="b-title text-center">$50</p>
                                     25-Jun-2021
@@ -163,8 +163,8 @@ export default function ViewTransactionsList() {
                                 </td>
                                 <td className="text-center">21-Jun-2021
                                     03:00PM</td>
-                                <td>1234</td>
-                                <td>$50</td>
+                                <td className="tCentr">1234</td>
+                                <td className="tCentr">$50</td>
                                 <td>
                                     <p className="b-title text-center">$50</p>
                                     25-Jun-2021
@@ -180,8 +180,10 @@ export default function ViewTransactionsList() {
                     </Table>
                 </div>
 
+                <Pagination />
+
                 <div className="payment-action">
-                    <Pagination />
+                    
                     <Tab.Container defaultActiveKey="Partial-Refund">
                         <Nav variant="pills">
                             <Nav.Item>

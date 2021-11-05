@@ -92,8 +92,7 @@ function EventHeader() {
             <a className="tc-link"> Privacy</a>
           </Link>
 
-        </div>
-        <br/>
+        </div>        
         <div className="social-media">
           <Link href="#" >
             <a className="social-icon">

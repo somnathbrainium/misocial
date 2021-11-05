@@ -81,11 +81,11 @@ export default function MySettings() {
                         <h2 className="header">New Password</h2>
                         <Form className="modal-form">
                             <Form.Group className="mb-3" controlId="Current-password">
-                                <Form.Label>Current password</Form.Label>
+                                <Form.Label>Current Password</Form.Label>
                                 <Form.Control type="password" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="Newpassword1">
-                                <Form.Label>New password</Form.Label>
+                                <Form.Label>New Password</Form.Label>
                                 <Form.Control type="password" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="Re-enter">

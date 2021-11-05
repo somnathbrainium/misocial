@@ -47,8 +47,8 @@ export default function EventContents() {
                         <div className="buy-ticket-wr">
                             <h3 className="tkt-title">Buy Tickets</h3>
                             <div className="ticket-row">
-                                <div className="ticket-column">
-                                    <label className="inner-head"> Platinum member tickets</label>
+                                <div className="ticket-column increDecre">
+                                    <label className="inner-head"> Platinum Member Tickets</label>
                                     <Table borderless >
                                         <thead>
                                             <tr>
@@ -96,8 +96,8 @@ export default function EventContents() {
                                         </tbody>
                                     </Table>
                                 </div>
-                                <div className="ticket-column">
-                                    <label className="inner-head">Basic member tickets</label>
+                                <div className="ticket-column increDecre">
+                                    <label className="inner-head">Basic Member Tickets</label>
                                     <Table borderless >
                                         <thead>
                                             <tr>
@@ -212,11 +212,12 @@ export default function EventContents() {
                         </div>
                         <div className="event-location-map">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.396813362046!2d88.38073241443453!3d22.601652537600767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8bb34e13008ab%3A0xb88776c0052769b0!2sKolkata%20Railway%20Station%20(Chitpur%20Station)!5e0!3m2!1sen!2sin!4v1629457047388!5m2!1sen!2sin" width="600" height="450" allowFullScreen="" loading="lazy"></iframe>
-                            <div className="place">
-                                Hudson Road Family Centre
-                                95 Hudson Road · Bunbury
-                            </div>
+                            
                         </div>
+                        <div className="vBanner">
+                                Hudson Road Family Centre
+                                <span>95 Hudson Road · Bunbury</span>
+                            </div>
 
                         <div className="videoBanner">
                             <Image
@@ -236,7 +237,7 @@ export default function EventContents() {
 
                     </Col>
                     <Col md={4}>
-                        <div className="content-box-address">
+                        <div className="content-box-address mTop">
                             <div className="address-part">
                                 <div className="icon-div">
                                     <Image
@@ -267,7 +268,7 @@ export default function EventContents() {
                         <div className="content-box-address">
                             <div className="address-part d-block">
 
-                                <p className="time-date">
+                                <p className="time-date evBold">
                                     <label className="date">Event Organizer: </label>
                                     <span>Business Name(organizer Profile)</span>
                                 </p>

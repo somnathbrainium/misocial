@@ -39,11 +39,7 @@ export default function ViewTransactions() {
                     <div className="dt-inner">
                         <span>Transaction ID:</span>
                         <span>412 - 456 - 789</span>
-                    </div>
-                    <div className="dt-inner">
-                        <span>Transaction ID:</span>
-                        <span>412 - 456 - 789</span>
-                    </div>
+                    </div>                    
                     <div className="dt-inner">
                         <span>Transaction Status:</span>
                         <span>Paid</span>

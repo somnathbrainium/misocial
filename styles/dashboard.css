@@ -33,7 +33,7 @@
 .my-profile-wrapper .sign-nextstep-form{ margin: 0; width: 100%; }
 .my-profile-wrapper .stepfrm-inner .header{ border-bottom: 1px solid #E4E4E4; padding: 0 80px; margin: 0;}
 .main-frame-inner .form-class{ max-width:78%; margin-top: 30px;}
-.main-frame-inner .form-class .form-label{ color: var(--label-color); font-size: 18px; font-weight: 500; }
+.main-frame-inner .form-class .form-label{ color: var(--label-color); font-size: 19px; font-weight: 500; }
 .main-frame-inner .form-class .tag-title{ 
   color: var(--label-color);
     font-size: 18px;
@@ -41,13 +41,27 @@
     display: block;
     margin-bottom: 10px;
  }
+ .nwmailForm{ border: none!important;}
+ .nwmailForm th{
+  background: #DEDEDE;
+ }
+ .nwmailForm tr:nth-child(odd) {
+  background: #F2F2F2!important;
+}
+.nwmailForm tr:nth-child(even) {
+  background: #EDEDED!important;
+}
+.nwmailForm td{ border-bottom: none!important;}
+.seForm input[type="text"]{
+  height: 45px;
+}
 
 .my-profile-wrapper .stepfrm-inner .date-year{ width: 190px;}
 .form-class .form-label.section-name{ color: var(--light-black); 
     font-size: 34px; font-family: var(--abril);
 }
 .form-class .membership-wr{  justify-content: flex-start; }
-.save-cancel-action{ display: flex; align-items: center; margin-top: 40px; padding-bottom: 20px; }
+.save-cancel-action{ display: flex; align-items: center; margin-top: 20px; padding-bottom: 20px; }
 .save-cancel-action .nav-pills .nav-item{ margin: 0 16px 0 0;}
 .save-cancel-action .nav-pills .nav-link{ 
     border-radius: 0;
@@ -111,8 +125,8 @@ margin: 16px 0 0 0;}
   font-size: 42px; border-bottom: 1px solid #E4E4E4; 
   margin: 0; margin-bottom: 30px; }
 .right-panel .main-frame-inner { padding: 0 80px 80px; } 
-.main-frame-inner .myevents-list:nth-child(odd){ background: var(--event-bg1);}
-.main-frame-inner .myevents-list:nth-child(even){ background: var(--event-bg2);  }
+.main-frame-inner .myevents-list:nth-child(odd){ background: var(--event-bg2);}
+.main-frame-inner .myevents-list:nth-child(even){ background: var(--event-bg1);  }
 .main-frame-inner .myevents-list{  padding: 16px;}
 .myevents-list .content-inner { display: flex; justify-content: space-between;}
 .myevents-list .content-inner .image-part{width: 255px!important; margin-right: 16px!important;}
@@ -236,7 +250,7 @@ padding: 12px 15px;}
 .specific-tran-wrap .payment-action{width: 675px; margin-top: 30px;}
 .specific-tran-wrap .payment-action .nav .nav-item{ margin-bottom: 15px;width: 100%; }
 .specific-tran-wrap .payment-action .nav .nav-link { border-radius: 0; background: var(--button-bg); color: var(--button-text); font-size: 20px;
- display: flex; align-items: center; justify-content: center; height: 64px;}
+ display: flex; align-items: center; justify-content: center; height: 64px; font-weight: 500; letter-spacing: 1px;}
 
  .specific-tran-wrap .payment-action .nav .nav-link.active{ background: transparent; border: 1px solid var(--button-bg);}
  .refund-ammount-wrap .form-label{ font-family: var(--montserrat); font-weight: 500; font-size: 18px; color: var(--label-color); }
@@ -384,7 +398,7 @@ color: var(--button-text); font-size: 18px; font-weight: 500; border-radius: 0; 
     font-weight: 400;
 }
  .transaction-table td .b-title{ font-weight: 500; margin: 0;} 
- .transaction-table td .btn-action{ border-radius: 0; background: var(--light-black); color: var(--white);} 
+ .transaction-table td .btn-action{ border-radius: 0; background: var(--light-black); color: var(--white); padding: 0 5px;} 
  .view-transactions-list .payment-action{ width: 520px; }
  .view-transactions-list .refund-ammount-wrap .text{ font-size: 17px; }
  .allevents-wrapper .check-radio-wrap{ flex-direction: column; align-items: flex-start;}
@@ -486,6 +500,37 @@ font-family: var(--montserrat); margin-bottom: 16px; }
   padding-bottom: 15px;
 }
 .msBtn{ padding-bottom: 0;}
+.newDbaccordion .accordion-item{
+  border: none;
+}
+.newDbaccordion .accordion-body{
+  padding: 15px 0;
+}
+
+.newDbaccordion .accordion-button {
+  color: var(--label-color);
+  font-size: 18px;
+  font-family: var(--montserrat);
+  font-weight: 500;
+  background-color: #fff;
+  border: none;
+  text-indent: 12px;
+  box-shadow: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+.newActv .accordion-button, .newActv .accordion-button svg {
+  color: var(--button-bg)!important;
+  font-weight: 700!important;
+}
+.newActv .accordion-button img{
+  filter: invert(61%) sepia(32%) saturate(365%) hue-rotate(13deg) brightness(99%) contrast(91%);
+}
+.newDbaccordion .accordion-button::after{
+  display: none;
+}
+
+.crW .form-label{ min-width: 200px; margin-right: 10px!important;}
 
 @media ( max-width: 1400px){  
  .universalModal .modal-title{ font-size: 30px;}

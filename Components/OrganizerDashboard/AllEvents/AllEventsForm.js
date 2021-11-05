@@ -33,11 +33,12 @@ export default function AllEventsForm() {
                         <div className="content-part">
                             <h2 className="m-header">Bunbury Toastmaster- Regular  Club Meeting</h2>
                             <div className="sub-title capitalized">
-                                <BiCalendar /> SUN, APR 25 - MON, APR 26  6.30PM - 8.30PM</div>
+                                <BiCalendar /> Mon, 09-Jun-2021 , 7:00 PM - Thu, 12 Aug 2021 10:00 PM AEST</div>
                             <div className="sub-title">
                                 <IoLocationOutline /> Australia, AU, Aplus club</div>
+                                <p className="statusCss">Status: Published</p>
                             <div className="save-cancel-action">
-                                <button className="btn btn-next">Cancel & unpublish</button>
+                                <button className="btn btn-next">Cancel &amp; Unpublish</button>
                                 <button className="btn btn-cancel">Unpublish</button>
                             </div>
                         </div>
@@ -455,7 +456,7 @@ export default function AllEventsForm() {
 
             <Modal show={copyevent} onHide={copyEventClose} className="universalModal">
                 <Modal.Header closeButton>
-                    <Modal.Title>Copy event</Modal.Title>
+                    <Modal.Title>Copy Event</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <div className="copy-event  main-frame-inner">
@@ -468,7 +469,7 @@ export default function AllEventsForm() {
                             </Form.Group>
                             <Row>
                                 <Col md={6}>
-                                    <Form.Group className="mb-3" controlId="Datejoinedfrom">
+                                    <Form.Group className="mb-3 evStart" controlId="Datejoinedfrom">
                                         <Form.Label>Event Starts</Form.Label>
                                         <Form.Control type="date" />
                                     </Form.Group>
@@ -480,7 +481,7 @@ export default function AllEventsForm() {
                                     </Form.Group>
                                 </Col>
                                 <Col md={6}>
-                                    <Form.Group className="mb-3" controlId="age-from">
+                                    <Form.Group className="mb-3 evStart" controlId="age-from">
                                         <Form.Label>Event Ends</Form.Label>
                                         <Form.Control type="date" />
                                     </Form.Group>

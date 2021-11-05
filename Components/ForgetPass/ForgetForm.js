@@ -45,7 +45,7 @@ export default function ForgetForm() {
                             {/* <Modal.Title>Password updated</Modal.Title> */}
                             <p>We've sent you an email on how to reset your password. 
 In the next 24 hours open the email and follow the steps outlined to create a new password.</p>
-<button className="btn btn-next">Click Here To Return To Our Home Page</button>
+<Link href="/"><button className="btn btn-next">Click Here To Return To Our Home Page</button></Link>
                             {/* <p className="success-text">
                                 You have successfully changed your password.
                                 You can   <Link href="/login"><a className="login-now">Login</a></Link> now.

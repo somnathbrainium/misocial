@@ -1,5 +1,5 @@
 import Head from "next/head";
-import DashboardLayout from "../../Components/Dashboard/DashboardLayout";
+import DashboardLayout_B from "../../Components/Dashboard/DashboardLayout_B";
 import AllEventsForm from "../../Components/OrganizerDashboard/AllEvents/AllEventsForm";
 import SearchEvent from "../../Components/OrganizerDashboard/AllEvents/SearchEvent";
 
@@ -18,4 +18,4 @@ export default function allEvents() {
     )
 }
 
-allEvents.Layout = DashboardLayout
+allEvents.Layout = DashboardLayout_B

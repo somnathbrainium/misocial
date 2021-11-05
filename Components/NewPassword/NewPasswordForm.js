@@ -16,7 +16,7 @@ export default function NewPasswordForm() {
                 <h2 className="header">New Password</h2>
                 <Form>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                        <Form.Label>New password</Form.Label>
+                        <Form.Label>New Password</Form.Label>
                         <Form.Control type="password" />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">

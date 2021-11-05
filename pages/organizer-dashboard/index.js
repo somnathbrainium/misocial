@@ -1,5 +1,5 @@
 import Head from "next/head";
-import DashboardLayout from "../../Components/Dashboard/DashboardLayout";
+import DashboardLayout_B from "../../Components/Dashboard/DashboardLayout_B";
 import OrganizerSetting from "../../Components/OrganizerDashboard/OrganizerSetting";
 
 export default function index() {
@@ -18,4 +18,4 @@ export default function index() {
     )
 }
 
-index.Layout = DashboardLayout
+index.Layout = DashboardLayout_B

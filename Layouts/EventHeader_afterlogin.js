@@ -87,7 +87,6 @@ function EventHeader_afterlogin() {
           </Link>
 
         </div>
-        <br/>
         <div className="social-media">
           <Link href="#" >
             <a className="social-icon">
