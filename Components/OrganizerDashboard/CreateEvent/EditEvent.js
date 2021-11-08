@@ -4,10 +4,10 @@ import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { IoRefresh, IoSettingsOutline } from "react-icons/io5";
 import cameraIcon from '../../../public/images/cameraIcon.png'
 
-export default function CreateEvent() {
+export default function EditEvent() {
     return (
         <div className="create-event-main">
-            <h2 className="header">Create Event</h2>
+            <h2 className="header">Edit Event</h2>
 
             <Form className="form-class">
                 <Form.Label className="section-name">About Event</Form.Label>

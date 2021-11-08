@@ -55,6 +55,37 @@
 .seForm input[type="text"]{
   height: 45px;
 }
+.veselect{ max-width: initial!important; margin:0; border:none!important;}
+.veTable th{
+  padding:16px;
+}
+.veTable td{ border: none; padding: 20px 15px;}
+.veTable tr:nth-child(odd) {
+  background: #F2F2F2!important;
+}
+.veTable tr:nth-child(even) {
+  background: #EDEDED!important;
+}
+.veModal .btn-close{
+  position: relative;
+  top: -24px;
+}
+.veModal .message-title{
+  padding-bottom: 15px;
+}
+.veModal .messgae-para{
+  padding-bottom: 20px;
+}
+.veModal .mbPdn{
+  position: relative;
+  top: 40px;
+}
+.vaTable td{
+  text-align: center;
+}
+.sendinvites-wrapper input[type="text"], .sendinvites-wrapper input[type="number"], .sendinvites-wrapper input[type="date"]{
+  height: 45px;
+}
 
 .my-profile-wrapper .stepfrm-inner .date-year{ width: 190px;}
 .form-class .form-label.section-name{ color: var(--light-black); 
@@ -277,7 +308,7 @@ font-weight: 600;margin-bottom: 10px;}
   font-size: 18px;
   font-family: var(--montserrat);color: #888888; 
 }
-.form-class .form-control{ resize: none; color: #888888; font-family: var(--montserrat); font-weight: 400; }
+.form-class .form-control{ resize: none; color: #888888; font-family: var(--montserrat); font-weight: 400; min-height: 46px; }
 .form-class .add-tickets-wrap .cs-wrapper{ margin: 6px 0; }
 .form-class .add-tickets-wrap .currency-part{ margin: 15px 0; }
 .form-class .add-tickets-wrap .currency-part .frmsub-title{ margin:0; }
@@ -451,7 +482,7 @@ font-weight: 500; color: var(--para-light); margin: 10px 0; }
 .universalModal .modal-header .btn-close{ 
   border: 1px solid var(--light-black); border-radius: 0; opacity: 1;
 }
-.universalModal .messagepreview-wrapper{ border: 16px solid var(--event-bg1); padding: 20px; }
+.universalModal .messagepreview-wrapper{ border: 20px solid var(--event-bg1); padding: 20px; }
 .universalModal .messagepreview-wrapper .message-title{ color: var(--light-black); font-size: 16px;
 font-family: var(--montserrat); margin-bottom: 16px; }
 .universalModal .download-format .format-head{ 

@@ -165,12 +165,16 @@ export default function SendInvitesForm() {
                         </div>
                     </div>
                     <div className="form-values sendInvit mb-4">
-                        <label className="toggleSwitch">
-                            <input type="checkbox" defaultChecked />
-                            <span>NO</span>
-                            <span>YES</span>
-                            <a></a>
+                        <label class="switch">
+                            <input type="checkbox" id="togBtn"/>
+                            <div class="slder"></div>
                         </label>
+                        {/* <label className="toggleSwitch">
+                            <input type="checkbox" defaultChecked />
+                            <span className="yesChk">NO</span>
+                            <span className="noChk">YES</span>
+                            <a className="aiToggl"></a>
+                        </label> */}
                         <p className="text">Add Invitation List</p>
                     </div>
                     <div className="file-upload-area">
@@ -189,7 +193,7 @@ export default function SendInvitesForm() {
                         Successfully imported 5 out of 100 records
                     </div>
 
-                    <div className="save-cancel-action">
+                    <div className="save-cancel-action sifBtn">
                         <button className="btn btn-next">Send invitation</button>
                         <button className="btn btn-cancel">Clear filter</button>
                     </div>

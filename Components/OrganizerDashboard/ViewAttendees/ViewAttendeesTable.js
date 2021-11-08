@@ -8,12 +8,12 @@ export default function ViewAttendeesTable() {
 
             <div className="trans-body">
 
-                <Table responsive className="transaction-table">
+                <Table responsive className="transaction-table vaTable">
                     <thead>
                         <tr>
                             <th className="w25pr-0 text-left">
                                 <label className="cs-wrapper table-checkbox">
-                                    <input type="checkbox" defaultChecked />
+                                    <input type="checkbox" />
                                     <span className="checkmark"></span>
                                 </label>
                             </th>
@@ -39,7 +39,7 @@ export default function ViewAttendeesTable() {
                             </td>
                             <td>
                                 <Form.Select defaultValue="Z" className="mid-value">
-                                    <option>X</option>
+                                    <option>Z</option>
                                     <option>Y</option>
                                 </Form.Select>
                             </td>
@@ -63,7 +63,7 @@ export default function ViewAttendeesTable() {
                 <div className="save-cancel-action">
                     <button className="btn btn-next">Download Attendees PDF</button>
                     <button className="btn btn-next">Download Attendees Excel</button>
-                    <button className="btn btn-next">Update MID for selected Attendees</button>
+                    <button className="btn btn-next">Update MID For Selected Attendees</button>
                 </div>
             </div>
 

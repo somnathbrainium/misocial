@@ -1,6 +1,6 @@
 
 import Head from "next/head"
-import DashboardLayout from "../../Components/Dashboard/DashboardLayout";
+import DashboardLayout_B from "../../Components/Dashboard/DashboardLayout_B";
 import AttendeesHeader from "../../Components/OrganizerDashboard/ViewAttendees/AttendeesHeader";
 import ViewAttendeesTable from "../../Components/OrganizerDashboard/ViewAttendees/ViewAttendeesTable";
 
@@ -18,4 +18,4 @@ export default function viewAttendees() {
     )
 }
 
-viewAttendees.Layout = DashboardLayout
+viewAttendees.Layout = DashboardLayout_B

@@ -1,5 +1,5 @@
 import Head from "next/head"
-import DashboardLayout from "../../Components/Dashboard/DashboardLayout";
+import DashboardLayout_B from "../../Components/Dashboard/DashboardLayout_B";
 import EmailListTable from "../../Components/OrganizerDashboard/ViewEmails/EmailListTable";
 import ViewEmailsHeader from "../../Components/OrganizerDashboard/ViewEmails/ViewEmailHeader";
 
@@ -17,4 +17,4 @@ export default function viewEmails() {
     )
 }
 
-viewEmails.Layout = DashboardLayout
+viewEmails.Layout = DashboardLayout_B

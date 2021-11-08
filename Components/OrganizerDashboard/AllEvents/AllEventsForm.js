@@ -48,7 +48,7 @@ export default function AllEventsForm() {
                         <Nav variant="pills">
 
                             <Nav.Item>
-                                <Nav.Link eventKey="edit">Edit</Nav.Link>
+                                <Nav.Link eventKey="edit" href="/organizer-dashboard/edit-event">Edit</Nav.Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -154,7 +154,7 @@ export default function AllEventsForm() {
                         <Nav variant="pills">
 
                             <Nav.Item>
-                                <Nav.Link eventKey="edit">Edit</Nav.Link>
+                                <Nav.Link eventKey="edit" href="/organizer-dashboard/edit-event">Edit</Nav.Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -258,7 +258,7 @@ export default function AllEventsForm() {
                         <Nav variant="pills">
 
                             <Nav.Item>
-                                <Nav.Link eventKey="edit">Edit</Nav.Link>
+                                <Nav.Link eventKey="edit" href="/organizer-dashboard/edit-event">Edit</Nav.Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -327,7 +327,7 @@ export default function AllEventsForm() {
                         <Nav variant="pills">
 
                             <Nav.Item>
-                                <Nav.Link eventKey="edit">Edit</Nav.Link>
+                                <Nav.Link eventKey="edit" href="/organizer-dashboard/edit-event">Edit</Nav.Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -396,7 +396,7 @@ export default function AllEventsForm() {
                         <Nav variant="pills">
 
                             <Nav.Item>
-                                <Nav.Link eventKey="edit">Edit</Nav.Link>
+                                <Nav.Link eventKey="edit" href="/organizer-dashboard/edit-event">Edit</Nav.Link>
                             </Nav.Item>
 
                             <Nav.Item>

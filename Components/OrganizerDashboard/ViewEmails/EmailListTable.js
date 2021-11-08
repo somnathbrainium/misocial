@@ -14,7 +14,7 @@ export default function EmailListTable() {
 
                 <div className="trans-body">
 
-                    <Table responsive className="transaction-table">
+                    <Table responsive className="transaction-table veTable">
                         <thead>
                             <tr>
                                 <th>Subject Of Email</th>
@@ -64,9 +64,9 @@ export default function EmailListTable() {
             </div>
 
             <Modal
-                className="universalModal" show={show} onHide={handleClose}>
+                className="universalModal veModal" show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Preview of your message</Modal.Title>
+                    <Modal.Title>Preview Of Your Message</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <div className="messagepreview-wrapper">
@@ -80,7 +80,7 @@ export default function EmailListTable() {
                                 <p className="messgae-para"><strong>Lorem Ipsum</strong></p>
                             </Col>
                             <Col md={4}>
-                                <p className="messgae-para mb-1"><strong>Lorem Ipsum</strong></p>
+                                <p className="messgae-para mb-1 mbPdn"><strong>Lorem Ipsum</strong></p>
 
                             </Col>
                         </Row>
