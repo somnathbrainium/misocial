@@ -21,7 +21,7 @@ function EventHeader() {
     setShow(false);
   }
   return (
-    <div className="header-wraapper">
+    <div className="header-wraapper evntHd">
       <div className="logo-part">
         <Link href="/">
           <a>
@@ -32,16 +32,18 @@ function EventHeader() {
           </a>
         </Link>
       </div>
-      <div className="other-part">
-        <Link href="../../dashboard/my-shortlist">
-          <a className="login">Short List</a>
-        </Link>
-        <Link href="/signup-step1">
-          <a className="login">Join Now</a>
-        </Link>
-        <Link href="/login">
-          <a className="login">Login</a>
-        </Link>
+      <div className="other-part evnFlex">
+        <div className="evntbeforelog">
+          <Link href="../../dashboard/my-shortlist">
+            <a className="login">Short List</a>
+          </Link>
+          <Link href="/signup-step1">
+            <a className="login">Join Now</a>
+          </Link>
+          <Link href="/login">
+            <a className="login">Login</a>
+          </Link>
+        </div>
         {/* <div className="profile">
           <Image src={loggedinImage}
             alt="loggedinImage" className="profile-image"

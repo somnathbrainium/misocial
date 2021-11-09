@@ -678,7 +678,7 @@ font-family: var(--montserrat); margin-bottom: 16px; }
 .form-values{ margin-top: 25px; }
 .form-class .form-label.section-name { font-size: 24px; }
 .save-cancel-action .btn { height: 46px; }
-.main-frame-inner .form-class .btn-next{ height: auto;  }
+/* .main-frame-inner .form-class .btn-next{ height: auto;  } */
 .specific-tran-wrap .payment-action .nav .nav-link, .refund-ammount-wrap .form-control, .refund-ammount-wrap .btn-next {
     height: auto;
     min-height: 46px;
@@ -690,6 +690,7 @@ font-family: var(--montserrat); margin-bottom: 16px; }
  }
 
  @media ( max-width:480px){
+  .pagination .page-item .page-link{ font-size: 10px;}
  .view-tickets-wrapper .send-wrapper .data-container{ padding: 16px;}
  .dashboardbanner { height: 235px;}
  .save-cancel-action .btn{ min-width: 140px;} 

@@ -32,7 +32,7 @@ function EventHeader_afterlogin() {
           </a>
         </Link>
       </div>
-      <div className="other-part">
+      <div className="other-part obB">
         <Link href="../../dashboard/my-shortlist">
           <a className="login">Short List</a>
         </Link>
