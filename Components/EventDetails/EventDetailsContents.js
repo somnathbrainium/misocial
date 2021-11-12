@@ -26,7 +26,7 @@ export default function EventContents() {
                             className="details-image"
                         />
                         <div className="act-button">
-                            <button className="btn btn-short"><BiPlus />Shortlist</button>
+                            <button className="btn btn-short"><BiPlus />Short List</button>
                             <button className="btn btn-view-event"><RiShareForwardLine className="share" />Share</button>
                         </div>
 
@@ -259,8 +259,8 @@ export default function EventContents() {
                                     />
                                 </div>
                                 <p className="time-date">
-                                    Hudson Road Family Centre
-                                    95 Hudson Road · Bunbury
+                                    <label className="date">Hudson Road Family Centre</label>
+                                    <span>95 Hudson Road · Bunbury</span>
                                 </p>
                                 <button className="btn btn-large">View Map</button>
                             </div>

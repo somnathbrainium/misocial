@@ -1,11 +1,11 @@
 import { Form } from "react-bootstrap";
 import React from 'react';
-import EventBanner_B from '../Components/Events/EventsBanner_B'
+import EventBanner_C from '../Components/Events/EventBanner_C'
 import EventDetailsContents from '../Components/EventDetails/EventDetailsContents'
 export default function EventDetails() {
     return (
         <div className="event-details-wr">
-            <EventBanner_B />
+            <EventBanner_C />
             <div className="pvrEvent">
                 <div className="container">
                     <div className="row">

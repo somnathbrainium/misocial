@@ -1,5 +1,5 @@
 import Head from "next/head"
-import DashboardLayout from "../../Components/Dashboard/DashboardLayout"
+import DashboardLayout_C from "../../Components/Dashboard/DashboardLayout_C"
 import PlatinumSettingNext from "../../Components/Dashboard/PlatinumSetting/PlatinumSettingNext"
 
 export default function platinumSettingnext() {
@@ -25,4 +25,4 @@ export default function platinumSettingnext() {
     )
 }
 
-platinumSettingnext.Layout = DashboardLayout
+platinumSettingnext.Layout = DashboardLayout_C

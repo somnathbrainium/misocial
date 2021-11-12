@@ -19,7 +19,7 @@ export default function UpgradePlan() {
                 <label>/Month</label>
             </div>
             <Link href="/dashboard/platinum-settings-next" passHref>
-                <button className="btn btn-next"> Upgrade to Platinum</button>
+                <button className="btn btn-next"> Upgrade To Platinum</button>
             </Link>
             <p className="host-title mt-5">Enter Your Credit Card Details</p>
             <div className="form-hints-container mt-2">

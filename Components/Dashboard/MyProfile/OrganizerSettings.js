@@ -39,8 +39,8 @@ export default function OrganizerSettings() {
                         </label>
                     </div>
                 </div>
-                <p className="host-title"> Want to host events? </p>
-                <button className="btn btn-next">Apply now to become an Event Organizer</button>
+                <p className="host-title"> Want To Host Events? </p>
+                <button className="btn btn-next">Apply Now To Become An Event Organizer</button>
 
                 <div className="form-hints-container">
                     <Form.Group className="mb-3" controlId="exampleForm1">

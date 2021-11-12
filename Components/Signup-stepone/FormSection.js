@@ -18,7 +18,7 @@ export default function FormSection() {
                 <h2 className="header">Join Now</h2>
                 <Form>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                        <Form.Label>Enter Your Ymail</Form.Label>
+                        <Form.Label>Enter Your Email</Form.Label>
                         <Form.Control type="email" />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
@@ -49,7 +49,7 @@ export default function FormSection() {
 
                             </a>
                         </label>
-                        <p className="text"> I have read and agree to the <span>Terms & Conditions and Privacy Policy</span></p>
+                        <p className="text"> I have read and agree to the <span>Terms & Conditions <span className="normFont">and</span> Privacy Policy</span></p>
                     </div>
                     <div className="form-values">
                         <label className="toggleSwitch" >

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import DashboardLayout from "../../Components/Dashboard/DashboardLayout";
+import DashboardLayout_C from "../../Components/Dashboard/DashboardLayout_C";
 import MyProfile from "../../Components/Dashboard/MyProfile/MyProfile";
 
 export default function myProfile() {
@@ -16,4 +16,4 @@ export default function myProfile() {
     )
 }
 
-myProfile.Layout = DashboardLayout
+myProfile.Layout = DashboardLayout_C

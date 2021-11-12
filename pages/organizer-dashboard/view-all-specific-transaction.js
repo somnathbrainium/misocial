@@ -1,5 +1,5 @@
 import Head from "next/head"
-import DashboardLayout from "../../Components/Dashboard/DashboardLayout";
+import DashboardLayout_E from "../../Components/Dashboard/DashboardLayout_E";
 import ViewTransactions_All from "../../Components/OrganizerDashboard/ViewTransaction/ViewTransactions_All";
 // import ViewTransactions from "../../Components/OrganizerDashboard/ViewTransaction/ViewTransactions";
 import React from 'react'
@@ -21,4 +21,4 @@ export default function view_all_specific_transaction() {
     )
 }
 
-view_all_specific_transaction.Layout = DashboardLayout
+view_all_specific_transaction.Layout = DashboardLayout_E

@@ -14,14 +14,14 @@ export default function LoginForm() {
                         <Form.Control type="email" />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Create Password</Form.Label>
+                        <Form.Label>Enter Password</Form.Label>
                         <Form.Control type="password" />
                     </Form.Group>
                     <div className="remember">
                         <label className="cs-wrapper">
                             <input type="checkbox" defaultChecked />
                             <span className="checkmark"></span>
-                            <p className="label-text">Remember me</p>
+                            <p className="label-text">Remember Me</p>
                         </label>
                         <Link href="/forgot-password">
                             <a className="forget-pass">Forgot Password</a>

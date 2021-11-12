@@ -1,5 +1,5 @@
 import Head from "next/head";
-import DashboardLayout_B from "../../Components/Dashboard/DashboardLayout_B";
+import DashboardLayout_E from "../../Components/Dashboard/DashboardLayout_E";
 import SendEmailsForm from "../../Components/OrganizerDashboard/ViewEvent/SendEmailsForm";
 import SendEmails from "../../Components/OrganizerDashboard/ViewEvent/SendEmails";
 
@@ -17,4 +17,4 @@ export default function sendEmails() {
     )
 }
 
-sendEmails.Layout = DashboardLayout_B
+sendEmails.Layout = DashboardLayout_E

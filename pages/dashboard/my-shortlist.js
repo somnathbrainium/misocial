@@ -1,4 +1,4 @@
-import DashboardLayout from "../../Components/Dashboard/DashboardLayout";
+import DashboardLayout_C from "../../Components/Dashboard/DashboardLayout_C";
 import MyShortList from "../../Components/Dashboard/MyShortlist/MyShortList";
 import Pagination from "../../Layouts/Pagination";
 export default function myShortlist() {
@@ -10,4 +10,4 @@ export default function myShortlist() {
     )
 }
 
-myShortlist.Layout = DashboardLayout;
+myShortlist.Layout = DashboardLayout_C;

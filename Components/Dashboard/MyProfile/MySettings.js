@@ -20,17 +20,17 @@ export default function MySettings() {
                 <Form.Label className="section-name">My Settings</Form.Label>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Login Email</Form.Label>
-                    <Form.Control type="email" />
+                    <Form.Control type="email" placeholder="mukkadar.brainium@gmail.com" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
                     <Form.Label>Customer ID</Form.Label>
-                    <Form.Control type="text" />
+                    <Form.Control type="text" placeholder="234-234-123" />
 
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput3">
                     <Form.Label>Date Joined</Form.Label>
-                    <Form.Control type="text" />
+                    <Form.Control type="text" placeholder="26-Jun-2021" />
                 </Form.Group>
 
 
@@ -51,7 +51,7 @@ export default function MySettings() {
                     </div>
                 </div>
 
-                <button className="btn btn-next">Upgrade to platinum</button>
+                <button className="btn btn-next">Upgrade To Platinum</button>
                 <div className="form-values">
                     <label className="toggleSwitch" >
                         <input type="checkbox" />

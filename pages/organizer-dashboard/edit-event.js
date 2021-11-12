@@ -1,7 +1,7 @@
 
 
 import Head from "next/head";
-import DashboardLayout_B from "../../Components/Dashboard/DashboardLayout_B";
+import DashboardLayout_E from "../../Components/Dashboard/DashboardLayout_E";
 import EditEvent from "../../Components/OrganizerDashboard/CreateEvent/EditEvent";
 
 export default function editEvent() {
@@ -17,4 +17,4 @@ export default function editEvent() {
     )
 }
 
-editEvent.Layout = DashboardLayout_B
+editEvent.Layout = DashboardLayout_E

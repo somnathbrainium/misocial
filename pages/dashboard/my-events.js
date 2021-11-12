@@ -1,6 +1,6 @@
 
 import Pagination from '../../Layouts/Pagination'
-import DashboardLayout from "../../Components/Dashboard/DashboardLayout";
+import DashboardLayout_C from "../../Components/Dashboard/DashboardLayout_C";
 import MyEvents from '../../Components/Dashboard/MyEvent/MyEvent';
 export default function myEvents() {
     return (
@@ -11,4 +11,4 @@ export default function myEvents() {
     )
 }
 
-myEvents.Layout = DashboardLayout
+myEvents.Layout = DashboardLayout_C

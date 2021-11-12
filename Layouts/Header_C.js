@@ -10,8 +10,7 @@ import { AiFillInstagram } from 'react-icons/ai';
 import { GrFormClose } from 'react-icons/gr';
 
 
-function EventHeader_afterlogin() {
-    // const router = useRouter();
+function Header_C() {
 
   const [show, setShow] = useState(false);
   const handleClick = () => {
@@ -32,17 +31,18 @@ function EventHeader_afterlogin() {
           </a>
         </Link>
       </div>
-      <div className="other-part obB">
-        <Link href="../../dashboard/my-shortlist">
-          <a className="login">Shortlist</a>
-        </Link>
-        <div className="profile">
+      <div className="other-part">
+        {/* <Link href="/login">
+          <a className="login">Login</a>
+        </Link> */}
+
+        {/* <div className="profile">
           <Image src={loggedinImage}
             alt="loggedinImage" className="profile-image"
           />
 
           <p className="name">John</p>
-        </div>
+        </div> */}
 
         <Image src={hambergerIcon} onClick={() => handleClick()}
           className="hamberger-icon" alt="hamberger icon" />
@@ -58,12 +58,12 @@ function EventHeader_afterlogin() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/events_B">
+            <Link href="/Events_post_login">
               <a className="nav-link">Events</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/dashboard/my-shortlist">
+            <Link href="#">
               <a className="nav-link">Shortlist</a>
             </Link>
           </li>
@@ -87,6 +87,7 @@ function EventHeader_afterlogin() {
           </Link>
 
         </div>
+        <br/>
         <div className="social-media">
           <Link href="#" >
             <a className="social-icon">
@@ -121,4 +122,4 @@ function EventHeader_afterlogin() {
 
 
 
-export default EventHeader_afterlogin;
+export default Header_C;

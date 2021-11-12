@@ -33,7 +33,7 @@
 .my-profile-wrapper .sign-nextstep-form{ margin: 0; width: 100%; }
 .my-profile-wrapper .stepfrm-inner .header{ border-bottom: 1px solid #E4E4E4; padding: 0 80px; margin: 0;}
 .main-frame-inner .form-class{ max-width:78%; margin-top: 30px;}
-.main-frame-inner .form-class .form-label{ color: var(--label-color); font-size: 19px; font-weight: 500; }
+.main-frame-inner .form-class .form-label{ color: var(--label-color); font-size: 18px; font-weight: 500; }
 .main-frame-inner .form-class .tag-title{ 
   color: var(--label-color);
     font-size: 18px;
@@ -535,7 +535,7 @@ font-family: var(--montserrat); margin-bottom: 16px; }
   border: none;
 }
 .newDbaccordion .accordion-body{
-  padding: 15px 0;
+  padding: 0 0 15px 0;
 }
 
 .newDbaccordion .accordion-button {
@@ -562,6 +562,7 @@ font-family: var(--montserrat); margin-bottom: 16px; }
 }
 
 .crW .form-label{ min-width: 200px; margin-right: 10px!important;}
+.orgsActive, .orgsActive a{ color: #aea470!important;}
 
 @media ( max-width: 1400px){  
  .universalModal .modal-title{ font-size: 30px;}

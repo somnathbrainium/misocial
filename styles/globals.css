@@ -223,7 +223,7 @@ font-family: var(--montserrat); font-weight: 500; font-size: 18px; padding: 10px
     padding-top: 40px;
   }
   .fortogPassbg .form-values .text{
-    font-size: 17px;
+    font-size: 16px;
     color: #3D3D3D;
   }
 
@@ -438,10 +438,10 @@ font-family: var(--montserrat); font-weight: 500; font-size: 18px; padding: 10px
   .How-itworks-wrapper .item-content h6{ font-family: var(--montserrat); font-size: 28px; padding-top: 14px; color: var(--light-black);
   line-height: 55px; font-weight: 400; margin: 0;}
   .How-itworks-wrapper .item-content p{  margin: 0;
-    font-family: var(--montserrat); font-size: 18px; color: #424242;
-  line-height:28px; 
+    font-family: var(--montserrat); font-size: 16px; color: #424242;
+  line-height:24px; 
    }
- .title{ color: var(--light-black); font-family: var(--abril); font-size: 52px; line-height: 75px;}
+ .title{ color: var(--light-black); font-family: var(--abril); font-size: 45px; line-height: 60px;}
  .subtitle{ color: #424242; font-size: 17px; font-weight: 500;}
 .subtitle span{ display: block; font-weight: 600; color: var(--light-black);}
 .How-itworks-wrapper .title,
@@ -809,9 +809,9 @@ font-family: var(--montserrat); }
 .content-box-address .address-part .time-date{ font-size: 18px; color: var(--light-black); 
   font-family: var(--montserrat); font-weight: 400; flex: 1;
  }
-.content-box-address .address-part .time-date span{ font-weight: 500; display: block;}
+.content-box-address .address-part .time-date span{ font-weight: 400; display: block;}
 .content-box-address .address-part .time-date .date,
-.content-box-address .address-part .time-date .time{margin: 0; display: block;}
+.content-box-address .address-part .time-date .time{margin: 0; display: block; font-weight: 500;}
 .content-box-address .address-part .btn-large{ width: 85%;
     margin: auto;
     margin-top: 25px;
@@ -932,7 +932,7 @@ font-family: var(--abril); color: var(--black);}
     appearance: none;
     margin: 0; 
 }
-.yearInput input[type=number]{ width: 200px; text-align: center; letter-spacing: 2px;}
+.yearInput input[type=number]{ width: 140px; text-align: center; letter-spacing: 2px;}
 .mTop{ margin-top: 14px;}
 .evBold label{ font-weight: 600; color: #1f1e2c;}
 .evBold span{ font-weight: 400!important; color: #1f1e2c;}
@@ -951,3 +951,4 @@ font-family: var(--abril); color: var(--black);}
 
 .tCentr{ text-align: center;}
 .obB{ position: relative;}
+.normFont{ font-weight: 400!important;}

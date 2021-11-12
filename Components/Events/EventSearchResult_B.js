@@ -38,7 +38,7 @@ export default function EventSearchResult_B() {
                                 
                                 <Link href="/dashboard/my-shortlist">
                                 <button className="btn btn-short">
-                                    <GoPlus /> Shortlist
+                                    <GoPlus /> Short List
                                 </button>
                                 </Link>
                             </div>
@@ -73,7 +73,7 @@ export default function EventSearchResult_B() {
 
                                 <Link href="/dashboard/my-shortlist">
                                 <button className="btn btn-short">
-                                    <GoPlus /> Shortlist
+                                    <GoPlus /> Short List
                                 </button>
                                 </Link>
                             </div>
@@ -108,7 +108,7 @@ export default function EventSearchResult_B() {
 
                                 <Link href="/dashboard/my-shortlist">
                                 <button className="btn btn-short">
-                                    <GoPlus /> Shortlist
+                                    <GoPlus /> Short List
                                 </button>
                                 </Link>
                             </div>
@@ -143,7 +143,7 @@ export default function EventSearchResult_B() {
 
                                 <Link href="/dashboard/my-shortlist">
                                 <button className="btn btn-short">
-                                    <GoPlus /> Shortlist
+                                    <GoPlus /> Short List
                                 </button>
                                 </Link>
                             </div>
