@@ -7,7 +7,28 @@ import cameraIcon from '../../../public/images/cameraIcon.png'
 export default function CreateEvent() {
     return (
         <div className="create-event-main">
-            <h2 className="header">Edit Event</h2>
+
+            {/* <h2 className="header">Edit Event</h2> */}
+            <div className="data-status-header">
+            <div className="top-portion">
+                <h2 className="header ">Edit Event</h2>
+                <p className="trs-status">Status:<span>Past</span></p>
+            </div>
+            <div className="bottom-portion">
+                <p className="event-name">
+                    <span>View Events</span>
+                    <span className="heavy"> Past</span>
+                    <span>Event ID: 1244 - 5646 - 2636 - 1234</span>
+                    <span className="heavy"> Edit</span>
+                </p>
+                <div className="status-menu">
+                    <p className="event-name"> <span>Action: </span></p>
+                    <Form.Select className="preview-status veselect">
+                        <option>Edit</option>
+                    </Form.Select>
+                </div>
+            </div>
+        </div>
 
             <Form className="form-class">
                 <Form.Label className="section-name">About Event</Form.Label>

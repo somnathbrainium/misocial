@@ -61,12 +61,12 @@ export default function Sidebar() {
                             src={dbicon}
                             alt="icon-image 2"
                         />
-                        Organizer Dashboard
+                        <Link href="/organizer-dashboard">Organizer Dashboard</Link>
                     </Accordion.Header>
                     <Accordion.Body>
                     <ul className="nav flex-column child">
                         <li className={`nav-item ${router.asPath == "/organizer-dashboard/organizer-approved" ? "active" : "orgsActive"}`}>
-                            <IoSettingsOutline /> <Link href="/organizer-dashboard/organizer-approved" className="nav-link"><a>Organizer Settings</a></Link>
+                            <IoSettingsOutline /> <Link href="/organizer-dashboard" className="nav-link"><a>Organizer Settings</a></Link>
                         </li>
                         <li className={`nav-item ${router.asPath == "/organizer-dashboard/create-event" ? "active" : ""}`}>
                             <BiCalendarStar /> <Link href="/organizer-dashboard/create-event" className="nav-link">Create Event</Link>
@@ -79,7 +79,7 @@ export default function Sidebar() {
                             <li className={`nav-item ${router.asPath == "/organizer-dashboard/all-events" ? "active" : ""}`}>
                                 <Link className="nav-link" href="/organizer-dashboard/all-events">All Events</Link>
                             </li>
-                            <li className={`nav-item ${router.asPath == "/organizer-dashboard/view-attendees" ? "active" : ""}`}>
+                            {/* <li className={`nav-item ${router.asPath == "/organizer-dashboard/view-attendees" ? "active" : ""}`}>
                                 <Link className="nav-link" href="/organizer-dashboard/view-attendees">View Attendees</Link>
                             </li>
                             <li className="nav-item">
@@ -96,7 +96,7 @@ export default function Sidebar() {
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" href="/">Cancelled & Unpublished</Link>
-                            </li>
+                            </li> */}
                             <li className={`nav-item ${router.asPath == "/organizer-dashboard/send-emails" ? "active" : ""}`}>
                                 <Link className="nav-link" href="/organizer-dashboard/send-emails">Send Emails</Link>
                             </li>

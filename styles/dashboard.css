@@ -89,7 +89,7 @@
 
 .my-profile-wrapper .stepfrm-inner .date-year{ width: 190px;}
 .form-class .form-label.section-name{ color: var(--light-black); 
-    font-size: 34px; font-family: var(--abril);
+    font-size: 42px; font-family: var(--abril);
 }
 .form-class .membership-wr{  justify-content: flex-start; }
 .save-cancel-action{ display: flex; align-items: center; margin-top: 20px; padding-bottom: 20px; }
@@ -117,6 +117,9 @@
     right: 20px;
     top: 20px;
 }
+.leftpannel a:hover{ color: #aea470;}
+.view-attendees .checkmark{ width: 20px; height: 20px;}
+.view-attendees .checkmark:after{ width: 5px!important;}
 
  
 .save-cancel-action .nav-pills .nav-link.active{ border: 1px solid var(--button-bg); background: transparent; }
@@ -309,7 +312,7 @@ font-weight: 600;margin-bottom: 10px;}
   font-family: var(--montserrat);color: #888888; 
 }
 .form-class .form-control{ resize: none; color: #888888; font-family: var(--montserrat); font-weight: 400; min-height: 46px; }
-.form-class .add-tickets-wrap .cs-wrapper{ margin: 6px 0; }
+.form-class .add-tickets-wrap .cs-wrapper{ margin: 11px 0; }
 .form-class .add-tickets-wrap .currency-part{ margin: 15px 0; }
 .form-class .add-tickets-wrap .currency-part .frmsub-title{ margin:0; }
 .form-class .add-tickets-wrap .currency-part .currency-wrap{  font-weight: 500; font-family: var(--montserrat);
@@ -563,6 +566,8 @@ font-family: var(--montserrat); margin-bottom: 16px; }
 
 .crW .form-label{ min-width: 200px; margin-right: 10px!important;}
 .orgsActive, .orgsActive a{ color: #aea470!important;}
+.orgBold, .orgBold a{ font-weight: 600!important;}
+
 
 @media ( max-width: 1400px){  
  .universalModal .modal-title{ font-size: 30px;}

@@ -21,13 +21,12 @@ export default function Sidebar() {
         <div className="sidebar">
             <UserName />
             <Accordion defaultActiveKey="0" className="newDbaccordion">
-                <Accordion.Item eventKey="0">
-                    <Accordion.Header className="newActv">
+                <Accordion.Item eventKey="1">
+                    <Accordion.Header>
                         <Image className="icon-image"
                         src={dbicon}
                         alt="df image"
-                    />
-                    Dashboard
+                    />Dashboard
                     </Accordion.Header>
                     <Accordion.Body>
                     <ul className="nav flex-column child">
@@ -56,8 +55,8 @@ export default function Sidebar() {
                     </ul>
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="1">
-                    <Accordion.Header>
+                <Accordion.Item eventKey="0">
+                    <Accordion.Header  className="newActv">
                         <Image className="icon-image"
                             src={dbicon}
                             alt="icon-image 2"
@@ -66,7 +65,7 @@ export default function Sidebar() {
                     </Accordion.Header>
                     <Accordion.Body>
                     <ul className="nav flex-column child">
-                        <li className={`nav-item ${router.asPath == "/organizer-dashboard/organizer-approved" ? "active" : ""}`}>
+                        <li className={`nav-item ${router.asPath == "/organizer-dashboard" ? "active" : ""}`}>
                             <IoSettingsOutline /> <Link href="/organizer-dashboard" className="nav-link"><a>Organizer Settings</a></Link>
                         </li>
                         <li className={`nav-item ${router.asPath == "/organizer-dashboard/create-event" ? "active" : ""}`}>

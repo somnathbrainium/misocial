@@ -34,7 +34,7 @@ function EventHeader() {
       </div>
       <div className="other-part evnFlex">
         <div className="evntbeforelog">
-          <Link href="../../dashboard/my-shortlist">
+          <Link href="/eventsList">
             <a className="login">Shortlist</a>
           </Link>
           <Link href="/signup-step1">

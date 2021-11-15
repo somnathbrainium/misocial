@@ -52,11 +52,9 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                <Link href="/previewEvent">
-                                    <Nav.Link eventKey="preview" type="button">
+                                    <Nav.Link href="/previewEvent" eventKey="preview" type="button">
                                         Preview
                                     </Nav.Link>
-                                </Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -72,13 +70,13 @@ export default function AllEventsForm() {
                                 <Nav.Link eventKey="Transactions">Transactions</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="sendemail">Send Email</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/send-emails" eventKey="sendemail">Send Email</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="viewemails">View Emails</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/view-emails" eventKey="viewemails">View Emails</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="viewattendees">View Attendees</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/view-attendees" eventKey="viewattendees">View Attendees</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="download-attendees" onClick={handleShow}>Download Attendees</Nav.Link>
@@ -158,11 +156,9 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                <Link href="/previewEvent">
-                                    <Nav.Link eventKey="preview" type="button">
+                                    <Nav.Link href="/previewEvent" eventKey="preview" type="button">
                                         Preview
                                     </Nav.Link>
-                                </Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -178,13 +174,13 @@ export default function AllEventsForm() {
                                 <Nav.Link eventKey="Transactions">Transactions</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="sendemail">Send Email</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/send-emails" eventKey="sendemail">Send Email</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="viewemails">View Emails</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/view-emails" eventKey="viewemails">View Emails</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="viewattendees">View Attendees</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/view-attendees" eventKey="viewattendees">View Attendees</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="download-attendees" onClick={handleShow}>Download Attendees</Nav.Link>
@@ -262,11 +258,9 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                <Link href="/previewEvent">
-                                    <Nav.Link eventKey="preview" type="button">
+                                    <Nav.Link href="/previewEvent" eventKey="preview" type="button">
                                         Preview
                                     </Nav.Link>
-                                </Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -282,13 +276,13 @@ export default function AllEventsForm() {
                                 <Nav.Link eventKey="Transactions">Transactions</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="sendemail">Send Email</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/send-emails" eventKey="sendemail">Send Email</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="viewemails">View Emails</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/view-emails" eventKey="viewemails">View Emails</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="viewattendees">View Attendees</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/view-attendees" eventKey="viewattendees">View Attendees</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="download-attendees" onClick={handleShow}>Download Attendees</Nav.Link>
@@ -331,11 +325,9 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                <Link href="/previewEvent">
-                                    <Nav.Link eventKey="preview" type="button">
+                                    <Nav.Link href="/previewEvent" eventKey="preview" type="button">
                                         Preview
                                     </Nav.Link>
-                                </Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -351,13 +343,13 @@ export default function AllEventsForm() {
                                 <Nav.Link eventKey="Transactions">Transactions</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="sendemail">Send Email</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/send-emails" eventKey="sendemail">Send Email</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="viewemails">View Emails</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/view-emails" eventKey="viewemails">View Emails</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="viewattendees">View Attendees</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/view-attendees" eventKey="viewattendees">View Attendees</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="download-attendees" onClick={handleShow}>Download Attendees</Nav.Link>
@@ -400,11 +392,9 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                <Link href="/previewEvent">
-                                    <Nav.Link eventKey="preview" type="button">
+                                    <Nav.Link href="/previewEvent" eventKey="preview" type="button">
                                         Preview
                                     </Nav.Link>
-                                </Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -420,13 +410,13 @@ export default function AllEventsForm() {
                                 <Nav.Link eventKey="Transactions">Transactions</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="sendemail">Send Email</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/send-emails" eventKey="sendemail">Send Email</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="viewemails">View Emails</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/view-emails" eventKey="viewemails">View Emails</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="viewattendees">View Attendees</Nav.Link>
+                                <Nav.Link href="/organizer-dashboard/view-attendees" eventKey="viewattendees">View Attendees</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="download-attendees" onClick={handleShow}>Download Attendees</Nav.Link>
