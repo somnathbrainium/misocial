@@ -1,6 +1,7 @@
 import Sidebar_D from "./Sidebar_D";
 import Footer from '../../Layouts/Footer'
 import DashboardBanner_C from "./DashboardBanner_C";
+import DashboardBanner_afterlogin from "./DashboardBanner_afterlogin";
 import { RiMenu2Fill } from "react-icons/ri";
 import { useState } from "react";
 
@@ -13,7 +14,7 @@ export default function DashboardLayout({ children }) {
 
     return (
         <>
-            <DashboardBanner_C />
+            <DashboardBanner_afterlogin />
             <div className="dashboard-layout">
 
                 <div className="container">

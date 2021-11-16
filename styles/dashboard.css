@@ -89,11 +89,11 @@
 
 .my-profile-wrapper .stepfrm-inner .date-year{ width: 190px;}
 .form-class .form-label.section-name{ color: var(--light-black); 
-    font-size: 42px; font-family: var(--abril);
+    font-size: 34px; font-family: var(--abril);
 }
 .form-class .membership-wr{  justify-content: flex-start; }
 .save-cancel-action{ display: flex; align-items: center; margin-top: 20px; padding-bottom: 20px; }
-.save-cancel-action .nav-pills .nav-item{ margin: 0 16px 0 0;}
+.save-cancel-action .nav-pills .nav-item{ margin: 0 16px 10px 0;}
 .save-cancel-action .nav-pills .nav-link{ 
     border-radius: 0;
     width: auto;
@@ -173,7 +173,7 @@ margin: 16px 0 0 0;}
   color: var(--label-color); font-size: 18px; font-family: var(--montserrat);
   font-weight: 500; margin-bottom: 10px; display: flex; align-items: flex-start;
  }
-.myevents-list .content-inner .content-part .sub-title svg{ width: 24px; height: 24px;}
+.myevents-list .content-inner .content-part .sub-title svg{ width: 24px; height: 24px; margin-right:8px;}
 .myevents-list .content-inner .content-part .capitalized{ text-transform: uppercase;}
 
 .myevents-list .inner-form-part{ margin-top: 20px}

@@ -52,7 +52,7 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                    <Nav.Link href="/previewEvent" eventKey="preview" type="button">
+                                    <Nav.Link href="/organizer-dashboard/Preview_event_afterlogin" eventKey="preview" type="button">
                                         Preview
                                     </Nav.Link>
                             </Nav.Item>
@@ -156,7 +156,7 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                    <Nav.Link href="/previewEvent" eventKey="preview" type="button">
+                                    <Nav.Link href="/organizer-dashboard/Preview_event_afterlogin" eventKey="preview" type="button">
                                         Preview
                                     </Nav.Link>
                             </Nav.Item>
@@ -258,7 +258,7 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                    <Nav.Link href="/previewEvent" eventKey="preview" type="button">
+                                    <Nav.Link href="/organizer-dashboard/Preview_event_afterlogin" eventKey="preview" type="button">
                                         Preview
                                     </Nav.Link>
                             </Nav.Item>
@@ -325,7 +325,7 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                    <Nav.Link href="/previewEvent" eventKey="preview" type="button">
+                                    <Nav.Link href="/organizer-dashboard/Preview_event_afterlogin" eventKey="preview" type="button">
                                         Preview
                                     </Nav.Link>
                             </Nav.Item>
@@ -392,7 +392,7 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                    <Nav.Link href="/previewEvent" eventKey="preview" type="button">
+                                    <Nav.Link href="/organizer-dashboard/Preview_event_afterlogin" eventKey="preview" type="button">
                                         Preview
                                     </Nav.Link>
                             </Nav.Item>

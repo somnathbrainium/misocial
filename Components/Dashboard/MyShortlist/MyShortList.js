@@ -3,6 +3,7 @@ import { BiCalendar, BiPlus } from "react-icons/bi";
 import { IoLocationOutline } from "react-icons/io5";
 import myeventImage from '../../../public/images/myeventImage.jpg';
 import shortlistIcon from '../../../public/images/shortlistIcon.png';
+import Link from 'next/link';
 
 
 export default function MyShortList() {
@@ -24,9 +25,11 @@ export default function MyShortList() {
                         <div className="sub-title">
                             <IoLocationOutline /> Australia, AU, Aplus club</div>
                         <div className="save-cancel-action msBtn">
-                            <button className="btn btn-view-event">
-                                View
-                            </button>
+                            <Link href="/event-details-post-login">
+                                <button className="btn btn-view-event">
+                                    View
+                                </button>
+                            </Link>
                             <button className="btn btn-short">
                                 <Image
                                     src={shortlistIcon}
@@ -54,9 +57,11 @@ export default function MyShortList() {
                         <div className="sub-title">
                             <IoLocationOutline /> Australia, AU, Aplus club</div>
                         <div className="save-cancel-action msBtn">
-                            <button className="btn btn-view-event">
-                                View
-                            </button>
+                            <Link href="/event-details-post-login">
+                                <button className="btn btn-view-event">
+                                    View
+                                </button>
+                            </Link>
                             <button className="btn btn-short">
                                 <Image
                                     src={shortlistIcon}
@@ -84,9 +89,11 @@ export default function MyShortList() {
                         <div className="sub-title">
                             <IoLocationOutline /> Australia, AU, Aplus club</div>
                         <div className="save-cancel-action msBtn">
-                            <button className="btn btn-view-event">
-                                View
-                            </button>
+                            <Link href="/event-details-post-login">
+                                <button className="btn btn-view-event">
+                                    View
+                                </button>
+                            </Link>
                             <button className="btn btn-short">
                                 <Image
                                     src={shortlistIcon}
@@ -114,9 +121,11 @@ export default function MyShortList() {
                         <div className="sub-title">
                             <IoLocationOutline /> Australia, AU, Aplus club</div>
                         <div className="save-cancel-action msBtn">
-                            <button className="btn btn-view-event">
-                                View
-                            </button>
+                            <Link href="/event-details-post-login">
+                                <button className="btn btn-view-event">
+                                    View
+                                </button>
+                            </Link>
                             <button className="btn btn-short">
                                 <Image
                                     src={shortlistIcon}
@@ -144,9 +153,11 @@ export default function MyShortList() {
                         <div className="sub-title">
                             <IoLocationOutline /> Australia, AU, Aplus club</div>
                         <div className="save-cancel-action msBtn">
-                            <button className="btn btn-view-event">
-                                View
-                            </button>
+                            <Link href="/event-details-post-login">
+                                <button className="btn btn-view-event">
+                                    View
+                                </button>
+                            </Link>
                             <button className="btn btn-short">
                                 <Image
                                     src={shortlistIcon}

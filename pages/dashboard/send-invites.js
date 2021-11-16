@@ -1,5 +1,6 @@
 import Head from "next/head"
-import DashboardLayout from "../../Components/Dashboard/DashboardLayout"
+import DashboardLayout from "../../Components/Dashboard/DashboardLayout";
+import DashboardLayout_afterlogin from "../../Components/Dashboard/DashboardLayout_afterlogin";
 import InvitesHeader from "../../Components/Dashboard/SendInvites/InvitesHeader"
 import SendInvitesForm from "../../Components/Dashboard/SendInvites/SendInvitesForm"
 
@@ -17,4 +18,4 @@ export default function sendInvites() {
     )
 }
 
-sendInvites.Layout = DashboardLayout
+sendInvites.Layout = DashboardLayout_afterlogin
