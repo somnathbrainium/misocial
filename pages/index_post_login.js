@@ -9,6 +9,7 @@ import MiSocial from '../Components/Home/MiSocial';
 import EventOrganizer from '../Components/Home/EventOrganizer';
 import FooterBanner from '../Components/Home/FooterBanner';
 import Footer  from '../Layouts/Footer';
+import Banner_afterlogin from '../Components/Home/Banner_afterlogin';
 
 export default function IndexB() {
   return (
@@ -19,7 +20,8 @@ export default function IndexB() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-       <Banner_B/>
+       {/* <Banner_B/> */}
+       <Banner_afterlogin/>
        <Concept/>
        <HowItWorks/>
        <Events/>

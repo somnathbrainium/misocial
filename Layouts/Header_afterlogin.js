@@ -10,8 +10,7 @@ import { AiFillInstagram } from 'react-icons/ai';
 import { GrFormClose } from 'react-icons/gr';
 
 
-function EventHeader() {
-    // const router = useRouter();
+function Header_B() {
 
   const [show, setShow] = useState(false);
   const handleClick = () => {
@@ -21,9 +20,9 @@ function EventHeader() {
     setShow(false);
   }
   return (
-    <div className="header-wraapper evntHd">
+    <div className="header-wraapper">
       <div className="logo-part">
-        <Link href="/">
+        <Link href="/index_post_login">
           <a>
             <Image
               src={logo}
@@ -32,25 +31,17 @@ function EventHeader() {
           </a>
         </Link>
       </div>
-      <div className="other-part evnFlex">
-        <div className="evntbeforelog">
-          <Link href="/shortList">
-            <a className="login">Shortlist</a>
-          </Link>
-          <Link href="/signup-step1">
-            <a className="login">Join Now</a>
-          </Link>
-          <Link href="/login">
-            <a className="login">Login</a>
-          </Link>
-        </div>
-        {/* <div className="profile">
+      <div className="other-part">
+        {/* <Link href="/login">
+          <a className="login">Login</a>
+        </Link> */}
+        <div className="profile">
           <Image src={loggedinImage}
             alt="loggedinImage" className="profile-image"
           />
 
           <p className="name">John</p>
-        </div> */}
+        </div>
 
         <Image src={hambergerIcon} onClick={() => handleClick()}
           className="hamberger-icon" alt="hamberger icon" />
@@ -61,40 +52,30 @@ function EventHeader() {
         <GrFormClose className="closeIcon" onClick={() => handleClose()} />
         <ul className="nav">
           <li className="nav-item">
-            <Link href="/">
+            <Link href="/index_post_login">
               <a className="nav-link">Home</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/events">
+            <Link href="/Events_post_login">
               <a className="nav-link">Events</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/shortList">
+            <Link href="/dashboard/my-shortlist">
               <a className="nav-link">Shortlist</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/#becomeorg">
-              <a className="nav-link">Become an Event Organizer</a>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="/signup-step1">
-              <a href="#" className="nav-link">Join Now</a>
+            <Link href="/dashboard/my-profile">
+              <a className="nav-link">My Dashboard</a>
             </Link>
           </li>
           <li className="nav-item">
             <Link href="/login">
-              <a className="nav-link">Log In</a>
+              <a className="nav-link">Log Out</a>
             </Link>
           </li>
-          {/* <li className="nav-item">
-            <Link href="/dashboard/my-profile">
-              <a className="nav-link">Dashboard</a>
-            </Link>
-          </li> */}
         </ul>
         <div className="trms">
           <Link href="/terms-and-conditions_B">
@@ -104,7 +85,8 @@ function EventHeader() {
             <a className="tc-link"> Privacy</a>
           </Link>
 
-        </div>        
+        </div>
+        <br/>
         <div className="social-media">
           <Link href="#" >
             <a className="social-icon">
@@ -139,4 +121,4 @@ function EventHeader() {
 
 
 
-export default EventHeader;
+export default Header_B;

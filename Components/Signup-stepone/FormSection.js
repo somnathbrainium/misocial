@@ -49,7 +49,7 @@ export default function FormSection() {
 
                             </a>
                         </label>
-                        <p className="text"> I have read and agree to the <span>Terms & Conditions <span className="normFont">and</span> Privacy Policy</span></p>
+                        <p className="text"> I have read and agree to the <span><Link href="/terms-and-conditions">Terms & Conditions</Link> <span className="normFont">and</span> <Link href="/privacy-policy">Privacy Policy</Link></span></p>
                     </div>
                     <div className="form-values">
                         <label className="toggleSwitch" >
@@ -88,7 +88,7 @@ export default function FormSection() {
                             {/* <Modal.Title>Password updated</Modal.Title> */}
                             <p>Open the email we just sent you and confirm your email. You may need to check your spam folder and ensure emails from <strong>no-reply@misocial.net</strong> are not blocked. 
                             <br/><br/>We look forward to seeing you soon! </p>
-                            <button className="btn btn-next" type="button">Click Here To Return To Our Home Page</button>
+                            <Link href="/"><button className="btn btn-next" type="button">Click Here To Return To Our Home Page</button></Link>
                         </div>
                     </div>
                 </Modal.Body>

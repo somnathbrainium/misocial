@@ -77,9 +77,10 @@ export default function Sidebar() {
 
                         </li>
                         <ul className="nav flex-column child child-of-child">
-                            <li className={`nav-item ${router.asPath == "/organizer-dashboard/all-events" ? "active" : ""}`}>
+                            {/* <li className={`nav-item ${router.asPath == "/organizer-dashboard/all-events" ? "active" : ""}`}>
                                 <Link className="nav-link" href="/organizer-dashboard/all-events">All Events</Link>
-                            </li>
+                            </li> */}
+
                             {/* <li className={`nav-item ${router.asPath == "/organizer-dashboard/view-attendees" ? "active" : ""}`}>
                                 <Link className="nav-link" href="/organizer-dashboard/view-attendees">View Attendees</Link>
                             </li>
@@ -98,12 +99,13 @@ export default function Sidebar() {
                             <li className="nav-item">
                                 <Link className="nav-link" href="/">Cancelled & Unpublished</Link>
                             </li> */}
-                            <li className={`nav-item ${router.asPath == "/organizer-dashboard/send-emails" ? "active" : ""}`}>
+
+                            {/* <li className={`nav-item ${router.asPath == "/organizer-dashboard/send-emails" ? "active" : ""}`}>
                                 <Link className="nav-link" href="/organizer-dashboard/send-emails">Send Emails</Link>
                             </li>
                             <li className={`nav-item ${router.asPath == "/organizer-dashboard/view-emails" ? "active" : ""}`}>
                                 <Link className="nav-link" href="/organizer-dashboard/view-emails">View Emails</Link>
-                            </li>
+                            </li> */}
                         </ul>
                         <li className={`nav-item ${router.asPath == "/organizer-dashboard/view-transactions" ? "active" : ""}`}>
                             <Image className="icon-image"

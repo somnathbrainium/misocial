@@ -62,12 +62,12 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="#">
+            <Link href="/shortList">
               <a className="nav-link">Shortlist</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="#becomeorg">
+            <Link href="/#becomeorg">
               <a className="nav-link">Become an Event Organizer</a>
             </Link>
           </li>

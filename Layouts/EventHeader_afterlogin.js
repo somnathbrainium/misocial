@@ -23,7 +23,7 @@ function EventHeader_afterlogin() {
   return (
     <div className="header-wraapper">
       <div className="logo-part">
-        <Link href="/">
+        <Link href="/index_post_login">
           <a>
             <Image
               src={logo}
@@ -53,12 +53,12 @@ function EventHeader_afterlogin() {
         <GrFormClose className="closeIcon" onClick={() => handleClose()} />
         <ul className="nav">
           <li className="nav-item">
-            <Link href="/">
+            <Link href="/index_post_login">
               <a className="nav-link">Home</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/events_B">
+            <Link href="/Events_post_login">
               <a className="nav-link">Events</a>
             </Link>
           </li>
@@ -68,7 +68,7 @@ function EventHeader_afterlogin() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="#">
+            <Link href="/dashboard/my-profile">
               <a className="nav-link">My Dashboard</a>
             </Link>
           </li>

@@ -37,7 +37,7 @@ export default function EventSearchResult_C() {
                             <div className="action-section">
                                 <a href="/event-details-B" className="aBtnnew">View Event</a>
                                 
-                                <Link href="/dashboard/my-shortlist">
+                                <Link href="/shortList">
                                 <button className="btn btn-short">
                                 <Image
                                     src={shortlistIcon}

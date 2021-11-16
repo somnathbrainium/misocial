@@ -36,7 +36,7 @@ export default function EventSearchResult() {
                             <div className="action-section">
                                 <a href="/event-details" className="aBtnnew">View Event</a>
                                 
-                                <Link href="/eventsList">
+                                <Link href="/shortList">
                                 <button className="btn btn-short">
                                  <GoPlus /> Short List
                                 </button>
@@ -71,7 +71,7 @@ export default function EventSearchResult() {
                                     View Event
                                 </button>
 
-                                <Link href="/eventsList">
+                                <Link href="/shortList">
                                 <button className="btn btn-short">
                                     <GoPlus /> Short List
                                 </button>
@@ -106,7 +106,7 @@ export default function EventSearchResult() {
                                     View Event
                                 </button>
 
-                                <Link href="/eventsList">
+                                <Link href="/shortList">
                                 <button className="btn btn-short">
                                     <GoPlus /> Short List
                                 </button>
@@ -140,7 +140,7 @@ export default function EventSearchResult() {
                                 <button className="btn btn-view-event">
                                     View Event
                                 </button>
-                                <Link href="/eventsList">
+                                <Link href="/shortList">
                                 <button className="btn btn-short">
                                     <GoPlus /> Short List
                                 </button>

@@ -34,7 +34,7 @@ export default function EventSearchResult_B() {
                                 Australia, AU, Aplus club</div>
 
                             <div className="action-section">
-                                <a href="/event-details-B" className="aBtnnew">View Event</a>
+                                <a href="/event-details-post-login" className="aBtnnew">View Event</a>
                                 
                                 <Link href="/dashboard/my-shortlist">
                                 <button className="btn btn-short">
@@ -67,9 +67,7 @@ export default function EventSearchResult_B() {
                                 Australia, AU, Aplus club</div>
 
                             <div className="action-section">
-                                <button className="btn btn-view-event">
-                                    View Event
-                                </button>
+                            <a href="/event-details-post-login" className="aBtnnew">View Event</a>
 
                                 <Link href="/dashboard/my-shortlist">
                                 <button className="btn btn-short">
@@ -102,9 +100,7 @@ export default function EventSearchResult_B() {
                                 Australia, AU, Aplus club</div>
 
                             <div className="action-section">
-                                <button className="btn btn-view-event">
-                                    View Event
-                                </button>
+                            <a href="/event-details-post-login" className="aBtnnew">View Event</a>
 
                                 <Link href="/dashboard/my-shortlist">
                                 <button className="btn btn-short">
@@ -137,9 +133,7 @@ export default function EventSearchResult_B() {
                                 Australia, AU, Aplus club</div>
 
                             <div className="action-section">
-                                <button className="btn btn-view-event">
-                                    View Event
-                                </button>
+                            <a href="/event-details-post-login" className="aBtnnew">View Event</a>
 
                                 <Link href="/dashboard/my-shortlist">
                                 <button className="btn btn-short">
