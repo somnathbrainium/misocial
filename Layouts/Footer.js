@@ -73,7 +73,7 @@ export default function Footer() {
                             </Col>
                         </Row>
                     </Col>
-                    <Col md={3} sm={3}>
+                    <Col md={3} sm={3} className="contactinfo">
                         <h6 className="link-head">Contact us</h6>
                         <Form className="d-flex search-box">
                             <FormControl

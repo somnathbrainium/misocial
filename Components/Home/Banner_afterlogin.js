@@ -21,14 +21,14 @@ export const Banner_afterlogin = () => {
             <h2> The Events Platform <br /> That Connects </h2>
             <p>
               Professionals & Entrepreneurs through Live Experiences  <br />
-              And<br />
-              An Event Organizer&apos;s  Passion For Events With Members
+              And <br />
+               An Event Organizer&apos;s  Passion For Events With Members
             </p>
 
             <Form className="d-flex search-box">
               <FormControl
                 type="search"
-                placeholder="Enter Your Email Id"
+                placeholder="Enter Your Email"
                 className="mr-2"
                 aria-label="Search"
               />

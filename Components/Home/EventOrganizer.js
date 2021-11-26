@@ -26,7 +26,7 @@ export default function EventOrganizer() {
                             <Form className="d-flex search-box">
                                 <FormControl
                                     type="search"
-                                    placeholder="Enter Your Email Id"
+                                    placeholder="Enter Your Email "
                                     className="mr-2"
                                     aria-label="Search"
                                 />
