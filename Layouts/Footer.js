@@ -13,18 +13,18 @@ export default function Footer() {
         <div className="footer-wrapper">
             <div className="container">
                 <Row>
-                    <Col md={9} sm={9}>
+                    <Col md={12} sm={12}>
 
-                        <Row className="footerGap">
-                            <Col md={3} sm={3}>
+                        <div className="footerGap">
+                            <div className="footerinfo footerlogo">
                                 <div className="f-logo">
                                     <Image
                                         src={logo}
                                         alt="logo"
                                     />
                                 </div>
-                            </Col>
-                            <Col md={4} sm={4}>
+                            </div>
+                            <div className="footerinfo">
                                 <h6 className="link-head">About</h6>
                                 <ul className="nav">
                                     <li className="nav-item">
@@ -43,8 +43,8 @@ export default function Footer() {
                                         <a href="#">Advertise with us </a>
                                     </li>
                                 </ul>
-                            </Col>
-                            <Col md={3} sm={3}>
+                            </div>
+                            <div className="footerinfo">
                                 <h6 className="link-head">Explore</h6>
                                 <ul className="nav">
                                     <li className="nav-item">
@@ -58,8 +58,8 @@ export default function Footer() {
                                     </li>
 
                                 </ul>
-                            </Col>
-                            <Col md={2} sm={2}>
+                            </div>
+                            <div className="footerinfo">
                                 <h6 className="link-head">Legal</h6>
                                 <ul className="nav">
                                     <li className="nav-item">
@@ -70,10 +70,28 @@ export default function Footer() {
                                     </li>
 
                                 </ul>
-                            </Col>
-                        </Row>
+                            </div>
+
+                            <div className="footerinfo footerfromsection">
+                                    <h6 className="link-head">Contact us</h6>
+                                    <Form className="d-flex search-box">
+                                        <FormControl
+                                            type="search"
+                                            placeholder="info@misocial.com"
+                                            className="mr-2"
+                                            aria-label="Search"
+                                        />
+                                        <button className="btn btn-join-now">
+                                            <Image
+                                                src={sendIcon}
+                                                alt="sendIcon"
+                                            />
+                                        </button>
+                                    </Form>
+                            </div>
+                        </div>
                     </Col>
-                    <Col md={3} sm={3} className="contactinfo">
+                    {/* <Col md={3} sm={3} className="contactinfo">
                         <h6 className="link-head">Contact us</h6>
                         <Form className="d-flex search-box">
                             <FormControl
@@ -89,7 +107,7 @@ export default function Footer() {
                                 />
                             </button>
                         </Form>
-                    </Col>
+                    </Col> */}
                 </Row>
                 <div className="footer-social">
                     <p className="copyright">

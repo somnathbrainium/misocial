@@ -51,7 +51,7 @@ export default function HowItWorks() {
                             </div>
                         </div>
                     </div>
-                    <Form className="d-flex search-box">
+                    {/* <Form className="d-flex search-box">
                         <FormControl
                             type="search"
                             placeholder="Enter Your Email "
@@ -59,7 +59,12 @@ export default function HowItWorks() {
                             aria-label="Search"
                         />
                         <button className="btn btn-join-now" onClick={handleShow} type="button">Join Now</button>
-                    </Form>
+                    </Form> */}
+                    <div className="joinnow_btn">
+                         <button className="btn btn-join-now" onClick={handleShow} type="button">Join Now</button>
+                    </div>
+
+
                 </div>
             </div>
         </div>

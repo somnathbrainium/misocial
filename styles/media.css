@@ -48,7 +48,7 @@
         line-height: inherit;
     }
 	.concept-wrapper .concept-content p,.subtitle {
-		font-size:16px;
+		/* font-size:16px; */
 		margin-bottom:6px;
 	}
 	.footer-wrapper .link-head {
@@ -119,10 +119,25 @@
 	.mxWdthead {
 		max-width:100%;
 	}
+	.footer-wrapper .nav .nav-item a {
 
+		font-size: 14px;
+		
+	}
+	.footerinfo.footerlogo {
+		width: 130px;
+	}
+	.footerinfo.footerfromsection {
+		width: 240px;
+	}
 }
 
 @media (max-width:1080px) {
+	.subtitle {
+	
+		line-height: 23px;
+		
+	}
 	.footerGap.row .col-md-3, .footerGap.row .col-md-4, .footerGap.row .col-md-2 {
 		width: 22%;
 	}
@@ -147,6 +162,9 @@
 }
 
 @media (max-width:991px) {
+	body{
+		font-size: 14px;
+	}
 	.FooterBanner .content-box .nav-item {
 		margin: 4px 0;
 	}
@@ -159,7 +177,7 @@
 		line-height: 20px;
 	}
 	.concept-wrapper .concept-content h2, .title {
-		font-size: 24px;
+		font-size: 22px;
 	
 	}
 	.How-itworks-wrapper .numberBox .number-part {
@@ -244,6 +262,13 @@
 		width: 100%;
 		height: 100%;
 	} */
+
+	.footerGap {
+		flex-wrap: wrap;
+	}
+	.footerinfo.footerfromsection {
+		width: 100%;
+	}
 }
 @media (max-width:768px) {
 	.sifBtn {
@@ -305,8 +330,9 @@
 		/* line-height:40px; */
 	}
 	.concept-wrapper .concept-content p,.subtitle {
-		font-size:13px;
+		font-size:14px;
 		margin-bottom:8px;
+		line-height: 24px;
 	}
 	.search-box .btn-join-now {
 		min-width:150px;
@@ -371,7 +397,7 @@
 		font-size:20px;
 	}
 	.singleItem .content-wrap .content .time-date {
-		font-size:16px;
+		font-size:15px;
 		margin-bottom:15px;
 	}
 	.buy-ticket-wr .ticket-column .inner-head {
@@ -415,7 +441,9 @@
 		padding:30px 0;
 	}
 	.banner-container .banner-content-wrap p {
-		font-size:15px;
+		/* font-size:15px; */
+		font-size: 11px;
+		line-height: 20px;
 	}
 	.banner-container .banner-content-wrap h2 {
 		font-size:40px;
@@ -484,7 +512,7 @@
 		margin:6px 0;
 	}
 	.footer-wrapper .nav .nav-item a {
-		font-size:16px;
+		font-size:14px;
 	}
 	.footer-wrapper .link-head {
 		font-size:18px;
@@ -549,7 +577,7 @@
 		font-size:15px;
 	}
 	.singleItem .content-wrap .content .location {
-		font-size:18px;
+		font-size:15px;
 	}
 	.universal-event-search {
 		flex-direction:column;
@@ -579,7 +607,7 @@
 		margin-bottom:6px;
 	}
 	.search-box .btn-join-now {
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.singleItem .content-wrap .action-section .btn-view-event,.singleItem .content-wrap .action-section .btn-short {
 		min-width:inherit;
@@ -592,9 +620,9 @@
 	.page-title {
 		margin-bottom:20px;
 	}
-	.banner-container .banner-content-wrap p br {
+	/* .banner-container .banner-content-wrap p br {
 		display:none;
-	}
+	} */
 	.search-box {
 		margin-bottom:0;
 		padding:8px;
@@ -624,6 +652,10 @@
 	.stepfrm-inner .remember {
 		flex-direction: column;
 	}
+	.banner-container .banner-content-wrap p {
+		font-size: 10px;
+		line-height: 20px;
+	}
 }
 
 @media (max-width:1200px) {
@@ -635,6 +667,19 @@
 
 }
 @media (max-width:767px) {
+	.singleItem .content-wrap {
+		flex-wrap: wrap;
+		display: grid;
+	}
+	.menu-wrapper .nav .nav-link {
+		font-size: 15px;
+	}
+	.footer-wrapper .search-box .form-control {
+		font-size: 14px;
+	}
+	.how-works-inner p.subtitle {
+		font-size: 13px;
+	}
 	.event-content-wr {
 		padding: 40px 0 40px 0;
 	}
@@ -643,10 +688,10 @@
 	}
 	.order-summery-wrapper header {
 	
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.order-summery-wrapper .card-details .form-label {
-		font-size: 16px;
+		font-size: 15px;
 	}
 .buy-ticket-wr {
     margin-top: 17px;
@@ -672,11 +717,11 @@
 		
 	}
 	.singleItem .content-wrap .content .title-head {
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.pagination .page-item .page-link {
-		font-size: 14px !important;
-		padding: 2px 7px !important;
+		font-size: 13px !important;
+		padding: 2px 5px !important;
 	}
 	.header-wraapper .login {
 		padding: 6px 12px;
@@ -684,7 +729,7 @@
 		font-size: 14px;
 	}
 	.events-wrap .btn-reset {
-		font-size: 16px;
+		font-size: 15px;
 	}
 	/* .pagination .page-item .page-link {
 		font-size: 14px;
@@ -749,7 +794,7 @@
 		width: 100%;
 	}
 	.concept-wrapper .concept-content h2, .title {
-		font-size: 24px;
+		font-size: 22px;
 	
 	}
 	.search-box .form-control {
@@ -786,9 +831,10 @@
 	}
 	.concept-wrapper .concept-content p, .subtitle {
 		font-size: 14px;
+		line-height: 24px;
 	}
 	.footer-wrapper .nav .nav-item a {
-		font-size: 14px;
+		font-size: 13px;
 	}
 	.footer-wrapper .nav .nav-item {
 		margin: 1px 0;
@@ -813,7 +859,7 @@
 		padding-bottom: 20px;
 	}
 	.terms-privacy .sub-head-new {
-		font-size: 16px;
+		font-size: 15px;
 		
 	}
 	.event-content-wr .details-title {
@@ -821,6 +867,25 @@
 		padding-bottom: 0px;
 		margin: 0 0 12px;
 	}
-	
+	.event-wrapper .row , .why-misocial .row{
+		flex-direction: column-reverse;
+	}
+	.footer-social .copyright {
+		
+		font-size: 13px;
+	}
+	.footerGap {
+		flex-direction: column;
+	}
+	.FooterBanner .content-box {
+		padding: 15px 20px 15px 10px;
+	}
 }
 
+@media (max-width:360px) {
+
+	.banner-container .banner-content-wrap p {
+		font-size: 10px;
+		line-height: 20px;
+	}
+}

@@ -26,8 +26,8 @@ html,body {
 	margin:0;
 }
 body {
-    
-    /* font-size: 15px; */
+	font-family:var(--montserrat);
+    font-size: 15px;
 }
 
 a {
@@ -306,16 +306,40 @@ a {
 	border-radius:0;
 	color:#828181;
 	font-family:var(--montserrat);
-	font-weight:400;
-	font-size:16px;
+	font-weight:500;
+	font-size:15px;
 	padding:10px 15px;
 	margin:0;
 }
+.joinnow_btn {
+    text-align: center;
+}
+.joinnow_btn .btn-join-now {
+	background:var(--button-bg);
+	font-family:var(--montserrat);
+	font-size:15px;
+	line-height:26px;
+	font-weight: 500;
+	color:var(--button-text);
+	padding:5px 25px;
+	border-radius:0;
+	min-width:208px;
+	font-weight:500;
+	transition: all 0.3s ease;
+
+}
+.joinnow_btn .btn-join-now:hover {
+    background: #645f46;
+	color:#fff;
+}
+
+
 .search-box .btn-join-now {
 	background:var(--button-bg);
 	font-family:var(--montserrat);
-	font-size:16px;
+	font-size:15px;
 	line-height:26px;
+	font-weight: 500;
 	color:var(--button-text);
 	padding:5px 25px;
 	border-radius:0;
@@ -366,10 +390,11 @@ a {
 }
 .concept-wrapper .concept-content p {
 	font-family:var(--montserrat);
-	font-size:17px;
-	line-height:29px;
-	color:#424242;
-	font-weight:500;
+	font-size: 15px;
+    line-height: 28px;
+    color: #424242;
+    font-weight: 500;
+    font-style: normal;
 }
 .seBold label {
 	font-weight:500;
@@ -520,7 +545,7 @@ a {
 	font-weight:400;
 }
 .How-itworks-wrapper p.subtitle {
-	font-size:18px;
+	/* font-size:18px; */
 	padding-top:6px;
 }
 .How-itworks-wrapper .how-works-inner {
@@ -588,20 +613,28 @@ a {
 .How-itworks-wrapper .item-content h6 {
 	font-family:var(--montserrat);
 	font-size:28px;
-	padding-top:14px;
+	padding-top:14px;   
 	color:var(--light-black);
 	/* line-height:55px; */
 	font-weight:400;
 	margin:0;
-  line-height: inherit;
+  line-height: inherit; 
   padding-bottom: 5px;
 }
 .How-itworks-wrapper .item-content p {
 	margin:0;
 	font-family:var(--montserrat);
-	font-size:16px;
-	color:#424242;
-	line-height:24px;
+	font-size: 15px;
+    line-height: inherit;
+    color: #424242;
+    font-weight: 500;
+    font-style: normal;
+}
+
+form.d-flex.search-box {
+	/* width: 80%; */
+    margin: 0px auto;
+    max-width: 878px;
 }
 .title {
 	color:var(--light-black);
@@ -612,9 +645,12 @@ a {
 	padding-bottom: 5px;
 }
 .subtitle {
-	color:#424242;
-	font-size:17px;
-	font-weight:500;
+	font-family: var(--montserrat);
+	font-size: 15px;
+    line-height: 28px;
+    color: #424242;
+    font-weight: 500;
+    font-style: normal;
 }   
 .subtitle span {
 	display:block;
@@ -711,7 +747,7 @@ a {
 	align-items:flex-start;
 	color:#fff;
 	font-family:var(--montserrat);
-	font-size:18px;
+	font-size:17px;
 }
 .FooterBanner .content-box .nav-item svg {
 	min-width: 20px;
@@ -813,7 +849,7 @@ a {
 	flex-direction:column;
 }
 .footerGap {
-	padding-right:12px;
+	/* padding-right:12px; */
 }
 .signup-one-banner {
 	background:url('../public/images/signup1-banner.jpg') no-repeat center center;
@@ -858,13 +894,13 @@ a {
 }
 .stepfrm-inner .form-label {
 	color:var(--label-color);
-	font-size:16px;
+	font-size:15px;
 	font-family:var(--montserrat);
 	font-weight:500;
 }
 .stepfrm-inner .form-control {
 	color:var(--label-color);
-	font-size:16px;
+	font-size:15px;
 	font-family:var(--montserrat);
 	height:58px;
 	border-radius:0;
@@ -1098,7 +1134,7 @@ a {
 .singleItem .content-wrap .content .time-date {
 	color:var(--label-color);
 	/* font-size:20px; */
-	font-size:16px;
+	font-size:15px;
 	font-family:var(--montserrat);
 	font-weight:500;
 	/* margin-bottom:25px; */
@@ -1110,7 +1146,7 @@ a {
 .singleItem .content-wrap .content .location {
 	color:var(--para-light);
 	/* font-size:20px; */
-	font-size:16px;
+	font-size:15px;
 	font-weight:500;
 	font-family:var(--montserrat);
 }
@@ -1141,7 +1177,7 @@ a {
 .pagination .page-item .page-link {
 	font-family:var(--montserrat);
 	/* font-size:20px; */
-	font-size:16px;
+	font-size:15px;
 	color:#787878;
 	font-family:var(--montserrat);
 	font-weight:500;
@@ -1153,12 +1189,15 @@ a {
 	background:var(--light-black);
 	color:var(--white);
 }
+label.date.mt-3 {
+    margin: 4px 0 0 !important;
+}
 .event-content-wr {
 	padding:50px 0 40px 0;
 }
 .event-content-wr .details-title {
 	color:var(--light-black);
-	font-size:45px;
+	font-size:40px;
 	font-weight:700;
 	margin-bottom:25px;
 }
@@ -1212,7 +1251,7 @@ a {
 }
 .buy-ticket-wr .tkt-title {
 	color:var(--label-color);
-	font-size:28px;
+	font-size:24px;
 	font-weight:600;
 	margin-bottom:15px;
 }
@@ -1226,7 +1265,7 @@ a {
 .buy-ticket-wr .ticket-column .inner-head {
 	font-family:var(--montserrat);
 	color:var(--label-color);
-	font-size:19px;
+	font-size:15px;
 	margin-bottom:10px;
 	font-weight:500;
 }
@@ -1306,7 +1345,7 @@ a {
 }
 .order-summery-wrapper .card-details .form-label {
 	color:var(--label-color);
-	font-size:18px;
+	font-size:15px;
 	font-weight:500;
 }
 .order-summery-wrapper .card-details .form-control {
@@ -1379,7 +1418,17 @@ a {
 .content-box-address .address-part .time-date .date,.content-box-address .address-part .time-date .time {
 	margin:0;
 	display:block;
-	font-weight:500;
+	font-weight:600;
+}
+
+.content-box-address label.date.mt-3 {
+    font-weight: 400 !important;
+}
+.content-box-address .address-part.d-block .time-date span {
+    font-weight: 600 ;
+}
+.time-date.evBold span {
+    font-weight: 400;
 }
 .content-box-address .address-part .btn-large {
 	width:85%;
@@ -1649,9 +1698,13 @@ a {
 .how-works-inner form.d-flex.search-box {
     display: none !important;
 }
-.venue-wrapper p {
-    line-height: inherit;
+
+.how-works-inner .subtitle{
+	font-weight: 600;	
 }
+/* .venue-wrapper p {
+    line-height: inherit;
+} */
 
 p{
 	line-height: inherit;
@@ -1718,3 +1771,17 @@ button.btn.btn-short div {
  
     font-size: 14px;
 } */
+
+
+.footerGap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-frame-inner .form-class .form-label {
+    font-size: 15px;
+}
+
+.layout-frame.headingopt .leftpannel {
+    opacity: 0;
+}
