@@ -67,7 +67,11 @@
     top: 2px;
     opacity: 0;
     font-family: var(--montserrat); font-weight: 600;
+<<<<<<< HEAD
 font-size: 13px;
+=======
+font-size: 16px;
+>>>>>>> origin/sushanta
   }
   .toggleSwitch a {
     position: absolute;

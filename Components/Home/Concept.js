@@ -7,6 +7,7 @@ function Concept() {
         <div className="concept-wrapper">
             <div className="container">
             <Row>
+<<<<<<< HEAD
                 <Col md={5} className="concImg modf ">
                     {/* <Image
                     src={conceptImage}
@@ -18,6 +19,15 @@ function Concept() {
                     </div>
                 </Col>
                   
+=======
+                <Col md={5} className="concImg">
+                    <Image
+                    src={conceptImage}
+                    alt="conceptImage"
+                    className="concept-image"
+                    />
+                </Col>
+>>>>>>> origin/sushanta
                 <Col md={7}>
                     <div className="concept-content">
                         <h2>The Concept</h2>

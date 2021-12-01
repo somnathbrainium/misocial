@@ -25,7 +25,11 @@ export const Banner_afterlogin = () => {
                An Event Organizer&apos;s  Passion For Events With Members
             </p>
 
+<<<<<<< HEAD
              {/* <Form className="d-flex search-box">
+=======
+            {/* <Form className="d-flex search-box">
+>>>>>>> origin/sushanta
               <FormControl
                 type="search"
                 placeholder="Enter Your Email"
@@ -33,7 +37,11 @@ export const Banner_afterlogin = () => {
                 aria-label="Search"
               />
               <button className="btn btn-join-now" onClick={handleShow} type="button">Join Now</button>
+<<<<<<< HEAD
             </Form>  */}
+=======
+            </Form> */}
+>>>>>>> origin/sushanta
 
           </div>
         </div>

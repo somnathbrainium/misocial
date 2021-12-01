@@ -62,6 +62,7 @@
 	color:var(--button-bg)!important;
 	font-weight:700!important;
 }
+<<<<<<< HEAD
 /* .sidebar .nav-item:hover a,.sidebar .nav-item:hover svg {
 	color:var(--button-bg)!important;
 	font-weight:700!important;
@@ -76,6 +77,12 @@ h2.accordion-header a {
 }
 .accordion-button {
     padding: 4px 1.25rem;
+=======
+.sidebar .nav .nav-item {
+	display:flex;
+	align-items:center;
+	margin:12px 0;
+>>>>>>> origin/sushanta
 }
 .sidebar .nav .nav-item svg {
 	width:22px;
@@ -84,7 +91,11 @@ h2.accordion-header a {
 .sidebar .nav .nav-item a {
 	margin-left:10px;
 	color:var(--label-color);
+<<<<<<< HEAD
 	font-size:16px;
+=======
+	font-size:18px;
+>>>>>>> origin/sushanta
 	font-family:var(--montserrat);
 	font-weight:500;
 }
@@ -96,7 +107,11 @@ h2.accordion-header a {
 }
 .sidebar .nav .divider {
 	border-top:1px solid #E3E3E3;
+<<<<<<< HEAD
 	margin:15px 0;
+=======
+	margin:30px 0;
+>>>>>>> origin/sushanta
 }
 .my-profile-wrapper .sign-nextstep-form {
 	margin:0;
@@ -312,7 +327,11 @@ h2.accordion-header a {
 	padding-bottom:26px;
 	color:var(--light-black);
 	font-family:var(--abril);
+<<<<<<< HEAD
 	font-size:28px;
+=======
+	font-size:42px;
+>>>>>>> origin/sushanta
 	border-bottom:1px solid #E4E4E4;
 	margin:0;
 	margin-bottom:30px;
@@ -1228,18 +1247,30 @@ h2.accordion-header a {
 	.right-panel .main-frame-inner {
 		padding:0 20px 20px;
 	}
+<<<<<<< HEAD
 	/* .sidebar .nav .nav-item a {
 		font-size:17px;
 	} */
+=======
+	.sidebar .nav .nav-item a {
+		font-size:17px;
+	}
+>>>>>>> origin/sushanta
 	.myevents-list .content-inner .content-part .m-header {
 		font-size:18px;
 	}
 	.myevents-list .content-inner .content-part .sub-title {
 		/* font-size:16px; */
 	}
+<<<<<<< HEAD
 	/* .right-panel .header {
 		font-size:28px;
 	} */
+=======
+	.right-panel .header {
+		font-size:28px;
+	}
+>>>>>>> origin/sushanta
 	.data-status-header .bottom-portion .event-name span {
 		font-size:14px;
 	}
@@ -1283,7 +1314,11 @@ h2.accordion-header a {
 		padding-left:280px;
 	}
 	.form-class .form-label.section-name {
+<<<<<<< HEAD
 		font-size:20px;
+=======
+		font-size:23px;
+>>>>>>> origin/sushanta
 	}
 	.plan-feature-wrap .nav-item {
 		font-size:18px;
@@ -1496,7 +1531,11 @@ h2.accordion-header a {
 		font-size:26px;
 	}
 	.right-panel .header {
+<<<<<<< HEAD
 		font-size:24px;
+=======
+		font-size:26px;
+>>>>>>> origin/sushanta
 		margin-bottom:15px;
 		line-height:inherit;
 	}
@@ -1504,7 +1543,11 @@ h2.accordion-header a {
 		margin-top:25px;
 	}
 	.form-class .form-label.section-name {
+<<<<<<< HEAD
 		font-size:20px;
+=======
+		font-size:24px;
+>>>>>>> origin/sushanta
 	}
 	.save-cancel-action .btn {
 		height:46px;
@@ -1526,12 +1569,15 @@ h2.accordion-header a {
 	.sendinvites-wrapper .check-radio-wrap .form-label {
 		margin-bottom:5px;
 	}
+<<<<<<< HEAD
 	.right-panel .header {
 		padding-bottom: 15px;
 	}
 	.main-frame-inner .form-class {
 		margin-top: 15px;
 	}
+=======
+>>>>>>> origin/sushanta
 }
 @media ( max-width:480px) {
 	.pagination .page-item .page-link {

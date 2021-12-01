@@ -141,14 +141,22 @@ a {
 	color:var(--button-text);
 	border:1px solid var(--button-bg);
 	font-weight:500;
+<<<<<<< HEAD
 	font-size:15px;
+=======
+	font-size:18px;
+>>>>>>> origin/sushanta
 	font-family:var(--montserrat);
 }
 .vsc-initialized .btn:focus,.vsc-initialized .form-control:focus {
 	box-shadow:none;
 }
 .top-banner {
+<<<<<<< HEAD
 	background:url('../public/images/home-banner.jpg') no-repeat top center;
+=======
+	background:url('../public/images/home-banner.jpg') no-repeat 0 center;
+>>>>>>> origin/sushanta
 	background-size:cover;
 	padding:45px 20px;
 	padding-bottom:100px;
@@ -369,7 +377,11 @@ a {
 	padding-top:40px;
 }
 .fortogPassbg .form-values .text {
+<<<<<<< HEAD
 	font-size:15px;
+=======
+	font-size:16px;
+>>>>>>> origin/sushanta
 	color:#3D3D3D;
 }
 .concept-wrapper {
@@ -377,14 +389,22 @@ a {
 	padding:97px 0 100px 0;
 }
 .concept-wrapper .concept-content {
+<<<<<<< HEAD
 	/* padding-left:70px; */
+=======
+	padding-left:70px;
+>>>>>>> origin/sushanta
 }
 .concImg {
 	padding-top:14px;
 }
 .concept-wrapper .concept-content h2 {
 	font-family:var(--abril);
+<<<<<<< HEAD
 	font-size:44px;
+=======
+	font-size:52px;
+>>>>>>> origin/sushanta
 	line-height:75px;
 	color:var(--light-black)
 }
@@ -551,6 +571,7 @@ a {
 .How-itworks-wrapper .how-works-inner {
 	padding:0 110px;
 }
+<<<<<<< HEAD
 .normalfont {
     font-weight: 500;
 }
@@ -563,6 +584,8 @@ p.subtitle {
 .mobfotopt{
 	display: none;
 }
+=======
+>>>>>>> origin/sushanta
 .How-itworks-wrapper .process-part {
 	background-image:linear-gradient(to right,#333 10%,rgba(255,255,255,0) 0%);
 	background-position:center 48px;
@@ -571,10 +594,17 @@ p.subtitle {
 }
 .How-itworks-wrapper .process-part .process-content {
 	display:flex;
+<<<<<<< HEAD
 	padding-bottom:0px;
 	justify-content:space-between;
 	/* margin-top:75px; */
   	margin-top:35px;
+=======
+	padding-bottom:42px;
+	justify-content:space-between;
+	/* margin-top:75px; */
+  	margin-top:40px;
+>>>>>>> origin/sushanta
 }
 /* .How-itworks-wrapper .numberBox{background: #E0DEDC;}*/
 .How-itworks-wrapper .numberBox .number-part {
@@ -624,11 +654,19 @@ p.subtitle {
 }
 .How-itworks-wrapper .item-content h6 {
 	font-family:var(--montserrat);
+<<<<<<< HEAD
 	font-size:18px;
 	padding-top:14px;   
 	color:var(--light-black);
 	/* line-height:55px; */
 	font-weight:600;
+=======
+	font-size:28px;
+	padding-top:14px;   
+	color:var(--light-black);
+	/* line-height:55px; */
+	font-weight:400;
+>>>>>>> origin/sushanta
 	margin:0;
   line-height: inherit; 
   padding-bottom: 5px;
@@ -636,15 +674,23 @@ p.subtitle {
 .How-itworks-wrapper .item-content p {
 	margin:0;
 	font-family:var(--montserrat);
+<<<<<<< HEAD
 	font-size: 13px;
+=======
+	font-size: 15px;
+>>>>>>> origin/sushanta
     line-height: inherit;
     color: #424242;
     font-weight: 500;
     font-style: normal;
 }
+<<<<<<< HEAD
 .joinnow_btn {
     margin-top: 25px;
 }
+=======
+
+>>>>>>> origin/sushanta
 form.d-flex.search-box {
 	/* width: 80%; */
     margin: 0px auto;
@@ -653,7 +699,11 @@ form.d-flex.search-box {
 .title {
 	color:var(--light-black);
 	font-family:var(--abril);
+<<<<<<< HEAD
 	font-size:44px;
+=======
+	font-size:45px;
+>>>>>>> origin/sushanta
 	line-height:inherit;
 	margin: 0px;
 	padding-bottom: 5px;
@@ -878,7 +928,11 @@ form.d-flex.search-box {
 .stepfrm-inner .header {
 	color:var(--light-black);
 	font-family:var(--abril);
+<<<<<<< HEAD
 	font-size:36px;
+=======
+	font-size:42px;
+>>>>>>> origin/sushanta
 	margin-bottom:30px;
 	line-height:75px;
 }
@@ -889,7 +943,11 @@ form.d-flex.search-box {
 }
 .stepfrm-inner .remember .forget-pass {
 	font-family:var(--montserrat);
+<<<<<<< HEAD
 	font-size:15px;
+=======
+	font-size:18px;
+>>>>>>> origin/sushanta
 	color:#897E46;
 	font-weight:600;
 }
@@ -943,7 +1001,11 @@ form.d-flex.search-box {
 .stepfrm-inner .captcha .cap-text {
 	font-family:var(--montserrat);
 	color:var(--black);
+<<<<<<< HEAD
 	font-size:15px;
+=======
+	font-size:16px;
+>>>>>>> origin/sushanta
 }
 .stepfrm-inner .captcha .cap-text label {
 	margin-left:10px;
@@ -953,9 +1015,14 @@ form.d-flex.search-box {
 	margin-top:16px;
 }
 .form-values .text {
+<<<<<<< HEAD
 	margin-left:0px;
 	margin-bottom:0;
 	/* margin-left:10px; */
+=======
+	margin-bottom:0;
+	margin-left:10px;
+>>>>>>> origin/sushanta
 	font-family:var(--montserrat);
 	font-weight:500;
 	color:var(--label-color);
@@ -967,7 +1034,11 @@ form.d-flex.search-box {
 	cursor:pointer;
 }
 .btn-next {
+<<<<<<< HEAD
 	font-size:15px;
+=======
+	font-size:18px;
+>>>>>>> origin/sushanta
 	border-radius:0;
 	font-family:var(--montserrat);
 	font-weight:500;
@@ -1005,7 +1076,11 @@ form.d-flex.search-box {
 .btn-reset {
 	padding:10px 0;
 	font-family:var(--montserrat);
+<<<<<<< HEAD
 	font-size:15px;
+=======
+	font-size:16px;
+>>>>>>> origin/sushanta
 	color:var(--light-blue);
 	font-weight:500;
 }
@@ -1076,7 +1151,11 @@ form.d-flex.search-box {
 	color:var(--light-black);
 	font-family:var(--montserrat);
 	font-weight:500;
+<<<<<<< HEAD
 	font-size:15;
+=======
+	font-size:20px;
+>>>>>>> origin/sushanta
 	/* margin-top:30px; */
 	margin-top:10px;
 	margin-bottom:20px;
@@ -1207,6 +1286,7 @@ form.d-flex.search-box {
 label.date.mt-3 {
     margin: 4px 0 0 !important;
 }
+<<<<<<< HEAD
 .details-cont-portion h2 {
     font-weight: 600;
 }
@@ -1215,12 +1295,18 @@ label.date.mt-3 {
 	height: auto;
   
 }
+=======
+>>>>>>> origin/sushanta
 .event-content-wr {
 	padding:50px 0 40px 0;
 }
 .event-content-wr .details-title {
 	color:var(--light-black);
+<<<<<<< HEAD
 	font-size:30px;
+=======
+	font-size:40px;
+>>>>>>> origin/sushanta
 	font-weight:700;
 	margin-bottom:25px;
 }
@@ -1515,9 +1601,15 @@ label.date.mt-3 {
 }
 .terms-privacy {
 	margin:50px 0;
+<<<<<<< HEAD
 } 
 .terms-privacy .terms-head {
 	font-size:36px;
+=======
+}
+.terms-privacy .terms-head {
+	font-size:45px;
+>>>>>>> origin/sushanta
 	padding-bottom:30px;
 	font-family:var(--abril);
 	color:var(--black);
@@ -1525,7 +1617,11 @@ label.date.mt-3 {
 .terms-privacy .sub-head {
 	margin-bottom:15px;
 	padding-top:15px;
+<<<<<<< HEAD
 	font-size:20px;
+=======
+	font-size:25px;
+>>>>>>> origin/sushanta
 	color:var(--light-black);
 	font-weight:600;
 	font-family:var(--montserrat);
@@ -1533,7 +1629,10 @@ label.date.mt-3 {
 .terms-privacy .texts {
 	margin-bottom:10px;
 	font-size:15px;
+<<<<<<< HEAD
 	line-height: 28px;
+=======
+>>>>>>> origin/sushanta
 	font-weight:500;
 	font-family:var(--montserrat);
 	color:#111111;
@@ -1564,7 +1663,11 @@ label.date.mt-3 {
 	border:none;
 }
 .formNextmodal p {
+<<<<<<< HEAD
 	font-size:15px;
+=======
+	font-size:17px;
+>>>>>>> origin/sushanta
 	line-height:24px;
 	font-weight:600;
 	color:#1F1F1F;
@@ -1573,7 +1676,11 @@ label.date.mt-3 {
 	padding:0 50px!important;
 }
 .forgetModal1 p {
+<<<<<<< HEAD
 	font-size:15px;
+=======
+	font-size:17px;
+>>>>>>> origin/sushanta
 	line-height:24px;
 	font-weight:600;
 	color:#1F1F1F;
@@ -1674,6 +1781,7 @@ label.date.mt-3 {
 }
 
 /*  */
+<<<<<<< HEAD
 .title {
     margin-top: 5px !important;
 }
@@ -1690,6 +1798,8 @@ label.date.mt-3 {
 
 
 
+=======
+>>>>>>> origin/sushanta
 .event-wrapper .row {
     justify-content: space-between;
 }
@@ -1824,6 +1934,7 @@ button.btn.btn-short div {
 
 .layout-frame.headingopt .leftpannel {
     opacity: 0;
+<<<<<<< HEAD
 }
 
 form.d-flex.search-box.modfromopt {
@@ -1842,4 +1953,6 @@ button.btn.btn-join-now.addbtnmodf {
 }
 .footerinfo_cont {
     padding: 13px 0 0 0;
+=======
+>>>>>>> origin/sushanta
 }

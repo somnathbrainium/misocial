@@ -34,7 +34,11 @@
 		padding:40px 0;
 	}
 	.concept-wrapper .concept-content {
+<<<<<<< HEAD
 		padding-left:0px;
+=======
+		padding-left:36px;
+>>>>>>> origin/sushanta
 	}
 	.title {
 		font-size:34px;
@@ -52,7 +56,11 @@
 		margin-bottom:6px;
 	}
 	.footer-wrapper .link-head {
+<<<<<<< HEAD
 		font-size:20px;
+=======
+		font-size:24px;
+>>>>>>> origin/sushanta
 		margin-bottom:16px;
 	}
 	.footer-wrapper .nav .nav-item {
@@ -80,8 +88,13 @@
 	.How-itworks-wrapper .item-content h6 {
 		/* font-size:22px; */
 		/* line-height:65px; */
+<<<<<<< HEAD
         /* font-size:20px; */
         /* list-style: inherit; */
+=======
+        font-size:20px;
+        list-style: inherit;
+>>>>>>> origin/sushanta
 	}
 	.How-itworks-wrapper .numberBox .number-part {
 		width:70px;
@@ -127,9 +140,15 @@
 	.footerinfo.footerlogo {
 		width: 130px;
 	}
+<<<<<<< HEAD
 	/* .footerinfo.footerfromsection {
 		width: 240px;
 	} */
+=======
+	.footerinfo.footerfromsection {
+		width: 240px;
+	}
+>>>>>>> origin/sushanta
 }
 
 @media (max-width:1080px) {
@@ -162,10 +181,13 @@
 }
 
 @media (max-width:991px) {
+<<<<<<< HEAD
 	.banner-container .banner-content-wrap p {
 		font-size: 18px;
 		line-height: 26px;
 	}
+=======
+>>>>>>> origin/sushanta
 	body{
 		font-size: 14px;
 	}
@@ -177,7 +199,11 @@
 	}
 	.How-itworks-wrapper .item-content p {
 		
+<<<<<<< HEAD
 		font-size: 13px;
+=======
+		font-size: 14px;
+>>>>>>> origin/sushanta
 		line-height: 20px;
 	}
 	.concept-wrapper .concept-content h2, .title {
@@ -197,7 +223,11 @@
 	}
 	/* .singleItem .content-wrap .action-section .btn-short{height: 58px;}*/
 	.banner-container .banner-content-wrap h2 {
+<<<<<<< HEAD
 		font-size:40px;
+=======
+		font-size:50px;
+>>>>>>> origin/sushanta
 	}
 	.search-box {
 		padding:20px;
@@ -236,6 +266,7 @@
 	}
 	.How-itworks-wrapper .item-content h6 {
 	
+<<<<<<< HEAD
 		font-size: 15px;
 	}
 /* 
@@ -252,6 +283,10 @@
 	
 
 
+=======
+		font-size: 18px;
+	}
+>>>>>>> origin/sushanta
 	.event-wrapper .col-sm-6 {
 		width: 50%;
 	}
@@ -282,6 +317,7 @@
 	} */
 
 	.footerGap {
+<<<<<<< HEAD
 		flex-wrap: wrap; 
 	}
 	/* .footerinfo.footerfromsection {
@@ -314,6 +350,15 @@
 	body{
 		font-size: 13px;
 	}
+=======
+		flex-wrap: wrap;
+	}
+	.footerinfo.footerfromsection {
+		width: 100%;
+	}
+}
+@media (max-width:768px) {
+>>>>>>> origin/sushanta
 	.sifBtn {
 		flex-wrap:nowrap;
 	}
@@ -387,13 +432,21 @@
 		padding:20px;
 	}
 	.FooterBanner .content-box .nav-item {
+<<<<<<< HEAD
 		font-size:13px;
+=======
+		font-size:14px;
+>>>>>>> origin/sushanta
 	}
 	.footer-wrapper {
 		padding:30px 0 20px 0;
 	}
 	.footer-wrapper .link-head {
+<<<<<<< HEAD
 		font-size:16px;
+=======
+		font-size:18px;
+>>>>>>> origin/sushanta
 	}
 	.footer-wrapper .nav .nav-item a {
 		font-size:13px;
@@ -447,7 +500,11 @@
 		font-size:18px;
 	}
 	.event-content-wr .details-title {
+<<<<<<< HEAD
 		font-size:30px
+=======
+		font-size:34px
+>>>>>>> origin/sushanta
 	}
 	.buy-ticket-wr .ticket-row {
 		flex-wrap:wrap;
@@ -521,7 +578,11 @@
 		margin:30px auto;
 	}
 	.stepfrm-inner .header {
+<<<<<<< HEAD
 		font-size:24px;
+=======
+		font-size:32px;
+>>>>>>> origin/sushanta
 		margin-bottom:20px;
 		line-height:35px;
 	}
@@ -530,13 +591,21 @@
 	}
 	.sign-nextstep-form {
 		width:100%;
+<<<<<<< HEAD
 		padding:0px;
+=======
+		padding:16px;
+>>>>>>> origin/sushanta
 		margin:25px auto;
 	}
 }
 @media (max-width:600px) {
 	.btn-next {
+<<<<<<< HEAD
 		font-size:14px;
+=======
+		font-size:16px;
+>>>>>>> origin/sushanta
 		line-height:22px;
 	}
 	.forgetModal1 .successReset-modal {
@@ -605,10 +674,17 @@
 		flex-direction:column;
 	}
 	.stepfrm-inner .remember .forget-pass {
+<<<<<<< HEAD
 		font-size:15px;
 	}
 	.cs-wrapper .label-text {
 		font-size:15px;
+=======
+		font-size:16px;
+	}
+	.cs-wrapper .label-text {
+		font-size:16px;
+>>>>>>> origin/sushanta
 	}
 	/* .pagination .page-item .page-link {
 		font-size:12px;
@@ -677,11 +753,19 @@
 		margin-top:5px;
 	}
 	.How-itworks-wrapper .item-content h6 {
+<<<<<<< HEAD
 		font-size:15px;
 		/* line-height:42px; */
 	}
 	.How-itworks-wrapper .item-content p {
 		font-size:13px
+=======
+		font-size:18px;
+		/* line-height:42px; */
+	}
+	.How-itworks-wrapper .item-content p {
+		font-size:15px
+>>>>>>> origin/sushanta
 	}
 	.header-wraapper .menu-wrapper {
 		min-width:100%;
@@ -703,6 +787,7 @@
 
 @media (max-width:1200px) {
 	.events-wrap .search-res {
+<<<<<<< HEAD
 		font-size: 15px;
 		margin-top: 0px;
 		margin-bottom: 13px;
@@ -710,6 +795,13 @@
 	.search-box .btn-join-now {
 			font-size: 14px;
 	}
+=======
+		font-size: 17px;
+		margin-top: 0px;
+		margin-bottom: 13px;
+	}
+
+>>>>>>> origin/sushanta
 }
 @media (max-width:767px) {
 	.singleItem .content-wrap {
@@ -717,10 +809,17 @@
 		display: grid;
 	}
 	.menu-wrapper .nav .nav-link {
+<<<<<<< HEAD
 		font-size: 13px;
 	}
 	.footer-wrapper .search-box .form-control {
 		font-size: 13px;
+=======
+		font-size: 15px;
+	}
+	.footer-wrapper .search-box .form-control {
+		font-size: 14px;
+>>>>>>> origin/sushanta
 	}
 	.how-works-inner p.subtitle {
 		font-size: 13px;
@@ -729,7 +828,11 @@
 		padding: 40px 0 40px 0;
 	}
 	body {
+<<<<<<< HEAD
 		font-size: 13px;
+=======
+		font-size: 14px;
+>>>>>>> origin/sushanta
 	}
 	.order-summery-wrapper header {
 	
@@ -742,14 +845,22 @@
     margin-top: 17px;
 }
 .buy-ticket-wr .ticket-column .inner-head {
+<<<<<<< HEAD
     font-size: 13px;
+=======
+    font-size: 14px;
+>>>>>>> origin/sushanta
 }
 	.buy-ticket-wr .tkt-title {
 		font-size: 22px;
 		margin-bottom: 15px;
 	}
 	.page-title {
+<<<<<<< HEAD
 		font-size: 22px;
+=======
+		font-size: 28px;
+>>>>>>> origin/sushanta
 	}
 	.events-wrap {
 		/* padding: 60px 0 80px; */
@@ -757,29 +868,49 @@
 	}
 	.universal-event-search .form-control {
 	
+<<<<<<< HEAD
 		font-size: 14px;
+=======
+		font-size: 15px;
+>>>>>>> origin/sushanta
 		text-align: center;
 		
 	}
 	.singleItem .content-wrap .content .title-head {
+<<<<<<< HEAD
 		font-size: 14px;
 	}
 	.pagination .page-item .page-link {
 		font-size: 13px !important;
 		padding: 2px 8px !important;
+=======
+		font-size: 15px;
+	}
+	.pagination .page-item .page-link {
+		font-size: 13px !important;
+		padding: 2px 5px !important;
+>>>>>>> origin/sushanta
 	}
 	.header-wraapper .login {
 		padding: 6px 12px;
 		margin-right: 10px;
+<<<<<<< HEAD
 		font-size: 13px;
 	}
 	.events-wrap .btn-reset {
 		font-size: 13px;
+=======
+		font-size: 14px;
+	}
+	.events-wrap .btn-reset {
+		font-size: 15px;
+>>>>>>> origin/sushanta
 	}
 	/* .pagination .page-item .page-link {
 		font-size: 14px;
 	} */
 	.singleItem .content-wrap .content .time-date {
+<<<<<<< HEAD
 		font-size: 13px;
 		margin-bottom: 5px;
 	}
@@ -796,6 +927,24 @@
 	}
 	.aBtnnew {
 		font-size: 13px;
+=======
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.singleItem .content-wrap .content .location {
+		font-size: 14px;
+	}
+	.btn-short {
+		font-size: 14px;
+
+	}
+	.btn-view-event {
+		font-size: 14px;
+
+	}
+	.aBtnnew {
+		font-size: 14px;
+>>>>>>> origin/sushanta
 	}
 	.aBtnnew {
 		width: 50%;
@@ -838,6 +987,7 @@
 	.why-misocial .col-md-6 {
 		width: 100%;
 	}
+<<<<<<< HEAD
 
 
 	.concept-wrapper .col-md-5 {
@@ -847,6 +997,8 @@
 		width: 100% 
 	}
 	
+=======
+>>>>>>> origin/sushanta
 	.concept-wrapper .concept-content h2, .title {
 		font-size: 22px;
 	
@@ -860,7 +1012,11 @@
 		text-align: left;
 	}
 	.footer-wrapper .link-head {
+<<<<<<< HEAD
 		font-size: 18px;
+=======
+		font-size: 19px;
+>>>>>>> origin/sushanta
 		margin: 20px 0 10px;
 		text-align: left;
 	}
@@ -884,7 +1040,11 @@
 		width: 120px;
 	}
 	.concept-wrapper .concept-content p, .subtitle {
+<<<<<<< HEAD
 		font-size: 13px;
+=======
+		font-size: 14px;
+>>>>>>> origin/sushanta
 		line-height: 24px;
 	}
 	.footer-wrapper .nav .nav-item a {
@@ -917,6 +1077,7 @@
 		
 	}
 	.event-content-wr .details-title {
+<<<<<<< HEAD
 		font-size: 20px;
 		padding-bottom: 0px;
 		margin: 0 0 12px;
@@ -924,12 +1085,22 @@
 	.details-cont-portion h2 {
 		font-size: 22px;
 	}
+=======
+		font-size: 26px;
+		padding-bottom: 0px;
+		margin: 0 0 12px;
+	}
+>>>>>>> origin/sushanta
 	.event-wrapper .row , .why-misocial .row{
 		flex-direction: column-reverse;
 	}
 	.footer-social .copyright {
 		
+<<<<<<< HEAD
 		font-size: 12px;
+=======
+		font-size: 13px;
+>>>>>>> origin/sushanta
 	}
 	.footerGap {
 		flex-direction: column;
@@ -937,6 +1108,7 @@
 	.FooterBanner .content-box {
 		padding: 15px 20px 15px 10px;
 	}
+<<<<<<< HEAD
 
 	.vBanner {
 	
@@ -964,6 +1136,8 @@
 	.terms-privacy .sub-head {
 		font-size: 16px;
 	}
+=======
+>>>>>>> origin/sushanta
 }
 
 @media (max-width:360px) {
@@ -972,7 +1146,10 @@
 		font-size: 10px;
 		line-height: 20px;
 	}
+<<<<<<< HEAD
 	.pagination .page-item .page-link {
 		padding: 2px 5px !important;
 	}
+=======
+>>>>>>> origin/sushanta
 }
