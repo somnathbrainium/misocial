@@ -56,10 +56,8 @@ export default function Footer() {
                                     <li className="nav-item">
                                         <a href="#">Business networking</a>
                                     </li>
-
                                 </ul>
-                            </div>
-                            <div className="footerinfo">
+                                <div class="mobfotopt">
                                 <h6 className="link-head">Legal</h6>
                                 <ul className="nav">
                                     <li className="nav-item">
@@ -68,7 +66,19 @@ export default function Footer() {
                                     <li className="nav-item">
                                         <a href="#">Privacy</a>
                                     </li>
+                                </ul>
+                                </div>
 
+                            </div>
+                            <div className="footerinfo deskfotopt">
+                                <h6 className="link-head">Legal</h6>
+                                <ul className="nav">
+                                    <li className="nav-item">
+                                        <a href="#">Terms & Conditions </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a href="#">Privacy</a>
+                                    </li>
                                 </ul>
                             </div>
 

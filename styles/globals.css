@@ -141,14 +141,14 @@ a {
 	color:var(--button-text);
 	border:1px solid var(--button-bg);
 	font-weight:500;
-	font-size:18px;
+	font-size:15px;
 	font-family:var(--montserrat);
 }
 .vsc-initialized .btn:focus,.vsc-initialized .form-control:focus {
 	box-shadow:none;
 }
 .top-banner {
-	background:url('../public/images/home-banner.jpg') no-repeat 0 center;
+	background:url('../public/images/home-banner.jpg') no-repeat top center;
 	background-size:cover;
 	padding:45px 20px;
 	padding-bottom:100px;
@@ -369,7 +369,7 @@ a {
 	padding-top:40px;
 }
 .fortogPassbg .form-values .text {
-	font-size:16px;
+	font-size:15px;
 	color:#3D3D3D;
 }
 .concept-wrapper {
@@ -551,6 +551,18 @@ a {
 .How-itworks-wrapper .how-works-inner {
 	padding:0 110px;
 }
+.normalfont {
+    font-weight: 500;
+}
+form.d-flex.search-box.modfromopt {
+    padding: 15px 0 0;
+}
+p.subtitle {
+    margin: 3px 0;
+}
+.mobfotopt{
+	display: none;
+}
 .How-itworks-wrapper .process-part {
 	background-image:linear-gradient(to right,#333 10%,rgba(255,255,255,0) 0%);
 	background-position:center 48px;
@@ -559,10 +571,10 @@ a {
 }
 .How-itworks-wrapper .process-part .process-content {
 	display:flex;
-	padding-bottom:42px;
+	padding-bottom:0px;
 	justify-content:space-between;
 	/* margin-top:75px; */
-  	margin-top:40px;
+  	margin-top:35px;
 }
 /* .How-itworks-wrapper .numberBox{background: #E0DEDC;}*/
 .How-itworks-wrapper .numberBox .number-part {
@@ -612,11 +624,11 @@ a {
 }
 .How-itworks-wrapper .item-content h6 {
 	font-family:var(--montserrat);
-	font-size:28px;
+	font-size:18px;
 	padding-top:14px;   
 	color:var(--light-black);
 	/* line-height:55px; */
-	font-weight:400;
+	font-weight:600;
 	margin:0;
   line-height: inherit; 
   padding-bottom: 5px;
@@ -624,13 +636,15 @@ a {
 .How-itworks-wrapper .item-content p {
 	margin:0;
 	font-family:var(--montserrat);
-	font-size: 15px;
+	font-size: 13px;
     line-height: inherit;
     color: #424242;
     font-weight: 500;
     font-style: normal;
 }
-
+.joinnow_btn {
+    margin-top: 25px;
+}
 form.d-flex.search-box {
 	/* width: 80%; */
     margin: 0px auto;
@@ -864,7 +878,7 @@ form.d-flex.search-box {
 .stepfrm-inner .header {
 	color:var(--light-black);
 	font-family:var(--abril);
-	font-size:42px;
+	font-size:36px;
 	margin-bottom:30px;
 	line-height:75px;
 }
@@ -875,7 +889,7 @@ form.d-flex.search-box {
 }
 .stepfrm-inner .remember .forget-pass {
 	font-family:var(--montserrat);
-	font-size:18px;
+	font-size:15px;
 	color:#897E46;
 	font-weight:600;
 }
@@ -929,7 +943,7 @@ form.d-flex.search-box {
 .stepfrm-inner .captcha .cap-text {
 	font-family:var(--montserrat);
 	color:var(--black);
-	font-size:16px;
+	font-size:15px;
 }
 .stepfrm-inner .captcha .cap-text label {
 	margin-left:10px;
@@ -939,8 +953,9 @@ form.d-flex.search-box {
 	margin-top:16px;
 }
 .form-values .text {
+	margin-left:0px;
 	margin-bottom:0;
-	margin-left:10px;
+	/* margin-left:10px; */
 	font-family:var(--montserrat);
 	font-weight:500;
 	color:var(--label-color);
@@ -952,7 +967,7 @@ form.d-flex.search-box {
 	cursor:pointer;
 }
 .btn-next {
-	font-size:18px;
+	font-size:15px;
 	border-radius:0;
 	font-family:var(--montserrat);
 	font-weight:500;
@@ -990,7 +1005,7 @@ form.d-flex.search-box {
 .btn-reset {
 	padding:10px 0;
 	font-family:var(--montserrat);
-	font-size:16px;
+	font-size:15px;
 	color:var(--light-blue);
 	font-weight:500;
 }
@@ -1061,7 +1076,7 @@ form.d-flex.search-box {
 	color:var(--light-black);
 	font-family:var(--montserrat);
 	font-weight:500;
-	font-size:20px;
+	font-size:15;
 	/* margin-top:30px; */
 	margin-top:10px;
 	margin-bottom:20px;
@@ -1192,12 +1207,20 @@ form.d-flex.search-box {
 label.date.mt-3 {
     margin: 4px 0 0 !important;
 }
+.details-cont-portion h2 {
+    font-weight: 600;
+}
+
+.order-summery-wrapper .card-details .form-control {
+	height: auto;
+  
+}
 .event-content-wr {
 	padding:50px 0 40px 0;
 }
 .event-content-wr .details-title {
 	color:var(--light-black);
-	font-size:40px;
+	font-size:30px;
 	font-weight:700;
 	margin-bottom:25px;
 }
@@ -1492,9 +1515,9 @@ label.date.mt-3 {
 }
 .terms-privacy {
 	margin:50px 0;
-}
+} 
 .terms-privacy .terms-head {
-	font-size:45px;
+	font-size:36px;
 	padding-bottom:30px;
 	font-family:var(--abril);
 	color:var(--black);
@@ -1502,7 +1525,7 @@ label.date.mt-3 {
 .terms-privacy .sub-head {
 	margin-bottom:15px;
 	padding-top:15px;
-	font-size:25px;
+	font-size:20px;
 	color:var(--light-black);
 	font-weight:600;
 	font-family:var(--montserrat);
@@ -1510,6 +1533,7 @@ label.date.mt-3 {
 .terms-privacy .texts {
 	margin-bottom:10px;
 	font-size:15px;
+	line-height: 28px;
 	font-weight:500;
 	font-family:var(--montserrat);
 	color:#111111;
@@ -1540,7 +1564,7 @@ label.date.mt-3 {
 	border:none;
 }
 .formNextmodal p {
-	font-size:17px;
+	font-size:15px;
 	line-height:24px;
 	font-weight:600;
 	color:#1F1F1F;
@@ -1549,7 +1573,7 @@ label.date.mt-3 {
 	padding:0 50px!important;
 }
 .forgetModal1 p {
-	font-size:17px;
+	font-size:15px;
 	line-height:24px;
 	font-weight:600;
 	color:#1F1F1F;
@@ -1650,6 +1674,22 @@ label.date.mt-3 {
 }
 
 /*  */
+.title {
+    margin-top: 5px !important;
+}
+.concept-wrapper .row {
+    justify-content: space-between;
+}
+
+.concept-wrapper .col-md-5 {
+    width: 49% 
+}
+.concept-wrapper .col-md-7 {
+    width: 49% 
+}
+
+
+
 .event-wrapper .row {
     justify-content: space-between;
 }
@@ -1784,4 +1824,22 @@ button.btn.btn-short div {
 
 .layout-frame.headingopt .leftpannel {
     opacity: 0;
+}
+
+form.d-flex.search-box.modfromopt {
+    background: transparent;
+}
+button.btn.btn-join-now.addbtnmodf {
+    width: 50%;
+}
+
+.modf_img {
+    background-size: cover !important;
+	height: 100%;
+}
+.modf_img  div{
+    opacity: 0;
+}
+.footerinfo_cont {
+    padding: 13px 0 0 0;
 }

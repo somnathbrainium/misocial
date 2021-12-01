@@ -62,10 +62,20 @@
 	color:var(--button-bg)!important;
 	font-weight:700!important;
 }
+/* .sidebar .nav-item:hover a,.sidebar .nav-item:hover svg {
+	color:var(--button-bg)!important;
+	font-weight:700!important;
+} */
 .sidebar .nav .nav-item {
 	display:flex;
 	align-items:center;
-	margin:12px 0;
+	margin:10px 0;
+}
+h2.accordion-header a {
+    font-size: 18px;
+}
+.accordion-button {
+    padding: 4px 1.25rem;
 }
 .sidebar .nav .nav-item svg {
 	width:22px;
@@ -74,7 +84,7 @@
 .sidebar .nav .nav-item a {
 	margin-left:10px;
 	color:var(--label-color);
-	font-size:18px;
+	font-size:16px;
 	font-family:var(--montserrat);
 	font-weight:500;
 }
@@ -86,7 +96,7 @@
 }
 .sidebar .nav .divider {
 	border-top:1px solid #E3E3E3;
-	margin:30px 0;
+	margin:15px 0;
 }
 .my-profile-wrapper .sign-nextstep-form {
 	margin:0;
@@ -302,7 +312,7 @@
 	padding-bottom:26px;
 	color:var(--light-black);
 	font-family:var(--abril);
-	font-size:42px;
+	font-size:28px;
 	border-bottom:1px solid #E4E4E4;
 	margin:0;
 	margin-bottom:30px;
@@ -1218,18 +1228,18 @@
 	.right-panel .main-frame-inner {
 		padding:0 20px 20px;
 	}
-	.sidebar .nav .nav-item a {
+	/* .sidebar .nav .nav-item a {
 		font-size:17px;
-	}
+	} */
 	.myevents-list .content-inner .content-part .m-header {
 		font-size:18px;
 	}
 	.myevents-list .content-inner .content-part .sub-title {
 		/* font-size:16px; */
 	}
-	.right-panel .header {
+	/* .right-panel .header {
 		font-size:28px;
-	}
+	} */
 	.data-status-header .bottom-portion .event-name span {
 		font-size:14px;
 	}
@@ -1273,7 +1283,7 @@
 		padding-left:280px;
 	}
 	.form-class .form-label.section-name {
-		font-size:23px;
+		font-size:20px;
 	}
 	.plan-feature-wrap .nav-item {
 		font-size:18px;
@@ -1486,7 +1496,7 @@
 		font-size:26px;
 	}
 	.right-panel .header {
-		font-size:26px;
+		font-size:24px;
 		margin-bottom:15px;
 		line-height:inherit;
 	}
@@ -1494,7 +1504,7 @@
 		margin-top:25px;
 	}
 	.form-class .form-label.section-name {
-		font-size:24px;
+		font-size:20px;
 	}
 	.save-cancel-action .btn {
 		height:46px;
@@ -1515,6 +1525,12 @@
 	}
 	.sendinvites-wrapper .check-radio-wrap .form-label {
 		margin-bottom:5px;
+	}
+	.right-panel .header {
+		padding-bottom: 15px;
+	}
+	.main-frame-inner .form-class {
+		margin-top: 15px;
 	}
 }
 @media ( max-width:480px) {

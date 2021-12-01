@@ -5,11 +5,12 @@ import venueIame from '../../public/images/venue.png'
 export default function Venue() {
     return (
         <div className="venue-wrapper">
-            <div className="container">
+            <div className="container"> 
 
                 <Row>
-                    <Col sm="5">
-                        <div className="img-box">
+                    <Col sm="5" className="img-box ">
+                        <div className="modf_img" style={{ background: 'url(../images/venue.png) no-repeat center center'}}>
+
                             <Image
                                 src={venueIame}
                                 alt="test"
@@ -19,7 +20,7 @@ export default function Venue() {
                     <Col sm="7">
                         <div className="pl-custom">
                             <h2 className="title">The Venues</h2>
-                            <p className="subtitle">Events are hosted in venues that perfectly enhance the experience of networking, workshop collaboration, learning and new skills development
+                            <p className="subtitle">Events are hosted in venues that perfectly enhance the experience of networking, workshop collaboration, learning and new skills development .
                             </p>
                             <p className="subtitle">Our networking  events are hosted in venues that are spacious, intimate, ambient, and atmospheric. Every location chosen to ensure interactions flow effortlessly and connections happen without engineering. </p>
                         </div> </Col>

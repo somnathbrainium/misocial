@@ -7,13 +7,17 @@ function Concept() {
         <div className="concept-wrapper">
             <div className="container">
             <Row>
-                <Col md={5} className="concImg">
-                    <Image
+                <Col md={5} className="concImg modf ">
+                    {/* <Image
                     src={conceptImage}
                     alt="conceptImage"
                     className="concept-image"
-                    />
+                    /> */}
+                    <div className="modf_img"  style={{ background: 'url(../images/concept-image.jpg) no-repeat center center'}}>
+                    <Image src={conceptImage} alt="conceptImage" className="concept-image"/>
+                    </div>
                 </Col>
+                  
                 <Col md={7}>
                     <div className="concept-content">
                         <h2>The Concept</h2>
