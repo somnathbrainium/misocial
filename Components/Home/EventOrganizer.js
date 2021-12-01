@@ -8,7 +8,6 @@ export default function EventOrganizer() {
             <div className="container">
                 <Row>
                     <Col md={5} className="evOrg">
-<<<<<<< HEAD
                         {/* <Image
                             src={organizer}
                             alt="organizer" className="img-fluid"
@@ -16,48 +15,28 @@ export default function EventOrganizer() {
                              <div className="modf_img"  style={{ background: 'url(../images/organizer.jpg) no-repeat center center'}}>
                                 <Image src={organizer} alt="test"/>
                             </div>
-=======
-                        <Image
-                            src={organizer}
-                            alt="organizer" className="img-fluid"
-                        />
->>>>>>> origin/sushanta
                     </Col>
                     <Col md={7}>
                         <div className="pl-custom">
                             <h2 className="title">Become An Event Organizer</h2>
                             <p className="subtitle">Creating your own events is so easy. With us. </p>
                             <p className="subtitle">If you have a passion for event planning & can host events that will resonate with profesionals & entrepreneurs, we want you. Not to work for us, but rather to be the boss of your own events. </p>
-<<<<<<< HEAD
                             <p className="subtitle"><strong>Next steps : </strong>
-                                {/* Join now (it&apos;s free!). Once your profile is verified, you can  
+                                Join now (it&apos;s free!). Once your profile is verified, you can  
+                                <strong className="normalfont" > apply to create events.</strong>
+                                <strong className="normalfont" > Join Now</strong>
+                                 {/* Access your Profile, and apply to create events  
                                 <strong className="normalfont" > apply to create events.</strong> */}
-                                 Access your Profile, and apply to create events  
-                                {/* <strong className="normalfont" > apply to create events.</strong> */}
                             </p>
 
                             <Form className="d-flex search-box modfromopt">
                                 {/* <FormControl
-=======
-                            <p className="subtitle">Next steps:<br />
-                                Join now (it&apos;s free!). Once your profile is verified, you can<br/>
-                                <strong>Apply to create events.</strong>
-                            </p>
-
-                            <Form className="d-flex search-box">
-                                <FormControl
->>>>>>> origin/sushanta
                                     type="search"
                                     placeholder="Enter Your Email "
                                     className="mr-2"
                                     aria-label="Search"
-<<<<<<< HEAD
                                 /> */}
                                 <button className="btn btn-join-now addbtnmodf">Apply now to become an Event Organizer</button>
-=======
-                                />
-                                <button className="btn btn-join-now">Join Now</button>
->>>>>>> origin/sushanta
                             </Form>
                         </div>
                     </Col>

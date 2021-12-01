@@ -12,7 +12,6 @@ export default function Events() {
                         <p className="subtitle">MiSocial events bring the world of professionals & entrepreneurs together through live experiences.</p>
                         <p className="subtitle"> From curated networking events that take the guesswork out of how to build your network, to bespoke workshops that enhance your personal / professional brand.</p>
                     </div></Col>
-<<<<<<< HEAD
                     <Col sm={6} className="img-box egntImagebg" >
 
                             <div className="modf_img"  style={{ background: 'url(../images/event-mage.jpg) no-repeat center center'}}>
@@ -23,13 +22,6 @@ export default function Events() {
                     
                     </Col>
                     
-=======
-                    <Col sm={6}>
-                        <div className="img-box egntImagebg">
-                            <Image src={eventImage} alt="eventImage" className="img-fluid" />
-                        </div>
-                    </Col>
->>>>>>> origin/sushanta
                 </Row>
             </div>
         </div>

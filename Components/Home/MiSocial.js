@@ -23,15 +23,9 @@ export default function MiSocial() {
                         </div>
                     </Col>
                     <Col md={6} className="mysocialImg">
-<<<<<<< HEAD
                             <div className="modf_img"  style={{ background: 'url(../images/Misocial-why.jpg) no-repeat center center'}}>
                             <Image src={Misocialwhy}alt="Misocialwhy"/>
                             </div>
-=======
-                        <Image src={Misocialwhy}
-                        alt="Misocialwhy"
-                        />
->>>>>>> origin/sushanta
                     </Col>
                 </Row>
             </div>
