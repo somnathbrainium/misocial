@@ -13,7 +13,20 @@ export default function Footer() {
         <div className="footer-wrapper">
             <div className="container">
                 <Row>
-                    <Col md={12} sm={12}>
+                <Col md={12} sm={12} className="mobfot_opt" >
+
+                    <div className="footerGap">
+                        <div className="footerinfo footerlogo">
+                            <div className="f-logo">
+                                <Image
+                                    src={logo}
+                                    alt="logo"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </Col>
+                    <Col md={12} sm={12} className="deskfot_opt">
 
                         <div className="footerGap">
                             <div className="footerinfo footerlogo">
@@ -57,20 +70,10 @@ export default function Footer() {
                                         <a href="#">Business networking</a>
                                     </li>
                                 </ul>
-                                <div class="mobfotopt">
-                                <h6 className="link-head">Legal</h6>
-                                <ul className="nav">
-                                    <li className="nav-item">
-                                        <a href="#">Terms & Conditions </a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#">Privacy</a>
-                                    </li>
-                                </ul>
-                                </div>
+                          
 
                             </div>
-                            <div className="footerinfo deskfotopt">
+                            <div className="footerinfo ">
                                 <h6 className="link-head">Legal</h6>
                                 <ul className="nav">
                                     <li className="nav-item">

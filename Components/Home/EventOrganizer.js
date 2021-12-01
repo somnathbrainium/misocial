@@ -24,6 +24,9 @@ export default function EventOrganizer() {
                             <p className="subtitle"><strong>Next steps : </strong>
                                 Join now (it&apos;s free!). Once your profile is verified, you can  
                                 <strong className="normalfont" > apply to create events.</strong>
+                                {/* <strong className="normalfont" > Join Now</strong> */}
+                                 {/* Access your Profile, and apply to create events  
+                                <strong className="normalfont" > apply to create events.</strong> */}
                             </p>
 
                             <Form className="d-flex search-box modfromopt">
@@ -31,9 +34,17 @@ export default function EventOrganizer() {
                                     type="search"
                                     placeholder="Enter Your Email "
                                     className="mr-2"
-                                    aria-label="Search"
+                                    aria-label="Search" 
                                 /> */}
-                                <button className="btn btn-join-now addbtnmodf">Join Now</button>
+                                {/* <button className="btn btn-join-now addbtnmodf">Apply now to become an Event Organizer</button> */}
+
+                                                                {/* <button className="btn btn-join-now addbtnmodf">Apply now to become an Event Organizer</button> */}
+
+                                                                {/* <strong className="normalfont" > Join Now</strong> */}
+                                     <button className="btn btn-join-now addbtnmodf">Join Now</button>
+
+
+
                             </Form>
                         </div>
                     </Col>

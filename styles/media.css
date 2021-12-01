@@ -162,6 +162,13 @@
 }
 
 @media (max-width:991px) {
+	.deskfot_opt .footerinfo.footerlogo {
+		display: none;
+	}
+	.mobfot_opt {
+		display: block;
+		padding-bottom: 15px;
+	}
 	.banner-container .banner-content-wrap p {
 		font-size: 18px;
 		line-height: 26px;
@@ -707,7 +714,9 @@
 		margin-top: 0px;
 		margin-bottom: 13px;
 	}
-
+	.search-box .btn-join-now {
+			font-size: 14px;
+	}
 }
 @media (max-width:767px) {
 	.singleItem .content-wrap {

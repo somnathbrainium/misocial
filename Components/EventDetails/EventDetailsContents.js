@@ -26,7 +26,7 @@ export default function EventContents() {
                             className="details-image"
                         />
                         <div className="act-button">
-                            <button className="btn btn-short"><BiPlus />Short List</button>
+                            <button className="btn btn-short"><BiPlus />Shortlist</button>
                             <button className="btn btn-view-event"><RiShareForwardLine className="share" />Share</button>
                         </div>
 
