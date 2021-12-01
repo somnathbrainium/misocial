@@ -1830,7 +1830,7 @@ form.d-flex.search-box.modfromopt {
     background: transparent;
 }
 button.btn.btn-join-now.addbtnmodf {
-    width: 50%;
+    width: auto;
 }
 
 .modf_img {
