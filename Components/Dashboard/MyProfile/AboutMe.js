@@ -10,7 +10,9 @@ export default function AboutMe() {
             <Form className="form-class">
                 <Form.Label className="section-name">About Me</Form.Label>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                    <Form.Label>First Name</Form.Label>
+
+                    <Form.Label>First Name Anitesh</Form.Label>
+
                     <Form.Control type="text" placeholder="Mukaddar" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
