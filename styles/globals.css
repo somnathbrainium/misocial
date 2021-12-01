@@ -553,6 +553,7 @@ a {
 }
 .normalfont {
     font-weight: 500;
+	display: block;
 }
 form.d-flex.search-box.modfromopt {
     padding: 10px 0 0;
@@ -952,10 +953,16 @@ form.d-flex.search-box {
 	display:flex;
 	margin-top:16px;
 }
+.ev-search-result .content-wrap {
+    align-items: center;
+}
+.morewidth{
+		width: auto !important;
+}
+    
 .form-values .text {
-	margin-left:0px;
 	margin-bottom:0;
-	/* margin-left:10px; */
+	margin-left:10px;
 	font-family:var(--montserrat);
 	font-weight:500;
 	color:var(--label-color);
@@ -1830,7 +1837,7 @@ form.d-flex.search-box.modfromopt {
     background: transparent;
 }
 button.btn.btn-join-now.addbtnmodf {
-    width: auto;
+    width: 50%;
 }
 
 .modf_img {
@@ -1842,4 +1849,7 @@ button.btn.btn-join-now.addbtnmodf {
 }
 .footerinfo_cont {
     padding: 13px 0 0 0;
+}
+.mobfot_opt{
+	display: none;
 }

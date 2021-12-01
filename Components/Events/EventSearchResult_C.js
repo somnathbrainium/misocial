@@ -42,7 +42,7 @@ export default function EventSearchResult_C() {
                                 <Image
                                     src={shortlistIcon}
                                     alt="events images"
-                                /> Short List
+                                /> Shortlist
                                 </button>
                                 </Link>
                             </div>
@@ -80,7 +80,7 @@ export default function EventSearchResult_C() {
                                 <Image
                                     src={shortlistIcon}
                                     alt="events images"
-                                /> Short List
+                                /> Shortlist
                                 </button>
                                 </Link>
                             </div>
@@ -118,7 +118,7 @@ export default function EventSearchResult_C() {
                                 <Image
                                     src={shortlistIcon}
                                     alt="events images"
-                                />Short List
+                                />Shortlist
                                 </button>
                                 </Link>
                             </div>
@@ -156,7 +156,7 @@ export default function EventSearchResult_C() {
                                 <Image
                                     src={shortlistIcon}
                                     alt="events images"
-                                /> Short List
+                                /> Shortlist
                                 </button>
                                 </Link>
                             </div>
