@@ -707,7 +707,9 @@
 		margin-top: 0px;
 		margin-bottom: 13px;
 	}
-
+	.search-box .btn-join-now {
+			font-size: 14px;
+	}
 }
 @media (max-width:767px) {
 	.singleItem .content-wrap {
