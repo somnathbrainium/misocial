@@ -377,14 +377,22 @@ a {
 	padding:97px 0 100px 0;
 }
 .concept-wrapper .concept-content {
+<<<<<<< HEAD
 	/* padding-left:70px; */
+=======
+	padding-left:70px;
+>>>>>>> sushanta
 }
 .concImg {
 	padding-top:14px;
 }
 .concept-wrapper .concept-content h2 {
 	font-family:var(--abril);
+<<<<<<< HEAD
 	font-size:44px;
+=======
+	font-size:52px;
+>>>>>>> sushanta
 	line-height:75px;
 	color:var(--light-black)
 }
@@ -555,10 +563,17 @@ a {
     font-weight: 500;
 }
 form.d-flex.search-box.modfromopt {
+<<<<<<< HEAD
     padding: 10px 0 0;
 }
 p.subtitle {
     margin: 4px 0;
+=======
+    padding: 15px 0 0;
+}
+p.subtitle {
+    margin: 3px 0;
+>>>>>>> sushanta
 }
 .mobfotopt{
 	display: none;
@@ -653,7 +668,11 @@ form.d-flex.search-box {
 .title {
 	color:var(--light-black);
 	font-family:var(--abril);
+<<<<<<< HEAD
 	font-size:44px;
+=======
+	font-size:45px;
+>>>>>>> sushanta
 	line-height:inherit;
 	margin: 0px;
 	padding-bottom: 5px;
@@ -1830,7 +1849,11 @@ form.d-flex.search-box.modfromopt {
     background: transparent;
 }
 button.btn.btn-join-now.addbtnmodf {
+<<<<<<< HEAD
     width: auto;
+=======
+    width: 50%;
+>>>>>>> sushanta
 }
 
 .modf_img {

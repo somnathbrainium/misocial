@@ -707,9 +707,13 @@
 		margin-top: 0px;
 		margin-bottom: 13px;
 	}
+<<<<<<< HEAD
 	.search-box .btn-join-now {
 			font-size: 14px;
 	}
+=======
+
+>>>>>>> sushanta
 }
 @media (max-width:767px) {
 	.singleItem .content-wrap {
