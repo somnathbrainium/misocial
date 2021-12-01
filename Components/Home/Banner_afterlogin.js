@@ -25,7 +25,7 @@ export const Banner_afterlogin = () => {
                An Event Organizer&apos;s  Passion For Events With Members
             </p>
 
-            {/* <Form className="d-flex search-box">
+             {/* <Form className="d-flex search-box">
               <FormControl
                 type="search"
                 placeholder="Enter Your Email"
@@ -33,7 +33,7 @@ export const Banner_afterlogin = () => {
                 aria-label="Search"
               />
               <button className="btn btn-join-now" onClick={handleShow} type="button">Join Now</button>
-            </Form> */}
+            </Form>  */}
 
           </div>
         </div>
