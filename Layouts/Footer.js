@@ -2,15 +2,59 @@ import Image from "next/image";
 import { Col, Form, FormControl, Row } from "react-bootstrap";
 import logo from '../public/images/footerlogo.png';
 import sendIcon from '../public/images/sendIcon.png';
+import backtotopimg from '../public/images/backtotop.jpg';    
+
+
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 import { GrFormClose } from 'react-icons/gr';
+import React, { useEffect, useState } from "react";
+
 
 export default function Footer() {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+        // Show button when page is scorlled upto given distance
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 300) {
+            setIsVisible(true);
+            } else {
+            setIsVisible(false);
+            }
+        };
+
+        // Set the top cordinate to 0
+        // make scrolling smooth
+        const scrollToTop = () => {
+            window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+            });
+        };
+
+        useEffect(() => {
+            window.addEventListener("scroll", toggleVisibility);
+        }, []);
 
 
     return (
         <div className="footer-wrapper">
+
+{/* <div className="scrolltop" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                          <img src='https://i.postimg.cc/44Ytsk8Z/top-arrow-emoj.png' alt='Go to top'/>
+
+            </div>  */}
+
+ <div className="scroll-to-top">
+      {isVisible && 
+        <div onClick={scrollToTop}>
+          <img src={backtotopimg} alt='Go to top'/>
+        </div>}
+    </div> 
+
+
+
             <div className="container">
                 <Row>
                 <Col md={12} sm={12} className="mobfot_opt" >
@@ -25,7 +69,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                </Col>
+                </Col>  
                     <Col md={12} sm={12} className="deskfot_opt">
 
                         <div className="footerGap">

@@ -378,6 +378,8 @@ a {
 }
 .concept-wrapper .concept-content {
 	/* padding-left:70px; */
+	/* padding-left:70px; */
+	padding-left:70px;
 }
 .concImg {
 	padding-top:14px;
@@ -385,6 +387,9 @@ a {
 .concept-wrapper .concept-content h2 {
 	font-family:var(--abril);
 	font-size:44px;
+	font-size:44px;
+	font-size:52px;
+
 	line-height:75px;
 	color:var(--light-black)
 }
@@ -560,6 +565,15 @@ form.d-flex.search-box.modfromopt {
 }
 p.subtitle {
     margin: 4px 0;
+
+    padding: 10px 0 0;
+}
+p.subtitle {
+    margin: 4px 0;
+    padding: 15px 0 0;
+}
+p.subtitle {
+    margin: 3px 0;
 }
 .mobfotopt{
 	display: none;
@@ -655,6 +669,8 @@ form.d-flex.search-box {
 	color:var(--light-black);
 	font-family:var(--abril);
 	font-size:44px;
+	font-size:44px;
+	font-size:45px;
 	line-height:inherit;
 	margin: 0px;
 	padding-bottom: 5px;
@@ -866,6 +882,10 @@ form.d-flex.search-box {
 .footerGap {
 	/* padding-right:12px; */
 }
+
+
+
+
 .signup-one-banner {
 	background:url('../public/images/signup1-banner.jpg') no-repeat center center;
 	background-size:cover;
@@ -879,8 +899,8 @@ form.d-flex.search-box {
 .stepfrm-inner .header {
 	color:var(--light-black);
 	font-family:var(--abril);
-	font-size:36px;
-	margin-bottom:30px;
+	font-size:42px;
+	margin-bottom:20px;
 	line-height:75px;
 }
 .stepfrm-inner .remember {
@@ -890,7 +910,7 @@ form.d-flex.search-box {
 }
 .stepfrm-inner .remember .forget-pass {
 	font-family:var(--montserrat);
-	font-size:15px;
+	font-size:18px;
 	color:#897E46;
 	font-weight:600;
 }
@@ -909,13 +929,13 @@ form.d-flex.search-box {
 }
 .stepfrm-inner .form-label {
 	color:var(--label-color);
-	font-size:15px;
+	font-size:16px;
 	font-family:var(--montserrat);
 	font-weight:500;
 }
 .stepfrm-inner .form-control {
 	color:var(--label-color);
-	font-size:15px;
+	font-size:16px;
 	font-family:var(--montserrat);
 	height:58px;
 	border-radius:0;
@@ -955,10 +975,10 @@ form.d-flex.search-box {
 }
 .ev-search-result .content-wrap {
     align-items: center;
-}
+} 
 .morewidth{
 		width: auto !important;
-}
+} 
     
 .form-values .text {
 	margin-bottom:0;
@@ -973,13 +993,19 @@ form.d-flex.search-box {
 	color:var(--bold-color);
 	cursor:pointer;
 }
-.btn-next {
-	font-size:15px;
+.btn-next { 
+	font-size:18px;
 	border-radius:0;
 	font-family:var(--montserrat);
 	font-weight:500;
 	height:64px;
 	margin-top:30px;
+}
+.stepfrm-inner.fortogPassbg form {
+    padding: 15px 0 0;
+}
+.remember {
+    padding: 15px 0 0px;
 }
 .stepfrm-inner .members-already {
 	color:var(--label-color);
@@ -1254,6 +1280,7 @@ label.date.mt-3 {
 
 .details-cont-portion h2 {
     font-size: 25px;
+	margin: 10px 0px 20px;
 } 
 .event-content-wr .details-cont-portion br{
 	display: none;
@@ -1261,11 +1288,12 @@ label.date.mt-3 {
 
 
 .event-content-wr .details-cont-portion p {
-	margin:0px;
+	margin:0px 0 10px;
 	font-family:var(--montserrat);
 	/* font-size:20px; */
 	color:var(--label-color);
 	font-weight:500;
+	line-height: 28px;
 }
 .event-content-wr .details-cont-portion .lists {
 	margin-top:10px;
@@ -1275,9 +1303,10 @@ label.date.mt-3 {
 	/* font-size:20px; */
 	color:var(--label-color);
 	font-weight:500;
+	line-height: 28px;
 }
 .buy-ticket-wr {
-	margin-top:40px;
+	margin-top:30px;
 }
 .buy-ticket-wr .tkt-title {
 	color:var(--label-color);
@@ -1295,7 +1324,7 @@ label.date.mt-3 {
 .buy-ticket-wr .ticket-column .inner-head {
 	font-family:var(--montserrat);
 	color:var(--label-color);
-	font-size:15px;
+	font-size:16px;
 	margin-bottom:10px;
 	font-weight:500;
 }
@@ -1387,7 +1416,7 @@ label.date.mt-3 {
 	margin-top:25px;
 }
 .event-location-map {
-	margin-top:65px;
+	margin-top:50px;
 	height:470px;
 }
 .event-location-map iframe {
@@ -1438,11 +1467,11 @@ label.date.mt-3 {
 	/* font-size:18px; */
 	color:var(--light-black);
 	font-family:var(--montserrat);
-	font-weight:400;
+	font-weight:500;
 	flex:1;
 }
 .content-box-address .address-part .time-date span {
-	font-weight:400;
+	font-weight:500;
 	display:block;
 }
 .content-box-address .address-part .time-date .date,.content-box-address .address-part .time-date .time {
@@ -1452,13 +1481,17 @@ label.date.mt-3 {
 }
 
 .content-box-address label.date.mt-3 {
-    font-weight: 400 !important;
+    font-weight: 500 !important;
 }
 .content-box-address .address-part.d-block .time-date span {
     font-weight: 600 ;
 }
 .time-date.evBold span {
     font-weight: 400;
+}
+p.time-date .date {
+    display: inline-block;
+    padding-top: 4px;
 }
 .content-box-address .address-part .btn-large {
 	width:85%;
@@ -1483,7 +1516,7 @@ label.date.mt-3 {
 .content-box-address .footer-wr p {
 	margin:0;
 	color:var(--light-black);
-	font-size:18px;
+	font-size:15px;
 	font-family:var(--montserrat);
 	font-weight:500;
 }
@@ -1852,4 +1885,27 @@ button.btn.btn-join-now.addbtnmodf {
 }
 .mobfot_opt{
 	display: none;
+}
+
+.def_cont_width {
+    font-weight: 500 !important;
+    display: inline-block;
+    padding-left: 5px;
+} 
+.footer-wr.adjfont p {
+    font-weight: 600;
+}
+
+.btn-large:hover {
+    background: #686345;
+    color: #fff;
+}
+
+
+.scroll-to-top {
+    bottom: 10px;
+    position: fixed;
+    right: 10px;
+ 
+    z-index: 900000000;
 }

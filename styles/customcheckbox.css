@@ -67,7 +67,7 @@
     top: 2px;
     opacity: 0;
     font-family: var(--montserrat); font-weight: 600;
-font-size: 13px;
+font-size: 16px;
   }
   .toggleSwitch a {
     position: absolute;
@@ -229,6 +229,15 @@ font-size: 13px;
 
 .cs-wrapper .label-text{ margin-bottom: 0;
     font-family: var(--montserrat);
-    font-size: 15px;
+    font-size: 16px;
     color: var(--black);
     font-weight: 500;}
+
+
+@media (max-width:767px) {
+    .toggleSwitch > span span {
+     
+      font-size: 14px;
+  }
+
+}
