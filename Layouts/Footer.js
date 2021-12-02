@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Col, Form, FormControl, Row } from "react-bootstrap";
 import logo from '../public/images/footerlogo.png';
 import sendIcon from '../public/images/sendIcon.png';
-import backtotopimg from '../public/images/backtotop.jpg';    
+import backtotopimg from '../public/images/backtotop.jpg';  
 
 
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
@@ -46,12 +46,12 @@ export default function Footer() {
 
             </div>  */}
 
- <div className="scroll-to-top">
+ {/* <div className="scroll-to-top">
       {isVisible && 
         <div onClick={scrollToTop}>
           <img src={backtotopimg} alt='Go to top'/>
         </div>}
-    </div> 
+    </div>  */}
 
 
 
@@ -69,10 +69,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-
                 </Col>  
-
-
                     <Col md={12} sm={12} className="deskfot_opt">
 
                         <div className="footerGap">
