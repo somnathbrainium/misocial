@@ -1896,10 +1896,20 @@ button.btn.btn-join-now.addbtnmodf {
 
 
 .scroll-to-top {
-    bottom: 10px;
+	bottom: 10px;
     position: fixed;
     right: 10px;
- 
-    z-index: 900000000;
+    z-index: 999;
+    width: 30px;
+	transition: all 0.5s;
+}
+
+.scroll-to-top:hover {
+	box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.scroll-to-top img {
+    max-width: 100%;
+	transition: all 0.5s;   
 
 }

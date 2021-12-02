@@ -46,12 +46,12 @@ export default function Footer() {
 
             </div>  */}
 
- {/* <div className="scroll-to-top">
+ <div className="scroll-to-top">
       {isVisible && 
         <div onClick={scrollToTop}>
-          <img src={backtotopimg} alt='Go to top'/>
+          <img src="../images/backtotop.jpg" alt='Go to top'/>
         </div>}
-    </div>  */}
+    </div> 
 
 
 
