@@ -69,7 +69,10 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
+
                 </Col>  
+
+
                     <Col md={12} sm={12} className="deskfot_opt">
 
                         <div className="footerGap">
