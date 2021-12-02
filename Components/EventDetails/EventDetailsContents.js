@@ -280,7 +280,7 @@ const Ordersummerywrapper = () =>
     </header>
     <div className="sum-items">
         <span>Platinum Member Tickets</span>
-        <span>3x TicketTwo, 1x Ticket one</span>
+        <span>3x TicketTwo</span>
     </div>
     <div className="sum-items">
         <span>Basic Member Tickets</span>
