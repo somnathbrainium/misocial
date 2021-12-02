@@ -74,9 +74,9 @@
 	.my-profile-wrapper .stepfrm-inner .header {
 		padding:0 40px;
 	}
-	.stepfrm-inner .form-control {
+	/* .stepfrm-inner .form-control {
 		height:46px;
-	}
+	} */
 	.How-itworks-wrapper .item-content h6 {
 		/* font-size:22px; */
 		/* line-height:65px; */
@@ -308,6 +308,9 @@
 	}
 	.footerinfo.deskfotopt {
 		display: none;
+	}
+	.stepfrm-inner .form-control {
+		height:46px;
 	}
 }
 @media (max-width:768px) {
@@ -543,8 +546,8 @@
 }
 @media (max-width:600px) {
 	.btn-next {
-		font-size:14px;
-		line-height:22px;
+		/* font-size:14px;
+		line-height:22px; */
 	}
 	.forgetModal1 .successReset-modal {
 		padding:0 15px!important;
@@ -717,6 +720,7 @@
 	.search-box .btn-join-now {
 			font-size: 14px;
 	}
+
 }
 @media (max-width:767px) {
 	.singleItem .content-wrap {
@@ -743,7 +747,7 @@
 		font-size: 15px;
 	}
 	.order-summery-wrapper .card-details .form-label {
-		font-size: 15px;
+		font-size: 14px;
 	}
 .buy-ticket-wr {
     margin-top: 17px;
@@ -971,6 +975,27 @@
 	.terms-privacy .sub-head {
 		font-size: 16px;
 	}
+	.event-content-wr .details-cont-portion p {
+
+		line-height: 24px;
+	}
+	.btn-large {
+
+		font-size: 16px;
+		height: 50px;
+	}
+	.stepfrm-inner .form-label {
+		font-size: 15px;
+		
+	}
+	.cs-wrapper .label-text {
+	
+		font-size: 15px;
+	
+	}
+	.stepfrm-inner .remember .forget-pass {
+		font-size: 15px;
+	}
 }
 
 @media (max-width:360px) {
@@ -981,5 +1006,9 @@
 	}
 	.pagination .page-item .page-link {
 		padding: 2px 5px !important;
+	}
+	.event-content-wr .details-cont-portion .lists li {
+		
+		line-height: 24px;
 	}
 }

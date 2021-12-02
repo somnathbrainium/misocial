@@ -11,10 +11,19 @@ import { GrCircleInformation } from 'react-icons/gr';
 import { BsFillEnvelopeFill } from 'react-icons/bs';
 import { FaPhoneAlt } from 'react-icons/fa';
 
+import React, { useState } from "react";
 
 
 export default function EventContents() {
+
+    const [showText, setShowText] = useState(false);
+
+    const onClick = () => setShowText(true);
+
+
+
     return (
+        
         <div className="event-content-wr">
             <div className="container">
                 <Row>
@@ -24,7 +33,7 @@ export default function EventContents() {
                             src={eventdetailsImage}
                             alt="event-detailsImage"
                             className="details-image"
-                        />
+                        /> 
                         <div className="act-button">
                             <button className="btn btn-short"><BiPlus />Shortlist</button>
                             <button className="btn btn-view-event"><RiShareForwardLine className="share" />Share</button>
@@ -32,7 +41,7 @@ export default function EventContents() {
 
                         <div className="details-cont-portion">
                             <h2>Details</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> <br />
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry:</p>
                             <ul className="lists">
                                 <li> It is a long established.</li>
@@ -41,7 +50,7 @@ export default function EventContents() {
                                 <li>remaining essentially.</li>
                                 <li>Various versions have evolved.</li>
                             </ul>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                         <div className="buy-ticket-wr">
@@ -146,70 +155,14 @@ export default function EventContents() {
                                     </Table>
                                 </div>
                             </div>
-                            <button className="btn btn-large">Buy now</button>
+                            <button className="btn btn-large" onClick={onClick} >Buy now</button>
+
+                                      
                         </div>
 
-                        <div className="order-summery-wrapper">
-                            <header>
-                                Order Summary
-                            </header>
-                            <div className="sum-items">
-                                <span>Platinum Member Tickets</span>
-                                <span>3x TicketTwo, 1x Ticket one</span>
-                            </div>
-                            <div className="sum-items">
-                                <span>Basic Member Tickets</span>
-                                <span>1x Ticket one </span>
-                            </div>
-                            <div className="sum-items">
-                                <span>Total Tickets</span>
-                                <span>5</span>
-                            </div>
-                            <div className="sum-items">
-                                <p>Total  Payment</p>
-                                <p>$ 40</p>
-                            </div><br />
-                            <header>
-                                Enter your credit card details to buy tickets
-                            </header>
-                            <Form className="card-details">
+                        {showText ? <Ordersummerywrapper /> : null}
 
-                                <Row >
-                                    <Col md={6} className="mb-3">
-                                        <Form.Group controlId="CardNumber">
-                                            <Form.Label>Card Number</Form.Label>
-                                            <Form.Control />
-                                        </Form.Group>
-                                    </Col>
-                                    <Col md={6} className="mb-3">
-                                        <Form.Group controlId="ExpiryDate">
-                                            <Form.Label>Expiry Date</Form.Label>
-                                            <Form.Control />
-                                        </Form.Group>
-                                    </Col>
-                                    <Col md={6} className="mb-3">
-                                        <Form.Group controlId="CardholderName">
-                                            <Form.Label>Cardholder Name</Form.Label>
-                                            <Form.Control />
-                                        </Form.Group>
-                                    </Col>
-                                    <Col md={6} className="mb-3">
-                                        <Form.Group controlId="CVV" className="f-group">
-                                            <div className="label-w-hints">
-                                                <Form.Label>CVV</Form.Label>
-                                                <GrCircleInformation />
-                                            </div>
-
-                                            <Form.Control />
-                                        </Form.Group>
-                                    </Col>
-                                </Row>
-
-
-                                <button className="btn btn-large">Pay Now</button>
-                            </Form>
-
-                        </div>
+                       
                         <div className="event-location-map">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.396813362046!2d88.38073241443453!3d22.601652537600767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8bb34e13008ab%3A0xb88776c0052769b0!2sKolkata%20Railway%20Station%20(Chitpur%20Station)!5e0!3m2!1sen!2sin!4v1629457047388!5m2!1sen!2sin" width="600" height="450" allowFullScreen="" loading="lazy"></iframe>
                             
@@ -274,7 +227,7 @@ export default function EventContents() {
                                 </p>
                                 <p className="time-date wrap-elem">
                                     <span>Event Host:</span>
-                                    <label className="date">Emily Wright</label>
+                                    <label className="date def_cont_width">Emily Wright</label>
                                 </p>
                             </div>
                             <div className="address-part">
@@ -296,7 +249,7 @@ export default function EventContents() {
 
                             </div>
 
-                            <div className="footer-wr">
+                            <div className="footer-wr adjfont">
                                 <p>Attendees (56)</p>
                             </div>
                         </div>
@@ -318,3 +271,68 @@ export default function EventContents() {
         </div>
     )
 }
+
+const Ordersummerywrapper = () =>  
+
+    <div className="order-summery-wrapper">
+    <header>
+        Order Summary
+    </header>
+    <div className="sum-items">
+        <span>Platinum Member Tickets</span>
+        <span>3x TicketTwo, 1x Ticket one</span>
+    </div>
+    <div className="sum-items">
+        <span>Basic Member Tickets</span>
+        <span>1x Ticket one </span>
+    </div>
+    <div className="sum-items">
+        <span>Total Tickets</span>
+        <span>5</span>
+    </div>
+    <div className="sum-items">
+        <p>Total  Payment</p>
+        <p>$ 40</p>
+    </div><br />
+    <header>
+        Enter your credit card details to buy tickets
+    </header>
+    <Form className="card-details">
+
+        <Row >
+            <Col md={6} className="mb-3">
+                <Form.Group controlId="CardNumber">
+                    <Form.Label>Card Number</Form.Label>
+                    <Form.Control />
+                </Form.Group>
+            </Col>
+            <Col md={6} className="mb-3">
+                <Form.Group controlId="ExpiryDate">
+                    <Form.Label>Expiry Date</Form.Label>
+                    <Form.Control />
+                </Form.Group>
+            </Col>
+            <Col md={6} className="mb-3">
+                <Form.Group controlId="CardholderName">
+                    <Form.Label>Cardholder Name</Form.Label>
+                    <Form.Control />
+                </Form.Group>
+            </Col>
+            <Col md={6} className="mb-3">
+                <Form.Group controlId="CVV" className="f-group">
+                    <div className="label-w-hints">
+                        <Form.Label>CVV</Form.Label>
+                        <GrCircleInformation />
+                    </div>
+
+                    <Form.Control />
+                </Form.Group>
+            </Col>
+        </Row>
+
+
+        <button className="btn btn-large">Pay Now</button>
+    </Form>
+
+</div>
+;
