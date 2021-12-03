@@ -350,7 +350,7 @@
 		width:100%!important;
 	}
 	.terms-privacy .terms-head {
-		font-size:35px;
+		font-size:30px;
 	}
 	.terms-privacy .sub-head {
 		font-size:20px;
@@ -920,8 +920,8 @@
 		height: 200px;
 	}
 	.terms-privacy .terms-head {
-		font-size: 30px;
-		padding-bottom: 20px;
+		font-size: 38px;
+		padding-bottom: 20px; 
 	}
 	.terms-privacy .sub-head-new {
 		font-size: 15px;
