@@ -1549,14 +1549,14 @@ p.time-date .date {
 	margin:50px 0;
 } 
 .terms-privacy .terms-head {
-	font-size:36px;
-	padding-bottom:30px;
+	font-size:34px;
+	padding-bottom:20px;
 	font-family:var(--abril);
 	color:var(--black);
 }
 .terms-privacy .sub-head {
-	margin-bottom:15px;
-	padding-top:15px;
+	margin-bottom:9px;
+	padding-top:9px;
 	font-size:20px;
 	color:var(--light-black);
 	font-weight:600;
@@ -1565,14 +1565,16 @@ p.time-date .date {
 .terms-privacy .texts {
 	margin-bottom:10px;
 	font-size:15px;
-	line-height: 28px;
+	line-height: 28px; 
 	font-weight:500;
 	font-family:var(--montserrat);
 	color:#111111;
 }
 .terms-privacy .sub-head-new {
-	margin-bottom:20px;
-	font-size:20px;
+	margin-bottom:10px;
+	padding-top: 10px;
+
+	font-size:16px;
 	font-weight:600;
 	font-family:var(--montserrat);
 	color:var(--label-color);
