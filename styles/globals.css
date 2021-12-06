@@ -699,7 +699,10 @@ form.d-flex.search-box {
 }
 .venue-wrapper {
 	background:#E0DEDC;
-	padding:116px 0;
+	padding:90px 0;
+}
+.menu-wrapper.d-block br {
+    display: none;
 }
 .event-wrapper .title {
 	font-weight:400;
