@@ -34,7 +34,7 @@ export default function EventOrganizerAfterlogin() {
                                     type="search"
                                     placeholder="Enter Your Email "
                                     className="mr-2"
-                                    aria-label="Search" 
+                                    aria-label="Search"   
                                 /> */}
                                 {/* <button className="btn btn-join-now addbtnmodf">Apply now to become an Event Organizer</button> */}
 
