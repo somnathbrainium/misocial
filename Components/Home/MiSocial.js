@@ -22,8 +22,8 @@ export default function MiSocial() {
                             </p>
                         </div>
                     </Col>
-                    <Col md={6} className="mysocialImg">
-                            <div className="modf_img"  style={{ background: 'url(../images/Misocial-why.jpg) no-repeat center center'}}>
+                    <Col md={6} className="mysocialImg img-box">
+                            <div className=" modf_img"  style={{ background: 'url(../images/Misocial-why.jpg) no-repeat center center'}}>
                             <Image src={Misocialwhy}alt="Misocialwhy"/>
                             </div>
                     </Col>

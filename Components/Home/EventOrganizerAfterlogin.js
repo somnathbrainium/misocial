@@ -7,7 +7,7 @@ export default function EventOrganizerAfterlogin() {
         <div className="organizer-wrapper" id="becomeorg">
             <div className="container">
                 <Row>
-                    <Col md={5} className="evOrg">
+                    <Col md={5} className="evOrg concImg modf">
                         {/* <Image
                             src={organizer}
                             alt="organizer" className="img-fluid"
