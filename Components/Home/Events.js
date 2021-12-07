@@ -3,7 +3,7 @@ import eventImage from '../../public/images/event-mage.jpg';
 import Image from 'next/image'
 export default function Events() {
     return (
-        <div className="event-wrapper">
+        <div className="event-wrapper">  
             <div className="container">
                 <Row>
                     <Col sm={6}>

@@ -16,12 +16,19 @@ export default function EventSearchResult_B() {
             <div className="singleItem">
                 <div className="container">
                     <div className="content-wrap">
-                        <Image
-                            src={searchImage}
+                        {/* <Image
+                            src={searchImage} 
                             alt="searchImage"
                             className="image-style"
-                        />
-                        <div className="content">
+                        /> */}
+                        <div className="modf_img modfimgevent"   style={{ background: 'url(../images/event-searchResult.jpg) no-repeat center center'}}>
+                            <Image
+                                src={searchImage}
+                                alt="searchImage"
+                                className="image-style"
+                            />
+                        </div>
+                        <div className="content addpading">
                             <div className="title-head"><a href="/event-details-B">Bunbury Toastmaster- Regular  Club Meeting</a></div>
                             <div className="time-date">
                                 <Image className="image-icon"
@@ -46,15 +53,19 @@ export default function EventSearchResult_B() {
                     </div>
                 </div>
             </div>
-            <div className="singleItem">
+            <div className="singleItem">  
                 <div className="container">
                     <div className="content-wrap">
+                     
+
+                <div className="modf_img modfimgevent"   style={{ background: 'url(../images/event-searchResult2.jpg) no-repeat center center'}}>
                         <Image
                             src={searchImage2}
                             alt="searchImage"
                             className="image-style"
-                        />
-                        <div className="content">
+                        />      
+                        </div>
+                        <div className="content addpading">
                             <div className="title-head">The Event Fairy</div>
                             <div className="time-date">
                                 <Image className="image-icon"
@@ -82,12 +93,14 @@ export default function EventSearchResult_B() {
             <div className="singleItem">
                 <div className="container">
                     <div className="content-wrap">
-                        <Image
-                            src={searchImage}
-                            alt="searchImage"
-                            className="image-style"
-                        />
-                        <div className="content">
+                    <div className="modf_img modfimgevent"   style={{ background: 'url(../images/event-searchResult.jpg) no-repeat center center'}}>
+                            <Image
+                                src={searchImage}
+                                alt="searchImage"
+                                className="image-style"
+                            />
+                        </div>
+                        <div className="content addpading">
                             <div className="title-head">Step by Step Corporate</div>
                             <div className="time-date">
                                 <Image className="image-icon"
@@ -115,12 +128,15 @@ export default function EventSearchResult_B() {
             <div className="singleItem">
                 <div className="container">
                     <div className="content-wrap">
+                   
+                <div className="modf_img modfimgevent"   style={{ background: 'url(../images/event-searchResult2.jpg) no-repeat center center'}}>
                         <Image
                             src={searchImage2}
                             alt="searchImage"
                             className="image-style"
-                        />
-                        <div className="content">
+                        />      
+                        </div>
+                        <div className="content addpading">
                             <div className="title-head">A Wedding to Remember</div>
                             <div className="time-date">
                                 <Image className="image-icon"
