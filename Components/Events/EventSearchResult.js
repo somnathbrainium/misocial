@@ -126,7 +126,7 @@ export default function EventSearchResult() {
                             <div className="action-section">
                                 <button className="btn btn-view-event">
                                     View Event
-                                </button>
+                                </button> 
 
                                 <Link href="/shortList">
                                 <button className="btn btn-short">

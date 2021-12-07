@@ -29,7 +29,7 @@ export default function EventSearchResult_C() {
                                 alt="searchImage"
                                 className="image-style"
                             />
-                        </div>
+                        </div> 
 
 
                         <div className="content addpading">

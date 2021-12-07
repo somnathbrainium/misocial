@@ -17,7 +17,7 @@ export default function EventSearchResult_B() {
                 <div className="container">
                     <div className="content-wrap">
                         {/* <Image
-                            src={searchImage}
+                            src={searchImage} 
                             alt="searchImage"
                             className="image-style"
                         /> */}
