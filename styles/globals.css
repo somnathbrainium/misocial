@@ -1975,7 +1975,10 @@ p.time-date.wrap-elem.adjustinfo {
     flex-direction: column;
 }
 .adjustinfo label.date.def_cont_width {
-    padding-left: 0;
+	padding: 0px 0 2px;
+    position: relative;
+    font-weight: 400!important;
+    color: #1f1e2c;
 }
 
 .ticket-column.increDecre.blackinfo label.inner-head {

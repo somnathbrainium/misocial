@@ -221,7 +221,7 @@ export default function EventContents() {
                         <div className="content-box-address">
                             <div className="address-part d-block">
 
-                                <p className="time-date evBold">
+                                <p className="time-date evBold nopaddingopt">
                                     <label className="date">Event Organizer: </label>
                                     <span>Business Name(organizer Profile)</span>
                                 </p>
