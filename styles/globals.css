@@ -527,7 +527,8 @@ a {
 	position:relative;
 }
 .increDecre label {
-	color:#9f9f9f;
+    color: #212529;
+    font-size: 20px;
 }
 .concept-wrapper .concept-image {
 	height:auto;
@@ -1331,7 +1332,7 @@ label.date.mt-3 {
 	font-family:var(--montserrat);
 	color:var(--label-color);
 	font-size:16px;
-	margin-bottom:10px;
+	margin-bottom:5px;
 	font-weight:500;
 }
 .buy-ticket-wr .ticket-column .table tbody {
@@ -1349,6 +1350,7 @@ label.date.mt-3 {
 	color:var(--light-black);
 	font-weight:500;
 	font-family:var(--montserrat);
+	line-height: 25px;
 }
 .buy-ticket-wr .ticket-column .price {
 	font-weight:600;
@@ -1356,7 +1358,11 @@ label.date.mt-3 {
 }
 .buy-ticket-wr .btn-large {
 	width:100%;
-	margin-top:40px;
+	margin-top:25px;
+}
+.ticket-row thead th {
+    font-weight: 600;
+    font-size: 14px;
 }
 .incrment {
 	display:flex;
@@ -1422,8 +1428,8 @@ label.date.mt-3 {
 	margin-top:25px;
 }
 .event-location-map {
-	margin-top:50px;
-	height:450px;
+	margin-top:40px;
+	height:450px; 
 }
 .event-location-map iframe {
 	height:100%;
@@ -1465,9 +1471,10 @@ label.date.mt-3 {
 	flex-wrap:wrap;
 }
 .content-box-address .address-part .icon-div {
-	width:22px;
-	margin-right:10px;
-	margin-top:5px;
+	width: 22px;
+    margin-right: 14px;
+    margin-top: 5px;
+    text-align: center;
 }
 .content-box-address .address-part .time-date {
 	/* font-size:18px; */
@@ -1475,6 +1482,8 @@ label.date.mt-3 {
 	font-family:var(--montserrat);
 	font-weight:500;
 	flex:1;
+	padding: 0;
+    margin: 0px 0 6px;
 }
 .content-box-address .address-part .time-date span {
 	font-weight:500;
@@ -1501,23 +1510,24 @@ p.time-date .date {
 }
 .content-box-address .address-part .btn-large {
 	width:85%;
-	margin:auto;
-	margin-top:25px;
+	margin: 8px auto auto;
+	/* margin-top:25px; */
 }
 .content-box-address .address-part .icon-div.with-icon {
 	margin-top:0;
 	width:auto;
 }
 .content-box-address .address-part .icon-div.with-icon svg {
-	width:23px;
-	height:23px;
+	width:18px;
+	height:18px;
 }
 .wrap-elem span,.wrap-elem .date {
 	display:inline-block!important;
 }
 .content-box-address .footer-wr {
 	border-top:1px solid #C9C9C9;
-	padding-top:15px;
+	padding-top: 13px;
+    margin-top: 13px;
 }
 .content-box-address .footer-wr p {
 	margin:0;
@@ -1700,7 +1710,7 @@ p.time-date .date {
 	text-align:center;
 	font-family:var(--montserrat);
 	font-weight:500;
-	font-size:20px;
+	font-size:16px;
 	margin-top:30px;
 	color:#1F1E2C;
 }
