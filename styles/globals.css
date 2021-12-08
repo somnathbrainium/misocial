@@ -1425,7 +1425,8 @@ label.date.mt-3 {
 }
 .order-summery-wrapper .btn-large {
 	width:100%;
-	margin-top:25px;
+	/* margin-top:25px; */
+	margin-top: 8px;
 }
 .event-location-map {
 	margin-top:40px;
