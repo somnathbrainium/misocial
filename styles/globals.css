@@ -1331,7 +1331,7 @@ label.date.mt-3 {
 .buy-ticket-wr .ticket-column .inner-head {
 	font-family:var(--montserrat);
 	color:var(--label-color);
-	font-size:16px;
+	font-size:15px;
 	margin-bottom:5px;
 	font-weight:500;
 }
@@ -1358,7 +1358,7 @@ label.date.mt-3 {
 }
 .buy-ticket-wr .btn-large {
 	width:100%;
-	margin-top:25px;
+	margin-top:10p;
 }
 .ticket-row thead th {
     font-weight: 600;
@@ -1378,7 +1378,7 @@ label.date.mt-3 {
 	text-align:center;
 }
 .order-summery-wrapper {
-	margin-top:35px;
+	margin-top:15px;
 	box-shadow:-1px 4px 6px #ddd;
 }
 .order-summery-wrapper header {
@@ -1429,7 +1429,7 @@ label.date.mt-3 {
 	margin-top: 8px;
 }
 .event-location-map {
-	margin-top:40px;
+	margin-top:30px;
 	height:450px; 
 }
 .event-location-map iframe {
@@ -1948,4 +1948,41 @@ button.btn.btn-join-now.addbtnmodf {
     max-width: 100%;
 	transition: all 0.5s;   
 
+}
+
+.modftable .ticket-column.increDecre {
+
+}
+
+label.inner-head {
+    padding: 10px;
+    background: #aea470;
+    width: 100%
+}
+.modftable .ticket-column.increDecre .table th {
+    background: #aea470;
+}
+
+.modftable .ticket-column.increDecre .table th {
+    background: #aea470;
+}
+.ticket-column.increDecre.blackinfo .table th{
+	background: #000;
+    color: #fff;
+}
+p.time-date.wrap-elem.adjustinfo {
+    display: flex;
+    flex-direction: column;
+}
+.adjustinfo label.date.def_cont_width {
+    padding-left: 0;
+}
+
+.ticket-column.increDecre.blackinfo label.inner-head {
+    color: #fff;
+    background: #000;
+}
+.adjustinfo label.date.def_cont_width {
+    padding-left: 0;
+    padding: 0px 0 4px;
 }

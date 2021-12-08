@@ -55,7 +55,7 @@ export default function EventContents() {
                         </div>
                         <div className="buy-ticket-wr">
                             <h3 className="tkt-title">Buy Tickets</h3>
-                            <div className="ticket-row">
+                            <div className="ticket-row modftable">
                                 <div className="ticket-column increDecre">
                                     <label className="inner-head"> Platinum Member Tickets</label>
                                     <Table borderless >
@@ -105,7 +105,7 @@ export default function EventContents() {
                                         </tbody>
                                     </Table>
                                 </div>
-                                <div className="ticket-column increDecre">
+                                <div className="ticket-column increDecre blackinfo">
                                     <label className="inner-head">Basic Member Tickets</label>
                                     <Table borderless >
                                         <thead>
@@ -225,7 +225,7 @@ export default function EventContents() {
                                     <label className="date">Event Organizer: </label>
                                     <span>Business Name(organizer Profile)</span>
                                 </p>
-                                <p className="time-date wrap-elem">
+                                <p className="time-date wrap-elem adjustinfo">
                                     <span>Event Host:</span>
                                     <label className="date def_cont_width">Emily Wright</label>
                                 </p>
