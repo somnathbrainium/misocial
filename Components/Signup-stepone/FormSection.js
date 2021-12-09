@@ -42,8 +42,8 @@ export default function FormSection() {
                         <label className="toggleSwitch" >
                             <input type="checkbox" defaultChecked />
                             <span>
-                                <span>NO</span>
-                                <span>YES</span>
+                            <span>No</span>
+                                            <span>Yes</span>
                             </span>
                             <a>
 
@@ -55,8 +55,8 @@ export default function FormSection() {
                         <label className="toggleSwitch" >
                             <input type="checkbox" />
                             <span>
-                                <span>NO</span>
-                                <span>YES</span>
+                            <span>No</span>
+                                            <span>Yes</span>
                             </span>
                             <a>
 

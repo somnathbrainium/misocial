@@ -25,10 +25,17 @@ export default function AllEventsForm() {
                 <Tab.Container defaultActiveKey="showtickets">
                     <div className="content-inner">
 
-                        <Image className="image-part"
+                        {/* <Image className="image-part"
                             src={myeventImage}
                             alt="events images"
-                        />
+                        /> */}
+                        <div className="modf_img modfimgevent modf3"   style={{ background: 'url(../images/myeventImage.jpg) no-repeat center center'}}>
+                            <Image
+                                src={myeventImage}
+                                alt="searchImage"
+                                className="image-style"
+                            />      
+                        </div>
 
                         <div className="content-part">
                             <h2 className="m-header">Bunbury Toastmaster- Regular  Club Meeting</h2>
@@ -130,10 +137,17 @@ export default function AllEventsForm() {
                 <Tab.Container defaultActiveKey="showtickets">
                     <div className="content-inner">
 
-                        <Image className="image-part"
+                        {/* <Image className="image-part"
                             src={myeventImage}
                             alt="events images"
-                        />
+                        /> */}
+                            <div className="modf_img modfimgevent modf3"   style={{ background: 'url(../images/myeventImage.jpg) no-repeat center center'}}>
+                            <Image
+                                src={myeventImage}
+                                alt="searchImage"
+                                className="image-style"
+                            />      
+                        </div>
 
                         <div className="content-part">
                             <h2 className="m-header">The Event Fairy</h2>
@@ -232,10 +246,17 @@ export default function AllEventsForm() {
                 <Tab.Container defaultActiveKey="showtickets">
                     <div className="content-inner">
 
-                        <Image className="image-part"
+                        {/* <Image className="image-part"
                             src={myeventImage}
                             alt="events images"
-                        />
+                        /> */}
+                            <div className="modf_img modfimgevent modf3"   style={{ background: 'url(../images/myeventImage.jpg) no-repeat center center'}}>
+                            <Image
+                                src={myeventImage}
+                                alt="searchImage"
+                                className="image-style"
+                            />      
+                        </div>
 
                         <div className="content-part">
                             <h2 className="m-header">Galas and Casual</h2>
@@ -299,10 +320,17 @@ export default function AllEventsForm() {
                 <Tab.Container defaultActiveKey="showtickets">
                     <div className="content-inner">
 
-                        <Image className="image-part"
+                        {/* <Image className="image-part"
                             src={myeventImage}
                             alt="events images"
-                        />
+                        /> */}
+                            <div className="modf_img modfimgevent modf3"   style={{ background: 'url(../images/myeventImage.jpg) no-repeat center center'}}>
+                            <Image
+                                src={myeventImage}
+                                alt="searchImage"
+                                className="image-style"
+                            />      
+                        </div>
 
                         <div className="content-part">
                             <h2 className="m-header">Step by Step Corporate</h2>
@@ -366,10 +394,17 @@ export default function AllEventsForm() {
                 <Tab.Container defaultActiveKey="showtickets">
                     <div className="content-inner">
 
-                        <Image className="image-part"
+                        {/* <Image className="image-part"
                             src={myeventImage}
                             alt="events images"
-                        />
+                        /> */}
+                            <div className="modf_img modfimgevent modf3"   style={{ background: 'url(../images/myeventImage.jpg) no-repeat center center'}}>
+                            <Image
+                                src={myeventImage}
+                                alt="searchImage"
+                                className="image-style"
+                            />      
+                        </div>
 
                         <div className="content-part">
                             <h2 className="m-header">An Arbon Day to Remember</h2>

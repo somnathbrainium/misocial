@@ -167,8 +167,8 @@ export default function OrganizerSetting() {
                                     <label className="toggleSwitch">
                                         <input type="checkbox" />
                                         <span>
-                                            <span>NO</span>
-                                            <span>YES</span>
+                                            <span>No</span>
+                                            <span>Yes</span>
                                         </span>
                                         <a></a>
                                     </label>

@@ -38,7 +38,7 @@
 .right-panel {
 	background:var(--white);
 	width:calc(100% - 306px);
-	padding:40px 16px 16px 16px;
+	padding:30px 15px 15px 15px;
 }
 .user-profilename {
 	text-align:center;
@@ -72,7 +72,7 @@
 	margin:10px 0;
 }
 h2.accordion-header a {
-    font-size: 18px;
+    font-size: 16px;
 }
 .accordion-button {
     padding: 4px 1.25rem;
@@ -84,7 +84,7 @@ h2.accordion-header a {
 .sidebar .nav .nav-item a {
 	margin-left:10px;
 	color:var(--label-color);
-	font-size:16px;
+	font-size:15px;
 	font-family:var(--montserrat);
 	font-weight:500;
 }
@@ -109,7 +109,7 @@ h2.accordion-header a {
 }
 .main-frame-inner .form-class {
 	max-width:78%;
-	margin-top:30px;
+	/* margin-top:10px; */
 }
 .main-frame-inner .form-class .form-label {
 	color:var(--label-color);
@@ -118,8 +118,7 @@ h2.accordion-header a {
 }
 .main-frame-inner .form-class .tag-title {
 	color:var(--label-color);
-	font-size:18px;
-	font-weight:500;
+	font-weight:600;
 	display:block;
 	margin-bottom:10px;
 }
@@ -184,7 +183,7 @@ h2.accordion-header a {
 }
 .form-class .form-label.section-name {
 	color:var(--light-black);
-	font-size:34px;
+	font-size:20px;
 	font-family:var(--abril);
 }
 .form-class .membership-wr {
@@ -193,8 +192,8 @@ h2.accordion-header a {
 .save-cancel-action {
 	display:flex;
 	align-items:center;
-	margin-top:20px;
-	padding-bottom:20px;
+	margin-top:15px;
+	/* padding-bottom:20px; */
 }
 .save-cancel-action .nav-pills .nav-item {
 	margin:0 16px 10px 0;
@@ -284,14 +283,14 @@ h2.accordion-header a {
 	line-height:24px;
 }
 .form-class .payment-hints {
-	font-size:17px;
+	/* font-size:17px; */
 	font-family:var(--montserrat);
 	font-weight:500;
 	color:var(--label-color);
-	margin:16px 0 0 0;
+	margin:0px 0 0 0;
 }
 .form-hints-container {
-	margin-top:50px;
+	margin-top:22px;
 }
 .form-hints-container .direction-by {
 	display:flex;
@@ -309,16 +308,19 @@ h2.accordion-header a {
 	margin-right:16px;
 }
 .right-panel .header {
-	padding-bottom:26px;
+	padding-bottom:15px;
 	color:var(--light-black);
 	font-family:var(--abril);
-	font-size:28px;
+	font-size:26px;
 	border-bottom:1px solid #E4E4E4;
 	margin:0;
-	margin-bottom:30px;
+	margin-bottom:15px;
 }
-.right-panel .main-frame-inner {
+/* .right-panel .main-frame-inner {
 	padding:0 80px 80px;
+} */
+.right-panel .main-frame-inner {
+	padding:0 10px 10px;
 }
 .main-frame-inner .myevents-list:nth-child(odd) {
 	background:var(--event-bg2);
@@ -327,7 +329,7 @@ h2.accordion-header a {
 	background:var(--event-bg1);
 }
 .main-frame-inner .myevents-list {
-	padding:16px;
+	padding:15px;
 }
 .myevents-list .content-inner {
 	display:flex;
@@ -342,10 +344,10 @@ h2.accordion-header a {
 }
 .myevents-list .content-inner .content-part .m-header {
 	color:var(--light-black);
-	font-size:22px;
+	font-size:18px;
 	font-family:var(--montserrat);
 	font-weight:700;
-	margin-bottom:20px;
+	margin-bottom:10px;
 	display:flex;
 }
 .myevents-list .content-inner .content-part .sub-title {
@@ -366,7 +368,7 @@ h2.accordion-header a {
 	text-transform:uppercase;
 }
 .myevents-list .inner-form-part {
-	margin-top:20px
+	margin-top:10px
 }
 .myevents-list .inner-form-part .table thead::after {
 	content:"-";
@@ -375,23 +377,24 @@ h2.accordion-header a {
 	color:transparent;
 }
 .myevents-list .inner-form-part .table thead th {
-	font-size:16px;
+	font-size:15px;
 	background:var(--header-bg);
-	padding:16px 10px;
+	padding:8px 10px;
 	font-family:var(--montserrat);
-	font-weight:500;
+	font-weight:600;
 	color:var(--label-color);
 	vertical-align:middle;
 }
 .myevents-list .inner-form-part .table.ticket-table thead th {
-	font-size:18px;
+	font-size:15px;
 	color:var(--black);
 }
 .myevents-list .inner-form-part .table tbody td,.myevents-list .inner-form-part .table tbody td .form-control {
 	background:var(--white);
 	font-family:var(--label-color);
-	font-size:18px;
+	font-size:15px;
 	font-weight:500;
+	vertical-align: middle;
 }
 .myevents-list .inner-form-part .form-control {
 	max-width:90px;
@@ -412,18 +415,22 @@ h2.accordion-header a {
 }
 .delete-account-wrapper .paragraph {
 	color:var(--label-color);
-	font-size:17px;
+	/* font-size:17px; */
 	font-family:var(--montserrat);
 	font-weight:500;
 }
 .delete-account-wrapper .save-cancel-action {
-	margin-bottom:30px;
+	margin-bottom:15px;
+}
+p.paragraph.message {
+    margin: 0px;
+    padding: 0px;
 }
 .organize-db-wrapper .check-radio-wrap {
 	justify-content:flex-start;
 }
 .taxes-wrap .cs-wrapper {
-	margin-bottom:20px;
+	margin-bottom:15px;
 }
 .taxes-wrap .per-position {
 	position:relative;
@@ -541,6 +548,9 @@ h2.accordion-header a {
 .myevents-list .inner-form-part .table.ticket-table tbody td {
 	background:transparent;
 }
+p.host-title.mt-5 {
+    margin: 25px 0 0 !important;
+}
 /* .myevents-list .inner-form-part .table thead::after{display: none;}*/
 .plan-feature-wrap .nav-item {
 	background:url('../public/images/checkIcon.png') no-repeat left top;
@@ -549,16 +559,16 @@ h2.accordion-header a {
 	color:#575757;
 	font-family:var(--montserrat);
 	font-weight:500;
-	padding-left:37px;
-	font-size:20px;
-	margin:12px 0;
+	font-size: 15px;
+    margin: 2px 0;
+    padding: 2px 0px 5px 32px;
 }
 .plan-price {
 	text-align:center;
 	color:var(--black);
-	font-size:67px;
+	font-size:60px;
 	border-bottom:1px solid var(--stroke2);
-	padding-bottom:20px;
+	padding-bottom:10px;
 	font-family:var(--abril);
 }
 .plan-price label {
@@ -591,21 +601,21 @@ h2.accordion-header a {
 	border-radius:0;
 	border:1px solid var(--stroke);
 	font-family:var(--montserrat);
-	font-size:18px;
+	font-size:15px;
 }
 .specific-tran-wrap .event-name {
 	white-space:nowrap;
 	margin:0;
 	color:#555362;
 	font-family:var(--montserrat);
-	font-size:20px;
+	font-size:16px;
 	font-weight:500;
 }
 .specific-tran-wrap .event-name span {
 	color:var(--label-color);
 }
 .specific-tran-wrap .trans-body {
-	margin-top:30px;
+	margin-top:15px;
 }
 .specific-tran-wrap .trans-body .dt-inner {
 	display:flex;
@@ -616,8 +626,8 @@ h2.accordion-header a {
 .specific-tran-wrap .trans-body .dt-inner span {
 	font-family:var(--montserrat);
 	font-weight:500;
-	font-size:18px;
-	color:#3D3D3D;
+	/* font-size:18px; */
+	color:#2b2727;
 }
 .specific-tran-wrap .trans-body .dt-inner:nth-child(even) {
 	background:var(--event-bg2);
@@ -637,7 +647,7 @@ h2.accordion-header a {
 	border-radius:0;
 	background:var(--button-bg);
 	color:var(--button-text);
-	font-size:20px;
+	font-size:16px;
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -652,7 +662,7 @@ h2.accordion-header a {
 .refund-ammount-wrap .form-label {
 	font-family:var(--montserrat);
 	font-weight:500;
-	font-size:18px;
+	font-size:15px;
 	color:var(--label-color);
 }
 .refund-ammount-wrap .form-control {
@@ -660,7 +670,6 @@ h2.accordion-header a {
 }
 .refund-ammount-wrap .text {
 	background:var(--event-bg1);
-	font-size:16px;
 	margin-left:0;
 	width:100%;
 	padding:16px;
@@ -683,14 +692,14 @@ h2.accordion-header a {
 }
 .form-class .file-upload-area label span {
 	color:var(--para-light);
-	margin-top:20px;
+	margin-top:5px;
 	font-family:var(--montserrat);
 	font-weight:500;
-	font-size:18px;
+	font-size:16px;
 }
 .form-class .frmsub-title {
 	color:var(--light-black);
-	font-size:18px;
+	font-size:16px;
 	font-family:var(--montserrat);
 	font-weight:600;
 	margin-bottom:10px;
@@ -702,7 +711,7 @@ h2.accordion-header a {
 	align-items:center;
 }
 .form-class .event-tag-hints span {
-	font-size:18px;
+	/* font-size:18px; */
 	font-family:var(--montserrat);
 	color:#888888;
 }
@@ -725,20 +734,20 @@ h2.accordion-header a {
 .form-class .add-tickets-wrap .currency-part .currency-wrap {
 	font-weight:500;
 	font-family:var(--montserrat);
-	font-size:18px;
+	/* font-size:18px; */
 	color:var(--label-color);
 }
 .form-class .add-tickets-wrap .currency-part .btn-next {
 	border-radius:0;
 	color:var(--button-text);
-	font-size:18px;
+	font-size:16px;
 	font-family:var(--montserrat);
 	max-width:330px;
 	height:52px;
 	margin-top:16px;
 }
 .platinum-tickets-wrap .table thead th {
-	font-size:16px;
+	font-size:15px;
 	padding:14px;
 	background:var(--header-bg);
 	font-family:var(--montserrat);
@@ -783,7 +792,7 @@ h2.accordion-header a {
 }
 .tickets-per-order .tick-title {
 	color:var(--light-black);
-	font-size:17px;
+	/* font-size:17px; */
 	font-weight:500;
 }
 .tickets-per-order .save-cancel-action .btn {
@@ -792,10 +801,14 @@ h2.accordion-header a {
 }
 .data-status-header {
 	border-bottom:1px solid var(--stroke);
-	padding-bottom:16px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.form-values.sendInvit.mb-4 p.text {
+    padding: 9px 0 0 0;
 }
 .data-status-header .top-portion {
-	margin-bottom:16px;
+	/* margin-bottom:16px; */
 }
 .data-status-header .top-portion,.data-status-header .bottom-portion {
 	display:flex;
@@ -1165,16 +1178,16 @@ h2.accordion-header a {
 	margin-left:5px;
 }
 .profImg {
-	padding-top:20px;
+	padding-top:10px;
 }
 .orgSetting {
 	display:flex;
 	padding-top:10px;
 }
 .orgSel .form-control {
-	color:#1f1e33;
+	/* color:#1f1e33;
 	font-size:18px;
-	font-weight:500;
+	font-weight:500; */
 }
 .evnHdn {
 	padding-top:10px;
@@ -1191,7 +1204,7 @@ h2.accordion-header a {
 }
 .newDbaccordion .accordion-button {
 	color:var(--label-color);
-	font-size:18px;
+	font-size:16px;
 	font-family:var(--montserrat);
 	font-weight:500;
 	background-color:#fff;
@@ -1221,19 +1234,29 @@ h2.accordion-header a {
 .orgBold,.orgBold a {
 	font-weight:600!important;
 }
+
+.dashboard-layout .evntImg {
+    font-size: 20px;
+    padding: 0px 0 8px;
+}
+label.section-name.evnHdn.form-label{
+	padding-top: 0;
+    padding-bottom: 0;
+}
 @media ( max-width:1400px) {
 	.universalModal .modal-title {
 		font-size:30px;
 	}
-	.right-panel .main-frame-inner {
-		padding:0 20px 20px;
+	.myevents-list .inner-form-part .table thead th {
+		font-size: 15px;
+		/* padding: 3px 10px; */
 	}
 	/* .sidebar .nav .nav-item a {
 		font-size:17px;
 	} */
-	.myevents-list .content-inner .content-part .m-header {
+	/* .myevents-list .content-inner .content-part .m-header {
 		font-size:18px;
-	}
+	} */
 	.myevents-list .content-inner .content-part .sub-title {
 		/* font-size:16px; */
 	}
@@ -1241,25 +1264,29 @@ h2.accordion-header a {
 		font-size:28px;
 	} */
 	.data-status-header .bottom-portion .event-name span {
-		font-size:14px;
+		font-size:15px;
 	}
 	.myevents-list .content-inner .content-part .save-cancel-action {
-		margin-top:20px;
+		margin-top:15px;
 	}
 	.myevents-list .content-inner .image-part {
 		width:220px!important;
 	}
-	.myevents-list .inner-form-part .table thead th {
+	/* .myevents-list .inner-form-part .table thead th {
 		font-size:15px;
 	}
 	.myevents-list .inner-form-part .table tbody td,.myevents-list .inner-form-part .table tbody td .form-control {
 		font-size:16px;
-	}
+	} */
 	.dashboard-layout .dashboard-type {
 		margin-bottom:35px;
 	}
 	.dashboard-layout .dashboard-type .title {
-		font-size:35px;
+		font-size:28px;
+	}
+	.right-panel .header {
+		font-size: 24px;
+		
 	}
 	.leftpannel {
 		width:265px;
@@ -1282,15 +1309,13 @@ h2.accordion-header a {
 	.dashboard-layout .dashboard-type {
 		padding-left:280px;
 	}
-	.form-class .form-label.section-name {
-		font-size:20px;
-	}
+
 	.plan-feature-wrap .nav-item {
-		font-size:18px;
-		margin:5px 0;
+		/* font-size:18px; */
+		/* margin:5px 0; */
 	}
 	.myevents-list .inner-form-part .table.ticket-table thead th {
-		font-size:17px;
+		font-size:15px;
 	}
 	.save-cancel-action .nav-pills .nav-item {
 		margin:0 16px 8px 0;
@@ -1299,12 +1324,12 @@ h2.accordion-header a {
 		width:70%;
 		margin-top:30px;
 	}
-	.specific-tran-wrap .event-name {
+	/* .specific-tran-wrap .event-name {
 		font-size:18px;
-	}
-	.specific-tran-wrap .trans-body .dt-inner span {
+	} */
+	/* .specific-tran-wrap .trans-body .dt-inner span {
 		font-size:16px;
-	}
+	} */
 	.specific-tran-wrap .payment-action .nav .nav-link,.refund-ammount-wrap .form-control,.refund-ammount-wrap .btn-next {
 		height:52px;
 	}
@@ -1349,8 +1374,19 @@ h2.accordion-header a {
 	.main-frame-inner .form-class {
 		max-width:100%;
 	}
+	.form-class .form-label.section-name {
+		font-size: 20px;
+	}
 }
 @media ( max-width:991px) {
+	.form-class .host-title {
+		font-size: 16px;
+
+	}
+	
+	.dashboard-layout .dashboard-type {
+		margin-bottom:15px;
+	}
 	.orgSetting {
 		flex-direction:column;
 	}
@@ -1409,7 +1445,7 @@ h2.accordion-header a {
 		object-fit:cover;
 	}
 	.myevents-list .content-inner .content-part {
-		margin-top:20px;
+		margin-top:0px;
 	}
 	.right-panel .main-frame-inner {
 		padding:0;
@@ -1418,7 +1454,8 @@ h2.accordion-header a {
 		font-size:16px;
 	}
 	.dashboard-layout {
-		padding:16px 8px;
+		/* padding:16px 8px; */
+		padding:16px 0px;
 	}
 	.view-tickets-wrapper .send-wrapper {
 		flex-wrap:wrap;
@@ -1457,7 +1494,7 @@ h2.accordion-header a {
 		align-items:flex-start;
 	}
 	.form-values.sendInvit p.text {
-		font-size:30px;
+		font-size:20px;
 	}
 	.myevents-list .inner-form-part .table {
 		min-width:670px;
@@ -1503,9 +1540,7 @@ h2.accordion-header a {
 	.form-values {
 		margin-top:25px;
 	}
-	.form-class .form-label.section-name {
-		font-size:20px;
-	}
+
 	.save-cancel-action .btn {
 		height:46px;
 	}
@@ -1529,9 +1564,9 @@ h2.accordion-header a {
 	.right-panel .header {
 		padding-bottom: 15px;
 	}
-	.main-frame-inner .form-class {
+	/* .main-frame-inner .form-class {
 		margin-top: 15px;
-	}
+	} */
 }
 @media ( max-width:480px) {
 	.pagination .page-item .page-link {
@@ -1557,9 +1592,9 @@ h2.accordion-header a {
 	.specific-tran-wrap .event-name {
 		white-space:normal;
 	}
-	.specific-tran-wrap .event-name {
+	/* .specific-tran-wrap .event-name {
 		font-size:16px;
-	}
+	} */
 	.specific-tran-wrap .trans-body .dt-inner {
 		align-items:flex-start;
 		flex-direction:column;

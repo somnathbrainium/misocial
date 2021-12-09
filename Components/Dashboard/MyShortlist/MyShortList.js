@@ -13,10 +13,18 @@ export default function MyShortList() {
             <h2 className="header">My Shortlist</h2>
             <div className="myevents-list">
                 <div className="content-inner">
-                    <Image className="image-part"
+                    {/* <Image className="image-part"
                         src={myeventImage}
                         alt="events images"
-                    />
+                    /> */}
+
+                    <div className="modf_img modfimgevent modf3"   style={{ background: 'url(../images/myeventImage.jpg) no-repeat center center'}}>
+                            <Image
+                                src={myeventImage}
+                                alt="searchImage"
+                                className="image-style"
+                            />      
+                        </div>
 
                     <div className="content-part">
                         <h2 className="m-header">Bunbury Toastmaster- Regular  Club Meeting</h2>
@@ -45,10 +53,17 @@ export default function MyShortList() {
             </div>
             <div className="myevents-list">
                 <div className="content-inner">
-                    <Image className="image-part"
+                    {/* <Image className="image-part"
                         src={myeventImage}
                         alt="events images"
-                    />
+                    /> */}
+                    <div className="modf_img modfimgevent modf3"   style={{ background: 'url(../images/myeventImage.jpg) no-repeat center center'}}>
+                            <Image
+                                src={myeventImage}
+                                alt="searchImage"
+                                className="image-style"
+                            />      
+                        </div>
 
                     <div className="content-part">
                         <h2 className="m-header">The Event Fairy</h2>
@@ -77,11 +92,17 @@ export default function MyShortList() {
             </div>
             <div className="myevents-list">
                 <div className="content-inner">
-                    <Image className="image-part"
+                    {/* <Image className="image-part"
                         src={myeventImage}
                         alt="events images"
-                    />
-
+                    /> */}
+<div className="modf_img modfimgevent modf3"   style={{ background: 'url(../images/myeventImage.jpg) no-repeat center center'}}>
+                            <Image
+                                src={myeventImage}
+                                alt="searchImage"
+                                className="image-style"
+                            />      
+                        </div>
                     <div className="content-part">
                         <h2 className="m-header">Galas and Casual</h2>
                         <div className="sub-title capitalized">
@@ -109,11 +130,17 @@ export default function MyShortList() {
             </div>
             <div className="myevents-list">
                 <div className="content-inner">
-                    <Image className="image-part"
+                    {/* <Image className="image-part"
                         src={myeventImage}
                         alt="events images"
-                    />
-
+                    /> */}
+<div className="modf_img modfimgevent modf3"   style={{ background: 'url(../images/myeventImage.jpg) no-repeat center center'}}>
+                            <Image
+                                src={myeventImage}
+                                alt="searchImage"
+                                className="image-style"
+                            />      
+                        </div>
                     <div className="content-part">
                         <h2 className="m-header">Step by Step Corporate</h2>
                         <div className="sub-title capitalized">
@@ -141,11 +168,17 @@ export default function MyShortList() {
             </div>
             <div className="myevents-list">
                 <div className="content-inner">
-                    <Image className="image-part"
+                    {/* <Image className="image-part"
                         src={myeventImage}
                         alt="events images"
-                    />
-
+                    /> */}
+<div className="modf_img modfimgevent modf3"   style={{ background: 'url(../images/myeventImage.jpg) no-repeat center center'}}>
+                            <Image
+                                src={myeventImage}
+                                alt="searchImage"
+                                className="image-style"
+                            />      
+                        </div>
                     <div className="content-part">
                         <h2 className="m-header">A Wedding to Remember</h2>
                         <div className="sub-title capitalized">

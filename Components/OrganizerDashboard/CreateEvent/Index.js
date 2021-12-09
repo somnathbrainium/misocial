@@ -251,8 +251,8 @@ export default function CreateEvent() {
                     <label className="toggleSwitch">
                         <input type="checkbox" defaultChecked />
                         <span>
-                            <span>NO</span>
-                            <span>YES</span>
+                                 <span>No</span>
+                                            <span>Yes</span>
                         </span>
                         <a></a>
                     </label>
