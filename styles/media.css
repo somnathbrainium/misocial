@@ -6,7 +6,7 @@
 }
 @media (max-width:1400px) {
 	.mxWdthead {
-		max-width:90%;
+		max-width:100%;
 	}
 	.header-wraapper .login {
 		padding:6px 30px;
@@ -786,6 +786,17 @@
 
 }
 @media (max-width:767px) {
+	.btn-next {
+		font-size: 15px;
+		
+	}
+	.pvrEvent {
+		padding-top: 20px;
+	}
+	.pvrEvent .header {
+
+		font-size: 24px;
+	}
 	.singleItem .content-wrap {
 		flex-wrap: wrap;
 		display: grid;
@@ -800,7 +811,7 @@
 		font-size: 13px;
 	}
 	.event-content-wr {
-		padding: 40px 0 40px 0;
+		padding: 0px 0 0px 0;
 	}
 	body {
 		font-size: 13px;
@@ -858,18 +869,18 @@
 		margin-bottom: 5px;
 	}
 	.singleItem .content-wrap .content .location {
-		font-size: 13px;
+		font-size: 14px;
 	}
 	.btn-short {
-		font-size: 13px;
+		font-size: 14px;
 
 	}
 	.btn-view-event {
-		font-size: 13px;
+		font-size: 14px;
 
 	}
 	.aBtnnew {
-		font-size: 13px;
+		font-size: 14px;
 	}
 	.aBtnnew {
 		width: 50%;
@@ -991,7 +1002,7 @@
 		
 	}
 	.event-content-wr .details-title {
-		font-size: 20px;
+		font-size: 18px;
 		padding-bottom: 0px;
 		margin: 0 0 12px;
 	}
@@ -1005,10 +1016,10 @@
 		
 		font-size: 12px;
 	}
-	.footerGap {
+	.footerGap {  
 		flex-direction: column;
 	}
-	.FooterBanner .content-box {
+	.FooterBanner .content-box {  
 		padding: 15px 20px 15px 10px;
 	}
 
@@ -1017,7 +1028,14 @@
 		font-size: 15px;
 	
 	}
-
+	.buy-ticket-wr .ticket-column .table td {
+		padding: 7px 8px;
+	
+	}
+	.data-status-header .top-portion .trs-status {
+		
+		font-size: 15px;
+	}
 	/* .joinnow_btn {
 		margin-top: 0px;
 	} */
