@@ -13,7 +13,7 @@
 		margin-right:25px;
 	}
 	.banner-container .banner-content-wrap h2 {
-		font-size:55px;
+		font-size:50px;
 		margin:80px 0 0 0;
 		line-height:62px;
 	}
@@ -59,7 +59,7 @@
 		margin:3px 0;
 	}
 	.page-title {
-		font-size:40px;
+		font-size:38px;
 		/* margin-bottom:40px; */
 		margin-bottom:20px;
 	}
@@ -116,6 +116,9 @@
 	/* .singleItem .content-wrap .action-section .btn{height:52px;}*/
 }
 @media (max-width:1200px) {
+	.main-frame-inner .myevents-list {
+		padding: 10px;
+	}
 	.mxWdthead {
 		max-width:100%;
 	}
@@ -130,6 +133,25 @@
 	/* .footerinfo.footerfromsection {
 		width: 240px;
 	} */
+
+	.myevents-list .content-inner {
+	
+		flex-direction: column;
+	}
+	.modf_img.modfimgevent.modf3 {
+		margin-right: 0;
+	
+		margin-bottom: 15px;
+	}
+
+	.myevents-list .inner-form-part .table thead th {
+		font-size: 14px;
+		padding: 7px 5px;
+	
+	}
+	.right-panel .main-frame-inner {
+		padding: 0 0px 10px;
+	}
 }
 
 @media (max-width:1080px) {
@@ -162,8 +184,35 @@
 }
 
 @media (max-width:991px) {
+	.order-summery-wrapper .card-details .form-control {
+		height: 36px;
+	}
+
+	.btn-short {
+
+		font-size: 16px;
+	
+	}
+
+	.aBtnnew {
+	
+		font-size: 16px;
+
+	
+	}
+	.singleItem .content-wrap .content .title-head {
+	
+		font-size: 17px;
+	
+	}
 	.modf_img.modfimgevent div {
 		height: 182px;
+	}
+.modf_img.modfimgevent.modf3 div {
+    height: 177px;
+}
+	.modf_img.modfimgevent.modf3 {
+		margin-right: 20px;
 	}
 	.singleItem:nth-child(odd) {
 		
@@ -178,7 +227,7 @@
 	}
 	.mobfot_opt {   
 		display: block;
-		padding-bottom: 15px;
+		padding-bottom: 8px;
 	}
 	.banner-container .banner-content-wrap p {
 		font-size: 18px;
@@ -367,7 +416,7 @@
 		font-size:20px;
 	}
 	.page-title {
-		font-size:35px;
+		font-size:28px;
 	}
 	/* .footer-social {
 		flex-direction:column;
@@ -473,9 +522,9 @@
 	.buy-ticket-wr .ticket-row {
 		flex-wrap:wrap;
 	}
-	.buy-ticket-wr .btn-large {
+	/* .buy-ticket-wr .btn-large {
 		margin-top:20px;
-	}
+	} */
 	.buy-ticket-wr .ticket-row .ticket-column {
 		width:100%;
 	}
@@ -770,7 +819,7 @@
     font-size: 13px;
 }
 	.buy-ticket-wr .tkt-title {
-		font-size: 22px;
+		font-size: 20px;
 		margin-bottom: 15px;
 	}
 	.page-title {
@@ -886,7 +935,7 @@
 	}
 	.footer-wrapper .link-head {
 		font-size: 18px;
-		margin: 20px 0 10px;
+		margin: 15px 0 10px;
 		text-align: left;
 	}
 	.footer-wrapper .search-box .form-control {
@@ -947,7 +996,7 @@
 		margin: 0 0 12px;
 	}
 	.details-cont-portion h2 {
-		font-size: 22px;
+		font-size: 20px;
 	}
 	.event-wrapper .row , .why-misocial .row{
 		flex-direction: column-reverse;
@@ -965,7 +1014,7 @@
 
 	.vBanner {
 	
-		font-size: 16px;
+		font-size: 15px;
 	
 	}
 
@@ -1029,6 +1078,19 @@
 		}
 		.modf_img.modfimgevent div {
 			height: auto;
+		}
+		.modf_img.modfimgevent.modf3 div {
+			height: auto;
+		}
+		.modf_img.modfimgevent.modf3 {
+			margin-right: 0;
+		}
+		.details-cont-portion h2 {
+			margin: 4px 0px 10px;
+		}
+		.event-content-wr .details-cont-portion .lists li {
+			
+			line-height: 24px;
 		}
 }
 @media (max-width:360px) {
