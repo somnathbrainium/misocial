@@ -287,7 +287,7 @@ h2.accordion-header a {
 	font-family:var(--montserrat);
 	font-weight:500;
 	color:var(--label-color);
-	margin:0px 0 0 0;
+	margin:15px 0 0 0;
 }
 .form-hints-container {
 	margin-top:22px;
@@ -307,6 +307,9 @@ h2.accordion-header a {
 	max-width:125px;
 	margin-right:16px;
 }
+.data-status-header .top-portion {
+    padding-bottom: 10px;
+}
 .right-panel .header {
 	padding-bottom:15px;
 	color:var(--light-black);
@@ -314,7 +317,8 @@ h2.accordion-header a {
 	font-size:26px;
 	border-bottom:1px solid #E4E4E4;
 	margin:0;
-	margin-bottom:15px;
+	margin-bottom:13px;
+	/* padding-bottom: 5px !important; */
 }
 /* .right-panel .main-frame-inner {
 	padding:0 80px 80px;
@@ -614,9 +618,9 @@ p.host-title.mt-5 {
 .specific-tran-wrap .event-name span {
 	color:var(--label-color);
 }
-.specific-tran-wrap .trans-body {
+/* .specific-tran-wrap .trans-body {
 	margin-top:15px;
-}
+} */
 .specific-tran-wrap .trans-body .dt-inner {
 	display:flex;
 	align-items:center;
@@ -676,7 +680,7 @@ p.host-title.mt-5 {
 	color:var(--label-color);
 }
 .refund-ammount-wrap .payment-form {
-	margin-top:40px;
+	/* margin-top:40px; */
 }
 .form-class .file-upload-area {
 	border:1px dashed #C9C9C9;
@@ -802,7 +806,7 @@ p.host-title.mt-5 {
 .data-status-header {
 	border-bottom:1px solid var(--stroke);
     padding-bottom: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .form-values.sendInvit.mb-4 p.text {
     padding: 9px 0 0 0;
@@ -824,7 +828,7 @@ p.host-title.mt-5 {
 	margin:0;
 	font-family:var(--montserrat);
 	color:var(--light-black);
-	font-size:16px;
+	font-size:15px;
 	font-weight:600;
 }
 .data-status-header .top-portion .trs-status span {
@@ -844,7 +848,7 @@ p.host-title.mt-5 {
 	margin-right:14px;
 	position:relative;
 	cursor:pointer;
-	display:inline-block;
+	display:inline-block; 
 }
 .data-status-header .bottom-portion .event-name span::after {
 	content:'';
@@ -855,7 +859,7 @@ p.host-title.mt-5 {
 	position:absolute;
 	right:-8px;
 	top:6px;
-}
+}  
 .data-status-header .bottom-portion .event-name span:last-child::after {
 	display:none;
 }
@@ -876,7 +880,7 @@ p.host-title.mt-5 {
 	border:none;
 	font-family:var(--montserrat);
 	color:var(--light-black);
-	font-weight:500;
+	font-weight:500;  
 }
 .data-status-header .status-menu .form-select:focus {
 	border:none;
@@ -886,7 +890,7 @@ p.host-title.mt-5 {
 	max-width:93px;
 	border:1px solid var(--header-bg);
 	border-radius:0;
-	flex:1;
+	/* flex:1; */
 	margin-left:10px;
 	font-size:14px;
 	padding-right:22px;
@@ -1200,7 +1204,7 @@ p.host-title.mt-5 {
 	border:none;
 }
 .newDbaccordion .accordion-body {
-	padding:0 0 15px 0;
+	padding:0 0 0px 0;
 }
 .newDbaccordion .accordion-button {
 	color:var(--label-color);
@@ -1480,12 +1484,21 @@ label.section-name.evnHdn.form-label{
 	.save-cancel-action .btn {
 		min-width:125px;
 	}
+
+}
+
+@media ( max-width:576px) {
 	.data-status-header .bottom-portion {
 		flex-direction:column;
 		align-items:flex-end;
 	}
 }
 @media ( max-width:576px) {
+	.specific-tran-wrap .payment-action .nav .nav-link {
+	
+		font-size: 14px;
+		
+	}
 	.data-status-header .top-portion {
 		flex-direction:column;
 		align-items:flex-start;
@@ -1530,10 +1543,10 @@ label.section-name.evnHdn.form-label{
 		width:100%;
 	}
 	.dashboard-layout .dashboard-type .title {
-		font-size:26px;
+		font-size:22px;
 	}
 	.right-panel .header {
-		font-size:24px;
+		font-size:20px;
 		margin-bottom:15px;
 		line-height:inherit;
 	}

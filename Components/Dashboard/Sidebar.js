@@ -47,12 +47,12 @@ export default function Sidebar() {
                             <Image
                                 src={dbDiamondIcon} alt="image" className="icon-image" /> <Link className="nav-link" href="/dashboard/platinum-settings"><a>Platinum Settings</a></Link>
                         </li>
-                        <li className={`nav-item ${router.asPath == "/dashboard/send-invites" ? "active" : ""}`}>
+                        {/* <li className={`nav-item ${router.asPath == "/dashboard/send-invites" ? "active" : ""}`}>
 
                             <Image
                                 src={dbDiamondIcon} alt="image" className="icon-image" />
                             <Link className="nav-link" href="/dashboard/send-invites"><a>Send Invites</a></Link>
-                        </li>
+                        </li> */}
                     </ul>
                     </Accordion.Body>
                 </Accordion.Item>
