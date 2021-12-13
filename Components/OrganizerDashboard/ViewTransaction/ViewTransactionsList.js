@@ -36,6 +36,8 @@ export default function ViewTransactionsList() {
                         </Form>
                     </div>
                     <p className="table-title">All Transactions</p>
+                    <div className="specific-tran-wrap responsivetableview2">
+
                     <Table responsive className="transaction-table">
                         <thead>
                             <tr>
@@ -178,6 +180,7 @@ export default function ViewTransactionsList() {
 
                         </tbody>
                     </Table>
+                    </div>
                 </div>
 
                 <Pagination />

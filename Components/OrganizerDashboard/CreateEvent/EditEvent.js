@@ -142,9 +142,9 @@ export default function CreateEvent() {
                     </div>
                 </div>
 
-                <div className="platinum-tickets-wrap">
+                <div className="platinum-tickets-wrap responsivetableview">
                     <p className="p-title">Platinum Tickets</p>
-                    <Table responsive borderless>
+                    <Table responsive1 borderless>
                         <thead>
                             <tr>
                                 <th>Ticket Name</th>

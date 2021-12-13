@@ -684,7 +684,7 @@
 		font-size:12px;
 	} */
 	.pagination-wr {
-		margin-top:30px;
+	    margin: 16px 0px 10px;
 	}
 	.singleItem .content-wrap .content .time-date {
 		font-size:15px;
@@ -786,7 +786,12 @@
 
 }
 @media (max-width:767px) {
-	.form-class .add-tickets-wrap .currency-part .btn-next,button.btn.btn-cancel {
+	.cs-wrapper .label-text {
+
+		font-size: 13px;
+
+	}
+	.form-class .add-tickets-wrap .currency-part .btn-next,button.btn.btn-cancel,.form-class .add-tickets-wrap .currency-part .btn-next{
 		font-size: 14px;
 	}
 	.cs-wrapper .label-text {
@@ -1125,6 +1130,10 @@
 			
 			line-height: 24px;
 		}
+
+		p.tick-title {
+			margin-bottom: 7px;
+		}
 }
 @media (max-width:360px) {
 
@@ -1139,4 +1148,129 @@
 		
 		line-height: 24px;
 	}
+}
+
+
+/* ============================================================ Responsive Table via Data Label ============================================================ */
+/* 
+p.p-title {
+    font-weight: 600;
+}
+p.p-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+} */
+
+/*  */
+
+
+/* ============================================================ Responsive Table via Data Label ============================================================ */
+
+@media screen and (max-width: 960px) {
+	td.text-center {
+		text-align: right !important;
+	}
+	.responsivetableview2 .table tbody tr {
+		border-bottom: 3px solid #F3F3F3;
+	}
+	.responsivetableview2 .table tbody td .form-control {
+		margin: 0 0 0px auto !important;
+	}
+	.responsivetableview2 table {
+		border: 1px solid transparent;
+		box-shadow: none;
+   }
+	.responsivetableview2  table thead {
+		display: none;
+   }
+   .responsivetableview2 table tbody tr {
+    border-bottom: 2px solid #e1e1e1;
+}
+   .responsivetableview2 table tbody tr td:first-child {
+		padding-left: 10px;
+   }
+   .responsivetableview2 table tbody tr td:before {
+		content: attr(data-label);
+		float: left;
+		font-size: 12px;
+		text-transform: uppercase;
+		font-weight: 600;
+		padding: 2px  0 0 0;
+   }
+   .responsivetableview2 table tbody tr td {
+		display: block;
+		text-align: right;
+		font-size: 13px !important;
+		padding: 7px  10px !important;
+		box-shadow: 0 1px 1px rgb(209 204 204 / 30%);
+   }
+   .responsivetableview2 table tbody tr td input.form-control {
+    height: auto !important;
+    padding: 0px;
+    max-width: 69px !important;
+}
+
+.responsivetableview2 select.mid-value.form-select {
+    display: inline-block;
+    width: auto;
+}
+.responsivetableview2 label.cs-wrapper.table-checkbox {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+}
+@media screen and (max-width: 767px) {
+
+	 .table tbody tr {
+		border-bottom: 3px solid #F3F3F3;
+	}
+	.table tbody td .form-control {
+		margin: 0 0 0px auto !important;
+	}
+	.responsivetableview table {
+		border: 1px solid transparent;
+		box-shadow: none;
+   }
+	.responsivetableview  table thead {
+		display: none;
+   }
+   .responsivetableview table tbody tr {
+    border-bottom: 2px solid #e1e1e1;
+}
+   .responsivetableview table tbody tr td:first-child {
+		padding-left: 10px;
+   }
+   .responsivetableview table tbody tr td:before {
+		content: attr(data-label);
+		float: left;
+		font-size: 12px;
+		text-transform: uppercase;
+		font-weight: 600;
+		padding: 2px  0 0 0;
+   }
+   .responsivetableview table tbody tr td {
+		display: block;
+		text-align: right;
+		font-size: 13px !important;
+		padding: 7px  10px !important;
+		box-shadow: 0 1px 1px rgb(209 204 204 / 30%);
+   }
+   .responsivetableview table tbody tr td input.form-control {
+    height: auto !important;
+    padding: 0px;
+    max-width: 69px !important;
+}
+
+.action-icon {
+    display: block !important;
+}
+.action-icon svg {
+    margin-left: 9px;
+}
+}
+
+
+
+@media screen and (max-width: 767px) {
+
 }
