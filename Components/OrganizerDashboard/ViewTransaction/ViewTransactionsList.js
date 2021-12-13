@@ -38,148 +38,148 @@ export default function ViewTransactionsList() {
                     <p className="table-title">All Transactions</p>
                     <div className="specific-tran-wrap responsivetableview2">
 
-                    <Table responsive className="transaction-table">
-                        <thead>
-                            <tr>
-                                <th className="w25pr-0 text-left">
-                                    <label className="cs-wrapper table-checkbox">
-                                        <input type="checkbox" defaultChecked />
-                                        <span className="checkmark"></span>
-                                    </label>
-                                </th>
-                                <th className="text-left">Member</th>
-                                <th>Customer<br />
-                                    ID</th>
-                                <th width="115px">Purchase<br /> Date</th>
-                                <th>Last 4 digits<br />
-                                    credit card</th>
-                                <th>Total Paid</th>
-                                <th>Refund(s)</th>
-                                <th>Status</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <label className="cs-wrapper table-checkbox">
-                                        <input type="checkbox" />
-                                        <span className="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td>
-                                    <p className="b-title">Jone doe</p>
-                                    d**y@gmail.com <br />
-                                    Male<br />
-                                    Platinum Member
-                                </td>
-                                <td>
-                                    123 - 456 - 789
-                                </td>
-                                <td className="text-center">21-Jun-2021
-                                    03:00PM</td>
-                                <td className="tCentr">1234</td>
-                                <td className="tCentr">$50</td>
-                                <td>
-                                    <p className="b-title text-center">$50</p>
-                                    25-Jun-2021
-                                </td>
-                                <td>Paid</td>
-                                <td>
-                                    <button className="btn btn-action"><FaChevronRight /></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label className="cs-wrapper table-checkbox">
-                                        <input type="checkbox" />
-                                        <span className="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td>
-                                    <p className="b-title">Jone doe</p>
-                                    d**y@gmail.com <br />
-                                    Male<br />
-                                    Platinum Member
-                                </td>
-                                <td>
-                                    123 - 456 - 789
-                                </td>
-                                <td className="text-center">21-Jun-2021
-                                    03:00PM</td>
-                                <td className="tCentr">1234</td>
-                                <td className="tCentr">$50</td>
-                                <td>
-                                    <p className="b-title text-center">$50</p>
-                                    25-Jun-2021
-                                </td>
-                                <td>Paid</td>
-                                <td>
-                                    <button className="btn btn-action"><FaChevronRight /></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label className="cs-wrapper table-checkbox">
-                                        <input type="checkbox" />
-                                        <span className="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td>
-                                    <p className="b-title">Jone doe</p>
-                                    d**y@gmail.com <br />
-                                    Male<br />
-                                    Platinum Member
-                                </td>
-                                <td>
-                                    123 - 456 - 789
-                                </td>
-                                <td className="text-center">21-Jun-2021
-                                    03:00PM</td>
-                                <td className="tCentr">1234</td>
-                                <td className="tCentr">$50</td>
-                                <td>
-                                    <p className="b-title text-center">$50</p>
-                                    25-Jun-2021
-                                </td>
-                                <td>Paid</td>
-                                <td>
-                                    <button className="btn btn-action"><FaChevronRight /></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label className="cs-wrapper table-checkbox">
-                                        <input type="checkbox" />
-                                        <span className="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td>
-                                    <p className="b-title">Jone doe</p>
-                                    d**y@gmail.com <br />
-                                    Male<br />
-                                    Platinum Member
-                                </td>
-                                <td>
-                                    123 - 456 - 789
-                                </td>
-                                <td className="text-center">21-Jun-2021
-                                    03:00PM</td>
-                                <td className="tCentr">1234</td>
-                                <td className="tCentr">$50</td>
-                                <td>
-                                    <p className="b-title text-center">$50</p>
-                                    25-Jun-2021
-                                </td>
-                                <td>Paid</td>
-                                <td>
-                                    <button className="btn btn-action"><FaChevronRight /></button>
-                                </td>
-                            </tr>
+                        <Table responsive className="transaction-table">
+                            <thead>
+                                <tr>
+                                    <th className="w25pr-0 text-left">
+                                        <label className="cs-wrapper table-checkbox">
+                                            <input type="checkbox" defaultChecked />
+                                            <span className="checkmark"></span>
+                                        </label>
+                                    </th>
+                                    <th className="text-left">Member</th>
+                                    <th>Customer<br />
+                                        ID</th>
+                                    <th width="115px">Purchase<br /> Date</th>
+                                    <th>Last 4 digits<br />
+                                        credit card</th>
+                                    <th>Total Paid</th>
+                                    <th>Refund(s)</th>
+                                    <th>Status</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <label className="cs-wrapper table-checkbox">
+                                            <input type="checkbox" />
+                                            <span className="checkmark"></span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <p className="b-title">Jone doe</p>
+                                        d**y@gmail.com <br />
+                                        Male<br />
+                                        Platinum Member
+                                    </td>
+                                    <td>
+                                        123 - 456 - 789
+                                    </td>
+                                    <td className="text-center">21-Jun-2021
+                                        03:00PM</td>
+                                    <td className="tCentr">1234</td>
+                                    <td className="tCentr">$50</td>
+                                    <td>
+                                        <p className="b-title text-center">$50</p>
+                                        25-Jun-2021
+                                    </td>
+                                    <td>Paid</td>
+                                    <td>
+                                        <button className="btn btn-action"><FaChevronRight /></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label className="cs-wrapper table-checkbox">
+                                            <input type="checkbox" />
+                                            <span className="checkmark"></span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <p className="b-title">Jone doe</p>
+                                        d**y@gmail.com <br />
+                                        Male<br />
+                                        Platinum Member
+                                    </td>
+                                    <td>
+                                        123 - 456 - 789
+                                    </td>
+                                    <td className="text-center">21-Jun-2021
+                                        03:00PM</td>
+                                    <td className="tCentr">1234</td>
+                                    <td className="tCentr">$50</td>
+                                    <td>
+                                        <p className="b-title text-center">$50</p>
+                                        25-Jun-2021
+                                    </td>
+                                    <td>Paid</td>
+                                    <td>
+                                        <button className="btn btn-action"><FaChevronRight /></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label className="cs-wrapper table-checkbox">
+                                            <input type="checkbox" />
+                                            <span className="checkmark"></span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <p className="b-title">Jone doe</p>
+                                        d**y@gmail.com <br />
+                                        Male<br />
+                                        Platinum Member
+                                    </td>
+                                    <td>
+                                        123 - 456 - 789
+                                    </td>
+                                    <td className="text-center">21-Jun-2021
+                                        03:00PM</td>
+                                    <td className="tCentr">1234</td>
+                                    <td className="tCentr">$50</td>
+                                    <td>
+                                        <p className="b-title text-center">$50</p>
+                                        25-Jun-2021
+                                    </td>
+                                    <td>Paid</td>
+                                    <td>
+                                        <button className="btn btn-action"><FaChevronRight /></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label className="cs-wrapper table-checkbox">
+                                            <input type="checkbox" />
+                                            <span className="checkmark"></span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <p className="b-title">Jone doe</p>
+                                        d**y@gmail.com <br />
+                                        Male<br />
+                                        Platinum Member
+                                    </td>
+                                    <td>
+                                        123 - 456 - 789
+                                    </td>
+                                    <td className="text-center">21-Jun-2021
+                                        03:00PM</td>
+                                    <td className="tCentr">1234</td>
+                                    <td className="tCentr">$50</td>
+                                    <td>
+                                        <p className="b-title text-center">$50</p>
+                                        25-Jun-2021
+                                    </td>
+                                    <td>Paid</td>
+                                    <td>
+                                        <button className="btn btn-action"><FaChevronRight /></button>
+                                    </td>
+                                </tr>
 
 
-                        </tbody>
-                    </Table>
+                            </tbody>
+                        </Table>
                     </div>
                 </div>
 

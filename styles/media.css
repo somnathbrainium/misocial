@@ -871,7 +871,7 @@
 	}
 	.pagination .page-item .page-link {
 		font-size: 13px !important;
-		padding: 2px 8px !important;
+		padding: 2px 7px !important;
 	}
 	.header-wraapper .login {
 		padding: 6px 12px;
@@ -1142,7 +1142,7 @@
 		line-height: 20px;
 	}
 	.pagination .page-item .page-link {
-		padding: 2px 5px !important;
+		padding: 2px 3px !important;
 	}
 	.event-content-wr .details-cont-portion .lists li {
 		
@@ -1193,7 +1193,7 @@ p.p-title {
 		content: attr(data-label);
 		float: left;
 		font-size: 12px;
-		text-transform: uppercase;
+		text-transform: unset;
 		font-weight: 600;
 		padding: 2px  0 0 0;
    }
@@ -1220,7 +1220,20 @@ p.p-title {
 }
 }
 @media screen and (max-width: 767px) {
-
+	.specific-tran-wrap .event-name {
+		font-size: 14px;
+	}
+	.specific-tran-wrap .event-name {
+		margin: 2px 0;
+	}
+	.specific-tran-wrap .status-menu .form-select {
+	
+		font-size: 13px;
+	}
+	.right-panel {
+	
+		padding: 15px 15px 15px 15px;
+	}
 	 .table tbody tr {
 		border-bottom: 3px solid #F3F3F3;
 	}
@@ -1244,7 +1257,7 @@ p.p-title {
 		content: attr(data-label);
 		float: left;
 		font-size: 12px;
-		text-transform: uppercase;
+		text-transform: unset;
 		font-weight: 600;
 		padding: 2px  0 0 0;
    }

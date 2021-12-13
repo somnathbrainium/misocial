@@ -1025,7 +1025,7 @@ form.d-flex.search-box {
 	cursor:pointer;
 }
 .btn-next { 
-	font-size:16px;
+	font-size:17px;
 	border-radius:0;
 	font-family:var(--montserrat);
 	font-weight:500;
@@ -2062,4 +2062,8 @@ td.text-center {
 .trans-body .container {
     padding: 0px;
     margin: 0px;
+}
+
+.trans-body {
+    padding: 15px 0 0;
 }

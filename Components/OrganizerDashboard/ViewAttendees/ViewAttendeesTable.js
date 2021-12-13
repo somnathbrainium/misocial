@@ -28,7 +28,7 @@ export default function ViewAttendeesTable() {
                     </thead>
                     <tbody>
                         <tr>
-                            <td data-label="Id" className="w25pr-0">
+                            <td data-label=" " className="w25pr-0">
                                 <label className="cs-wrapper table-checkbox">
                                     <input type="checkbox" />
                                     <span className="checkmark"></span>
