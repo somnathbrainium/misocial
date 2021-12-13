@@ -706,7 +706,7 @@ p.host-title.mt-5 {
 	font-size:15px;
 	font-family:var(--montserrat);
 	font-weight:600;
-	margin-bottom:10px;
+	margin-bottom:5px;
 }
 .form-class .event-tag-hints {
 	margin-top:10px;
@@ -744,7 +744,7 @@ p.host-title.mt-5 {
 .form-class .add-tickets-wrap .currency-part .btn-next {
 	border-radius:0;
 	color:var(--button-text);
-	font-size:16px;
+	font-size:15px;
 	font-family:var(--montserrat);
 	max-width:330px;
 	height:52px;
@@ -752,7 +752,7 @@ p.host-title.mt-5 {
 }
 .platinum-tickets-wrap .table thead th {
 	font-size:15px;
-	padding:14px;
+	padding:0.5rem 0.5rem;
 	background:var(--header-bg);
 	font-family:var(--montserrat);
 	font-weight:500;
@@ -892,7 +892,7 @@ p.host-title.mt-5 {
 	border-radius:0;
 	/* flex:1; */
 	margin-left:10px;
-	font-size:14px;
+	font-size:15px;
 	padding-right:22px;
 	background-position:right 0.2rem center;
 }
@@ -935,16 +935,20 @@ p.host-title.mt-5 {
 	text-align:center;
 	border:none;
 	color:var(--label-color);
-	font-size:16px;
+	font-size:13px;
 	background:var(--header-bg);
 	font-family:var(--montserrat);
-	font-weight:500;
+	font-weight:600;
+}
+.transaction-table td {
+	font-size:13px;
+
 }
 .transaction-table th .checkmark {
 	border:1px solid var(--para-light);
 }
 .transaction-table th.w25pr-0,.transaction-table td.w25pr-0 {
-	width:25px;
+	/* width:25px; */
 	padding-right:0;
 }
 .transaction-table th.text-left {
@@ -963,7 +967,7 @@ p.host-title.mt-5 {
 }
 .transaction-table td {
 	font-family:var(--montserrat);
-	font-size:16px;
+	font-size:13px;
 	vertical-align:middle;
 	font-weight:400;
 }
@@ -1252,8 +1256,14 @@ label.section-name.evnHdn.form-label{
 		font-size:30px;
 	}
 	.myevents-list .inner-form-part .table thead th {
-		font-size: 15px;
+		font-size: 14px;
 		/* padding: 3px 10px; */
+	}
+
+	.myevents-list .inner-form-part .table tbody td, .myevents-list .inner-form-part .table tbody td .form-control {
+		
+		font-size: 14px;
+
 	}
 	/* .sidebar .nav .nav-item a {
 		font-size:17px;
@@ -1298,9 +1308,9 @@ label.section-name.evnHdn.form-label{
 	.right-panel {
 		width:calc(100% - 281px);
 	}
-	.transaction-table th,.transaction-table td {
+	/* .transaction-table th,.transaction-table td {
 		font-size:14px;
-	}
+	} */
 	.sidebar .nav.child {
 		padding-left:10px;
 	}
@@ -1343,7 +1353,7 @@ label.section-name.evnHdn.form-label{
 		min-width:110px;
 	}
 	.view-attendees .save-cancel-action .btn {
-		font-size:14px;
+		font-size:15px;
 		height:46px;
 	}
 	.main-frame-inner .form-class {
@@ -1372,9 +1382,9 @@ label.section-name.evnHdn.form-label{
 	.save-cancel-action .nav-pills .nav-item {
 		margin:0 8px 8px 0;
 	}
-	.transaction-table th {
+	/* .transaction-table th {
 		white-space:nowrap;
-	}
+	} */
 	.main-frame-inner .form-class {
 		max-width:100%;
 	}
@@ -1384,18 +1394,33 @@ label.section-name.evnHdn.form-label{
 	.dashboard-layout .evntImg {
 		font-size: 18px;
 	}
+	label.section-name.form-label {
+		font-size: 18px !important;
+	}
 
+	/* .transaction-table td {
+		font-size: 11px;
+
+	}
+	.transaction-table th {
+	
+		font-size: 11px;
+
+	} */
 }
 @media ( max-width:991px) {
 	.form-class .form-label.section-name {
-		font-size: 17px;
+		font-size: 16px;
 	}
 	.dashboard-layout .evntImg {
-		font-size: 17px;
+		font-size: 16px;
 	}
 	.form-class .host-title {
 		font-size: 16px;
 
+	}
+	label.section-name.form-label {
+		font-size: 16px !important;
 	}
 	
 	.dashboard-layout .dashboard-type {
@@ -1447,6 +1472,10 @@ label.section-name.evnHdn.form-label{
 	}
 	.form-class .sub-iiner {
 		max-width:100%;
+	}
+	.responsivetableview2 select.mid-value.form-select {
+		display: inline-block;
+		width: auto;
 	}
 }
 @media ( max-width:768px) {
@@ -1553,10 +1582,10 @@ label.section-name.evnHdn.form-label{
 		width:100%;
 	}
 	.dashboard-layout .dashboard-type .title {
-		font-size:22px;
+		font-size:20px;
 	}
 	.right-panel .header {
-		font-size:20px;
+		font-size:19px;
 		margin-bottom:15px;
 		line-height:inherit;
 	}
@@ -1573,7 +1602,7 @@ label.section-name.evnHdn.form-label{
 		min-height:46px;
 	}
 	.tickets-per-order .form-control {
-		margin-bottom:16px;
+		margin-bottom:10px;
 	}
 	.create-event-main .form-class .btn-next {
 		height:52px;
@@ -1585,7 +1614,7 @@ label.section-name.evnHdn.form-label{
 		margin-bottom:5px;
 	}
 	.right-panel .header {
-		padding-bottom: 15px;
+		padding-bottom: 10px;
 	}
 	/* .main-frame-inner .form-class {
 		margin-top: 15px;
@@ -1595,9 +1624,13 @@ label.section-name.evnHdn.form-label{
 	
 	}
 	label.section-name.evnHdn.form-label,label.section-name.d-block.form-label{
-		font-size: 15px !important;
+		font-size: 16px !important;
 	}
 	.main-frame-inner .form-class .form-label {
+		font-size: 13px;
+	}
+	.form-class .file-upload-area label span {
+	
 		font-size: 13px;
 	}
 }
@@ -1637,4 +1670,34 @@ label.section-name.evnHdn.form-label{
 		margin:5px 0!important;
 		height: auto;
 	}
+}
+
+@media ( max-width:767px) {
+	td.text-center {
+		text-align: right !important;
+	}
+	.data-status-header .status-menu .form-select.preview-status {
+		font-size: 13px;
+	
+	}
+	.data-status-header .bottom-portion .event-name span {
+		font-size: 13px;
+	}
+	.save-cancel-action {
+
+		margin-top: 0;
+
+	}
+	.tickets-per-order .form-control {
+		margin-bottom: 10px;
+	}
+.form-class .frmsub-title {
+
+    margin-bottom: 7px;
+}
+
+.responsivetableview2 select.mid-value.form-select {
+    display: inline-block;
+    width: auto;
+}
 }

@@ -121,9 +121,9 @@ export default function CreateEvent() {
                     </div>
                 </div>
 
-                <div className="platinum-tickets-wrap">
+                <div className="platinum-tickets-wrap responsivetableview">
                     <p className="p-title">Platinum Tickets</p>
-                    <Table responsive borderless>
+                    <Table responsive1 borderless>
                         <thead>
                             <tr>
                                 <th>Ticket Name</th>
@@ -135,11 +135,11 @@ export default function CreateEvent() {
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Lorem Ipsum is simply dummy</td>
-                                <td>Paid</td>
-                                <td>$10</td>
-                                <td>20</td>
-                                <td>
+                                <td data-label="Ticket Name">Lorem Ipsum is simply dummy</td>
+                                <td data-label="Type">Paid</td>
+                                <td data-label="Price">$10</td>
+                                <td data-label="Quantity">20</td>
+                                <td  data-label="">
                                     <div className="action-icon">
                                         <IoSettingsOutline />
                                         <AiOutlineCloseCircle />
@@ -147,11 +147,11 @@ export default function CreateEvent() {
                                 </td>
                             </tr>
                             <tr>
-                                <td>Lorem Ipsum is simply dummy</td>
-                                <td>Paid</td>
-                                <td>$10</td>
-                                <td>20</td>
-                                <td>
+                                <td  data-label="Ticket Name" >Lorem Ipsum is simply dummy</td>
+                                <td  data-label="Type">Paid</td>
+                                <td  data-label="Price">$10</td>
+                                <td  data-label="Quantity">20</td>
+                                <td  data-label="">
                                     <div className="action-icon">
                                         <IoSettingsOutline />
                                         <AiOutlineCloseCircle />
@@ -240,8 +240,8 @@ export default function CreateEvent() {
                     <label className="toggleSwitch">
                         <input type="checkbox" defaultChecked />
                         <span>
-                            <span>NO</span>
-                            <span>YES</span>
+                            <span>No</span>
+                            <span>Yes</span>
                         </span>
                         <a></a>
                     </label>
