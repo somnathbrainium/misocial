@@ -243,7 +243,17 @@ font-size: 16px;
 @media (max-width:767px) {
     .toggleSwitch > span span {
      
-      font-size: 14px;
+      font-size: 13px;
   }
+  .form-control {
+    font-size: 13px;
+}
+select.form-select {
+  font-size: 13px;
+}
+.btn-reset {
 
+  font-size: 13px;
+
+}
 }
