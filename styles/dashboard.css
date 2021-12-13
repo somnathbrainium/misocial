@@ -193,7 +193,7 @@ h2.accordion-header a {
 	display:flex;
 	align-items:center;
 	margin-top:15px;
-	/* padding-bottom:20px; */
+	padding-bottom:10px;
 }
 .save-cancel-action .nav-pills .nav-item {
 	margin:0 16px 10px 0;
