@@ -725,6 +725,7 @@ p.host-title.mt-5 {
 	font-family:var(--montserrat);
 	font-weight:400;
 	min-height:46px;
+	width:50%
 }
 .form-class .add-tickets-wrap .cs-wrapper {
 	margin:11px 0;
@@ -1356,8 +1357,8 @@ label.section-name.evnHdn.form-label{
 		font-size:15px;
 		height:46px;
 	}
-	.main-frame-inner .form-class {
-		max-width:90%;
+	.main-frame-inner .form-class { 
+		max-width:100%;
 	}
 	.data-status-header .bottom-portion .event-name span::after {
 		content:'';
