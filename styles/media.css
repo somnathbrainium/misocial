@@ -830,9 +830,9 @@
 	.how-works-inner p.subtitle {
 		font-size: 13px;
 	}
-	.event-content-wr {
+	/* .event-content-wr {
 		padding: 0px 0 0px 0;
-	}
+	} */
 	body {
 		font-size: 13px;
 	}
@@ -862,7 +862,7 @@
 	}
 	.universal-event-search .form-control {
 	
-		font-size: 14px;
+		font-size: 13px;
 		text-align: center;
 		
 	}
@@ -1220,6 +1220,8 @@ p.p-title {
 }
 }
 @media screen and (max-width: 767px) {
+
+
 	.specific-tran-wrap .event-name {
 		font-size: 14px;
 	}
@@ -1280,6 +1282,11 @@ p.p-title {
 .action-icon svg {
     margin-left: 9px;
 }
+.universal-event-search .btn-search {
+	
+	font-size: 15px;
+}
+
 }
 
 
