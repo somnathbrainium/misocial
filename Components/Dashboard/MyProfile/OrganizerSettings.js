@@ -43,6 +43,7 @@ export default function OrganizerSettings() {
                 <button className="btn btn-next">Apply Now To Become An Event Organizer</button>
 
                 <div className="form-hints-container">
+
                     <Form.Group className="mb-3" controlId="exampleForm1">
                         <div className="direction-by">
                             <Form.Label>Business Name</Form.Label>
@@ -50,6 +51,8 @@ export default function OrganizerSettings() {
                         </div>
                         <Form.Control type="text" />
                     </Form.Group>
+                    <div  className="inprow">
+
                     <Form.Group className="mb-3" controlId="exampleForm2">
                         <div className="direction-by">
                             <Form.Label>Business Identifier</Form.Label>
@@ -57,6 +60,7 @@ export default function OrganizerSettings() {
                         </div>
                         <Form.Control type="text" />
                     </Form.Group>
+
                     <Form.Group className="mb-3" controlId="exampleForm3">
                         <div className="direction-by">
                             <Form.Label>Tax ID / ABN</Form.Label>
@@ -64,6 +68,7 @@ export default function OrganizerSettings() {
                         </div>
                         <Form.Control type="text" />
                     </Form.Group>
+                    </div>
                     <Form.Group className="mb-3" controlId="exampleForm4">
                         <div className="direction-by">
                             <Form.Label>Contact Telephone Number</Form.Label>

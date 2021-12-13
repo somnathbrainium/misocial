@@ -631,9 +631,9 @@
 		font-size:18px;
 		margin:20px 0 10px;
 	}
-	.my-profile-wrapper .stepfrm-inner .date-year {
+	/* .my-profile-wrapper .stepfrm-inner .date-year {
 		width:100%;
-	}
+	} */
 }
 @media (min-width:576px) {
 	.modal-dialog {
@@ -668,9 +668,9 @@
 	.pagination .page-item .page-link {
 		padding:2px 5px;
 	}
-	.my-profile-wrapper .stepfrm-inner .date-year {
+	/* .my-profile-wrapper .stepfrm-inner .date-year {
 		width:100%!important;
-	}
+	} */
 	.save-cancel-action .nav-pills {
 		flex-direction:column;
 	}
@@ -804,7 +804,7 @@
 		margin-bottom: 10px !important;
 	}
 	.mb-3 {
-		margin-bottom: 10px !important;
+		/* margin-bottom: 10px !important; */
 	}
 	.btn-next {
 		font-size: 15px;
@@ -1287,6 +1287,16 @@ p.p-title {
 	font-size: 15px;
 }
 
+.stepfrm-inner {
+    width: 100%;
+}
+button.btn.btn-next { 
+    width: 100%; 
+}
+.image-upload {
+    width: 85px;
+    height: 85px;
+}
 }
 
 

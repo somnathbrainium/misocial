@@ -108,7 +108,7 @@ h2.accordion-header a {
 	margin:0;
 }
 .main-frame-inner .form-class {
-	max-width:78%;
+	/* max-width:78%; */
 	/* margin-top:10px; */
 }
 .main-frame-inner .form-class .form-label {
@@ -179,11 +179,11 @@ h2.accordion-header a {
 	height:45px;
 }
 .my-profile-wrapper .stepfrm-inner .date-year {
-	width:190px;
+	/* width:190px; */
 }
 .form-class .form-label.section-name {
 	color:var(--light-black);
-	font-size:20px;
+	font-size:22px;
 	font-family:var(--abril);
 }
 .form-class .membership-wr {
@@ -193,7 +193,7 @@ h2.accordion-header a {
 	display:flex;
 	align-items:center;
 	margin-top:15px;
-	padding-bottom:10px;
+	padding-bottom:25px;
 }
 .save-cancel-action .nav-pills .nav-item {
 	margin:0 16px 10px 0;
@@ -272,7 +272,8 @@ h2.accordion-header a {
 .form-class .host-title {
 	font-size:20px;
 	color:var(--light-black);
-	font-weight:700;
+	font-weight:500;
+	font-family: var(--abril);
 	margin-bottom:0;
 }
 .form-class .nb-text {
@@ -290,7 +291,7 @@ h2.accordion-header a {
 	margin:15px 0 0 0;
 }
 .form-hints-container {
-	margin-top:22px;
+	margin-top:15px;
 }
 .form-hints-container .direction-by {
 	display:flex;
@@ -719,13 +720,16 @@ p.host-title.mt-5 {
 	font-family:var(--montserrat);
 	color:#888888;
 }
-.form-class .form-control {
+.form-class .form-control { 
 	resize:none;
-	color:#888888;
+	color:#4e4e4e;  
 	font-family:var(--montserrat);
 	font-weight:400;
-	min-height:46px;
-	width:50%
+
+}
+.mb-3.profImg label.form-label {
+    font-weight: 600;
+    padding-bottom: 9px;
 }
 .form-class .add-tickets-wrap .cs-wrapper {
 	margin:11px 0;
@@ -1299,10 +1303,10 @@ label.section-name.evnHdn.form-label{
 	.dashboard-layout .dashboard-type .title {
 		font-size:28px;
 	}
-	.right-panel .header {
+	/* .right-panel .header {
 		font-size: 24px;
 		
-	}
+	} */
 	.leftpannel {
 		width:265px;
 	}
@@ -1337,7 +1341,7 @@ label.section-name.evnHdn.form-label{
 	}
 	.specific-tran-wrap .payment-action {
 		width:70%;
-		margin-top:30px;
+		margin-top:30px; 
 	}
 	/* .specific-tran-wrap .event-name {
 		font-size:18px;
@@ -1357,9 +1361,9 @@ label.section-name.evnHdn.form-label{
 		font-size:15px;
 		height:46px;
 	}
-	.main-frame-inner .form-class { 
+	/* .main-frame-inner .form-class { 
 		max-width:100%;
-	}
+	} */
 	.data-status-header .bottom-portion .event-name span::after {
 		content:'';
 		height:11px;
@@ -1386,9 +1390,9 @@ label.section-name.evnHdn.form-label{
 	/* .transaction-table th {
 		white-space:nowrap;
 	} */
-	.main-frame-inner .form-class {
+	/* .main-frame-inner .form-class {
 		max-width:100%;
-	}
+	} */
 	.form-class .form-label.section-name {
 		font-size: 18px;
 	}
