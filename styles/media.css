@@ -476,7 +476,7 @@
 	}
 	.sign-nextstep-form .stepfrm-inner .form-label {
 		margin-right:16px;
-		margin-bottom:10px;
+		/* margin-bottom:10px; */
 	}
 	/* .save-cancel-action{flex-wrap: wrap;}*/
 	.check-radio-wrap .gender-part {
