@@ -4,9 +4,9 @@ import { Form, Nav, Tab, Table } from "react-bootstrap";
 export default function ShowTicketTable() {
     return (
         <>
-            <div className="tab-structure-wr">
+            <div className="tab-structure-wr responsivetableview">
 
-                <Table borderless responsive>
+                <Table borderless responsive1>
                     <thead>
                         <tr>
                             <th width="55%">Ticket Name </th>
@@ -17,16 +17,16 @@ export default function ShowTicketTable() {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Ticket one</td>
-                            <td>15</td>
-                            <td>20</td>
-                            <td>30</td>
+                            <td data-label="Ticket Name" >Ticket one</td>
+                            <td data-label="Quantity">15</td>
+                            <td data-label="Sold">20</td>
+                            <td data-label="Attending">30</td>
                         </tr>
                         <tr>
-                            <td>Ticket Two</td>
-                            <td>15</td>
-                            <td>20</td>
-                            <td>30</td>
+                            <td data-label="Ticket Name">Ticket Two</td>
+                            <td data-label="Quantity">15</td>
+                            <td data-label="Sold">20</td>
+                            <td data-label="Attending">30</td>
                         </tr>
 
                     </tbody>

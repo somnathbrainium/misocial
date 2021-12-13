@@ -2039,3 +2039,95 @@ p.time-date.wrap-elem.adjustinfo {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
+
+.myevents-list .inner-form-part .table thead:after {
+
+    line-height: 5px !important;
+}
+
+/*  */
+
+
+/* ============================================================ Responsive Table via Data Label ============================================================ */
+/* .responsivetableview table {
+	border: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.responsivetableview table thead {
+	background: #f0f0f0;
+	height: 60px !important;
+}
+.responsivetableview table thead tr th:first-child {
+	padding-left: 45px;
+}
+.responsivetableview table thead tr th {
+	text-transform: uppercase;
+	line-height: 60px !important;
+	text-align: left;
+	font-size: 11px;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.responsivetableview table tbody {
+	background: #fff;
+}
+.responsivetableview table tbody tr {
+	border-top: 1px solid #e5e5e5;
+	height: 60px;
+}
+.responsivetableview table tbody tr td:first-child {
+	padding-left: 45px;
+}
+.responsivetableview table tbody tr td {
+	height: 60px;
+	line-height: 60px !important;
+	text-align: left;
+	padding: 0 10px;
+	font-size: 14px;
+}
+.responsivetableview table tbody tr td i {
+	margin-right: 8px;
+} */
+@media screen and (max-width: 800px) {
+	.table tbody td .form-control {
+		margin: 0 0 0px auto !important;
+	}
+	.responsivetableview table {
+		border: 1px solid transparent;
+		box-shadow: none;
+   }
+	.responsivetableview  table thead {
+		display: none;
+   }
+   .responsivetableview table tbody tr {
+    border-bottom: 2px solid #e1e1e1;
+}
+   .responsivetableview table tbody tr td:first-child {
+		padding-left: 10px;
+   }
+   .responsivetableview table tbody tr td:before {
+		content: attr(data-label);
+		float: left;
+		font-size: 10px;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding: 3px 0 0 0;
+   }
+   .responsivetableview table tbody tr td {
+		display: block;
+		text-align: right;
+		font-size: 13px !important;
+		padding: 7px  10px !important;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+   }
+   .responsivetableview table tbody tr td input.form-control {
+    height: auto !important;
+    padding: 0px;
+    max-width: 69px !important;
+}
+}
