@@ -2093,7 +2093,7 @@ p.time-date.wrap-elem.adjustinfo {
 .responsivetableview table tbody tr td i {
 	margin-right: 8px;
 } */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
 	.table tbody td .form-control {
 		margin: 0 0 0px auto !important;
 	}

@@ -1594,6 +1594,12 @@ label.section-name.evnHdn.form-label{
 		font-size: 13px;
 	
 	}
+	label.section-name.evnHdn.form-label,label.section-name.d-block.form-label{
+		font-size: 15px !important;
+	}
+	.main-frame-inner .form-class .form-label {
+		font-size: 13px;
+	}
 }
 @media ( max-width:480px) {
 	.pagination .page-item .page-link {
