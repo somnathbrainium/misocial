@@ -13,6 +13,8 @@ export default function AboutMe() {
                     <Form.Label>First Name</Form.Label>
                     <Form.Control type="text" placeholder="Mukaddar" />
                 </Form.Group>
+
+                <div  className="inprow">  
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
                     <Form.Label>City/Town/Suburb</Form.Label>
                     <Form.Control type="text" placeholder="Minneapolis" />
@@ -23,12 +25,20 @@ export default function AboutMe() {
                     <Form.Label>State</Form.Label>
                     <Form.Control type="text" placeholder="Minnesota" />
                 </Form.Group>
+                    </div>
+                <div  className="inprow">  
+                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput4">
+                        <Form.Label>Country</Form.Label>
+                        <Form.Control type="text" placeholder="USA" />
+                    </Form.Group>
 
+                    <Form.Group className="mb-3 date-year yearInput" controlId="exampleForm.ControlInput5">
+                        <Form.Label>Year Born</Form.Label>
+                        {/* <Form.Control type="date" /> */}
+                        <Form.Control type="number" max="9999" placeholder="Y-Y-Y-Y"/>
+                    </Form.Group>
 
-                <Form.Group className="mb-3" controlId="exampleForm.ControlInput4">
-                    <Form.Label>Country</Form.Label>
-                    <Form.Control type="text" placeholder="USA" />
-                </Form.Group>
+                </div>
 
                 <div className="check-radio-wrap crwNew">
                     <div className="form-label">Gender</div>
@@ -45,11 +55,7 @@ export default function AboutMe() {
                         </label>
                     </div>
                 </div>
-                <Form.Group className="mb-3 date-year yearInput" controlId="exampleForm.ControlInput5">
-                    <Form.Label>Year Born</Form.Label>
-                    {/* <Form.Control type="date" /> */}
-                    <Form.Control type="number" max="9999" placeholder="Y-Y-Y-Y"/>
-                </Form.Group>
+         
                 {/* <input className="date-own form-control" type="text" /> */}
                 <div className="check-radio-wrap crwNew">
                     <div className="form-label">Occupation</div>

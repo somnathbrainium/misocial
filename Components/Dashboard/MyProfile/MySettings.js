@@ -22,6 +22,7 @@ export default function MySettings() {
                     <Form.Label>Login Email</Form.Label>
                     <Form.Control type="email" placeholder="mukkadar.brainium@gmail.com" />
                 </Form.Group>
+                <div  className="inprow"> 
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
                     <Form.Label>Customer ID</Form.Label>
                     <Form.Control type="text" placeholder="234-234-123" />
@@ -33,6 +34,8 @@ export default function MySettings() {
                     <Form.Control type="text" placeholder="26-Jun-2021" />
                 </Form.Group>
 
+                </div>
+              
 
 
                 <div className="check-radio-wrap">
@@ -67,7 +70,7 @@ export default function MySettings() {
                 <div className="save-cancel-action">
                     <button className="btn btn-next">Save</button>
                     <button className="btn btn-cancel">Cancel</button>
-                    <button type="button" className="btn btn-reset" onClick={handleResetModal}><IoRefresh />Reset</button>
+                    <button type="button" className="btn btn-reset" onClick={handleResetModal}><IoRefresh />Reset Password</button>
                 </div>
             </Form>
 

@@ -94,7 +94,7 @@ a {
 	transition: all 0.3s ease;
 }
 .btn-next:hover {
-	background: #645f46;
+	background: #000;
     color: #fff;
 }
 button.btn.btn-cancel{
@@ -102,8 +102,9 @@ button.btn.btn-cancel{
 
 }
 button.btn.btn-cancel:hover{
-	background: #645f46;
-    color: #fff;
+	background: #dfdfdf;
+    color: #4a4a4a;
+    border-color: #dfdfdf;
 }
 
 .save-cancel-action .nav-pills .nav-link.active:hover {
@@ -173,6 +174,31 @@ button.btn.btn-cancel:hover{
 }
 .vsc-initialized .btn:focus,.vsc-initialized .form-control:focus {
 	box-shadow:none;
+}
+
+ .form-control {
+	color:#4e4e4e !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color:#4e4e4e !important;
+	opacity: 1;
+
+
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color:#4e4e4e !important;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+	color:#4e4e4e !important;
+  }
+
+   .form-control {
+
+    outline: 0px !important;
+    box-shadow: 0px 0px 0px !important;
 }
 .top-banner {
 	background:url('../public/images/home-banner.jpg') no-repeat top center;
@@ -1025,12 +1051,12 @@ form.d-flex.search-box {
 	cursor:pointer;
 }
 .btn-next { 
-	font-size:17px;
+	font-size:16px;
 	border-radius:0;
 	font-family:var(--montserrat);
 	font-weight:500;
 	height:56px;
-	margin-top:18px;
+	margin-top:8px;
 }
 .stepfrm-inner.fortogPassbg form {
     padding: 15px 0 0;
@@ -1727,8 +1753,8 @@ p.time-date .date {
 	margin:0;
 }
 .yearInput input[type=number] {
-	width:140px;
-	text-align:center;
+	/* width:140px;
+	text-align:center; */
 	letter-spacing:2px;
 }
 .mTop {
@@ -2066,4 +2092,29 @@ td.text-center {
 
 .trans-body {
     padding: 15px 0 0;
+}
+
+.form-label {
+    margin-bottom: 0;
+}
+label.section-name.form-label {
+    padding-bottom: 8px;
+}
+
+button.btn.btn-next {
+    width: auto;
+	padding: 10px 25px;
+}
+
+.inprow {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+} 
+.inprow .mb-3 {
+    width: 48.5%;
+}
+
+.stepfrm-inner {
+    width: 78%;
 }
