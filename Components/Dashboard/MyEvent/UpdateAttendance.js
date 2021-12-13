@@ -2,9 +2,9 @@ import { Form, Nav, Tab, Table } from "react-bootstrap";
 export default function UpdateAttendance() {
     return (
         <>
-            <div className="tab-structure-wr">
+            <div className="tab-structure-wr responsivetableview">
                 <Form>
-                    <Table borderless responsive>
+                    <Table borderless responsive1 >
                         <thead>
                             <tr>
                                 <th width="40%">Ticket Name </th>
@@ -15,16 +15,16 @@ export default function UpdateAttendance() {
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Ticket One Ticket One</td>
-                                <td>5</td>
-                                <td> <Form.Control type="text" defaultValue="3" /></td>
-                                <td><Form.Control type="text" defaultValue="3" /></td>
+                                <td data-label="Ticket Name" >Ticket One Ticket One</td>
+                                <td data-label="Tickets Bought" >5</td>
+                                <td data-label="Attending"> <Form.Control type="text" defaultValue="3" /></td>
+                                <td data-label="Refund Request"><Form.Control type="text" defaultValue="3" /></td>
                             </tr>
                             <tr>
-                                <td>Ticket Two</td>
-                                <td>15</td>
-                                <td><Form.Control type="text" defaultValue="3" /></td>
-                                <td><Form.Control type="text" defaultValue="3" /></td>
+                                <td  data-label="Ticket Name" >Ticket Two</td>
+                                <td  data-label="Tickets Bought">15</td>
+                                <td data-label="Attending"><Form.Control type="text" defaultValue="3" /></td>
+                                <td data-label="Refund Request"><Form.Control type="text" defaultValue="3" /></td>
                             </tr>
 
                         </tbody>
