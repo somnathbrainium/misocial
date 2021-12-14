@@ -2161,13 +2161,14 @@ p.host-title.mb-0.morepadding {
     font-size: 13.5px;
     font-weight: 500;
 	color: #000000 !important;
-	font-family: var(--openSans) !important;
-	/* font-family: var(--sourceSerifpro); */
+	/* font-family: var(--openSans) !important; */
+	font-family: var(--sourceSerifpro);
 
 }
 .form-class .form-control{
 	font-size: 13.5px;
     font-weight: 500;
 	color: #000000 !important;
-	font-family: var(--openSans) !important;
+	font-family: var(--sourceSerifpro);
+	/* font-family: var(--openSans) !important; */
 }
