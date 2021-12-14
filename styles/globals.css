@@ -2136,3 +2136,12 @@ button.btn.btn-next {
     position: relative;
     top: 10px;
 }
+
+p.host-title.mb-0.morepadding {
+    padding-top: 10px;
+	padding-bottom: 5px;
+}
+.form-values2 {
+
+    padding-bottom: 4px;
+}

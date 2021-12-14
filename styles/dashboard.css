@@ -280,7 +280,7 @@ h2.accordion-header a {
 	font-size:15px;
 	color:var(--label-color);
 	font-weight:500;
-	font-style:italic;
+	/* font-style:italic; */
 	line-height:24px;
 }
 .form-class .payment-hints {
@@ -1728,5 +1728,23 @@ label.section-name.evnHdn.form-label{
 }
 .main-frame-inner .form-class .form-label {
     font-size: 13px;
+}
+.organizer-dashboard-wrap .check-radio-wrap .gender-part .cs-wrapper {
+    margin: 0 16px 10px 0;
+}
+.orgSetting {
+
+    padding-top: 0;
+}
+.cs-wrapper .label-text {
+ 
+    font-size: 13px;
+ 
+}
+.form-class .nb-text {
+    font-size: 13px;
+
+    font-style: inherit;
+    line-height: 20px;
 }
 }

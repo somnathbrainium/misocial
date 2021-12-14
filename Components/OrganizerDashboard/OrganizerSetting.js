@@ -95,8 +95,8 @@ export default function OrganizerSetting() {
                                     </div>
                                 </div>
                            
-                           
-                                <p className="host-title mb-0">Taxes to display on ticket invoice. </p>
+
+                                <p className="host-title mb-0 morepadding">Taxes to display on ticket invoice. </p>
                                 <p className="nb-text">All ticket prices must be inclusive of any local taxes and charges that may apply.
                                     List below all taxes and charges that are included in your ticket price if applicable</p>
 
@@ -173,7 +173,7 @@ export default function OrganizerSetting() {
                                     </Row>
                                 </div>
 
-                                <div className="form-values">
+                                <div className="form-values form-values2">
                                     <label className="toggleSwitch">
                                         <input type="checkbox" />
                                         <span>
