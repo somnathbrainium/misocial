@@ -574,6 +574,7 @@ p.host-title.mt-5 {
 	font-size:60px;
 	border-bottom:1px solid var(--stroke2);
 	padding-bottom:10px;
+	margin-bottom: 20px;
 	font-family:var(--abril);
 }
 .plan-price label {
@@ -1716,5 +1717,16 @@ label.section-name.evnHdn.form-label{
 }
 .inprow .mb-3 {
     width: 100%;
+}
+.plan-price {
+
+    font-size: 40px;
+
+}
+.plan-price label {
+    font-size: 17px;
+}
+.main-frame-inner .form-class .form-label {
+    font-size: 13px;
 }
 }
