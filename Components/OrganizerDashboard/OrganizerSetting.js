@@ -9,10 +9,42 @@ export default function OrganizerSetting() {
                     <div className="sign-nextstep-form">
                         <div className="stepfrm-inner organizer-dashboard-wrap">
                             <Form className="form-class">
+                                
                                 <Form.Label className="section-name">Organizer Settings</Form.Label>
+                                <div className="inprow">
                                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                     <Form.Label>Your Email</Form.Label>
                                     <Form.Control type="email" />
+                                </Form.Group>
+                                <Form.Group className="mb-3  " controlId="exampleForm.ControlInput2">
+                                    <Form.Label>Business Name</Form.Label>
+                                    <Form.Control type="text" />
+                                </Form.Group>
+
+                                </div>
+
+                                
+                                <div className="inprow">
+                                <Form.Group className="mb-3 " controlId="exampleForm.ControlInput3">
+                                    <Form.Label>Business Identifier</Form.Label>
+                                    <Form.Control type="text" />
+                                </Form.Group>
+                                <Form.Group className="mb-3 " controlId="exampleForm.ControlInput4">
+                                    <Form.Label>Tax ID / ABN</Form.Label>
+                                    <Form.Control type="text" />
+                                </Form.Group>
+                                </div>
+                                <Form.Group className="mb-3 " controlId="exampleForm.ControlInput5">
+                                    <Form.Label>Contact Telephone Number</Form.Label>
+                                    <div className="select-box orgSel">
+                                        <Form.Select className="form-control">
+                                            <option defaultChecked>AUS +61</option>
+                                            <option>Uk +4</option>
+                                            <option>Uk +4</option>
+                                            <option>Uk +4</option>
+                                        </Form.Select>
+                                        <Form.Control type="text" />
+                                    </div>
                                 </Form.Group>
 
                                 <div className="check-radio-wrap crW">
@@ -62,30 +94,8 @@ export default function OrganizerSetting() {
                                         </div>
                                     </div>
                                 </div>
-                                <Form.Group className="mb-3  " controlId="exampleForm.ControlInput2">
-                                    <Form.Label>Business Name</Form.Label>
-                                    <Form.Control type="text" />
-                                </Form.Group>
-                                <Form.Group className="mb-3 " controlId="exampleForm.ControlInput3">
-                                    <Form.Label>Business Identifier</Form.Label>
-                                    <Form.Control type="text" />
-                                </Form.Group>
-                                <Form.Group className="mb-3 " controlId="exampleForm.ControlInput4">
-                                    <Form.Label>Tax ID / ABN</Form.Label>
-                                    <Form.Control type="text" />
-                                </Form.Group>
-                                <Form.Group className="mb-3 " controlId="exampleForm.ControlInput5">
-                                    <Form.Label>Contact Telephone Number</Form.Label>
-                                    <div className="select-box orgSel">
-                                        <Form.Select className="form-control">
-                                            <option defaultChecked>AUS +61</option>
-                                            <option>Uk +4</option>
-                                            <option>Uk +4</option>
-                                            <option>Uk +4</option>
-                                        </Form.Select>
-                                        <Form.Control type="text" />
-                                    </div>
-                                </Form.Group>
+                           
+                           
                                 <p className="host-title mb-0">Taxes to display on ticket invoice. </p>
                                 <p className="nb-text">All ticket prices must be inclusive of any local taxes and charges that may apply.
                                     List below all taxes and charges that are included in your ticket price if applicable</p>

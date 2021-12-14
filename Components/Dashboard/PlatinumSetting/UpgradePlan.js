@@ -23,7 +23,7 @@ export default function UpgradePlan() {
             </Link>
             <p className="host-title mt-5">Enter Your Credit Card Details</p>
             <div className="form-hints-container mt-2">
-
+                <div className="inprow">
                 <Form.Group className="mb-3" controlId="exampleForm1">
                     <Form.Label>Card Number</Form.Label>
                     <Form.Control type="number" />
@@ -33,6 +33,7 @@ export default function UpgradePlan() {
 
                     <Form.Control type="text" />
                 </Form.Group>
+                </div>
                 {/* <Form.Group className="mb-3" controlId="exampleForm3">
                     <div className="direction-by">
                         <Form.Label>Tax ID / ABN</Form.Label>
