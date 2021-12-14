@@ -1093,7 +1093,7 @@ form.d-flex.search-box {
 	font-size:15px;
 }
 .btn-reset {
-	padding:10px 0;
+	padding:10px 0px 0px;
 	font-family:var(--montserrat);
 	font-size:15px;
 	color:var(--light-blue);
@@ -1198,12 +1198,12 @@ form.d-flex.search-box {
 	background:#F1F1F1;
 	border:1px solid #e2e2e2;
 	color:#4A4A4A;
-	font-size:18px;
+	font-size:16px;
 	font-family:var(--montserrat);
 	font-weight:500;
 }
 .events-wrap .btn-reset {
-	font-size:17px;
+	font-size:15px;
 }
 .singleItem:nth-child(odd) {
 	background:var(--event-bg1);
@@ -1319,7 +1319,7 @@ select.form-select {
     font-size: 15px;
 }
 .event-content-wr {
-	padding:20px  0 40px 0;
+	padding:40px  0 40px 0;
 }
 .event-content-wr .details-title {
 	color:var(--light-black);
@@ -1328,7 +1328,7 @@ select.form-select {
 	margin-bottom:20px;
 }
 .event-content-wr .act-button {
-	margin-top:16px;
+	margin-top:10px;
 }
 .event-content-wr .act-button .btn {
 	height:46px;
@@ -1350,7 +1350,7 @@ select.form-select {
 
 .details-cont-portion h2 {
     font-size: 25px;
-	margin: 10px 0px 20px;
+	margin: 10px 0px 15px;
 } 
 .event-content-wr .details-cont-portion br{
 	display: none;
@@ -1723,7 +1723,7 @@ p.time-date .date {
 	line-height:50px; 
 	border-radius:0;
 	color:var(--button-text);
-	font-size:18px;
+	font-size:16px;
 	font-family:var(--montserrat);
 	font-weight:500;
 	text-align:center;
