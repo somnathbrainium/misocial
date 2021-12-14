@@ -1093,7 +1093,7 @@ form.d-flex.search-box {
 	font-size:15px;
 }
 .btn-reset {
-	padding:10px 0px 0px;
+	padding: 0px 0px 0px;
 	font-family:var(--montserrat);
 	font-size:15px;
 	color:var(--light-blue);
@@ -2118,10 +2118,10 @@ button.btn.btn-next {
 .stepfrm-inner {
     width: 78%;
 }
- 
+/*  
 button.btn.btn-next {
     height: auto;
-}
+} */
 
 .fortogPassbg p.text {
     margin-left: 0px;
@@ -2129,4 +2129,10 @@ button.btn.btn-next {
 .successReset-modal button.btn.btn-next {
     height: auto;
     margin: 0px auto;
+}
+
+.stepfrm-inner .inprow button.btn.btn-reset {
+
+    position: relative;
+    top: 10px;
 }
