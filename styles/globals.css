@@ -2182,3 +2182,7 @@ p.host-title.mb-0.morepadding {
 	/* font-family: var(--openSans) !important; */
 
 }
+.form-class .form-label.section-name {
+
+    font-family: var(--abril) !important;
+}
