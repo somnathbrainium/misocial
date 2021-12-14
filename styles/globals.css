@@ -180,18 +180,18 @@ button.btn.btn-cancel:hover{
 	color:#000 !important;
 }
 
-.sign-nextstep-form::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.sign-nextstep-form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 	color:#000 !important;
 	opacity: 1;
 
 
   }
   
-  .sign-nextstep-form:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  .sign-nextstep-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
 	color:#000 !important;
   }
   
-  .sign-nextstep-form::-ms-input-placeholder { /* Microsoft Edge */
+  .sign-nextstep-form ::-ms-input-placeholder { /* Microsoft Edge */
 	color:#000 !important;
   }
 
@@ -956,7 +956,7 @@ form.d-flex.search-box {
 	font-family:var(--abril);
 	font-size:42px;
 	margin-bottom:20px;
-	line-height:75px;
+	/* line-height:75px; */
 }
 .stepfrm-inner .remember {
 	display:flex;
@@ -2121,4 +2121,12 @@ button.btn.btn-next {
  
 button.btn.btn-next {
     height: auto;
+}
+
+.fortogPassbg p.text {
+    margin-left: 0px;
+}
+.successReset-modal button.btn.btn-next {
+    height: auto;
+    margin: 0px auto;
 }
