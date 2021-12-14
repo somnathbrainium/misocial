@@ -114,6 +114,21 @@
 		margin:2px 0;
 	}
 	/* .singleItem .content-wrap .action-section .btn{height:52px;}*/
+
+	.btn-next {
+		font-size: 15px;
+	
+	}
+	.btn-cancel {
+
+		font-size: 15px;
+	
+	}
+	.save-cancel-action .nav-pills .nav-link {
+	
+		font-size: 16px;
+	
+	}
 }
 @media (max-width:1200px) {
 	.main-frame-inner .myevents-list {
