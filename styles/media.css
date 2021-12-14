@@ -776,7 +776,7 @@
 		max-width:100%;
 	}
 	.check-radio-wrap .gender-part .cs-wrapper {
-		margin:0 10px 5px 0;
+		margin:0 10px 10px 0;
 	}
 }
 @media (max-width:360px) {
@@ -1311,6 +1311,28 @@ button.btn.btn-next {
 .image-upload {
     width: 85px;
     height: 85px;
+}
+
+.main-frame-inner .form-class .form-label {
+    font-size: 13px;
+}
+.cs-wrapper .label-text {
+  
+    font-size: 13px;
+   
+}
+.main-frame-inner .form-class .form-label {
+  
+    display: flex;
+    width: 100%;
+}
+.check-radio-wrap {
+
+    margin-bottom: 7px;
+}
+.save-cancel-action {
+
+    padding-bottom: 17px;
 }
 }
 
