@@ -342,7 +342,7 @@ button.btn.btn-cancel:hover{
 	text-align:center;
 	font-size:90px;
 	margin:125px 0 0 0;
-	font-weight:400;
+	font-weight:600;
 	line-height:90px;
 }
 .banner-container .banner-content-wrap p {
@@ -608,10 +608,13 @@ button.btn.btn-cancel:hover{
 .How-itworks-wrapper .search-box .form-control {
 	height:64px;
 	color:#282828;
-	;
+	
+}
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+	font-weight:600;
 }
 .How-itworks-wrapper h2.title {
-	font-weight:400;
+	font-weight:600;
 }
 .How-itworks-wrapper p.subtitle {
 	/* font-size:18px; */
@@ -772,7 +775,7 @@ form.d-flex.search-box {
     display: none;
 }
 .event-wrapper .title {
-	font-weight:400;
+	font-weight:600;
 	/* padding-bottom:24px; */
 }
 .event-wrapper p {
@@ -785,7 +788,7 @@ form.d-flex.search-box {
 	/* padding-right:60px; */
 }
 .venue-wrapper .title {
-	font-weight:400;
+	font-weight:600;
 	/* padding-bottom:24px; */
 }
 .venue-wrapper p {
