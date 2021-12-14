@@ -1631,13 +1631,13 @@ label.section-name.evnHdn.form-label{
 	label.section-name.evnHdn.form-label,label.section-name.d-block.form-label{
 		font-size: 16px !important;
 	}
-	.main-frame-inner .form-class .form-label {
+	/* .main-frame-inner .form-class .form-label {
 		font-size: 13px;
-	}
-	.form-class .file-upload-area label span {
+	} */
+	/* .form-class .file-upload-area label span {
 	
 		font-size: 13px;
-	}
+	} */
 }
 @media ( max-width:480px) {
 	.pagination .page-item .page-link {
