@@ -113,7 +113,7 @@ h2.accordion-header a {
 }
 .main-frame-inner .form-class .form-label {
 	color:var(--label-color);
-	font-size:15px;
+	font-size:13.5px;
 	font-weight:500;
 }
 .main-frame-inner .form-class .tag-title {
@@ -730,7 +730,8 @@ p.host-title.mt-5 {
 	resize:none;
 	color:#4e4e4e;  
 	font-family:var(--montserrat);
-	font-weight:400;
+	font-weight:500;
+	font-size: 13.5px;
 
 }
 .mb-3.profImg label.form-label {
@@ -1732,7 +1733,10 @@ label.section-name.evnHdn.form-label{
     font-size: 17px;
 }
 .main-frame-inner .form-class .form-label {
-    font-size: 13px;
+    font-size: 13.5px;
+}
+.form-class .form-control {
+    font-size: 13.5px;
 }
 .organizer-dashboard-wrap .check-radio-wrap .gender-part .cs-wrapper {
     margin: 0 16px 10px 0;
