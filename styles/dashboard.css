@@ -18,7 +18,7 @@
 	padding-left:305px;
 	display:flex;
 	align-items:center;
-	margin-bottom:50px;
+	margin-bottom:35px;
 }
 .dashboard-layout .dashboard-type .menu-icon {
 	display:none;
@@ -108,7 +108,7 @@ h2.accordion-header a {
 	margin:0;
 }
 .main-frame-inner .form-class {
-	/* max-width:78%; */
+	max-width:78%;
 	/* margin-top:10px; */
 }
 .main-frame-inner .form-class .form-label {
@@ -1260,7 +1260,7 @@ p.host-title.mt-5 {
 }
 label.section-name.evnHdn.form-label{
 	padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 5px;
 }
 @media ( max-width:1400px) {
 	.universalModal .modal-title {
