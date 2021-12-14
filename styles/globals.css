@@ -2186,3 +2186,7 @@ p.host-title.mb-0.morepadding {
 
     font-family: var(--abril) !important;
 }
+.cs-wrapper .label-text{
+	font-family:  'Source Serif Pro', serif !important;
+
+}
