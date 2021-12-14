@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@300;400;600;700&display=swap');
 :root {
 	--montserrat:'Montserrat',sans-serif;
 	--abril:'Abril Fatface',cursive;
@@ -20,6 +19,9 @@
 	--event-bg2:#F3F3F3;
 	--para-light:#383838;
 	--header-bg:#DEDEDE;
+
+	--openSans: 'Open Sans', sans-serif;
+	--sourceSerifpro: 'Source Serif Pro', serif;
 }
 html,body {
 	padding:0;
@@ -2153,3 +2155,19 @@ p.host-title.mb-0.morepadding {
 	border-color: #D0D0D0;
 	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(229 229 229) !important;
   }
+
+  .main-frame-inner .form-class .form-label {
+    color: var(--label-color);
+    font-size: 13.5px;
+    font-weight: 500;
+	color: #000000 !important;
+	font-family: var(--openSans) !important;
+	/* font-family: var(--sourceSerifpro); */
+
+}
+.form-class .form-control{
+	font-size: 13.5px;
+    font-weight: 500;
+	color: #000000 !important;
+	font-family: var(--openSans) !important;
+}
