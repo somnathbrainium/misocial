@@ -1310,7 +1310,7 @@ button.btn.btn-next {
 }
 .image-upload {
     width: 85px;
-    height: 85px;
+    height: 85px; 
 }
 
 .main-frame-inner .form-class .form-label {
@@ -1335,8 +1335,8 @@ button.btn.btn-next {
     padding-bottom: 17px;
 }
 .taxes-wrap .per-position .percent {
-    right: -2px;
-    bottom: 14px;
+    right: -2px !important;
+    bottom: 28px  !important;
 
 }
 .mb-3.per-position.row {
@@ -1346,7 +1346,17 @@ button.btn.btn-next {
     margin-bottom: 15px;
 
 }
+.form-values2 {
+    padding-bottom: 4px;
+    margin-top: 4px;
+}
+.check-radio-wrap.crW.addmorpad .form-label {
+    padding: 0px 0 0 0;
+}
+.stepfrm-inner .form-control {
+    font-size: 13px;
 
+}
 }
 
 

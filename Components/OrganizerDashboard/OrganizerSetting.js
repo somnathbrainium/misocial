@@ -47,7 +47,7 @@ export default function OrganizerSetting() {
                                     </div>
                                 </Form.Group>
 
-                                <div className="check-radio-wrap crW">
+                                <div className="check-radio-wrap crW addmorpad">
                                     <div className="form-label">Membership Status</div>
                                     <div className="gender-part">
                                         <label className="cs-wrapper">

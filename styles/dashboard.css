@@ -206,7 +206,7 @@ h2.accordion-header a {
 	min-width:153px;
 	display:flex;
 	align-items:center;
-	background:var(--button-bg);
+	background:var(--button-bg);  
 	justify-content:center;
 	color:var(--button-text);
 	font-family:var(--montserrat);
@@ -324,6 +324,10 @@ h2.accordion-header a {
 /* .right-panel .main-frame-inner {
 	padding:0 80px 80px;
 } */
+
+.myevents-list .save-cancel-action {
+    padding-bottom: 0px;
+}
 .right-panel .main-frame-inner {
 	padding:0 10px 10px;
 }
@@ -334,7 +338,7 @@ h2.accordion-header a {
 	background:var(--event-bg1);
 }
 .main-frame-inner .myevents-list {
-	padding:15px;
+	padding:20px;
 }
 .myevents-list .content-inner {
 	display:flex;
@@ -383,7 +387,8 @@ h2.accordion-header a {
 }
 .myevents-list .inner-form-part .table thead th {
 	font-size:15px;
-	background:var(--header-bg);
+	/* background:var(--header-bg); */
+	background:	#c7c5c5;
 	padding:8px 10px;
 	font-family:var(--montserrat);
 	font-weight:600;
