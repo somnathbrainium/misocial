@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@300;400;600;700&display=swap');
 :root {
-	--montserrat:'Montserrat',sans-serif;
-	--abril:'Abril Fatface',cursive;
+	/* --opensans:'Montserrat',sans-serif;
+	--abril:'Abril Fatface',cursive; */
+	--opensans:'Open Sans', sans-serif;
+	
 	/* color variable */
 	--white:#fff;
 	--light-black:#1F1E2C;
@@ -26,10 +28,11 @@
 html,body {
 	padding:0;
 	margin:0;
+	font-family:var(--opensans);
 }
 body {
-	font-family:var(--montserrat);
-    font-size: 15px;
+	font-family:var(--opensans);
+    font-size: 13.5px;
 }
 
 a {
@@ -82,9 +85,9 @@ a {
 }
 .loading .loader-content p {
 	text-transform:capitalize;
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	font-size:14px;
-	font-weight:500;
+	font-weight:600;
 	text-align:center;
 	margin:0;
 }
@@ -131,8 +134,8 @@ button.btn.btn-cancel:hover{
 	border-radius:0;
 	color:var(--button-text);
 	font-size:17px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 }
 .btn-short {
 	background:var(--light-black);
@@ -144,8 +147,8 @@ button.btn.btn-cancel:hover{
 	border-radius:0;
 	color:var(--white);
 	font-size:16px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 }
 .btn-short svg {
 	margin-right:10px;
@@ -159,8 +162,8 @@ button.btn.btn-cancel:hover{
 .btn-large {
 	background:var(--button-bg);
 	color:var(--button-text);
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	border-radius:0;
 	font-size:16px;
 	height:50px;
@@ -170,9 +173,9 @@ button.btn.btn-cancel:hover{
 	min-width:140px;
 	color:var(--button-text);
 	border:1px solid var(--button-bg);
-	font-weight:500;
+	font-weight:600;
 	font-size:16px;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 }
 .vsc-initialized .btn:focus,.vsc-initialized .form-control:focus {
 	box-shadow:none;
@@ -228,7 +231,7 @@ button.btn.btn-cancel:hover{
 	margin-right:30px;
 	color:#fff;
 	text-decoration:none;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-weight:400;
 	font-size:15px;
 }
@@ -283,7 +286,7 @@ button.btn.btn-cancel:hover{
 	color:#000;
 	font-size:18px;
 	transition:0.3;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-weight:600;
 	padding:0;
 }
@@ -296,8 +299,8 @@ button.btn.btn-cancel:hover{
 .menu-wrapper .trms .tc-link {
 	color:#424242;
 	text-decoration:none;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	padding:0 16px;
 	position:relative;
 }
@@ -334,7 +337,7 @@ button.btn.btn-cancel:hover{
 	margin:auto;
 }
 .banner-container .banner-content-wrap h2 {
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	color:#fff;
 	text-align:center;
 	font-size:90px;
@@ -347,7 +350,7 @@ button.btn.btn-cancel:hover{
 	font-size:22px;
 	line-height:31px;
 	text-align:center;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-weight:400;
 	margin-top:20px;
 }
@@ -360,8 +363,8 @@ button.btn.btn-cancel:hover{
 	height:62px;
 	border-radius:0;
 	color:#828181;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	font-size:15px;
 	padding:10px 15px;
 	margin:0;
@@ -371,7 +374,7 @@ button.btn.btn-cancel:hover{
 }
 .joinnow_btn .btn-join-now {
 	background:var(--button-bg);
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-size:15px;
 	line-height:26px;
 	font-weight: 500;
@@ -379,7 +382,7 @@ button.btn.btn-cancel:hover{
 	padding:5px 25px;
 	border-radius:0;
 	min-width:208px;
-	font-weight:500;
+	font-weight:600;
 	transition: all 0.3s ease;
 
 }
@@ -391,7 +394,7 @@ button.btn.btn-cancel:hover{
 
 .search-box .btn-join-now {
 	background:var(--button-bg);
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-size:15px;
 	line-height:26px;
 	font-weight: 500;
@@ -399,7 +402,7 @@ button.btn.btn-cancel:hover{
 	padding:5px 25px;
 	border-radius:0;
 	min-width:208px;
-	font-weight:500;
+	font-weight:600;
 	transition: all 0.3s ease;
 
 }
@@ -414,7 +417,7 @@ button.btn.btn-cancel:hover{
 	top:5px;
 }
 .imRobot label {
-	font-weight:500;
+	font-weight:600;
 }
 .sfDate .ui-datepicker-calendar {
 	display:none;
@@ -441,14 +444,14 @@ button.btn.btn-cancel:hover{
 	margin-bottom: 15px;
 }
 .concept-wrapper .concept-content h2 {
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	font-size:44px;
 
 	line-height:75px;
 	color:var(--light-black)
 }
 .concept-wrapper .concept-content p {
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-size: 15px;
     line-height: 28px;
     color: #424242;
@@ -456,7 +459,7 @@ button.btn.btn-cancel:hover{
     font-style: normal;
 }  
 .seBold label {
-	font-weight:500;   
+	font-weight:600;   
 }
 .evnDt input[type="date"]::-webkit-inner-spin-button,.evnDt input[type="date"]::-webkit-calendar-picker-indicator {
 	display:none;
@@ -580,8 +583,8 @@ button.btn.btn-cancel:hover{
 .evntImg {
 	color:var(--light-black);
 	font-size:34px;
-	font-family:var(--abril);
-	font-weight:500;
+	/* font-family:var(--abril); */
+	font-weight:600;
 	padding:20px 0 15px;
 }
 .sendinvites-wrapper .mb-3 {
@@ -659,7 +662,7 @@ p.subtitle {
 	justify-content:center;
 	font-size:36px;
 	line-height:72px;
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	color:var(--light-black);
 }
 .How-itworks-wrapper .numberBox .number-part::before {
@@ -693,7 +696,7 @@ p.subtitle {
 	width:310px;
 }
 .How-itworks-wrapper .item-content h6 {
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-size:18px;
 	padding-top:14px;   
 	color:var(--light-black);
@@ -705,7 +708,7 @@ p.subtitle {
 }
 .How-itworks-wrapper .item-content p {
 	margin:0;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-size: 13px;
     line-height: inherit;
     color: #424242;
@@ -722,14 +725,14 @@ form.d-flex.search-box {
 }
 .title {
 	color:var(--light-black);
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	font-size:38px;
 	line-height:inherit;
 	margin: 0px;
 	padding-bottom: 5px;
 }
 .subtitle {
-	font-family: var(--montserrat);
+	font-family: var(--opensans);
 	font-size: 15px;
     line-height: 28px;
     color: #424242;
@@ -823,9 +826,9 @@ form.d-flex.search-box {
 
 .FooterBanner .content-box .ms-head {
 	color:#fff;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-size:30px;
-	font-weight:500;
+	font-weight:600;
 	text-align:center;
 	margin-bottom:18px;
 }
@@ -834,7 +837,7 @@ form.d-flex.search-box {
 	margin:5px 0;
 	align-items:flex-start;
 	color:#fff;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-size:17px;
 }
 .FooterBanner .content-box .nav-item svg {
@@ -876,7 +879,7 @@ form.d-flex.search-box {
 }
 .footer-wrapper .link-head {
 	color:#fff;
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	font-size:30px;
 	margin-bottom:15px;
 }
@@ -885,7 +888,7 @@ form.d-flex.search-box {
 }
 .footer-wrapper .nav .nav-item a {
 	color:#fff;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-size:14px;
 	font-weight:400;
 	text-decoration: none;
@@ -904,7 +907,7 @@ form.d-flex.search-box {
 }
 .footer-social .copyright {
 	margin:0;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	color:#8A8A8A;
 	font-size:14px;
 }
@@ -955,7 +958,7 @@ form.d-flex.search-box {
 }
 .stepfrm-inner .header {
 	color:var(--light-black);
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	font-size:42px;
 	margin-bottom:20px;
 	/* line-height:75px; */
@@ -966,7 +969,7 @@ form.d-flex.search-box {
 	align-items:center;
 }
 .stepfrm-inner .remember .forget-pass {
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-size:16px;
 	color:#897E46;
 	font-weight:600;
@@ -987,13 +990,13 @@ form.d-flex.search-box {
 .stepfrm-inner .form-label {
 	color:var(--label-color);
 	font-size:15px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 }
 .stepfrm-inner .form-control {
 	color:var(--label-color);
 	font-size:15px;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	height:50px;
 	border-radius:0;
 	border:1px solid var(--stroke);
@@ -1019,7 +1022,7 @@ form.d-flex.search-box {
 	padding:0;
 }
 .stepfrm-inner .captcha .cap-text {
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	color:var(--black);
 	font-size:15px;
 }
@@ -1042,8 +1045,8 @@ form.d-flex.search-box {
 .form-values .text {
 	margin-bottom:0;
 	margin-left:10px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	color:var(--label-color);
 	font-size:15px;
 }
@@ -1055,8 +1058,8 @@ form.d-flex.search-box {
 .btn-next { 
 	font-size:16px;
 	border-radius:0;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	height:56px;
 	margin-top:8px;
 }
@@ -1069,8 +1072,8 @@ form.d-flex.search-box {
 .stepfrm-inner .members-already {
 	color:var(--label-color);
 	font-size:16px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	margin-top:20px;
 }
 .stepfrm-inner .members-already a {
@@ -1096,10 +1099,10 @@ form.d-flex.search-box {
 }
 .btn-reset {
 	padding: 0px 0px 0px;
-	font-family:var(--montserrat);
-	font-size:15px;
+	font-family:var(--opensans);
+	font-size:13.5px;
 	color:var(--light-blue);
-	font-weight:500;
+	font-weight:600;
 }
 .btn-reset svg {
 	transform:rotate(140deg );
@@ -1167,15 +1170,15 @@ form.d-flex.search-box {
 }
 .events-wrap .search-res {
 	color:var(--light-black);
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	font-size:15;
 	/* margin-top:30px; */
 	margin-top:10px;
 	margin-bottom:20px;
 }
 .page-title {
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	color:var(--black);
 	font-size:45px;
 	/* margin-bottom:60px; */
@@ -1191,8 +1194,8 @@ form.d-flex.search-box {
 	background:var(--button-bg);
 	color:var(--button-text);
 	font-size:18px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	border-radius:0;
 	margin-left:20px;
 }
@@ -1201,8 +1204,8 @@ form.d-flex.search-box {
 	border:1px solid #e2e2e2;
 	color:#4A4A4A;
 	font-size:16px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 }
 .events-wrap .btn-reset {
 	font-size:15px;
@@ -1230,7 +1233,7 @@ form.d-flex.search-box {
 	margin-left:25px;
 }
 .singleItem .content-wrap .content .title-head {
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	/* font-size:25px; */
 	font-size:20px;
 	font-weight:700;
@@ -1252,8 +1255,8 @@ a:hover{
 	color:var(--label-color);
 	/* font-size:20px; */
 	font-size:15px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	/* margin-bottom:25px; */
 	margin-bottom:5px;
 }
@@ -1264,8 +1267,8 @@ a:hover{
 	color:var(--para-light);
 	/* font-size:20px; */
 	font-size:15px;
-	font-weight:500;
-	font-family:var(--montserrat);
+	font-weight:600;
+	font-family:var(--opensans);
 }
 .singleItem .content-wrap .content .location svg {
     font-size: 19px;
@@ -1292,12 +1295,12 @@ a:hover{
 	margin-left:5px;
 }
 .pagination .page-item .page-link {
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	/* font-size:20px; */
 	font-size:15px;
 	color:#787878;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	padding:3px 14px;
 	border:1px solid #787878;
 	margin-right:6px;
@@ -1361,20 +1364,20 @@ select.form-select {
 
 .event-content-wr .details-cont-portion p {
 	margin:0px 0 10px;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	/* font-size:20px; */
 	color:var(--label-color);
-	font-weight:500;
+	font-weight:600;
 	line-height: 28px;
 }
 .event-content-wr .details-cont-portion .lists {
 	margin-top:10px;
 }
 .event-content-wr .details-cont-portion .lists li {
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	/* font-size:20px; */
 	color:var(--label-color);
-	font-weight:500;
+	font-weight:600;
 	line-height: 28px;
 }
 .buy-ticket-wr {
@@ -1394,11 +1397,11 @@ select.form-select {
 	width:49%;
 }
 .buy-ticket-wr .ticket-column .inner-head {
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	color:var(--label-color);
 	font-size:15px;
 	margin-bottom:5px;
-	font-weight:500;
+	font-weight:600;
 }
 .buy-ticket-wr .ticket-column .table tbody {
 	border-top:10px solid #fff;
@@ -1413,13 +1416,13 @@ select.form-select {
 .buy-ticket-wr .ticket-column .table td {
 	padding:16px 8px;
 	color:var(--light-black);
-	font-weight:500;
-	font-family:var(--montserrat);
+	font-weight:600;
+	font-family:var(--opensans);
 	line-height: 25px;
 }
 .buy-ticket-wr .ticket-column .price {
 	font-weight:600;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 }
 .buy-ticket-wr .btn-large {
 	width:100%;
@@ -1452,7 +1455,7 @@ select.form-select {
 	padding:10px 18px;
 	color:var(--light-black);
 	font-size:18px;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 }
 .order-summery-wrapper .sum-items {
 	padding:2px 16px;
@@ -1462,14 +1465,14 @@ select.form-select {
 }
 .order-summery-wrapper .sum-items span {
 	color:#232323;
-	font-weight:500;
-	font-family:var(--montserrat);
+	font-weight:600;
+	font-family:var(--opensans);
 }
 .order-summery-wrapper .sum-items p {
 	color:#232323;
 	font-weight:700;
 	margin:0;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 }
 .order-summery-wrapper .label-w-hints {
 	display:flex;
@@ -1482,7 +1485,7 @@ select.form-select {
 .order-summery-wrapper .card-details .form-label {
 	color:var(--label-color);
 	font-size:16px;
-	font-weight:500;
+	font-weight:600;
 }
 .order-summery-wrapper .card-details .form-control {
 	height:58px;
@@ -1505,8 +1508,8 @@ select.form-select {
 	margin:auto;
 	width:280px;
 	text-align:center;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	font-size:18px;
 	margin-top:10px;
 }
@@ -1521,7 +1524,7 @@ select.form-select {
 	position:absolute;
 	left:10px;
 	top:5px;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-size:20px;
 	font-weight:700;
 	color:var(--white);
@@ -1545,14 +1548,14 @@ select.form-select {
 .content-box-address .address-part .time-date {
 	/* font-size:18px; */
 	color:var(--light-black);
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	flex:1;
 	padding: 0;
     margin: 0px 0 6px;
 }
 .content-box-address .address-part .time-date span {
-	font-weight:500;
+	font-weight:600;
 	display:block;
 }
 .content-box-address .address-part .time-date .date,.content-box-address .address-part .time-date .time {
@@ -1599,8 +1602,8 @@ p.time-date .date {
 	margin:0;
 	color:var(--light-black);
 	font-size:15px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 }
 .forgetBanner {
 	background:url('../public/images/signup1-banner.jpg') no-repeat center center;
@@ -1618,10 +1621,10 @@ p.time-date .date {
 }
 .password-hints li {
 	position:relative;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	font-size:17px;
 	padding-bottom:3px;
-	font-weight:500;
+	font-weight:600;
 	color:#3D3D3D;
 }
 .password-hints li::after {
@@ -1641,7 +1644,7 @@ p.time-date .date {
 .terms-privacy .terms-head {
 	font-size:34px;
 	padding-bottom:20px;
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	color:var(--black);
 }
 .terms-privacy .sub-head {
@@ -1650,14 +1653,14 @@ p.time-date .date {
 	font-size:20px;
 	color:var(--light-black);
 	font-weight:600;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 }
 .terms-privacy .texts {
 	margin-bottom:10px;
 	font-size:15px;
 	line-height: 28px; 
-	font-weight:500;
-	font-family:var(--montserrat);
+	font-weight:600;
+	font-family:var(--opensans);
 	color:#111111;
 }
 .terms-privacy .sub-head-new {
@@ -1666,7 +1669,7 @@ p.time-date .date {
 
 	font-size:16px;
 	font-weight:600;
-	font-family:var(--montserrat);
+	font-family:var(--opensans);
 	color:var(--label-color);
 }
 .cs-wrapper.table-checkbox {
@@ -1726,8 +1729,8 @@ p.time-date .date {
 	border-radius:0;
 	color:var(--button-text);
 	font-size:16px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	text-align:center;
 	/* line-height:63px; */
 }
@@ -1745,7 +1748,7 @@ p.time-date .date {
 }
 .pvrEvent .header {
 	color:var(--light-black);
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	font-size:34px;
 }
 .yearInput input[type=number]::-webkit-inner-spin-button,.yearInput input[type=number]::-webkit-outer-spin-button {
@@ -1774,8 +1777,8 @@ p.time-date .date {
 	margin:auto;
 	width:300px;
 	text-align:center;
-	font-family:var(--montserrat);
-	font-weight:500;
+	font-family:var(--opensans);
+	font-weight:600;
 	font-size:16px;
 	margin-top:20px;
 	color:#1F1E2C;
@@ -2157,36 +2160,30 @@ p.host-title.mb-0.morepadding {
   }
 
   .form-class .form-label.section-name {
-    font-family: var(--abril) !important;
-}
 
+	font-family:var(--opensans);
+}
 
   .main-frame-inner .form-class .form-label {
     color: var(--label-color);
     font-size: 13.5px;
-    font-weight: 500;
+    font-weight: 600;
 	color: #000000 !important;
-	/* font-family:  'Open Sans', sans-serif; */
-	font-family:  'Source Serif Pro', serif !important;
-
-
-	/* font-family: var(--openSans) !important; */
+	font-family:var(--opensans);
 
 }
 .form-class .form-control{
 	font-size: 13.5px;
-    font-weight: 500;
+    font-weight: 400;
 	color: #000000 !important;
-	/* font-family:  'Open Sans', sans-serif; */
-	font-family:  'Source Serif Pro', serif !important;
-	/* font-family: var(--openSans) !important; */
-
+	font-family:var(--opensans);
 }
-.form-class .form-label.section-name {
 
-    font-family: var(--abril) !important;
-}
 .cs-wrapper .label-text{
-	font-family:  'Source Serif Pro', serif !important;
+	font-weight: 600;
 
+
+}
+ .title {
+   font-weight: 600;
 }

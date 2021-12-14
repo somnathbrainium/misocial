@@ -53,7 +53,7 @@
 	border:1px solid var(--black)!important;
 }
 .user-profilename .name {
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	font-size:20px;
 	color:var(--black);
 	margin:10px 0 0 0;
@@ -85,8 +85,8 @@ h2.accordion-header a {
 	margin-left:10px;
 	color:var(--label-color);
 	font-size:15px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	/*  */
+	font-weight:400;
 }
 .sidebar .nav .nav-item.active .icon-image {
 	filter:invert(66%) sepia(4%) saturate(3587%) hue-rotate(13deg) brightness(102%) contrast(76%);
@@ -111,11 +111,11 @@ h2.accordion-header a {
 	/* max-width:78%; */
 	/* margin-top:10px; */
 }
-.main-frame-inner .form-class .form-label {
+/* .main-frame-inner .form-class .form-label {
 	color:var(--label-color);
 	font-size:13.5px;
-	font-weight:500;
-}
+	font-weight:600;
+} */
 .main-frame-inner .form-class .tag-title {
 	color:var(--label-color);
 	font-weight:600;
@@ -184,7 +184,7 @@ h2.accordion-header a {
 .form-class .form-label.section-name {
 	color:var(--light-black);
 	font-size:22px;
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 }
 .form-class .membership-wr {
 	justify-content:flex-start;
@@ -209,8 +209,8 @@ h2.accordion-header a {
 	background:var(--button-bg);  
 	justify-content:center;
 	color:var(--button-text);
-	font-family:var(--montserrat);
-	font-weight:500;
+	/*  */
+	font-weight:600;
 }
 .resetPw .modal-header {
 	padding-left:40px;
@@ -272,21 +272,21 @@ h2.accordion-header a {
 .form-class .host-title {
 	font-size:20px;
 	color:var(--light-black);
-	font-weight:500;
-	font-family: var(--abril);
+	font-weight:600;
+	/* font-family: var(--abril); */
 	margin-bottom:0;
 }
 .form-class .nb-text {
 	font-size:15px;
 	color:var(--label-color);
-	font-weight:500;
+	font-weight:600;
 	/* font-style:italic; */
 	line-height:24px;
 }
 .form-class .payment-hints {
 	/* font-size:17px; */
-	font-family:var(--montserrat);
-	font-weight:500;
+	/*  */
+	font-weight:600;
 	color:var(--label-color);
 	margin:15px 0 0 0;
 }
@@ -314,11 +314,12 @@ h2.accordion-header a {
 .right-panel .header {
 	padding-bottom:15px;
 	color:var(--light-black);
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	font-size:26px;
 	border-bottom:1px solid #E4E4E4;
 	margin:0;
 	margin-bottom:13px;
+	font-weight: 600;;
 	/* padding-bottom: 5px !important; */
 }
 /* .right-panel .main-frame-inner {
@@ -354,7 +355,7 @@ h2.accordion-header a {
 .myevents-list .content-inner .content-part .m-header {
 	color:var(--light-black);
 	font-size:18px;
-	font-family:var(--montserrat);
+	/*  */
 	font-weight:700;
 	margin-bottom:10px;
 	display:flex;
@@ -362,8 +363,8 @@ h2.accordion-header a {
 .myevents-list .content-inner .content-part .sub-title {
 	color:var(--label-color);
 	/* font-size:18px; */
-	font-family:var(--montserrat);
-	font-weight:500;
+	/*  */
+	font-weight:600;
 	margin-bottom:10px;
 	display:flex;
 	align-items:flex-start;
@@ -390,7 +391,7 @@ h2.accordion-header a {
 	/* background:var(--header-bg); */
 	background:	#c7c5c5;
 	padding:8px 10px;
-	font-family:var(--montserrat);
+	/*  */
 	font-weight:600;
 	color:var(--label-color);
 	vertical-align:middle;
@@ -403,7 +404,7 @@ h2.accordion-header a {
 	background:var(--white);
 	font-family:var(--label-color);
 	font-size:15px;
-	font-weight:500;
+	font-weight:600;
 	vertical-align: middle;
 }
 .myevents-list .inner-form-part .form-control {
@@ -420,14 +421,14 @@ h2.accordion-header a {
 	margin-top:0;
 	width:49%;
 	height:52px;
-	font-weight:500;
-	font-family:var(--montserrat);
+	font-weight:600;
+	/*  */
 }
 .delete-account-wrapper .paragraph {
 	color:var(--label-color);
 	/* font-size:17px; */
-	font-family:var(--montserrat);
-	font-weight:500;
+	/*  */
+	font-weight:600;
 }
 .delete-account-wrapper .save-cancel-action {
 	margin-bottom:15px;
@@ -470,7 +471,7 @@ p.paragraph.message {
 	padding:30px;
 }
 .view-tickets-wrapper .data-container h4 {
-	font-family:var(--montserrat);
+	/*  */
 	font-size:18px;
 	font-weight:600;
 	margin-bottom:25px;
@@ -482,8 +483,8 @@ p.paragraph.message {
 	margin-bottom:16px;
 	align-items:center;
 	justify-content:space-between;
-	font-family:var(--montserrat);
-	font-weight:500;
+	/*  */
+	font-weight:600;
 	color:var(--label-color);
 	font-style:italic;
 }
@@ -535,20 +536,20 @@ p.paragraph.message {
 }
 .view-tickets-wrapper .amount-wrap .tag-head span {
 	color:var(--black);
-	font-family:var(--montserrat);
+	/*  */
 	font-size:18px;
 	font-weight:600;
 }
 .view-tickets-wrapper .amount-wrap .other-charges {
 	color:#535353;
 	font-size:16px;
-	font-weight:500;
-	font-family:var(--montserrat);
+	font-weight:600;
+	/*  */
 	margin-bottom:8px;
 }
 .view-tickets-wrapper .my-tickets {
 	border:1px solid #858585;
-	font-family:var(--montserrat);
+	/*  */
 	font-size:28px;
 	color:var(--black);
 	font-weight:600;
@@ -567,8 +568,8 @@ p.host-title.mt-5 {
 	background-size:24px;
 	width:100%;
 	color:#575757;
-	font-family:var(--montserrat);
-	font-weight:500;
+	/*  */
+	font-weight:600;
 	font-size: 15px;
     margin: 2px 0;
     padding: 2px 0px 5px 32px;
@@ -580,7 +581,7 @@ p.host-title.mt-5 {
 	border-bottom:1px solid var(--stroke2);
 	padding-bottom:10px;
 	margin-bottom: 20px;
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 }
 .plan-price label {
 	margin:0;
@@ -592,7 +593,7 @@ p.host-title.mt-5 {
 .planCancel-wrap .check-radio-wrap .plan-hints {
 	margin-left:20px;
 	font-weight:600;
-	font-family:var(--montserrat);
+	
 }
 .specific-tran-wrap .top-header {
 	display:flex;
@@ -611,16 +612,16 @@ p.host-title.mt-5 {
 	color:var(--black);
 	border-radius:0;
 	border:1px solid var(--stroke);
-	font-family:var(--montserrat);
+	
 	font-size:15px;
 }
 .specific-tran-wrap .event-name {
 	white-space:nowrap;
 	margin:0;
 	color:#555362;
-	font-family:var(--montserrat);
+	
 	font-size:16px;
-	font-weight:500;
+	font-weight:600;
 }
 .specific-tran-wrap .event-name span {
 	color:var(--label-color);
@@ -635,8 +636,8 @@ p.host-title.mt-5 {
 	padding:12px 15px;
 }
 .specific-tran-wrap .trans-body .dt-inner span {
-	font-family:var(--montserrat);
-	font-weight:500;
+	
+	font-weight:600;
 	/* font-size:18px; */
 	color:#2b2727;
 }
@@ -663,7 +664,7 @@ p.host-title.mt-5 {
 	align-items:center;
 	justify-content:center;
 	height:64px;
-	font-weight:500;
+	font-weight:600;
 	letter-spacing:1px;
 }
 .specific-tran-wrap .payment-action .nav .nav-link.active {
@@ -671,8 +672,8 @@ p.host-title.mt-5 {
 	border:1px solid var(--button-bg);
 }
 .refund-ammount-wrap .form-label {
-	font-family:var(--montserrat);
-	font-weight:500;
+	
+	font-weight:600;
 	font-size:15px;
 	color:var(--label-color);
 }
@@ -704,14 +705,14 @@ p.host-title.mt-5 {
 .form-class .file-upload-area label span {
 	color:var(--para-light);
 	margin-top:5px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	
+	font-weight:600;
 	font-size:16px;
 }
 .form-class .frmsub-title {
 	color:var(--light-black);
 	font-size:15px;
-	font-family:var(--montserrat);
+	
 	font-weight:600;
 	margin-bottom:5px;
 }
@@ -723,15 +724,15 @@ p.host-title.mt-5 {
 }
 .form-class .event-tag-hints span {
 	/* font-size:18px; */
-	font-family:var(--montserrat);
+	
 	color:#888888;
 }
 .form-class .form-control { 
 	resize:none;
-	color:#4e4e4e;  
-	font-family:var(--montserrat);
-	font-weight:500;
-	font-size: 13.5px;
+	/* color:#4e4e4e;  
+	
+	font-weight:600;
+	font-size: 13.5px; */
 
 }
 .mb-3.profImg label.form-label {
@@ -748,8 +749,8 @@ p.host-title.mt-5 {
 	margin:0;
 }
 .form-class .add-tickets-wrap .currency-part .currency-wrap {
-	font-weight:500;
-	font-family:var(--montserrat);
+	font-weight:600;
+	
 	/* font-size:18px; */
 	color:var(--label-color);
 }
@@ -757,7 +758,7 @@ p.host-title.mt-5 {
 	border-radius:0;
 	color:var(--button-text);
 	font-size:15px;
-	font-family:var(--montserrat);
+	
 	max-width:330px;
 	height:52px;
 	margin-top:16px;
@@ -766,8 +767,8 @@ p.host-title.mt-5 {
 	font-size:15px;
 	padding:0.5rem 0.5rem;
 	background:var(--header-bg);
-	font-family:var(--montserrat);
-	font-weight:500;
+	
+	font-weight:600;
 	color:var(--label-color);
 	vertical-align:middle;
 }
@@ -781,7 +782,7 @@ p.host-title.mt-5 {
 	background:var(--white);
 	font-family:var(--label-color);
 	font-size:18px;
-	font-weight:500;
+	font-weight:600;
 }
 .platinum-tickets-wrap .table tbody {
 	border:1px solid #F3F3F3;
@@ -809,7 +810,7 @@ p.host-title.mt-5 {
 .tickets-per-order .tick-title {
 	color:var(--light-black);
 	/* font-size:17px; */
-	font-weight:500;
+	font-weight:600;
 }
 .tickets-per-order .save-cancel-action .btn {
 	min-width:140px;
@@ -838,13 +839,13 @@ p.host-title.mt-5 {
 }
 .data-status-header .top-portion .trs-status {
 	margin:0;
-	font-family:var(--montserrat);
+	
 	color:var(--light-black);
 	font-size:15px;
 	font-weight:600;
 }
 .data-status-header .top-portion .trs-status span {
-	font-weight:500;
+	font-weight:600;
 	margin-left:5px;
 }
 .data-status-header .bottom-portion .event-name {
@@ -853,10 +854,10 @@ p.host-title.mt-5 {
 }
 .data-status-header .bottom-portion .event-name span {
 	margin:0;
-	font-family:var(--montserrat);
+	
 	color:var(--light-black);
 	font-size:16px;
-	font-weight:500;
+	font-weight:600;
 	margin-right:14px;
 	position:relative;
 	cursor:pointer;
@@ -884,15 +885,15 @@ p.host-title.mt-5 {
 }
 .data-status-header .status-menu .event-name span {
 	margin:0;
-	font-family:var(--montserrat);
+	
 	color:var(--light-black);
 	font-weight:600;
 }
 .data-status-header .status-menu .form-select {
 	border:none;
-	font-family:var(--montserrat);
+	
 	color:var(--light-black);
-	font-weight:500;  
+	font-weight:600;  
 }
 .data-status-header .status-menu .form-select:focus {
 	border:none;
@@ -926,7 +927,7 @@ p.host-title.mt-5 {
 	background:var(--button-bg);
 	color:var(--button-text);
 	font-size:18px;
-	font-weight:500;
+	font-weight:600;
 	border-radius:0;
 	margin-left:10px;
 }
@@ -949,7 +950,7 @@ p.host-title.mt-5 {
 	color:var(--label-color);
 	font-size:13px;
 	background:var(--header-bg);
-	font-family:var(--montserrat);
+	
 	font-weight:600;
 }
 .transaction-table td {
@@ -978,13 +979,13 @@ p.host-title.mt-5 {
 	background:none;
 }
 .transaction-table td {
-	font-family:var(--montserrat);
+	
 	font-size:13px;
 	vertical-align:middle;
 	font-weight:400;
 }
 .transaction-table td .b-title {
-	font-weight:500;
+	font-weight:600;
 	margin:0;
 }
 .transaction-table td .btn-action {
@@ -1042,8 +1043,8 @@ p.host-title.mt-5 {
 }
 .OrganizerDashboardApproved .instruction-para {
 	font-size:17px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	
+	font-weight:600;
 	color:var(--para-light);
 	margin:10px 0;
 }
@@ -1084,7 +1085,7 @@ p.host-title.mt-5 {
 	background:#DEDEDE;
 	color:var(--light-black);
 	font-size:16px;
-	font-family:var(--montserrat);
+	
 	font-weight:600;
 	margin-top:20px;
 	padding:10px;
@@ -1094,7 +1095,7 @@ p.host-title.mt-5 {
 	max-width:550px;
 }
 .universalModal .modal-title {
-	font-family:var(--abril);
+	/* font-family:var(--abril); */
 	color:var(--light-black);
 	font-size:42px;
 }
@@ -1116,11 +1117,11 @@ p.host-title.mt-5 {
 .universalModal .messagepreview-wrapper .message-title {
 	color:var(--light-black);
 	font-size:16px;
-	font-family:var(--montserrat);
+	
 	margin-bottom:16px;
 }
 .universalModal .download-format .format-head {
-	font-family:var(--montserrat);
+	
 	font-size:25px;
 	margin-bottom:0;
 	color:var(--light-black);
@@ -1133,7 +1134,7 @@ p.host-title.mt-5 {
 }
 .universalModal .copy-event .sub-header {
 	font-size:17px;
-	font-family:var(--montserrat);
+	
 	color:var(--label-colors);
 }
 .universalModal .copy-event .save-cancel-action .btn.btn-cancel {
@@ -1148,7 +1149,7 @@ p.host-title.mt-5 {
 }
 .universalModal .success-modal .success-text {
 	font-size:17px;
-	font-family:var(--montserrat);
+	
 	color:var(--label-colors);
 }
 .universalModal .successReset-modal {
@@ -1156,7 +1157,7 @@ p.host-title.mt-5 {
 }
 .universalModal .successReset-modal .success-text {
 	font-size:17px;
-	font-family:var(--montserrat);
+	
 	margin:20px 0 0 0;
 	color:var(--label-colors);
 }
@@ -1177,7 +1178,7 @@ p.host-title.mt-5 {
 	background:var(--event-bg1);
 }
 .transaction-table tbody td {
-	font-weight:500;
+	font-weight:600;
 }
 .ticket-table .checkmark {
 	height:22px;
@@ -1207,7 +1208,7 @@ p.host-title.mt-5 {
 .orgSel .form-control {
 	/* color:#1f1e33;
 	font-size:18px;
-	font-weight:500; */
+	font-weight:600; */
 }
 .evnHdn {
 	padding-top:10px;
@@ -1225,8 +1226,8 @@ p.host-title.mt-5 {
 .newDbaccordion .accordion-button {
 	color:var(--label-color);
 	font-size:16px;
-	font-family:var(--montserrat);
-	font-weight:500;
+	
+	font-weight:600;
 	background-color:#fff;
 	border:none;
 	text-indent:12px;
@@ -1732,9 +1733,9 @@ label.section-name.evnHdn.form-label{
 .plan-price label {
     font-size: 17px;
 }
-.main-frame-inner .form-class .form-label {
+/* .main-frame-inner .form-class .form-label {
     font-size: 13.5px;
-}
+} */
 .form-class .form-control {
     font-size: 13.5px;
 }
