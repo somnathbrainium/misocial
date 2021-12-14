@@ -20,8 +20,8 @@
 	--para-light:#383838;
 	--header-bg:#DEDEDE;
 
-	--openSans: 'Open Sans', sans-serif;
-	--sourceSerifpro: 'Source Serif Pro', serif;
+	
+
 }
 html,body {
 	padding:0;
@@ -2156,19 +2156,29 @@ p.host-title.mb-0.morepadding {
 	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(229 229 229) !important;
   }
 
+  .form-class .form-label.section-name {
+    font-family: var(--abril) !important;
+}
+
+
   .main-frame-inner .form-class .form-label {
     color: var(--label-color);
     font-size: 13.5px;
     font-weight: 500;
 	color: #000000 !important;
+	/* font-family:  'Open Sans', sans-serif; */
+	font-family:  'Source Serif Pro', serif !important;
+
+
 	/* font-family: var(--openSans) !important; */
-	font-family: var(--sourceSerifpro);
 
 }
 .form-class .form-control{
 	font-size: 13.5px;
     font-weight: 500;
 	color: #000000 !important;
-	font-family: var(--sourceSerifpro);
+	/* font-family:  'Open Sans', sans-serif; */
+	font-family:  'Source Serif Pro', serif !important;
 	/* font-family: var(--openSans) !important; */
+
 }
