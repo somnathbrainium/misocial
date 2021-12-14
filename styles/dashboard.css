@@ -1594,9 +1594,9 @@ label.section-name.evnHdn.form-label{
 		margin-bottom:15px;
 		line-height:inherit;
 	}
-	.form-values {
+	/* .form-values {
 		margin-top:25px;
-	}
+	} */
 
 	.save-cancel-action .btn {
 		height:46px;
@@ -1704,5 +1704,17 @@ label.section-name.evnHdn.form-label{
 .responsivetableview2 select.mid-value.form-select {
     display: inline-block;
     width: auto;
+}
+.btn-next {
+ 
+    height: auto;
+  
+}
+.inprow {
+  
+    flex-direction: column;
+}
+.inprow .mb-3 {
+    width: 100%;
 }
 }
