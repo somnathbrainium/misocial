@@ -108,7 +108,7 @@ h2.accordion-header a {
 	margin:0;
 }
 .main-frame-inner .form-class {
-	max-width:78%;
+	/* max-width:78%; */
 	/* margin-top:10px; */
 }
 .main-frame-inner .form-class .form-label {
