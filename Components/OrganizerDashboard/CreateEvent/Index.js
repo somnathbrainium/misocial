@@ -8,23 +8,25 @@ export default function CreateEvent() {
     return (
         <div className="create-event-main">
             <h2 className="header">Create Event</h2>
-
+            <div className="stepfrm-inner1 morpad">
             <Form className="form-class">
                 <Form.Label className="section-name">About Event</Form.Label>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Event Name</Form.Label>
                     <Form.Control type="text" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
-                    <Form.Label>Description</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
-                    <Form.Label>Refund Policy</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
-                </Form.Group>
-
-<h3 className="evntImg">Event Image</h3>
+                <div className='inprow adjpad'>
+                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
+                        <Form.Label>Description</Form.Label>
+                        <Form.Control as="textarea" rows={3} />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
+                        <Form.Label>Refund Policy</Form.Label>
+                        <Form.Control as="textarea" rows={3} />
+                    </Form.Group>
+                </div>
+                
+                <h3 className="evntImg">Event Image</h3>
                 <div className="file-upload-area">
                     <input type="file" id="actual-btn" hidden />
                     <label htmlFor="actual-btn">
@@ -74,6 +76,7 @@ export default function CreateEvent() {
                     </Form.Select>
                 </Form.Group>
                 <p className="frmsub-title">Where (Location)</p>
+                <div className='inprow adjpad'>
 
                 <Form.Group className="mb-3" controlId="VenueName">
                     <Form.Label>Venue Name</Form.Label>
@@ -84,6 +87,7 @@ export default function CreateEvent() {
                     <Form.Control type="text" />
                     <button className="btn btn-reset"><IoRefresh />Reset Venue Address</button>
                 </Form.Group>
+                </div>
                 <p className="frmsub-title">Tags</p>
                 <span className="tag-title">Improve discoverability of your event by adding tags relevant to the subject matter.</span>
                 <Form.Group className="mb-3" controlId="VenueName">
@@ -211,6 +215,7 @@ export default function CreateEvent() {
                 {/* <p className="frmsub-title">Event organiser</p> */}
                 <Form.Label className="section-name d-block evnHdn">Event organiser</Form.Label>
 
+                <div className='inprow inprow2 adjpad'>
 
                 <Form.Group className="mb-3  " controlId="exampleForm.ControlInput2">
                     <Form.Label>Organiser name</Form.Label>
@@ -224,6 +229,7 @@ export default function CreateEvent() {
                     <Form.Label>Organiser Email</Form.Label>
                     <Form.Control type="email" />
                 </Form.Group>
+                </div>
                 <Form.Group className="mb-3 " controlId="exampleForm.ControlInput5">
                     <Form.Label>Organiser Phone</Form.Label>
                     <div className="select-box">
@@ -264,7 +270,7 @@ export default function CreateEvent() {
                     <button className="btn btn-short">Preview</button>
                 </div>
             </Form>
-
+             </div>
         </div>
     )
 }

@@ -229,7 +229,7 @@ font-size: 16px;
 
 .cs-wrapper .label-text{ margin-bottom: 0;
     font-family: var(--montserrat);
-    font-size: 15px;
+    font-size: 13.5px;
     color: var(--black);
     font-weight: 500
   }
@@ -237,7 +237,7 @@ font-size: 16px;
 
 .form-control {
  
-  font-size: 15px;
+  font-size: 13.5px;
 }
 
 @media (max-width:767px) {
