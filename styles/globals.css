@@ -965,7 +965,7 @@ form.d-flex.search-box {
 	min-height:350px;
 }
 .step-one-form {
-	width:480px;
+	width:525px;
 	margin:63px auto;
 }
 .stepfrm-inner .header {
@@ -2216,4 +2216,15 @@ form.universal-event-search {
 }
 .logon-wrapper .step-one-form .stepfrm-inner {
     width: 100%;
+}
+
+.main-frame-inner .form-class .form-control {
+    height: 50px;
+}
+textarea#exampleForm\.ControlTextarea2 {
+    height: 75px;
+}
+p.p-title {
+    font-weight: 700;
+    font-size: 15px;
 }

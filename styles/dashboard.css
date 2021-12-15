@@ -711,9 +711,9 @@ p.host-title.mt-5 {
 }
 .form-class .frmsub-title {
 	color:var(--light-black);
-	font-size:15px;
+	font-size:14px;
 	
-	font-weight:600;
+	font-weight:700;
 	margin-bottom:5px;
 }
 .form-class .event-tag-hints {
