@@ -2228,3 +2228,7 @@ p.p-title {
     font-weight: 700;
     font-size: 15px;
 }
+
+.inprow.inprow2.adjpad .mb-3 {
+    width: 31.5%;
+}
