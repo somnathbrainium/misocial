@@ -1269,13 +1269,12 @@ label.section-name.form-label {
     font-weight: 700 !important;
 }
 
-@media ( max-width:1400px) {
+/* @media ( max-width:1400px) {
 	.universalModal .modal-title {
 		font-size:30px;
 	}
 	.myevents-list .inner-form-part .table thead th {
 		font-size: 14px;
-		/* padding: 3px 10px; */
 	}
 
 	.myevents-list .inner-form-part .table tbody td, .myevents-list .inner-form-part .table tbody td .form-control {
@@ -1283,18 +1282,7 @@ label.section-name.form-label {
 		font-size: 14px;
 
 	}
-	/* .sidebar .nav .nav-item a {
-		font-size:17px;
-	} */
-	/* .myevents-list .content-inner .content-part .m-header {
-		font-size:18px;
-	} */
-	.myevents-list .content-inner .content-part .sub-title {
-		/* font-size:16px; */
-	}
-	/* .right-panel .header {
-		font-size:28px;
-	} */
+	
 	.data-status-header .bottom-portion .event-name span {
 		font-size:15px;
 	}
@@ -1304,31 +1292,21 @@ label.section-name.form-label {
 	.myevents-list .content-inner .image-part {
 		width:220px!important;
 	}
-	/* .myevents-list .inner-form-part .table thead th {
-		font-size:15px;
-	}
-	.myevents-list .inner-form-part .table tbody td,.myevents-list .inner-form-part .table tbody td .form-control {
-		font-size:16px;
-	} */
+
 	.dashboard-layout .dashboard-type {
 		margin-bottom:35px;
 	}
 	.dashboard-layout .dashboard-type .title {
 		font-size:28px;
 	}
-	/* .right-panel .header {
-		font-size: 24px;
-		
-	} */
+
 	.leftpannel {
 		width:265px;
 	}
 	.right-panel {
 		width:calc(100% - 281px);
 	}
-	/* .transaction-table th,.transaction-table td {
-		font-size:14px;
-	} */
+
 	.sidebar .nav.child {
 		padding-left:10px;
 	}
@@ -1342,10 +1320,6 @@ label.section-name.form-label {
 		padding-left:280px;
 	}
 
-	.plan-feature-wrap .nav-item {
-		/* font-size:18px; */
-		/* margin:5px 0; */
-	}
 	.myevents-list .inner-form-part .table.ticket-table thead th {
 		font-size:15px;
 	}
@@ -1356,12 +1330,6 @@ label.section-name.form-label {
 		width:70%;
 		margin-top:30px; 
 	}
-	/* .specific-tran-wrap .event-name {
-		font-size:18px;
-	} */
-	/* .specific-tran-wrap .trans-body .dt-inner span {
-		font-size:16px;
-	} */
 	.specific-tran-wrap .payment-action .nav .nav-link,.refund-ammount-wrap .form-control,.refund-ammount-wrap .btn-next {
 		height:52px;
 	}
@@ -1374,9 +1342,7 @@ label.section-name.form-label {
 		font-size:15px;
 		height:46px;
 	}
-	/* .main-frame-inner .form-class { 
-		max-width:100%;
-	} */
+
 	.data-status-header .bottom-portion .event-name span::after {
 		content:'';
 		height:11px;
@@ -1387,7 +1353,7 @@ label.section-name.form-label {
 		right:-8px;
 		top:5px;
 	}
-}
+} */
 
 @media ( max-width:991px) {
 	.form-class .form-label.section-name {
@@ -1478,7 +1444,6 @@ label.section-name.form-label {
 		font-size:16px;
 	}
 	.dashboard-layout {
-		/* padding:16px 8px; */
 		padding:16px 0px;
 	}
 	.view-tickets-wrapper .send-wrapper {
