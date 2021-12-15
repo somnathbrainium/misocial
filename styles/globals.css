@@ -592,7 +592,7 @@ button.btn.btn-cancel:hover{
 	color:var(--light-black);
 	font-size:34px;
 	/* font-family:var(--abril); */
-	font-weight:600;
+	font-weight:700;
 	padding:20px 0 15px;
 }
 .sendinvites-wrapper .mb-3 {
@@ -2205,7 +2205,7 @@ p.host-title.mb-0.morepadding {
 }
 
 .btn {
-    font-weight: 700 !important;
+    /* font-weight: 700 !important; */
 }
 
 form.universal-event-search {

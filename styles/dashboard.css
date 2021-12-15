@@ -1257,7 +1257,7 @@ p.host-title.mt-5 {
 }
 
 .dashboard-layout .evntImg {
-    font-size: 20px;
+    font-size: 18px;
     padding: 0px 0 8px;
 }
 label.section-name.evnHdn.form-label{
@@ -1356,7 +1356,7 @@ label.section-name.form-label {
 } */
 
 @media ( max-width:991px) {
-	.form-class .form-label.section-name {
+	/* .form-class .form-label.section-name {
 		font-size: 16px;
 	}
 	.dashboard-layout .evntImg {
@@ -1369,7 +1369,7 @@ label.section-name.form-label {
 	label.section-name.form-label {
 		font-size: 16px !important;
 	}
-	
+	 */
 	.dashboard-layout .dashboard-type {
 		margin-bottom:15px;
 	}
@@ -1531,7 +1531,7 @@ label.section-name.form-label {
 		font-size:20px;
 	}
 	.right-panel .header {
-		font-size:19px;
+		font-size:18px;
 		margin-bottom:15px;
 		line-height:inherit;
 	}
@@ -1570,7 +1570,7 @@ label.section-name.form-label {
 	
 	}
 	label.section-name.evnHdn.form-label,label.section-name.d-block.form-label{
-		font-size: 16px !important;
+		font-size: 15px !important;
 	}
 	/* .main-frame-inner .form-class .form-label {
 		font-size: 13px;
@@ -1689,5 +1689,12 @@ label.section-name.form-label {
 
     font-style: inherit;
     line-height: 20px;
+}
+
+.form-class .form-label.section-name {
+    font-size: 15px;
+}
+.dashboard-layout .evntImg {
+    font-size: 15px;
 }
 }
