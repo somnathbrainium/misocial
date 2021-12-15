@@ -42,19 +42,21 @@ export default function MySettings() {
                     <div className="form-label">Membership Status</div>
                     <div className="gender-part">
                         <label className="cs-wrapper">
-                            <input type="checkbox" defaultChecked />
+                            <input type="checkbox"  />
                             <span className="checkmark"></span>
                             <p className="label-text">Basic</p>
                         </label>
                         <label className="cs-wrapper">
-                            <input type="checkbox" />
+                            <input type="checkbox" defaultChecked />
                             <span className="checkmark"></span>
                             <p className="label-text">Platinum</p>
                         </label>
                     </div>
                 </div>
 
-                <button className="btn btn-next">Upgrade To Platinum</button>
+                {/* <button className="btn btn-next">Upgrade To Platinum</button> */}
+                <button type="button" className="btn btn-reset" onClick={handleResetModal}><IoRefresh />Upgrade To Platinum</button>
+
                 <div className="form-values">
                     <label className="toggleSwitch" >
                         <input type="checkbox" />

@@ -236,7 +236,6 @@ h2.accordion-header a {
 	background:transparent;
 }
 .save-cancel-action .btn {
-	height:52px;
 	min-width:170px;
 	width:auto;
 	margin:0;
@@ -245,6 +244,8 @@ h2.accordion-header a {
 	align-items:center;
 	justify-content:center;
 }
+
+
 .save-cancel-action .btn img {
 	margin-right:5px!important;
 }
@@ -813,8 +814,8 @@ p.host-title.mt-5 {
 	font-weight:600;
 }
 .tickets-per-order .save-cancel-action .btn {
-	min-width:140px;
-	height:52px;
+	/* min-width:140px;
+	height:52px; */
 }
 .data-status-header {
 	border-bottom:1px solid var(--stroke);
@@ -1466,9 +1467,9 @@ label.section-name.form-label {
 	.view-tickets-wrapper .amount-wrap {
 		width:100%;
 	}
-	.save-cancel-action .btn {
+	/* .save-cancel-action .btn {
 		min-width:125px;
-	}
+	} */
 
 }
 
@@ -1539,9 +1540,9 @@ label.section-name.form-label {
 		margin-top:25px;
 	} */
 
-	.save-cancel-action .btn {
+	/* .save-cancel-action .btn {
 		height:46px;
-	}
+	} */
 	/* .main-frame-inner .form-class .btn-next{height: auto;}*/
 	.specific-tran-wrap .payment-action .nav .nav-link,.refund-ammount-wrap .form-control,.refund-ammount-wrap .btn-next {
 		height:auto;
@@ -1550,12 +1551,12 @@ label.section-name.form-label {
 	.tickets-per-order .form-control {
 		margin-bottom:10px;
 	}
-	.create-event-main .form-class .btn-next {
+	/* .create-event-main .form-class .btn-next {
 		height:52px;
 	}
 	.create-event-main .save-cancel-action .btn {
 		height:52px;
-	}
+	} */
 	.sendinvites-wrapper .check-radio-wrap .form-label {
 		margin-bottom:5px;
 	}
@@ -1590,9 +1591,9 @@ label.section-name.form-label {
 	.dashboardbanner {
 		height:235px;
 	}
-	.save-cancel-action .btn {
+	/* .save-cancel-action .btn {
 		min-width:140px;
-	}
+	} */
 	.specific-tran-wrap .status-menu {
 		flex-direction:column;
 	}

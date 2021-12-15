@@ -92,7 +92,7 @@ a {
 	text-align:center;
 	margin:0;
 }
-.btn-next {
+/* .btn-next {
 	display:block;
 	width:100%;
 	background:var(--button-bg);
@@ -102,7 +102,7 @@ a {
 .btn-next:hover {
 	background: #000;
     color: #fff !important;
-}
+} */
 button.btn.btn-cancel{
 	transition: all 0.3s ease;
 
@@ -395,6 +395,24 @@ button.btn.btn-cancel:hover{
 
 }
 .joinnow_btn .btn-join-now:hover {
+    background: #645f46;
+	color:#fff;
+}
+.defbtnopt1 {
+	background:var(--button-bg);
+	font-family:var(--opensans);
+	    font-size: 15px;
+	line-height:26px;
+	font-weight: 500;
+	color:var(--button-text);
+	padding:5px 25px;
+	border-radius:0;
+	min-width:208px;
+	font-weight:700;
+	transition: all 0.3s ease;
+
+}
+.defbtnopt1:hover {
     background: #645f46;
 	color:#fff;
 }
@@ -1067,13 +1085,35 @@ form.d-flex.search-box {
 	color:var(--bold-color);
 	cursor:pointer;
 }
-.btn-next { 
+/* .btn-next { 
 	font-size:16px;
 	border-radius:0;
 	font-family:var(--opensans);
 	font-weight:600;
 	height:56px;
 	margin-top:10px;
+} */
+
+.btn-next {
+	background:var(--button-bg);
+	font-family:var(--opensans);
+	    font-size: 15px;
+	line-height:26px;
+	font-weight: 500;
+	color:var(--button-text);
+	padding:5px 25px;
+	border-radius:0;
+	/* min-width:208px; */
+	margin-top:10px;
+	font-weight:700;
+	transition: all 0.3s ease;
+	outline: 0px;
+	box-shadow: 0px 0px 0px transparent !important;
+
+}
+.btn-next:hover {
+    background: #645f46;
+	color:#fff;
 }
 .stepfrm-inner.fortogPassbg form {
     padding: 15px 0 0;
@@ -2122,7 +2162,7 @@ label.section-name.form-label {
 
 button.btn.btn-next {
     width: auto;
-	padding: 10px 25px;
+	/* padding: 10px 25px; */
 }
 
 .inprow {
@@ -2135,7 +2175,7 @@ button.btn.btn-next {
 }
 
 .stepfrm-inner {
-    width: 78%;
+    width: 50%;
 }
 /*  
 button.btn.btn-next {
@@ -2219,7 +2259,7 @@ form.universal-event-search {
 }
 
 .main-frame-inner .form-class .form-control {
-    height: 50px;
+    height: 40px;
 }
 textarea#exampleForm\.ControlTextarea2 {
     height: 75px;
@@ -2231,4 +2271,8 @@ p.p-title {
 
 .inprow.inprow2.adjpad .mb-3 {
     width: 31.5%;
+}
+
+.check-radio-wrap.membership-wr.removepadding {
+    margin-bottom: 0px;
 }
