@@ -4,7 +4,7 @@
 		max-width:95%;
 	}
 }
-@media (max-width:1400px) {
+/* @media (max-width:1400px) {
 	.mxWdthead {
 		max-width:100%;
 	}
@@ -17,10 +17,7 @@
 		margin:80px 0 0 0;
 		line-height:62px;
 	}
-	.top-banner {
-		/* padding:30px 20px;
-		padding-bottom:40px; */
-	}
+
 	.banner-container .banner-content-wrap p {
 		font-size:20px;
 		margin-top:30px;
@@ -30,25 +27,20 @@
 		padding:30px;
 		margin:20px 0;
 	}
-	.concept-wrapper,.How-itworks-wrapper,.event-wrapper,.venue-wrapper,.why-misocial,.organizer-wrapper {
-		/* padding:40px 0; */
-	}
+
 	.concept-wrapper .concept-content {
 		padding-left:0px;
 	}
 	.title {
 		font-size:34px;
-		/* line-height:45px; */ 
         line-height: inherit;
 
 	}
     .concept-wrapper .concept-content h2 {
         font-size: 32px;
-        /* line-height: 45px; */
         line-height: inherit;
     }
 	.concept-wrapper .concept-content p,.subtitle {
-		/* font-size:16px; */
 		margin-bottom:6px;
 	}
 	.footer-wrapper .link-head {
@@ -60,11 +52,9 @@
 	}
 	.page-title {
 		font-size:38px;
-		/* margin-bottom:40px; */
 		margin-bottom:20px;
 	}
 	.universal-event-search {
-		/* max-width:90%; */
 		max-width:100%;
 	}
 	.singleItem .content-wrap .image-style {
@@ -74,15 +64,6 @@
 	.my-profile-wrapper .stepfrm-inner .header {
 		padding:0 40px;
 	}
-	/* .stepfrm-inner .form-control {
-		height:46px;
-	} */
-	.How-itworks-wrapper .item-content h6 {
-		/* font-size:22px; */
-		/* line-height:65px; */
-        /* font-size:20px; */
-        /* list-style: inherit; */
-	}
 	.How-itworks-wrapper .numberBox .number-part {
 		width:70px;
 		height:70px;
@@ -90,18 +71,11 @@
 	.How-itworks-wrapper .process-part {
 		background-position:center 36px;
 	}
-	.pr-custom {
-		/* padding-right:36px; */
-	}
-	.pl-custom {
-		/* padding-left:36px; */
-	}
+
 	.How-itworks-wrapper .item-content {
 		width:30%;
 	}
-	.FooterBanner {
-		/* padding:125px 0; */
-	}
+
 	.FooterBanner .content-box {
 		padding:24px;
 	}
@@ -110,10 +84,8 @@
 		margin-bottom:15px;
 	}
 	.FooterBanner .content-box .nav-item {
-		/* font-size:16px; */
 		margin:2px 0;
 	}
-	/* .singleItem .content-wrap .action-section .btn{height:52px;}*/
 
 	.btn-next {
 		font-size: 15px;
@@ -129,7 +101,7 @@
 		font-size: 16px;
 	
 	}
-}
+} */
 @media (max-width:1200px) {
 	.main-frame-inner .myevents-list {
 		padding: 10px;
