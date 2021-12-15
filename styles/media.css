@@ -396,9 +396,7 @@
 	.OrganizerDashboardApproved .approve-Instruction {
 		width:100%!important;
 	}
-	.terms-privacy .terms-head {
-		font-size:30px;
-	}
+
 	.terms-privacy .sub-head {
 		font-size:20px;
 	}
@@ -1000,10 +998,7 @@
 	.event-banner,.signupnext-banner,.signup-one-banner,.log-banner,.forgetBanner {
 		height: 200px;
 	}
-	.terms-privacy .terms-head {
-		font-size: 38px;
-		padding-bottom: 20px; 
-	}
+
 	.terms-privacy .sub-head-new {
 		font-size: 15px;
 		
@@ -1072,10 +1067,10 @@
 		font-size: 16px;
 		height: 50px;
 	}
-	.stepfrm-inner .form-label {
+	/* .stepfrm-inner .form-label {
 		font-size: 15px;
 		
-	}
+	} */
 	.cs-wrapper .label-text {
 	  
 		font-size: 15px;
@@ -1205,6 +1200,9 @@ p.p-title {
     margin: 0px !important;
     padding: 0px !important;
 }
+.terms-privacy {
+    margin: 30px 0;
+}
 }
 @media screen and (max-width: 767px) {
 
@@ -1327,6 +1325,10 @@ button.btn.btn-next {
 }
 .stepfrm-inner .form-control {
     font-size: 13px;
+
+}
+.terms-privacy .terms-head {
+    font-size: 22px;
 
 }
 }

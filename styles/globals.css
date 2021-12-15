@@ -33,7 +33,7 @@ html,body {
 body {
 	font-family:var(--opensans);
     /* font-size: 13.5px; */
-	font-size: 15px;
+	font-size: 14px;
 }
 
 a {
@@ -234,7 +234,7 @@ button.btn.btn-cancel:hover{
 	text-decoration:none;
 	font-family:var(--opensans);
 	font-weight:400;
-	font-size:15px;
+	    font-size: 14px;
 }
 .header-wraapper .other-part {
 	display:flex;
@@ -285,7 +285,7 @@ button.btn.btn-cancel:hover{
 }
 .menu-wrapper .nav .nav-link {
 	color:#000;
-	font-size:18px;
+	font-size:16px;
 	transition:0.3;
 	font-family:var(--opensans);
 	font-weight:600;
@@ -373,7 +373,7 @@ button.btn.btn-cancel:hover{
 	color:#828181;
 	font-family:var(--opensans);
 	font-weight:600;
-	font-size:15px;
+	    font-size: 14px;
 	padding:10px 15px;
 	margin:0;
 }
@@ -383,7 +383,7 @@ button.btn.btn-cancel:hover{
 .joinnow_btn .btn-join-now {
 	background:var(--button-bg);
 	font-family:var(--opensans);
-	font-size:15px;
+	    font-size: 14px;
 	line-height:26px;
 	font-weight: 500;
 	color:var(--button-text);
@@ -403,7 +403,7 @@ button.btn.btn-cancel:hover{
 .search-box .btn-join-now {
 	background:var(--button-bg);
 	font-family:var(--opensans);
-	font-size:15px;
+	    font-size: 14px;
 	line-height:26px;
 	font-weight: 500;
 	color:var(--button-text);
@@ -435,7 +435,7 @@ button.btn.btn-cancel:hover{
 	padding-top:40px;
 }
 .fortogPassbg .form-values .text {
-	font-size:15px;
+	    font-size: 14px;
 	color:#3D3D3D;
 }
 .concept-wrapper {
@@ -460,8 +460,8 @@ button.btn.btn-cancel:hover{
 }
 .concept-wrapper .concept-content p {
 	font-family:var(--opensans);
-	font-size: 15px;
-    line-height: 28px;
+	font-size: 14px;
+    line-height: 23px;
     color: #424242;
     font-weight: 500;
     font-style: normal;
@@ -745,8 +745,8 @@ form.d-flex.search-box {
 }
 .subtitle {
 	font-family: var(--opensans);
-	font-size: 15px;
-    line-height: 28px;
+	font-size: 14px;
+    line-height: 23px;
     color: #424242;
     font-weight: 500;
     font-style: normal;
@@ -850,7 +850,7 @@ form.d-flex.search-box {
 	align-items:flex-start;
 	color:#fff;
 	font-family:var(--opensans);
-	font-size:17px;
+	font-size:16px;
 }
 .FooterBanner .content-box .nav-item svg {
 	min-width: 20px;
@@ -882,7 +882,7 @@ form.d-flex.search-box {
 	background:#3a3939;
 	border:none;
 	color:#fff;
-	font-size: 15px;
+	font-size: 14px;
     padding: 6px 10px;
     font-weight: normal;
 }
@@ -1001,13 +1001,13 @@ form.d-flex.search-box {
 }
 .stepfrm-inner .form-label {
 	color:var(--label-color);
-	font-size:15px;
+	font-size:13.5px;
 	font-family:var(--opensans);
 	font-weight:600;
 }
 .stepfrm-inner .form-control {
 	color:var(--label-color);
-	font-size:15px;
+	    font-size: 14px;
 	font-family:var(--opensans);
 	height:50px;
 	border-radius:0;
@@ -1036,7 +1036,7 @@ form.d-flex.search-box {
 .stepfrm-inner .captcha .cap-text {
 	font-family:var(--opensans);
 	color:var(--black);
-	font-size:15px;
+	    font-size: 14px;
 }
 .stepfrm-inner .captcha .cap-text label {
 	margin-left:10px;
@@ -1060,7 +1060,7 @@ form.d-flex.search-box {
 	font-family:var(--opensans);
 	font-weight:600;
 	color:var(--label-color);
-	font-size:15px;
+	    font-size: 14px;
 }
 .form-values .text span {
 	font-weight:600;
@@ -1107,7 +1107,7 @@ form.d-flex.search-box {
 	margin:50px auto;
 }
 .sign-nextstep-form .stepfrm-inner .form-label {
-	font-size:15px;
+	    font-size: 14px;
 }
 .btn-reset {
 	padding: 0px 0px 0px;
@@ -1192,7 +1192,7 @@ form.d-flex.search-box {
 .page-title {
 	/* font-family:var(--abril); */
 	color:var(--black);
-	font-size:45px;
+	font-size:34px;
 	/* margin-bottom:60px; */
 	margin-bottom:20px;
 }
@@ -1205,7 +1205,7 @@ form.d-flex.search-box {
 	height:64px;
 	background:var(--button-bg);
 	color:var(--button-text);
-	font-size:18px;
+	font-size:16px;
 	font-family:var(--opensans);
 	font-weight:600;
 	border-radius:0;
@@ -1215,12 +1215,12 @@ form.d-flex.search-box {
 	background:#F1F1F1;
 	border:1px solid #e2e2e2;
 	color:#4A4A4A;
-	font-size:16px;
+	font-size:15x;
 	font-family:var(--opensans);
 	font-weight:600;
 }
 .events-wrap .btn-reset {
-	font-size:15px;
+	    font-size: 14px;
 }
 .singleItem:nth-child(odd) {
 	background:var(--event-bg1);
@@ -1266,7 +1266,7 @@ a:hover{
 .singleItem .content-wrap .content .time-date {
 	color:var(--label-color);
 	/* font-size:20px; */
-	font-size:15px;
+	    font-size: 14px;
 	font-family:var(--opensans);
 	font-weight:600;
 	/* margin-bottom:25px; */
@@ -1278,7 +1278,7 @@ a:hover{
 .singleItem .content-wrap .content .location {
 	color:var(--para-light);
 	/* font-size:20px; */
-	font-size:15px;
+	    font-size: 14px;
 	font-weight:600;
 	font-family:var(--opensans);
 }
@@ -1309,7 +1309,7 @@ a:hover{
 .pagination .page-item .page-link {
 	font-family:var(--opensans);
 	/* font-size:20px; */
-	font-size:15px;
+	    font-size: 14px;
 	color:#787878;
 	font-family:var(--opensans);
 	font-weight:600;
@@ -1333,7 +1333,7 @@ label.date.mt-3 {
   
 }
 select.form-select {
-    font-size: 15px;
+    font-size: 14px;
 }
 .event-content-wr {
 	padding:40px  0 40px 0;
@@ -1411,7 +1411,7 @@ select.form-select {
 .buy-ticket-wr .ticket-column .inner-head {
 	font-family:var(--opensans);
 	color:var(--label-color);
-	font-size:15px;
+	    font-size: 14px;
 	margin-bottom:5px;
 	font-weight:600;
 }
@@ -1613,7 +1613,7 @@ p.time-date .date {
 .content-box-address .footer-wr p {
 	margin:0;
 	color:var(--light-black);
-	font-size:15px;
+	    font-size: 14px;
 	font-family:var(--opensans);
 	font-weight:600;
 }
@@ -1654,24 +1654,25 @@ p.time-date .date {
 	margin:50px 0;
 } 
 .terms-privacy .terms-head {
-	font-size:34px;
-	padding-bottom:20px;
+	font-size: 28px;
+    padding-bottom: 10px;
+
 	/* font-family:var(--abril); */
 	color:var(--black);
 }
 .terms-privacy .sub-head {
 	margin-bottom:9px;
 	padding-top:9px;
-	font-size:20px;
+	font-size:18px;
 	color:var(--light-black);
-	font-weight:600;
+	font-weight:700;
 	font-family:var(--opensans);
 }
 .terms-privacy .texts {
 	margin-bottom:10px;
-	font-size:15px;
-	line-height: 28px; 
-	font-weight:600;
+	    font-size: 14px;
+	line-height: 23px;
+	font-weight:400;
 	font-family:var(--opensans);
 	color:#111111;
 }
@@ -1703,7 +1704,7 @@ p.time-date .date {
 	border:none;
 }
 .formNextmodal p {
-	font-size:15px;
+	    font-size: 14px;
 	line-height:24px;
 	font-weight:600;
 	color:#1F1F1F;
@@ -1712,7 +1713,7 @@ p.time-date .date {
 	padding:0 50px!important;
 }
 .forgetModal1 p {
-	font-size:15px;
+	    font-size: 14px;
 	line-height:24px;
 	font-weight:600;
 	color:#1F1F1F;
@@ -1958,7 +1959,7 @@ button.btn.btn-short div {
 }
 
 .main-frame-inner .form-class .form-label {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .layout-frame.headingopt .leftpannel {
@@ -2204,4 +2205,8 @@ p.host-title.mb-0.morepadding {
 
 .btn {
     font-weight: 600;
+}
+
+form.universal-event-search {
+    margin-bottom: 6px;
 }
