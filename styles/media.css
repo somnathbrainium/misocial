@@ -1331,9 +1331,16 @@ button.btn.btn-next {
     font-size: 22px;
 
 }
+.form-class .file-upload-area label span {
+
+    font-weight: 600;
+    font-size: 14px;
+}
 }
 
 
 @media screen and (max-width: 767px) {
 
+
+	
 }
