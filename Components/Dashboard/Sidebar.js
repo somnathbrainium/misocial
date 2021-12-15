@@ -40,7 +40,7 @@ export default function Sidebar() {
                             <Link className="nav-link" href="/dashboard/my-events"><a>My Events</a></Link>
                         </li>
                         <li className={`nav-item ${router.asPath == "/dashboard/my-shortlist" ? "active" : ""}`}>
-                            <AiOutlinePlusCircle /> <Link className="nav-link" href="/dashboard/my-shortlist"><a>My shortlist</a></Link>
+                            <AiOutlinePlusCircle /> <Link className="nav-link" href="/dashboard/my-shortlist"><a>My Shortlist</a></Link>
                         </li>
                         <li className={`nav-item ${router.asPath == "/dashboard/platinum-settings" ? "active" : ""}`}>
 
@@ -135,7 +135,7 @@ export default function Sidebar() {
                         <Link className="nav-link" href="/dashboard/my-events"><a>My Events</a></Link>
                     </li>
                     <li className={`nav-item ${router.asPath == "/dashboard/my-shortlist" ? "active" : ""}`}>
-                        <AiOutlinePlusCircle /> <Link className="nav-link" href="/dashboard/my-shortlist"><a>My shortlist</a></Link>
+                        <AiOutlinePlusCircle /> <Link className="nav-link" href="/dashboard/my-shortlist"><a>My Shortlist</a></Link>
                     </li>
                     <li className={`nav-item ${router.asPath == "/dashboard/platinum-settings" ? "active" : ""}`}>
 

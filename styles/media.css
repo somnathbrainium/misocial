@@ -4,6 +4,14 @@
 		max-width:95%;
 	}
 }
+
+
+@media (max-width:1400px) {
+
+.stepfrm-inner {
+	width: 78%;
+}
+}
 /* @media (max-width:1400px) {
 	.mxWdthead {
 		max-width:100%;
@@ -167,6 +175,9 @@
 	}
 	.How-itworks-wrapper .process-part {
 		background-position: center 60px;
+	}
+	.stepfrm-inner {
+		width: 100%;
 	}
 }
 
