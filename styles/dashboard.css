@@ -86,7 +86,7 @@ h2.accordion-header a {
 	color:var(--label-color);
 	font-size:15px;
 	/*  */
-	font-weight:400;
+	font-weight:500;
 }
 .sidebar .nav .nav-item.active .icon-image {
 	filter:invert(66%) sepia(4%) saturate(3587%) hue-rotate(13deg) brightness(102%) contrast(76%);
@@ -183,7 +183,7 @@ h2.accordion-header a {
 }
 .form-class .form-label.section-name {
 	color:var(--light-black);
-	font-size:20px;
+	font-size:18px;
 	/* font-family:var(--abril); */
 }
 .form-class .membership-wr {
@@ -272,7 +272,7 @@ h2.accordion-header a {
 .form-class .host-title {
 	font-size:20px;
 	color:var(--light-black);
-	font-weight:600;
+	font-weight:700;
 	/* font-family: var(--abril); */
 	margin-bottom:0;
 }
@@ -319,7 +319,7 @@ h2.accordion-header a {
 	border-bottom:1px solid #E4E4E4;
 	margin:0;
 	margin-bottom:13px;
-	font-weight: 600;;
+	font-weight: 700;
 	/* padding-bottom: 5px !important; */
 }
 /* .right-panel .main-frame-inner {
@@ -1227,7 +1227,7 @@ p.host-title.mt-5 {
 	color:var(--label-color);
 	font-size:16px;
 	
-	font-weight:600;
+	font-weight:700;
 	background-color:#fff;
 	border:none;
 	text-indent:12px;
@@ -1264,6 +1264,11 @@ label.section-name.evnHdn.form-label{
 	padding-top: 0;
     padding-bottom: 5px;
 }
+
+label.section-name.form-label {
+    font-weight: 700 !important;
+}
+
 @media ( max-width:1400px) {
 	.universalModal .modal-title {
 		font-size:30px;
@@ -1383,44 +1388,7 @@ label.section-name.evnHdn.form-label{
 		top:5px;
 	}
 }
-@media ( max-width:1200px) {
-	.save-cancel-action .nav-pills .nav-link {
-		min-width:95px;
-		height:46px;
-		font-size:15px;
-	}
-	.myevents-list .content-inner .content-part .m-header {
-		margin-bottom:10px;
-	}
-	.save-cancel-action .nav-pills .nav-item {
-		margin:0 8px 8px 0;
-	}
-	/* .transaction-table th {
-		white-space:nowrap;
-	} */
-	/* .main-frame-inner .form-class {
-		max-width:100%;
-	} */
-	.form-class .form-label.section-name {
-		font-size: 18px;
-	}
-	.dashboard-layout .evntImg {
-		font-size: 18px;
-	}
-	label.section-name.form-label {
-		font-size: 18px !important;
-	}
 
-	/* .transaction-table td {
-		font-size: 11px;
-
-	}
-	.transaction-table th {
-	
-		font-size: 11px;
-
-	} */
-}
 @media ( max-width:991px) {
 	.form-class .form-label.section-name {
 		font-size: 16px;

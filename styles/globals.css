@@ -8,7 +8,7 @@
 	
 	/* color variable */
 	--white:#fff;
-	--light-black:#1F1E2C;
+	--light-black:#000000;
 	--label-color:#1F1F1F;
 	--stroke:#D0D0D0;
 	--stroke2:#D6D6D6;
@@ -32,7 +32,8 @@ html,body {
 }
 body {
 	font-family:var(--opensans);
-    font-size: 13.5px;
+    /* font-size: 13.5px; */
+	font-size: 15px;
 }
 
 a {
@@ -611,7 +612,7 @@ button.btn.btn-cancel:hover{
 	
 }
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-	font-weight:600;
+	font-weight:700;
 }
 .How-itworks-wrapper h2.title {
 	font-weight:600;
@@ -775,7 +776,7 @@ form.d-flex.search-box {
     display: none;
 }
 .event-wrapper .title {
-	font-weight:600;
+	font-weight:700;
 	/* padding-bottom:24px; */
 }
 .event-wrapper p {
@@ -788,7 +789,7 @@ form.d-flex.search-box {
 	/* padding-right:60px; */
 }
 .venue-wrapper .title {
-	font-weight:600;
+	font-weight:700;
 	/* padding-bottom:24px; */
 }
 .venue-wrapper p {
@@ -2181,12 +2182,18 @@ p.host-title.mb-0.morepadding {
 	color: #000000 !important;
 	font-family:var(--opensans);
 }
-
+ .title {
+    font-weight: 700;
+}
 .cs-wrapper .label-text{
 	font-weight: 600;
 
 
 }
  .title {
-   font-weight: 600;
+	font-weight: 700;
 }
+
+.btn {
+    font-weight: 600;
+}  

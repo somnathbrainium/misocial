@@ -3,7 +3,7 @@
 .toggleSwitch span span {
   display: none;
 }
-
+ 
 @media only screen {
   .toggleSwitch {
     display: inline-block;
