@@ -270,7 +270,7 @@ h2.accordion-header a {
 	flex-wrap:wrap;
 }
 .form-class .host-title {
-	font-size:20px;
+	font-size:18px;
 	color:var(--light-black);
 	font-weight:700;
 	/* font-family: var(--abril); */
