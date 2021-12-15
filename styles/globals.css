@@ -1680,10 +1680,11 @@ p.time-date .date {
 	margin-bottom:10px;
 	padding-top: 10px;
 
-	font-size:16px;
-	font-weight:600;
+	font-size:14px;
+	font-weight:700;
 	font-family:var(--opensans);
-	color:var(--label-color);
+	/* color:var(--label-color); */
+	color:#000;
 }
 .cs-wrapper.table-checkbox {
 	padding-left:25px;
