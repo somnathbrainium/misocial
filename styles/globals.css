@@ -1681,7 +1681,7 @@ p.time-date .date {
 	padding-top: 10px;
 
 	font-size:14px;
-	font-weight:700;
+	font-weight:700;  
 	font-family:var(--opensans);
 	/* color:var(--label-color); */
 	color:#000;
