@@ -771,6 +771,9 @@
 
 }
 @media (max-width:767px) {
+	.inprow.inprow2.adjpad .mb-3 {
+		width: 100%;
+	}
 	.cs-wrapper .label-text {
 
 		font-size: 13px;
