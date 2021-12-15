@@ -46,7 +46,8 @@ export default function AllEventsForm() {
                                 <p className="statusCss">Status: Published</p>
                             <div className="save-cancel-action">
                                 <button className="btn btn-next">Cancel &amp; Unpublish</button>
-                                <button className="btn btn-cancel">Unpublish</button>
+                                {/* <button className="btn btn-cancel">Unpublish</button> */}
+                                <button className="btn btn-next">Unpublish</button>
                             </div>
                         </div>
                     </div>
@@ -157,7 +158,9 @@ export default function AllEventsForm() {
                                 <IoLocationOutline /> Australia, AU, Aplus club</div>
                             <div className="save-cancel-action">
                                 <button className="btn btn-next">Cancel & unpublish</button>
-                                <button className="btn btn-cancel">Unpublish</button>
+                                {/* <button className="btn btn-cancel">Unpublish</button> */}
+                                <button className="btn btn-next">Unpublish</button>
+
                             </div>
                         </div>
                     </div>
@@ -266,7 +269,9 @@ export default function AllEventsForm() {
                                 <IoLocationOutline /> Australia, AU, Aplus club</div>
                             <div className="save-cancel-action">
                                 <button className="btn btn-next">Cancel & unpublish</button>
-                                <button className="btn btn-cancel">Unpublish</button>
+                                {/* <button className="btn btn-cancel">Unpublish</button> */}
+                                <button className="btn btn-next">Unpublish</button>
+
                             </div>
                         </div>
                     </div>
@@ -340,7 +345,9 @@ export default function AllEventsForm() {
                                 <IoLocationOutline /> Australia, AU, Aplus club</div>
                             <div className="save-cancel-action">
                                 <button className="btn btn-next">Cancel & unpublish</button>
-                                <button className="btn btn-cancel">Unpublish</button>
+                                {/* <button className="btn btn-cancel">Unpublish</button> */}
+                                <button className="btn btn-next">Unpublish</button>
+
                             </div>
                         </div>
                     </div>
@@ -414,7 +421,9 @@ export default function AllEventsForm() {
                                 <IoLocationOutline /> Australia, AU, Aplus club</div>
                             <div className="save-cancel-action">
                                 <button className="btn btn-next">Cancel & unpublish</button>
-                                <button className="btn btn-cancel">Unpublish</button>
+                                {/* <button className="btn btn-cancel">Unpublish</button> */}
+                                <button className="btn btn-next">Unpublish</button>
+
                             </div>
                         </div>
                     </div>
@@ -520,7 +529,9 @@ export default function AllEventsForm() {
                             </Row>
 
                             <div className="save-cancel-action">
-                                <button className="btn btn-cancel">Cancel</button>
+                                {/* <button className="btn btn-cancel">Cancel</button> */}
+                                <button className="btn btn-next">Cancel</button>
+
                                 <button className="btn btn-next">Copy Event</button>
                             </div>
                         </Form>

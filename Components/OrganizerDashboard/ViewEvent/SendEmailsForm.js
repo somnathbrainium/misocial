@@ -92,12 +92,12 @@ export default function SendEmailsForm() {
                     <Form.Label>Send Test Message to</Form.Label>
                     <div className="select-box">
                         <Form.Control type="text" />
-                        <button className="btn btn-cancel ms-3 ">Send Test</button>
+                        <button className="btn btn-next ms-3 ">Send Test</button>
                     </div>
                 </Form.Group>
                 <div className="save-cancel-action">
                     <button className="btn btn-next">Send Now</button>
-                    <button className="btn btn-cancel">Cancel</button></div>
+                    <button className="btn btn-next">Cancel</button></div>
             </Form>
 
         </>

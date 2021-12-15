@@ -32,7 +32,10 @@ export default function UpdateAttendance() {
 
                     <div className="update-form">
                         <button className="btn btn-next">Update Attendance</button>
-                        <button className="btn btn-cancel">Request Refund</button>
+                        {/* <button className="btn btn-cancel">Request Refund</button> */}
+
+                        <button className="btn btn-next">Request Refund</button>
+
                     </div>
                 </Form>
             </div>

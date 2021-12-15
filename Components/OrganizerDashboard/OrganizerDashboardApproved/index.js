@@ -41,7 +41,7 @@ export default function OrganizerDashboardApproved() {
 
                     <div className="approve-Instruction">
                         <button className="btn btn-next">Finalize my Organizer Settings</button>
-                        <button className="btn btn-cancel">Delete my Account</button>
+                        <button className="btn btn-next">Delete my Account</button>
                     </div>
 
                     <p className="instruction-para">
@@ -49,7 +49,7 @@ export default function OrganizerDashboardApproved() {
                     </p>
                     <div className="save-cancel-action">
                         <button className="btn btn-next">Save</button>
-                        <button className="btn btn-cancel">Cancel</button>
+                        <button className="btn btn-next">Cancel</button>
                     </div>
                     <p className="instruction-para">Your account was successfully deleted</p>
                 </Form>

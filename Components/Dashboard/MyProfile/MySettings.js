@@ -71,7 +71,8 @@ export default function MySettings() {
                 </div>
                 <div className="save-cancel-action">
                     <button className="btn btn-next">Save</button>
-                    <button className="btn btn-cancel">Cancel</button>
+                    {/* <button className="btn btn-cancel">Cancel</button> */}
+                    <button className="btn btn-next">Cancel</button>
                     <button type="button" className="btn btn-reset" onClick={handleResetModal}><IoRefresh />Reset Password</button>
                 </div>
             </Form>

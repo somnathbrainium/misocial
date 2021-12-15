@@ -47,7 +47,11 @@ export default function PlatinumSettingNext() {
                 <p className="payment-hints">
                     Your Platinum Membership will auto-renew monthly. If you ever decide to cancel, you can do so anytime. However be sure to do so before the renewal date to avoid being charged for the next period.
                 </p>
-                <div className="save-cancel-action"><button className="btn btn-next">Save</button><button className="btn btn-cancel">Cancel</button></div>
+                <div className="save-cancel-action">
+                    <button className="btn btn-next">Save</button>
+                {/* <button className="btn btn-cancel">Cancel</button> */}
+                <button className="btn btn-next">Cancel</button>
+                </div>
                 <p className="payment-hints">
                     Your Platinum Membership has been successfully cancelled.
                 </p>
