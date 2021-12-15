@@ -48,7 +48,7 @@ export default function OrganizerSettings() {
                     </div>
                 </div>
                 {/* <p className="host-title"> Want To Host Events? </p> */}
-                <button className="btn btn-next" onClick={onClick} >Apply Now To Become An Event Organizer</button>
+                <p className="btn btn-next" onClick={onClick} >Apply Now To Become An Event Organizer</p>
 
                 {showText ? <Eventcontent /> : null}
 

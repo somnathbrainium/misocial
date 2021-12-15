@@ -206,7 +206,7 @@ export default function CreateEvent() {
 
                             <div className="save-cancel-action">
                                 <button className="btn btn-next">Save</button>
-                                <button className="btn btn-cancel">Cancel</button>
+                                <button className="btn btn-next">Cancel</button>
                             </div>
                         </Form>
 
@@ -266,7 +266,7 @@ export default function CreateEvent() {
                 </div>
                 <div className="save-cancel-action">
                     <button className="btn btn-next">Publish</button>
-                    <button className="btn btn-cancel">Save</button>
+                    <button className="btn btn-next">Save</button>
                     <button className="btn btn-short">Preview</button>
                 </div>
             </Form>

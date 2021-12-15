@@ -1106,6 +1106,7 @@ form.d-flex.search-box {
 	/* min-width:208px; */
 	margin-top:10px;
 	font-weight:700;
+	margin-right: 15px !important;
 	transition: all 0.3s ease;
 	outline: 0px;
 	box-shadow: 0px 0px 0px transparent !important;
@@ -2236,10 +2237,15 @@ p.host-title.mb-0.morepadding {
     font-weight: 700;
 }
 .cs-wrapper .label-text{
-	font-weight: 600;
-
-
+	font-weight: 400;
 }
+.check-radio-wrap .form-label {
+    padding: 4px 0 0 0;
+}
+.cs-wrapper p.label-text {
+    padding: 4px 0 0 !important;
+}
+
  .title {
 	font-weight: 700;
 }
@@ -2275,4 +2281,22 @@ p.p-title {
 
 .check-radio-wrap.membership-wr.removepadding {
     margin-bottom: 0px;
+}
+
+.btn-next {
+    margin-right: 15px;
+}
+.btn.btn-reset {
+    min-width: auto !important;
+	background:url('../public/images/ref.png') no-repeat left center;
+	background-size: 14px;
+    padding-left: 18px;
+}
+.btn.btn-reset svg {
+    display: none;
+}
+button {
+    border: 0px;
+    outline: 0px;
+    box-shadow: 0px 0px 0px transparent;
 }
