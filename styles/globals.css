@@ -227,7 +227,7 @@ button.btn.btn-short img {
 	font-weight:600;
 	font-size:16px;
 	font-family:var(--opensans); */
-	background: var(--button-bg);
+	/* background: var(--button-bg); */
     font-family: var(--opensans);
     font-size: 14px;
     line-height: 26px;
@@ -1197,7 +1197,7 @@ form.d-flex.search-box {
 }
 
 .btn-cancel {
-    background: var(--button-bg);
+    /* background: var(--button-bg); */
 	border:1px solid  var(--button-bg);
 
     font-family: var(--opensans);
@@ -1209,7 +1209,6 @@ form.d-flex.search-box {
     border-radius: 0;
     font-weight: 700;
     transition: all 0.3s ease;
-	border:1px solid var(--button-bg);
 	
 }
 .btn-cancel:hover {
@@ -2302,7 +2301,8 @@ label.section-name.form-label {
 }
 .my-profile-wrapper .sign-nextstep-form label.section-name.form-label {
     padding: 10px;
-    background: #efece7;
+    /* background: #efece7; */
+	background: #f7f7f7;
     width: 100%;
     margin-bottom: 17px;
 }
