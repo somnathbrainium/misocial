@@ -954,10 +954,10 @@
 .action-icon svg {
     margin-left: 9px;
 }
-.universal-event-search .btn-search {
+/* .universal-event-search .btn-search {
 	
 	font-size: 15px;
-}
+} */
 
 .stepfrm-inner {
     width: 100%;
@@ -1050,8 +1050,8 @@
 	}
 	.universal-event-search .btn-search {
 		width:200px;
-		height:48px;
-		font-size:16px;
+		/* height:48px;
+		font-size:16px; */
 		margin-left:10px;
 	}
 	.singleItem .content-wrap {
