@@ -570,7 +570,7 @@ button.btn.btn-large.w-100 {
 	display:block;
 }
 .mb-3 {
-    margin-bottom: 15px !important;
+    margin-bottom: 12px !important;
 }
 .statusCss {
 	font-size:20px;
@@ -1333,20 +1333,22 @@ form.d-flex.search-box {
 }
 .universal-event-search .btn-search {
 	width:248px;
-	height:64px;
+	/* height:64px; */
 	background:var(--button-bg);
 	color:var(--button-text);
-	font-size:16px;
+	font-size:14px;
+	padding: 5px 25px;
 	font-family:var(--opensans);
-	font-weight:600;
+	font-weight:700;
 	border-radius:0;
+	line-height: 26px;
 	margin-left:20px;
 }
 .universal-event-search .form-control {
 	background:#F1F1F1;
 	border:1px solid #e2e2e2;
 	color:#4A4A4A;
-	font-size:15x;
+	font-size:14px;
 	font-family:var(--opensans);
 	font-weight:600;
 }
