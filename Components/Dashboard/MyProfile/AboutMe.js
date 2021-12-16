@@ -100,9 +100,7 @@ export default function AboutMe() {
                 </Form.Group>
                 <div className="save-cancel-action">
                     <button className="btn btn-next">Save</button>
-                    {/* <button className="btn btn-cancel">Cancel</button></div> */}
-
-                    <button className="btn btn-next">Cancel</button>
+                    <button className="btn btn-cancel">Cancel</button>
                 </div>
             </Form>
 

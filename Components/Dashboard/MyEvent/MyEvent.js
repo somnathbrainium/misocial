@@ -32,7 +32,7 @@ export default function MyEvents() {
                                 <BiCalendar /> SUN, APR 25 - MON, APR 26  6.30PM - 8.30PM</div>
                             <div className="sub-title">
                                 <IoLocationOutline /> Australia, AU, Aplus club</div>
-                            <div className="save-cancel-action">
+                            <div className="save-cancel-action modf_btn2">
 
                                 <Nav variant="pills">
 
@@ -95,7 +95,7 @@ export default function MyEvents() {
                                 <BiCalendar /> SUN, APR 25 - MON, APR 26  6.30PM - 8.30PM</div>
                             <div className="sub-title">
                                 <IoLocationOutline /> Australia, AU, Aplus club</div>
-                            <div className="save-cancel-action">
+                            <div className="save-cancel-action modf_btn2">
 
                                 <Nav variant="pills">
 

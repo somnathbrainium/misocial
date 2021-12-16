@@ -69,10 +69,10 @@ export default function MySettings() {
                     </label>
                     <p className="text"> I want to receive MiSocial news, offers & promotions</p>
                 </div>
-                <div className="save-cancel-action">
+                <div className="save-cancel-action modf_btn1">
                     <button className="btn btn-next">Save</button>
-                    {/* <button className="btn btn-cancel">Cancel</button> */}
-                    <button className="btn btn-next">Cancel</button>
+                    <button className="btn btn-cancel">Cancel</button>
+                    {/* <button className="btn btn-next">Cancel</button> */}
                     <button type="button" className="btn btn-reset" onClick={handleResetModal}><IoRefresh />Reset Password</button>
                 </div>
             </Form>

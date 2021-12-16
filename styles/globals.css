@@ -107,56 +107,93 @@ button.btn.btn-cancel{
 	transition: all 0.3s ease;
 
 }
-button.btn.btn-cancel:hover{
+/* button.btn.btn-cancel:hover{
 	background: #dfdfdf;
     color: #4a4a4a;
     border-color: #dfdfdf;
-}
+} */
 
 .save-cancel-action .nav-pills .nav-link.active:hover {
-	background: #645f46;
+	background: #000;
     color: #fff;
 }
 .save-cancel-action .nav-pills .nav-link{
 	transition: all 0.3s ease;
 }
 .save-cancel-action .nav-pills .nav-link:hover{
-	background: #645f46;
+	background: #000;
     color: #fff;
 }
 
 
 .btn-view-event {
 	background:var(--button-bg);
-	/* min-width:208px; */
-	/* height:64px; */
-	min-width:150px;
-	height: 50px;
-	border-radius:0;
-	color:var(--button-text);
-	font-size:17px;
+
+
 	font-family:var(--opensans);
-	font-weight:600;
+	font-size: 15px;
+	line-height:26px;
+	font-weight: 500;
+	color:var(--button-text);
+	padding:5px 25px;
+	border-radius:0;
+	margin-top:10px;
+	font-weight:700;
+	transition: all 0.3s ease;
+	outline: 0px;
+	box-shadow: 0px 0px 0px transparent !important;
+}
+.save-cancel-action .btn-view-event , .save-cancel-action .btn-short{
+    padding: 5px 25px;
+}
+.btn-view-event:hover {
+    background: #000;
+	color:#fff;;
 }
 .btn-short {
-	background:var(--light-black);
+	/* background:var(--light-black);
 	min-width:150px;
-	/* min-width:160px; */
-	/* height:64px; */
-	height: 50px;
+
 
 	border-radius:0;
 	color:var(--white);
-	font-size:16px;
 	font-family:var(--opensans);
-	font-weight:600;
+	font-size: 15px;
+	line-height:26px;
+	font-weight: 500; */
 }
+
 .btn-short svg {
 	margin-right:10px;
 }
-.btn-short:hover {
+/* .btn-short:hover {
 	color:var(--white);
+} */
+
+button.btn.btn-short img {
+    display: none !important;
 }
+.btn-short {
+	background:var(--button-bg);
+	font-family:var(--opensans);
+	font-size: 15px;
+	line-height:26px;
+	font-weight: 500;
+	color:var(--button-text);
+	padding:5px 25px;
+	border-radius:0;
+	margin-top:10px;
+	font-weight:700;
+	transition: all 0.3s ease;
+	outline: 0px;
+	box-shadow: 0px 0px 0px transparent !important;
+
+}
+.btn-short:hover {
+    background: #000;
+	color:#fff;
+}
+
 .btn-view-event:hover {
 	color:var(--button-text);
 }
@@ -395,7 +432,7 @@ button.btn.btn-cancel:hover{
 
 }
 .joinnow_btn .btn-join-now:hover {
-    background: #645f46;
+    background: #000;
 	color:#fff;
 }
 .defbtnopt1 {
@@ -413,7 +450,7 @@ button.btn.btn-cancel:hover{
 
 }
 .defbtnopt1:hover {
-    background: #645f46;
+    background: #000;
 	color:#fff;
 }
 
@@ -433,7 +470,7 @@ button.btn.btn-cancel:hover{
 
 }
 .search-box .btn-join-now:hover {
-    background: #645f46;
+    background: #000;
 	color:#fff;
 }
 .imRobot input {
@@ -1093,27 +1130,46 @@ form.d-flex.search-box {
 	height:56px;
 	margin-top:10px;
 } */
+.save-cancel-action .btn.btn-cancel {
+    margin-left: 16px;
+    margin-right: 16px;
+}
 
 .btn-next {
 	background:var(--button-bg);
 	font-family:var(--opensans);
-	    font-size: 15px;
+	font-size: 15px;
 	line-height:26px;
 	font-weight: 500;
 	color:var(--button-text);
 	padding:5px 25px;
 	border-radius:0;
-	/* min-width:208px; */
 	margin-top:10px;
 	font-weight:700;
-	margin-right: 15px !important;
 	transition: all 0.3s ease;
 	outline: 0px;
 	box-shadow: 0px 0px 0px transparent !important;
 
 }
 .btn-next:hover {
-    background: #645f46;
+    background: #000;
+	color:#fff;
+}
+
+.btn-cancel {
+    background: var(--button-bg);
+    font-family: var(--opensans);
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--button-text);
+    padding: 5px 25px;
+    border-radius: 0;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+.btn-cancel:hover {
+    background: #000;
 	color:#fff;
 }
 .stepfrm-inner.fortogPassbg form {
@@ -1170,7 +1226,7 @@ form.d-flex.search-box {
 	/* padding-top:10px; */
 	/* justify-content:space-between; */
 	justify-content: flex-start;
-	margin-bottom:15px;
+	margin-bottom:8px;
 }
 .check-radio-wrap .gender-part {
 	display:flex;
@@ -1774,10 +1830,9 @@ p.time-date .date {
 	margin:0;
 	padding:0 10px 0 0;
 }
-.aBtnnew {
+/* .aBtnnew {
 	background:var(--button-bg);
-	/* min-width:208px; */
-	/* height:64px; */
+
 	min-width:150px;
 	height: 50px;
 	line-height:50px; 
@@ -1787,11 +1842,32 @@ p.time-date .date {
 	font-family:var(--opensans);
 	font-weight:600;
 	text-align:center;
-	/* line-height:63px; */
 }
 .aBtnnew:hover {
 	color:#fff;
+} */
+
+.aBtnnew {
+	background:var(--button-bg);
+	font-family:var(--opensans);
+	font-size: 15px;
+	line-height:26px;
+	font-weight: 500;
+	color:var(--button-text);
+	padding:5px 25px;
+	border-radius:0;
+	margin-top:10px;
+	font-weight:700;
+	transition: all 0.3s ease;
+	outline: 0px;
+	box-shadow: 0px 0px 0px transparent !important;
+
 }
+.aBtnnew:hover {
+    background: #000;
+	color:#fff;
+}
+
 .mxWdthead {
 	max-width:80%;
 }
@@ -1937,7 +2013,7 @@ p{
 }
 
 .header-wraapper .login:hover {
-	background: #686345;
+	background:#000;
 	color: #fff;
 }
 .btn  {
@@ -1945,7 +2021,7 @@ p{
 
 }
 .btn-view-event:hover {
-	background: #686345;
+	background: #000;
 	color: #fff;
 
 }
@@ -1968,7 +2044,7 @@ ul.pagination {
 	transition: all 0.3s ease;
 }
 .universal-event-search .btn-search:hover {
-	background: #686345;
+	background: #000;
 	color: #fff;
 }
 .aBtnnew{
@@ -1976,7 +2052,7 @@ ul.pagination {
 
 }
 .aBtnnew:hover {
-	background: #686345;
+	background: #000;
 	color: #fff;
 }
 .btn-view-event{
@@ -2057,7 +2133,7 @@ button.btn.btn-join-now.addbtnmodf {
 }
 
 .btn-large:hover {
-    background: #686345;
+    background: #000;
     color: #fff;
 }
 
@@ -2158,7 +2234,16 @@ td.text-center {
     margin-bottom: 0;
 }
 label.section-name.form-label {
+    padding-bottom: 6px;
+}
+.check-radio-wrap.crwNew {
     padding-bottom: 8px;
+}
+.my-profile-wrapper .sign-nextstep-form label.section-name.form-label {
+    padding: 10px;
+    background: #efece7;
+    width: 100%;
+    margin-bottom: 17px;
 }
 
 button.btn.btn-next {
@@ -2299,4 +2384,23 @@ button {
     border: 0px;
     outline: 0px;
     box-shadow: 0px 0px 0px transparent;
+}
+
+
+.save-cancel-action .button.btn.btn-next {
+    margin-top: 0px!important;
+}
+
+.btn-next,.btn-cancel,.btn-reset {
+	/* width: 100%; */
+	line-height: 26px !important;
+}
+
+
+
+.modf_btn2 button.btn.btn-next {
+    margin-left: 15px;
+}
+.modf_btn2 button.btn.btn-next:first-child {
+    margin-left: 0px;
 }

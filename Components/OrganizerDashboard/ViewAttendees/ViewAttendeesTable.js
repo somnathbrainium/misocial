@@ -60,10 +60,10 @@ export default function ViewAttendeesTable() {
                 <Pagination />
             </div>
 
-                <div className="save-cancel-action">
+                <div className="save-cancel-action modf_btn1">
                     <button className="btn btn-next">Download Attendees PDF</button>
-                    <button className="btn btn-next">Download Attendees Excel</button>
-                    <button className="btn btn-next">Update MID For Selected Attendees</button>
+                    <button className="btn btn-cancel">Download Attendees Excel</button>
+                    <button className="btn btn-cancel">Update MID For Selected Attendees</button>
                 </div>
             </div>
 

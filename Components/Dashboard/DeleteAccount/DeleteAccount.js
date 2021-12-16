@@ -8,8 +8,8 @@ export default function DeleteAccount() {
                 </p>
                 <div className="save-cancel-action">
                     <button className="btn btn-next">Continue</button>
-                    <button className="btn btn-next">Cancel</button>
-                    {/* <button className="btn btn-cancel">Cancel</button> */}
+                    {/* <button className="btn btn-next">Cancel</button> */}
+                    <button className="btn btn-cancel">Cancel</button>
                 </div>
                 <p className="paragraph message">Your account was successfully deleted.</p>
             </div>

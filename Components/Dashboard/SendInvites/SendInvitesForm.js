@@ -195,8 +195,8 @@ export default function SendInvitesForm() {
 
                     <div className="save-cancel-action sifBtn">
                         <button className="btn btn-next">Send invitation</button>
-                        <button className="btn btn-next">Clear filter</button>
-                        {/* <button className="btn btn-cancel">Clear filter</button> */}
+                        {/* <button className="btn btn-next">Clear filter</button> */}
+                        <button className="btn btn-cancel">Clear filter</button>
                     </div>
                     <p className="payment-hints">
                         By Continuing, I am aware that I am responsible for my own data privacy obligations related to email marketing, including securing any required opt-in consent from the recipients.

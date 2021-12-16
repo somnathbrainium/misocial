@@ -97,7 +97,7 @@ export default function SendEmailsForm() {
                 </Form.Group>
                 <div className="save-cancel-action">
                     <button className="btn btn-next">Send Now</button>
-                    <button className="btn btn-next">Cancel</button></div>
+                    <button className="btn btn-cancel">Cancel</button></div>
             </Form>
 
         </>
