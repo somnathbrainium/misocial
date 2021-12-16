@@ -76,7 +76,6 @@ export default function CreateEvent() {
                     </Form.Select>
                 </Form.Group>
                 <p className="frmsub-title">Where (Location)</p>
-                <div className='inprow adjpad'>
 
                 <Form.Group className="mb-3" controlId="VenueName">
                     <Form.Label>Venue Name</Form.Label>
@@ -87,7 +86,6 @@ export default function CreateEvent() {
                     <Form.Control type="text" />
                     <button className="btn btn-reset"><IoRefresh />Reset Venue Address</button>
                 </Form.Group>
-                </div>
                 <p className="frmsub-title">Tags</p>
                 <span className="tag-title">Improve discoverability of your event by adding tags relevant to the subject matter.</span>
                 <Form.Group className="mb-3" controlId="VenueName">
