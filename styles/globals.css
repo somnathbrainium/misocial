@@ -16,7 +16,7 @@
 	--button-bg:#AEA470;
 	--button-text:#070707;
 	--bold-color:#272727;
-	--light-blue:#004eff;
+	--light-blue:#003dca;
 	--event-bg1:#E1E1E1;
 	--event-bg2:#F3F3F3;
 	--para-light:#383838;
@@ -2501,5 +2501,19 @@ button {
 }
 
 .Upgradeinfocont button.btn.btn-reset {
-    margin-left: 15px;
+    margin-left: 20px;
+}
+
+.modal-body .stepfrm-inner {
+    width: 100%;
+}
+
+.modal-body ul.password-hints {
+    padding: 0px 17px 0;
+    margin: 18px 0px 5px!important;
+}
+
+.btn {
+    box-shadow: 0px 0px 0px transparent;
+    outline: 0px !important;
 }
