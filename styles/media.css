@@ -524,7 +524,9 @@
 }
 }
 @media (max-width:767px) {
-
+	.modf_img.modfimgevent.modf3 {
+		width: 100%;
+	}
 	.aBtnnew {
 		
 		font-size: 14px;
