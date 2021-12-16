@@ -267,9 +267,9 @@
 	.search-box {
 		padding:20px;
 	}
-	.search-box .form-control {
+	/* .search-box .form-control {
 		height:56px;
-	}
+	} */
 	.How-itworks-wrapper .how-works-inner {
 		padding:0 30px;
 	}
@@ -1153,6 +1153,9 @@
 		padding:0px;
 		margin:25px auto;
 	}
+	button.btn.btn-join-now.addbtnmodf {
+		width: max-content;
+	}
 } 
  @media (max-width:600px) {
 	.btn-next {
@@ -1259,7 +1262,7 @@
 		line-height:40px;
 	}
 	.search-box .form-control {
-		height:50px;
+		/* height:50px; */
 		margin-bottom:6px;
 	}
 	.search-box .btn-join-now {
