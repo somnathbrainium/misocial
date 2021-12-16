@@ -84,7 +84,7 @@ h2.accordion-header a {
 .sidebar .nav .nav-item a {
 	margin-left:10px;
 	color:var(--label-color);
-	font-size:15px;
+	font-size: 14px;
 	/*  */
 	font-weight:500;
 }
@@ -206,7 +206,7 @@ h2.accordion-header a {
 	/* border-radius:0;
 	width:auto;
 	height:52px;
-	font-size:15px; 
+	font-size: 14px; 
 	display:flex;
 	align-items:center;
 	background:var(--button-bg);  
@@ -218,7 +218,7 @@ h2.accordion-header a {
 .save-cancel-action .nav-pills .nav-link {
 	background:var(--button-bg);
 	font-family:var(--opensans);
-	    font-size: 15px;
+	    font-size: 14px;
 	line-height:26px;
 	font-weight: 500;
 	color:var(--button-text);
@@ -299,7 +299,7 @@ h2.accordion-header a {
 	margin-bottom:0;
 }
 .form-class .nb-text {
-	font-size:15px;
+	font-size: 14px;
 	color:var(--label-color);
 	font-weight:600;
 	/* font-style:italic; */
@@ -409,7 +409,7 @@ h2.accordion-header a {
 	color:transparent;
 }
 .myevents-list .inner-form-part .table thead th {
-	font-size:15px;
+	font-size: 14px;
 	/* background:var(--header-bg); */
 	background:	#c7c5c5;
 	padding:8px 10px;
@@ -419,13 +419,13 @@ h2.accordion-header a {
 	vertical-align:middle;
 }
 .myevents-list .inner-form-part .table.ticket-table thead th {
-	font-size:15px;
+	font-size: 14px;
 	color:var(--black);
 }
 .myevents-list .inner-form-part .table tbody td,.myevents-list .inner-form-part .table tbody td .form-control {
 	background:var(--white);
 	font-family:var(--label-color);
-	font-size:15px;
+	font-size: 14px;
 	font-weight:600;
 	vertical-align: middle;
 }
@@ -592,7 +592,7 @@ p.host-title.mt-5 {
 	color:#575757;
 	/*  */
 	font-weight:600;
-	font-size: 15px;
+	font-size: 14px;
     margin: 2px 0;
     padding: 2px 0px 5px 32px;
 }
@@ -635,7 +635,7 @@ p.host-title.mt-5 {
 	border-radius:0;
 	border:1px solid var(--stroke);
 	
-	font-size:15px;
+	font-size: 14px;
 }
 .specific-tran-wrap .event-name {
 	white-space:nowrap;
@@ -696,7 +696,7 @@ p.host-title.mt-5 {
 .refund-ammount-wrap .form-label {
 	
 	font-weight:600;
-	font-size:15px;
+	font-size: 14px;
 	color:var(--label-color);
 }
 .refund-ammount-wrap .form-control {
@@ -779,13 +779,13 @@ p.host-title.mt-5 {
 .form-class .add-tickets-wrap .currency-part .btn-next {
 	border-radius:0;
 	color:var(--button-text);
-	font-size:15px;
+	font-size: 14px;
 	
 	max-width:330px;
 	margin-top:16px;
 }
 .platinum-tickets-wrap .table thead th {
-	font-size:15px;
+	font-size: 14px;
 	padding:0.5rem 0.5rem;
 	background:var(--header-bg);
 	
@@ -862,7 +862,7 @@ p.host-title.mt-5 {
 	margin:0;
 	
 	color:var(--light-black);
-	font-size:15px;
+	font-size: 14px;
 	font-weight:600;
 }
 .data-status-header .top-portion .trs-status span {
@@ -926,7 +926,7 @@ p.host-title.mt-5 {
 	border-radius:0;
 	/* flex:1; */
 	margin-left:10px;
-	font-size:15px;
+	font-size: 14px;
 	padding-right:22px;
 	background-position:right 0.2rem center;
 }
@@ -1305,7 +1305,7 @@ label.section-name.form-label {
 	}
 	
 	.data-status-header .bottom-portion .event-name span {
-		font-size:15px;
+		font-size: 14px;
 	}
 	.myevents-list .content-inner .content-part .save-cancel-action {
 		margin-top:15px;
@@ -1342,7 +1342,7 @@ label.section-name.form-label {
 	}
 
 	.myevents-list .inner-form-part .table.ticket-table thead th {
-		font-size:15px;
+		font-size: 14px;
 	}
 	.save-cancel-action .nav-pills .nav-item {
 		margin:0 16px 8px 0;
@@ -1356,11 +1356,11 @@ label.section-name.form-label {
 	}
 	.save-cancel-action .nav-pills .nav-link {
 		height:46px;
-		font-size:15px;
+		font-size: 14px;
 		min-width:110px;
 	}
 	.view-attendees .save-cancel-action .btn {
-		font-size:15px;
+		font-size: 14px;
 		height:46px;
 	}
 
