@@ -1336,7 +1336,8 @@ form.d-flex.search-box {
 	/* height:64px; */
 	background:var(--button-bg);
 	color:var(--button-text);
-	font-size:15px;
+	font-size:14px;
+	padding: 5px 25px;
 	font-family:var(--opensans);
 	font-weight:700;
 	border-radius:0;
