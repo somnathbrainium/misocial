@@ -16,7 +16,7 @@
 	--button-bg:#AEA470;
 	--button-text:#070707;
 	--bold-color:#272727;
-	--light-blue:#5C7CAD;
+	--light-blue:#004eff;
 	--event-bg1:#E1E1E1;
 	--event-bg2:#F3F3F3;
 	--para-light:#383838;
@@ -501,9 +501,11 @@ button.btn.btn-large.w-100 {
 	min-width:208px;
 	font-weight:700;
 	transition: all 0.3s ease;
+	border:1px solid var(--button-bg);
 
 }
 .search-box .btn-join-now:hover {
+	border:1px solid #000;
     background: #000;
 	color:#fff;
 }
@@ -1183,15 +1185,21 @@ form.d-flex.search-box {
 	transition: all 0.3s ease;
 	outline: 0px;
 	box-shadow: 0px 0px 0px transparent !important;
+	border:1px solid var(--button-bg);
+	
+
 
 }
 .btn-next:hover {
+	border:1px solid #000;
     background: #000;
 	color:#fff;
 }
 
 .btn-cancel {
     background: var(--button-bg);
+	border:1px solid  var(--button-bg);
+
     font-family: var(--opensans);
     font-size: 14px;
     line-height: 26px;
@@ -1201,10 +1209,21 @@ form.d-flex.search-box {
     border-radius: 0;
     font-weight: 700;
     transition: all 0.3s ease;
+	border:1px solid var(--button-bg);
+	
 }
 .btn-cancel:hover {
-    background: #000;
+	border:1px solid #000;
+    background: #000 ;
 	color:#fff;
+}
+.cancelbtn{
+	background: transparent !important
+}
+
+.cancelbtn:hover{
+	background: #000  !important;
+	color:#fff !important
 }
 .stepfrm-inner.fortogPassbg form {
     padding: 15px 0 0;
@@ -1767,20 +1786,20 @@ p.time-date .date {
 .password-hints li {
 	position:relative;
 	font-family:var(--opensans);
-	font-size:17px;
+	font-size:13.5px;
 	padding-bottom:3px;
 	font-weight:600;
 	color:#3D3D3D;
 }
 .password-hints li::after {
 	content:'';
-	width:14px;
-	height:14px;
+	width:7px;
+	height:7px;
 	border-radius:50%;
 	background:#000;
 	display:inherit;
 	position:absolute;
-	left:-20px;
+	left:-16px;
 	top:6px;
 }
 .terms-privacy {
@@ -2474,4 +2493,13 @@ button {
 
 .modf_img.modfimgevent.modf3 {
     width: 33%;
+}
+
+.adjustres {
+	position: relative;
+    margin-top: -18px;
+}
+
+.Upgradeinfocont button.btn.btn-reset {
+    margin-left: 15px;
 }

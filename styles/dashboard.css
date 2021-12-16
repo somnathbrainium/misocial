@@ -227,9 +227,11 @@ h2.accordion-header a {
 	/* min-width:208px; */
 	font-weight:700;
 	transition: all 0.3s ease;
+	border:1px solid var(--button-bg);
 
 }
 .save-cancel-action .nav-pills .nav-link:hover {
+	border:1px solid #000;
     background: #000;
 	color:#fff;
 }
@@ -703,8 +705,10 @@ p.host-title.mt-5 {
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
 	text-align: center;
+	border:1px solid var(--button-bg);
 }
 .specific-tran-wrap .payment-action .nav .nav-link:hover {
+	border:1px solid #000;
 	background: #000;
     color: #fff;
 }
