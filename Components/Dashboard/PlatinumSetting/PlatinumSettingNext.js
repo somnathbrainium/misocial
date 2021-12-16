@@ -49,8 +49,8 @@ export default function PlatinumSettingNext() {
                 </p>
                 <div className="save-cancel-action">
                     <button className="btn btn-next">Save</button>
-                {/* <button className="btn btn-cancel">Cancel</button> */}
-                <button className="btn btn-next">Cancel</button>
+                <button className="btn btn-cancel">Cancel</button>
+                {/* <button className="btn btn-next">Cancel</button> */}
                 </div>
                 <p className="payment-hints">
                     Your Platinum Membership has been successfully cancelled.
