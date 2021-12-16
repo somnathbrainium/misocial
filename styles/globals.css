@@ -2239,13 +2239,37 @@ label.section-name.form-label {
 .check-radio-wrap.crwNew {
     padding-bottom: 8px;
 }
+.create-event-main .save-cancel-action button.btn.btn-short {
+    margin-left: 0px;
+}
+.tickets-per-order .save-cancel-action {
+    padding-bottom: 0px;
+}
 .my-profile-wrapper .sign-nextstep-form label.section-name.form-label {
     padding: 10px;
     background: #efece7;
     width: 100%;
     margin-bottom: 17px;
 }
+.create-event-main label.section-name.form-label {
+    padding: 10px !important;
+    background: #efece7;
+    width: 100%;
+    margin-bottom: 17px;
+} 
 
+.create-event-main .save-cancel-action.modf_btn2 {
+    padding-bottom: 0;
+}
+.form-class .add-tickets-wrap .currency-part .btn-next {
+
+    margin-top: 6px !important;
+}
+.currency-part span.currency-wrap {
+    padding: 0 5px 0;
+    position: relative;
+    top: 4px;
+}
 button.btn.btn-next {
     width: auto;
 	/* padding: 10px 25px; */
@@ -2413,6 +2437,5 @@ button {
 }
 
 .modf_img.modfimgevent.modf3 {
-    margin-right: 20px;
     width: 33%;
 }
